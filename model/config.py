@@ -61,21 +61,19 @@ class Config():
     path_log   = dir_output + "log.txt"
 
     # embeddings
-    dim_word = 300
-    dim_char = 100
+    dim_word = 200
+    dim_char = 25
 
     # glove files
-    filename_glove = "data/glove.6B/glove.6B.{}d.txt".format(dim_word)
+    filename_glove = "data/pretrained.txt"
     # trimmed embeddings (created from glove_filename with build_data.py)
     filename_trimmed = "data/glove.6B.{}d.trimmed.npz".format(dim_word)
-    use_pretrained = True
+    use_pretrained = False # TODO
 
     # dataset
-    # filename_dev = "data/coNLL/eng/eng.testa.iob"
-    # filename_test = "data/coNLL/eng/eng.testb.iob"
-    # filename_train = "data/coNLL/eng/eng.train.iob"
-
-    filename_dev = filename_test = filename_train = "data/test.txt" # test
+    filename_dev = "data/tr.testa.iobes"
+    filename_test = "data/tr.testb.iobes"
+    filename_train = "data/tr.train.iobes"
 
     max_iter = None # if not None, max number of examples in Dataset
 
@@ -88,16 +86,16 @@ class Config():
     train_embeddings = False
     nepochs          = 15
     dropout          = 0.5
-    batch_size       = 20
-    lr_method        = "adam"
+    batch_size       = 10
+    lr_method        = "sgd"
     lr               = 0.001
-    lr_decay         = 0.9
-    clip             = -1 # if negative, no clipping
+    lr_decay         = 1.0
+    clip             = 5 # if negative, no clipping
     nepoch_no_imprv  = 3
 
     # model hyperparameters
-    hidden_size_char = 100 # lstm on chars
-    hidden_size_lstm = 300 # lstm on word embeddings
+    hidden_size_char = 25 # lstm on chars
+    hidden_size_lstm = 200 # lstm on word embeddings
 
     # NOTE: if both chars and crf, only 1.6x slower on GPU
     use_crf = True # if crf, training is 1.7x slower on CPU

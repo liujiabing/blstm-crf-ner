@@ -67,8 +67,8 @@ class Config():
     # glove files
     filename_glove = "data/pretrained.txt"
     # trimmed embeddings (created from glove_filename with build_data.py)
-    filename_trimmed = "data/glove.6B.{}d.trimmed.npz".format(dim_word)
-    use_pretrained = False # TODO
+    filename_trimmed = "data/word2vec.{}d.trimmed.npz".format(dim_word)
+    use_pretrained = True
 
     # dataset
     filename_dev = "data/tr.testa.iobes"
@@ -84,13 +84,13 @@ class Config():
 
     # training
     train_embeddings = False
-    nepochs          = 15
+    nepochs          = 100
     dropout          = 0.5
     batch_size       = 10
     lr_method        = "sgd"
-    lr               = 0.001
+    lr               = 0.01
     lr_decay         = 1.0
-    clip             = 5 # if negative, no clipping
+    clip             = 5.0 # if negative, no clipping
     nepoch_no_imprv  = 3
 
     # model hyperparameters

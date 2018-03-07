@@ -2,6 +2,7 @@ import numpy as np
 import os
 import tensorflow as tf
 
+tf.logging.set_verbosity(tf.logging.INFO)
 
 from .data_utils import minibatches, pad_sequences, get_chunks
 from .general_utils import Progbar

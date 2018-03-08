@@ -4,3 +4,4 @@
 .idea/
 data/TweetNER.zip
 data/word2vec/
+data/pretrained.txt

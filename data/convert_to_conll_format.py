@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-from __future__ import print_function
 import os
 import optparse
 import re
@@ -61,15 +60,16 @@ with open(opts.muc, "r") as muc, open("input.txt", "w+") as conll:
                                 conll.write(new_token + " O\n")
                             else:
                                 conll.write("{0} {1}-{2}\n".format(new_token, iobes_tag, label_type))
-                    # End label
                     else:
+                        # Ignore TIMEX!
                         search_result = re.search(r'TYPE=\"(DATE|TIME)\">(.*)<e_enamex>', token)
                         if search_result:
                             groups = search_result.groups()
                             if groups and len(groups) == 2:
                                 new_token = str(groups[1]).strip()
                                 conll.write(new_token + " O\n")
-                        else:
+                        # End label
+                        elif prev_label_type:
                             search_result = re.search(r'(.*)<e_enamex>', token)
                             if search_result:
                                 groups = search_result.groups()
@@ -79,9 +79,9 @@ with open(opts.muc, "r") as muc, open("input.txt", "w+") as conll:
                                     iobes_tag = "E"
                                     conll.write("{0} {1}-{2}\n".format(new_token, iobes_tag, label_type))
                     is_label = False
-                # Begin label
                 elif iobes_tag is None:
                     search_result = re.search(r'TYPE=\"(PERSON|ORGANIZATION|LOCATION)\">(.*)', token)
+                    # Begin label
                     if search_result:
                         groups = search_result.groups()
                         label_type = groups[0]
@@ -95,6 +95,14 @@ with open(opts.muc, "r") as muc, open("input.txt", "w+") as conll:
                         new_token = groups[1]
                         iobes_tag = "B"
                         conll.write("{0} {1}-{2}\n".format(new_token, iobes_tag, label_type))
+                    else:
+                        # Ignore TIMEX!
+                        search_result = re.search(r'TYPE=\"(DATE|TIME)\">(.*)', token)
+                        if search_result:
+                            groups = search_result.groups()
+                            if groups and len(groups) == 2:
+                                new_token = str(groups[1]).strip()
+                                conll.write(new_token + " O\n")
                 # Inside label
                 elif iobes_tag == "B" and prev_label_type:
                     iobes_tag = "I"

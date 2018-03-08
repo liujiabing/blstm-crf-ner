@@ -2,6 +2,7 @@
 /results
 *.DS_Store
 .idea/
-data/TweetNER.zip
 data/word2vec/
-data/pretrained.txt
+data/*.zip
+data/*.txt
+data/*.iobes

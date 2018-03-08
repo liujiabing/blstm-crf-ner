@@ -1,7 +1,9 @@
-glove:
-	wget -P ./data/ "http://nlp.stanford.edu/data/glove.6B.zip"
-	unzip ./data/glove.6B.zip -d data/glove.6B/
-	rm ./data/glove.6B.zip
+word2vec:
+	wget -P ./data/ "http://tabilab.cmpe.boun.edu.tr/projects/ttner/TweetNER.zip"
+	unzip ./data/TweetNER.zip -d data/word2vec/
+	mv data/word2vec/bounweb+tweetscorpus_twitterprocessed_vectors_lowercase_w5_dim200_fixed.txt data/pretrained.txt
+	rm -rf ./data/TweetNER.zip
+	rm -rf ./data/word2vec
 
 run:
 	python build_data.py

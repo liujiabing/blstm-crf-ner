@@ -130,11 +130,11 @@ def get_char_vocab(dataset):
     return vocab_char
 
 
-def get_glove_vocab(filename):
+def get_word2vec_vocab(filename):
     """Load vocab from file
 
     Args:
-        filename: path to the glove vectors
+        filename: path to the word2vec vectors
 
     Returns:
         vocab: set() of strings
@@ -194,18 +194,18 @@ def load_vocab(filename):
     return d
 
 
-def export_trimmed_glove_vectors(vocab, glove_filename, trimmed_filename, dim):
-    """Saves glove vectors in numpy array
+def export_trimmed_word2vec_vectors(vocab, word2vec_filename, trimmed_filename, dim):
+    """Saves word2vec vectors in numpy array
 
     Args:
         vocab: dictionary vocab[word] = index
-        glove_filename: a path to a glove file
+        word2vec_filename: a path to a word2vec file
         trimmed_filename: a path where to store a matrix in npy
         dim: (int) dimension of embeddings
 
     """
     embeddings = np.zeros([len(vocab), dim])
-    with open(glove_filename) as f:
+    with open(word2vec_filename) as f:
         for line in f:
             line = line.strip().split(' ')
             word = line[0]
@@ -217,7 +217,7 @@ def export_trimmed_glove_vectors(vocab, glove_filename, trimmed_filename, dim):
     np.savez_compressed(trimmed_filename, embeddings=embeddings)
 
 
-def get_trimmed_glove_vectors(filename):
+def get_trimmed_word2vec_vectors(filename):
     """
     Args:
         filename: path to the npz file

@@ -6,13 +6,13 @@ The model is very similar to [Lample et al.](https://arxiv.org/abs/1603.01360), 
 
 ## Getting started
 
-1. Download the GloVe vectors with
+1. Download the word2vec vectors with
 
 ```
-make glove
+make word2vec
 ```
 
-Alternatively, you can download them manually [here](https://nlp.stanford.edu/projects/glove/) and update the `glove_filename` entry in `config.py`. You can also choose not to load pretrained word vectors by changing the entry `use_pretrained` to `False` in `model/config.py`.
+Alternatively, you can download them manually [here](http://tabilab.cmpe.boun.edu.tr/projects/ttner/TweetNER.zip) and update the `filename_word2vec` entry in `config.py`. You can also choose not to load pretrained word vectors by changing the entry `use_pretrained` to `False` in `model/config.py`.
 
 2. Build the training data, train and evaluate the model with
 ```
@@ -23,7 +23,7 @@ make run
 
 Here is the breakdown of the commands executed in `make run`:
 
-1. Build vocab from the data and extract trimmed glove vectors according to the config in `model/config.py`.
+1. Build vocab from the data and extract trimmed word2vec vectors according to the config in `model/config.py`.
 
 ```
 python build_data.py

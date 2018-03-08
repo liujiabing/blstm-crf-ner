@@ -2,7 +2,7 @@ import os
 
 
 from .general_utils import get_logger
-from .data_utils import get_trimmed_glove_vectors, load_vocab, \
+from .data_utils import get_trimmed_word2vec_vectors, load_vocab, \
         get_processing_word
 
 
@@ -31,7 +31,7 @@ class Config():
         """Loads vocabulary, processing functions and embeddings
 
         Supposes that build_data.py has been run successfully and that
-        the corresponding files have been created (vocab and trimmed GloVe
+        the corresponding files have been created (vocab and trimmed word2vec
         vectors)
 
         """
@@ -51,7 +51,7 @@ class Config():
                 lowercase=False, allow_unk=False)
 
         # 3. get pre-trained embeddings
-        self.embeddings = (get_trimmed_glove_vectors(self.filename_trimmed)
+        self.embeddings = (get_trimmed_word2vec_vectors(self.filename_trimmed)
                 if self.use_pretrained else None)
 
 
@@ -64,9 +64,9 @@ class Config():
     dim_word = 200
     dim_char = 25
 
-    # glove files
-    filename_glove = "data/pretrained.txt"
-    # trimmed embeddings (created from glove_filename with build_data.py)
+    # word2vec files
+    filename_word2vec = "data/pretrained.txt"
+    # trimmed embeddings (created from word2vec_filename with build_data.py)
     filename_trimmed = "data/word2vec.{}d.trimmed.npz".format(dim_word)
     use_pretrained = True
 

@@ -4,9 +4,24 @@ A NER model (B-LSTM + CRF + word embeddings) implemented using *Tensorflow* whic
 
 The model is very similar to [Lample et al.](https://arxiv.org/abs/1603.01360), [Gungor, Onur et al.](https://arxiv.org/pdf/1706.00506.pdf) and [Ma and Hovy](https://arxiv.org/pdf/1603.01354.pdf). As a consequence, the source code is also heavily influenced by Guillaume Genthial's [sequence_tagging](https://github.com/guillaumegenthial/sequence_tagging) and Guillaume Lample's [tagger](https://github.com/glample/tagger) projects. 
 
+## Prerequisites
+
+* Python (3 or newer)
+* pip, virtualenv, make
+
 ## Getting started
 
-1. Download the word2vec vectors with
+1. Creating isolated environment with:
+
+```
+virtualenv -p /usr/bin/python3 virtual-env
+source virtual-env/bin/activate
+pip install -r requirements.txt
+```
+
+> **Hint**: If you are done working, type `deactivate` to exit virtual environment.
+
+2. Download the word2vec vectors with
 
 ```
 make word2vec
@@ -14,7 +29,8 @@ make word2vec
 
 Alternatively, you can download them manually [here](http://tabilab.cmpe.boun.edu.tr/projects/ttner/TweetNER.zip) and update the `filename_word2vec` entry in `config.py`. You can also choose not to load pretrained word vectors by changing the entry `use_pretrained` to `False` in `model/config.py`.
 
-2. Build the training data, train and evaluate the model with
+3. Build the training data, train and evaluate the model with
+
 ```
 make run
 ```

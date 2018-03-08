@@ -6,3 +6,6 @@ data/word2vec/
 data/*.zip
 data/*.txt
 data/*.iobes
+data/*.npz
+virtner/
+virtual-env/

@@ -4,7 +4,8 @@ import os
 
 # shared global variables to be imported from model also
 UNK = "$UNK$"
-NUM = "$NUM$"
+#NUM = "$NUM$"
+NUM = "0"
 NONE = "O"
 
 

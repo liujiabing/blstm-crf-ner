@@ -61,19 +61,19 @@ class Config():
     path_log   = dir_output + "log.txt"
 
     # embeddings
-    dim_word = 200
+    dim_word = 100
     dim_char = 25
 
     # word2vec files
-    filename_word2vec = "data/pretrained.txt"
+    filename_word2vec = "data/pretrained/Skip100"
     # trimmed embeddings (created from word2vec_filename with build_data.py)
     filename_trimmed = "data/word2vec.{}d.trimmed.npz".format(dim_word)
     use_pretrained = True
 
     # dataset
-    filename_dev = "data/tr.testa.iobes"
-    filename_test = "data/tr.testb.iobes"
-    filename_train = "data/tr.train.iobes"
+    filename_dev = "data/conll2003/en/valid.txt"
+    filename_test = "data/conll2003/en/test.txt"
+    filename_train = "data/conll2003/en/train.txt"
 
     max_iter = None # if not None, max number of examples in Dataset
 
@@ -91,11 +91,11 @@ class Config():
     lr               = 0.01
     lr_decay         = 1.0
     clip             = 5.0 # if negative, no clipping
-    nepoch_no_imprv  = 3
+    nepoch_no_imprv  = 999
 
     # model hyperparameters
     hidden_size_char = 25 # lstm on chars
-    hidden_size_lstm = 200 # lstm on word embeddings
+    hidden_size_lstm = 100 # lstm on word embeddings
 
     # NOTE: if both chars and crf, only 1.6x slower on GPU
     use_crf = True # if crf, training is 1.7x slower on CPU

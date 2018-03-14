@@ -21,7 +21,7 @@ def main():
     """
     # get config and processing of words
     config = Config(load=False)
-    processing_word = get_processing_word(lowercase=True)
+    processing_word = get_processing_word(lowercase=False)
 
     # Generators
     dev   = CoNLLDataset(config.filename_dev, processing_word)

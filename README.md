@@ -49,6 +49,8 @@ python build_data.py
 
 ```
 python train.py
+# Or redirect everything into a log file and detach the process by typing:
+# python train.py >> out.log 2>&1 & disown
 ```
 
 

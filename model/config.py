@@ -46,7 +46,7 @@ class Config():
 
         # 2. get processing functions that map str -> id
         self.processing_word = get_processing_word(self.vocab_words,
-                self.vocab_chars, lowercase=True, chars=self.use_chars)
+                self.vocab_chars, lowercase=False, chars=self.use_chars)
         self.processing_tag  = get_processing_word(self.vocab_tags,
                 lowercase=False, allow_unk=False)
 
@@ -88,7 +88,7 @@ class Config():
     dropout          = 0.5
     batch_size       = 10
     lr_method        = "sgd"
-    lr               = 0.01
+    lr               = 0.005
     lr_decay         = 1.0
     clip             = 5.0 # if negative, no clipping
     nepoch_no_imprv  = 999

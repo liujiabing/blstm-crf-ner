@@ -4,5 +4,8 @@
 .idea/
 data/embeddings/
 data/*.npz
+data/chars.txt
+data/tags.txt
+data/words.txt
 virtner/
 virtual-env/

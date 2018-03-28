@@ -1,10 +1,12 @@
 import numpy as np
-import os
+import re
 
 
 # shared global variables to be imported from model also
-UNK = "$UNK$"
-#NUM = "$NUM$"
+# EN
+#UNK = "$UNK$"
+# TR
+UNK = "*UNKNOWN*"
 NUM = "0"
 NONE = "O"
 
@@ -261,8 +263,8 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
         # 1. preprocess word
         if lowercase:
             word = word.lower()
-        if word.isdigit():
-            word = NUM
+        #if word.isdigit():
+        word = re.sub('\d', NUM, word)
 
         # 2. get id of word
         if vocab_words is not None:

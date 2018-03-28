@@ -11,19 +11,9 @@ Sentences are separated by empty lines.
 <class 'list'>: [['@pulmonerdamar', 'O'], ['kanki', 'O'], ['ben', 'O'], ['de', 'O'], ['senin', 'O'], ['tipini', 'O'], ['coh', 'O'], ['seviyoom', 'O'], [':D', 'O'], ['mucuk', 'O'], ['kanki', 'O']]
 ...
 """
-lower = False
-zeros = True
 
 sentences = []
 sentence = []
-
-
-def _zero_digits(s):
-    """
-    Replace every digit in a string by a zero.
-    """
-    return re.sub('\d', '0', s)
-
 
 def write(path, sts):
     f = open(path, 'w')
@@ -35,7 +25,7 @@ def write(path, sts):
     f.close()
 
 for line in codecs.open('input.txt', 'r', 'utf8'):
-    line = _zero_digits(line.rstrip()) if zeros else line.rstrip()
+    line = line.rstrip()
     if not line:
         if len(sentence) > 0:
             sentences.append(sentence)
@@ -43,7 +33,6 @@ for line in codecs.open('input.txt', 'r', 'utf8'):
     else:
         word = line.split()
         assert len(word) >= 2
-        word[0] = str(word[0]).lower if lower else word[0]
         sentence.append(word)
 if len(sentence) > 0:
     sentences.append(sentence)

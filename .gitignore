@@ -2,10 +2,7 @@
 /results
 *.DS_Store
 .idea/
-data/word2vec/
-data/*.zip
-data/*.txt
-data/*.iobes
+data/embeddings/
 data/*.npz
 virtner/
 virtual-env/

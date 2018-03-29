@@ -5,7 +5,7 @@ from model.config import Config
 
 def main(**kwargs):
     # create instance of config
-    config = Config(kwargs)
+    config = Config(**kwargs)
 
     # build model
     model = NERModel(config)

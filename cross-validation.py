@@ -48,19 +48,20 @@ sentences = np.array(sentences)
 rs = ShuffleSplit(n_splits=5, train_size=0.8, test_size=0.1)
 count = rs.get_n_splits()
 
-# Generate n-fold CV files
+# Generate n-fold CV files & build, train, eval
 for train_index, test_index in rs.split(sentences):
     # Find dev index as well...
     temp = list()
     temp.extend(train_index)
     temp.extend(test_index)
-    print(temp)
     dev_index = list(set(range(0, len(sentences))) - set(temp))
 
     # Extract sentences from indices
     train_sentences = sentences[train_index]
     dev_sentences = sentences[dev_index]
     test_sentences = sentences[test_index]
+
+    print("Splitted dataset into 3 parts.")
 
     # Write to respective files
     filename_train = 'data/celikkaya2013/tr.train{}.iobes'.format(count)
@@ -71,6 +72,8 @@ for train_index, test_index in rs.split(sentences):
     write(filename_dev, dev_sentences)
     write(filename_test, test_sentences)
 
+    print("Created train, dev and test sets of iteration: %i" % count)
+
     # Build
     kwargs = {
         "filename_train": filename_train,
@@ -78,11 +81,17 @@ for train_index, test_index in rs.split(sentences):
         "filename_test": filename_test
     }
     build(**kwargs)
+    print("Built model.")
 
     # Train
     train(**kwargs)
+    print("Trained model.")
 
     # Evaluate
     eval(interactive=False, **kwargs)
+    print("Evaluated model.")
 
     count -= 1
+
+# TODO mean of f1 scores?
+

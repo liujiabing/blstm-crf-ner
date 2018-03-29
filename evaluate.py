@@ -68,7 +68,7 @@ input> I love Paris""")
 
 def main(interactive=True, **kwargs):
     # create instance of config
-    config = Config(kwargs)
+    config = Config(**kwargs)
 
     # build model
     model = NERModel(config)

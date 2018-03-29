@@ -7,5 +7,6 @@ data/*.npz
 data/chars.txt
 data/tags.txt
 data/words.txt
+data/celikkaya2013/*.iobes
 virtner/
 virtual-env/

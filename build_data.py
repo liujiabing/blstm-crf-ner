@@ -4,7 +4,7 @@ from model.data_utils import CoNLLDataset, get_vocabs, UNK, NUM, \
     export_trimmed_word2vec_vectors, get_processing_word
 
 
-def main():
+def main(**kwargs):
     """Procedure to build data
 
     You MUST RUN this procedure. It iterates over the whole dataset (train,
@@ -20,7 +20,8 @@ def main():
 
     """
     # get config and processing of words
-    config = Config(load=False)
+
+    config = Config(**dict(kwargs, load=False))
     processing_word = get_processing_word(lowercase=False)
 
     # Generators

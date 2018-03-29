@@ -66,9 +66,9 @@ input> I love Paris""")
             model.logger.info(seq)
 
 
-def main():
+def main(interactive=True, **kwargs):
     # create instance of config
-    config = Config()
+    config = Config(kwargs)
 
     # build model
     model = NERModel(config)
@@ -81,7 +81,8 @@ def main():
 
     # evaluate and interact
     model.evaluate(test)
-    interactive_shell(model)
+    if interactive:
+        interactive_shell(model)
 
 
 if __name__ == "__main__":

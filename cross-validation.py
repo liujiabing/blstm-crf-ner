@@ -18,7 +18,7 @@ sentence = []
 
 
 def write(path, sts):
-    f = open(path, 'w')
+    f = open(path, 'w', encoding='utf-8')
     for s in sts:
         for w in s:
             f.write(w[0] + ' ' + w[1])
@@ -83,33 +83,33 @@ for train_index, test_index in rs.split(sentences):
 
     # Build
     with open('output.log', 'a+') as out:
-        out.write("Beginning building for CV iteration:{}".format(str(counter)))
+        out.write("Beginning building for CV iteration:{}".format(str(count)))
         p = subprocess.Popen('python3 build_data.py', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        for line in p.stdout.readlines():
-            out.write(line + '\n')
         retval = p.wait()
+        p_out = p.stdout.read().decode('utf-8')
+        out.write(p_out + '\n')
         out.write("Finished building. exit code:{}\n".format(str(retval)))
         out.flush()
     print("Built model.")
 
     # Train
     with open('output.log', 'a+') as out:
-        out.write("Beginning training for CV iteration:{}".format(str(counter)))
+        out.write("Beginning training for CV iteration:{}".format(str(count)))
         p = subprocess.Popen('python3 train.py', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        for line in p.stdout.readlines():
-            out.write(line + '\n')
         retval = p.wait()
+        p_out = p.stdout.read().decode('utf-8')
+        out.write(p_out + '\n')
         out.write("Finished training. exit code:{}\n".format(str(retval)))
         out.flush()
     print("Trained model.")
 
     # Evaluate
     with open('output.log', 'a+') as out:
-        out.write("Beginning eval for CV iteration:{}".format(str(counter)))
+        out.write("Beginning eval for CV iteration:{}".format(str(count)))
         p = subprocess.Popen('python3 evaluate.py', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        for line in p.stdout.readlines():
-            out.write(line + '\n')
         retval = p.wait()
+        p_out = p.stdout.read().decode('utf-8')
+        out.write(p_out + '\n')
         out.write("Finished eval. exit code:{}\n".format(str(retval)))
         out.flush()
     print("Evaluated model.")

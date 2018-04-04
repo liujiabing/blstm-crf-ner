@@ -66,9 +66,9 @@ input> I love Paris""")
             model.logger.info(seq)
 
 
-def main(interactive=True, **kwargs):
+def main(interactive=False):
     # create instance of config
-    config = Config(**kwargs)
+    config = Config()
 
     # build model
     model = NERModel(config)

@@ -7,7 +7,7 @@ from .data_utils import get_trimmed_word2vec_vectors, load_vocab, \
 
 
 class Config():
-    def __init__(self, load=True, **kwargs):
+    def __init__(self, load=True):
         """Initialize hyperparameters and load vocabs
 
         Args:
@@ -15,10 +15,6 @@ class Config():
                 np array, else None
 
         """
-        # update default parameters!
-        for key, value in kwargs.items():
-            setattr(self, key, value)
-
         # directory for training outputs
         if not os.path.exists(self.dir_output):
             os.makedirs(self.dir_output)

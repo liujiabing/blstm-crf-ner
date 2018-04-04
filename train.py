@@ -3,9 +3,9 @@ from model.ner_model import NERModel
 from model.config import Config
 
 
-def main(**kwargs):
+def main():
     # create instance of config
-    config = Config(**kwargs)
+    config = Config()
 
     # build model
     model = NERModel(config)
@@ -21,6 +21,7 @@ def main(**kwargs):
 
     # train model
     model.train(train, dev)
+
 
 if __name__ == "__main__":
     main()

@@ -1,9 +1,10 @@
 import codecs
 import numpy as np
+from pip._vendor.progress import counter
 from sklearn.model_selection import ShuffleSplit
-from build_data import main as build
-from train import main as train
-from evaluate import main as eval
+from shutil import copyfile
+import subprocess
+import sys
 
 """
 
@@ -15,6 +16,7 @@ from evaluate import main as eval
 sentences = []
 sentence = []
 
+
 def write(path, sts):
     f = open(path, 'w')
     for s in sts:
@@ -23,6 +25,7 @@ def write(path, sts):
             f.write('\n')
         f.write('\n')
     f.close()
+
 
 for line in codecs.open('data/celikkaya2013/input.txt', 'r', 'utf8'):
     line = line.rstrip()
@@ -74,21 +77,41 @@ for train_index, test_index in rs.split(sentences):
 
     print("Created train, dev and test sets of iteration: %i" % count)
 
+    copyfile(filename_train, 'data/celikkaya2013/tr.train.iobes')
+    copyfile(filename_dev, 'data/celikkaya2013/tr.testa.iobes')
+    copyfile(filename_test, 'data/celikkaya2013/tr.testb.iobes')
+
     # Build
-    kwargs = {
-        "filename_train": filename_train,
-        "filename_dev": filename_dev,
-        "filename_test": filename_test
-    }
-    build(**kwargs)
+    with open('output.log', 'a+') as out:
+        out.write("Beginning building for CV iteration:{}".format(str(counter)))
+        p = subprocess.Popen('python3 build_data.py', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        for line in p.stdout.readlines():
+            out.write(line + '\n')
+        retval = p.wait()
+        out.write("Finished building. exit code:{}\n".format(str(retval)))
+        out.flush()
     print("Built model.")
 
     # Train
-    train(**kwargs)
+    with open('output.log', 'a+') as out:
+        out.write("Beginning training for CV iteration:{}".format(str(counter)))
+        p = subprocess.Popen('python3 train.py', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        for line in p.stdout.readlines():
+            out.write(line + '\n')
+        retval = p.wait()
+        out.write("Finished training. exit code:{}\n".format(str(retval)))
+        out.flush()
     print("Trained model.")
 
     # Evaluate
-    eval(interactive=False, **kwargs)
+    with open('output.log', 'a+') as out:
+        out.write("Beginning eval for CV iteration:{}".format(str(counter)))
+        p = subprocess.Popen('python3 evaluate.py', shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        for line in p.stdout.readlines():
+            out.write(line + '\n')
+        retval = p.wait()
+        out.write("Finished eval. exit code:{}\n".format(str(retval)))
+        out.flush()
     print("Evaluated model.")
 
     count -= 1

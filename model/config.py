@@ -61,14 +61,15 @@ class Config():
     path_log   = dir_output + "log.txt"
 
     # embeddings
-    dim_word = 200
+    dim_word = 100
     dim_char = 25
 
     # glove files en
     # filename_word2vec = "data/embeddings/en-embeddings.txt"
 
     # word2vec files tr
-    filename_word2vec = "data/embeddings/tr-embeddings.txt"
+    #filename_word2vec = "data/embeddings/tr-embeddings.txt"
+    filename_word2vec = "data/embeddings/fasttext.vec"
 
     # trimmed embeddings (created from word2vec_filename with build_data.py)
     filename_trimmed = "data/embeddings.{}d.trimmed.npz".format(dim_word)
@@ -104,7 +105,7 @@ class Config():
 
     # model hyperparameters
     hidden_size_char = 25 # lstm on chars
-    hidden_size_lstm = 200 # lstm on word embeddings
+    hidden_size_lstm = 100 # lstm on word embeddings
 
     # NOTE: if both chars and crf, only 1.6x slower on GPU
     use_crf = True # if crf, training is 1.7x slower on CPU

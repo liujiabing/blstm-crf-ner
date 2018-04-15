@@ -1,3 +1,5 @@
+import os
+import subprocess
 from model.config import Config
 from model.data_utils import CoNLLDataset, get_vocabs, UNK, NUM, \
     get_word2vec_vocab, write_vocab, load_vocab, get_char_vocab, \
@@ -31,9 +33,10 @@ def main():
 
     # Build Word and Tag vocab
     vocab_words, vocab_tags = get_vocabs([train, dev, test])
-    vocab_word2vec = get_word2vec_vocab(config.filename_word2vec)
+    #vocab_word2vec = get_word2vec_vocab(config.filename_word2vec)
 
-    vocab = vocab_words & vocab_word2vec
+    #vocab = vocab_words & vocab_word2vec
+    vocab = vocab_words
     vocab.add(UNK)
     vocab.add(NUM)
 
@@ -42,6 +45,11 @@ def main():
     write_vocab(vocab_tags, config.filename_tags)
 
     # Trim word2vec Vectors
+    abs_f_words = os.path.abspath(config.filename_words)
+    abs_f_vec = os.path.abspath(config.filename_word2vec)
+    cmd = '/home/emre/programs/fastText-0.1.0/fasttext print-word-vectors /home/emre/embeddings/fasttext.bin ' \
+          '< {} > {}'.format(abs_f_words, abs_f_vec)
+    subprocess.check_call(cmd, shell=True)
     vocab = load_vocab(config.filename_words)
     export_trimmed_word2vec_vectors(vocab, config.filename_word2vec,
                                     config.filename_trimmed, config.dim_word)

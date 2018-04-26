@@ -1,8 +1,8 @@
 import os
 
 count = 1
-with open('/home/emre/data/fasttext.vec', encoding='utf-8') as f:
-    with open('/home/emre/data/ft-wordlist.txt', 'w+', encoding='utf-8') as f2:
+with open('/home/emre/data/embeddings.vec', encoding='utf-8') as f:
+    with open('/home/emre/data/wordlist.txt', 'w+', encoding='utf-8') as f2:
         for line in f:
             if count == 200001:
                 break

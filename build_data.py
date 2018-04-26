@@ -47,7 +47,7 @@ def main():
     # Trim word2vec Vectors
     abs_f_words = os.path.abspath(config.filename_words)
     abs_f_vec = os.path.abspath(config.filename_word2vec)
-    cmd = '/home/emre/programs/fastText-0.1.0/fasttext print-word-vectors /home/emre/embeddings/fasttext.bin ' \
+    cmd = '/home/emre/fastText-0.1.0/fasttext print-word-vectors /home/emre/data/fasttext.bin ' \
           '< {} > {}'.format(abs_f_words, abs_f_vec)
     subprocess.check_call(cmd, shell=True)
     vocab = load_vocab(config.filename_words)

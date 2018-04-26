@@ -33,7 +33,7 @@ def main():
 
     # Build Word and Tag vocab
     vocab_words, vocab_tags = get_vocabs([train, dev, test])
-    #vocab_word2vec = get_word2vec_vocab(config.filename_word2vec)
+    vocab_word2vec2 = get_word2vec_vocab(config.filename_word2vec2)
 
     #vocab = vocab_words & vocab_word2vec
     vocab = vocab_words
@@ -53,6 +53,12 @@ def main():
     vocab = load_vocab(config.filename_words)
     export_trimmed_word2vec_vectors(vocab, config.filename_word2vec,
                                     config.filename_trimmed, config.dim_word)
+
+    vocab = vocab & vocab_word2vec2
+    vocab.add(UNK)
+    vocab.add(NUM)
+    export_trimmed_word2vec_vectors(vocab, config.filename_word2vec2,
+                                    config.filename_trimmed2, config.dim_word)
 
     # Build and save char vocab
     train = CoNLLDataset(config.filename_train)

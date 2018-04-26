@@ -50,8 +50,12 @@ class Config():
         self.processing_tag  = get_processing_word(self.vocab_tags,
                 lowercase=False, allow_unk=False)
 
-        # 3. get pre-trained embeddings
+        # 3. get pre-trained embeddings - FastText
         self.embeddings = (get_trimmed_word2vec_vectors(self.filename_trimmed)
+                if self.use_pretrained else None)
+
+        # 4. get pre-trained embeddings - Word2vec
+        self.embeddings2 = (get_trimmed_word2vec_vectors(self.filename_trimmed2)
                 if self.use_pretrained else None)
 
 
@@ -64,15 +68,14 @@ class Config():
     dim_word = 100
     dim_char = 25
 
-    # glove files en
-    # filename_word2vec = "data/embeddings/en-embeddings.txt"
-
     # word2vec files tr
     #filename_word2vec = "data/embeddings/tr-embeddings.txt"
     filename_word2vec = "data/embeddings/fasttext.vec"
+    filename_word2vec2 = "data/embeddings/tr-embeddings.txt"
 
     # trimmed embeddings (created from word2vec_filename with build_data.py)
     filename_trimmed = "data/embeddings.{}d.trimmed.npz".format(dim_word)
+    filename_trimmed2 = "data/embeddings2.{}d.trimmed.npz".format(dim_word)
     use_pretrained = True
 
     # dataset en

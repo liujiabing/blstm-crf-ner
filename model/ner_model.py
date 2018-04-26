@@ -108,6 +108,9 @@ class NERModel(BaseModel):
                         name="_word_embeddings",
                         dtype=tf.float32,
                         shape=[self.config.nwords, self.config.dim_word])
+
+                word_embeddings = tf.nn.embedding_lookup(_word_embeddings,
+                                                         self.word_ids, name="word_embeddings")
             else:
                 _word_embeddings = tf.Variable(
                         self.config.embeddings,
@@ -115,8 +118,19 @@ class NERModel(BaseModel):
                         dtype=tf.float32,
                         trainable=self.config.train_embeddings)
 
-            word_embeddings = tf.nn.embedding_lookup(_word_embeddings,
-                    self.word_ids, name="word_embeddings")
+                _word_embeddings2 = tf.Variable(
+                        self.config.embeddings2,
+                        name="_word_embeddings2",
+                        dtype=tf.float32,
+                        trainable=self.config.train_embeddings)
+
+                word_embeddings2 = tf.nn.embedding_lookup(_word_embeddings2,
+                        self.word_ids, name="word_embeddings2")
+
+                word_embeddings = tf.nn.embedding_lookup(_word_embeddings,
+                        self.word_ids, name="word_embeddings")
+
+                word_embeddings = tf.concat([word_embeddings, word_embeddings2], axis=-1)
 
         with tf.variable_scope("chars"):
             if self.config.use_chars:

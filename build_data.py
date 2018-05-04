@@ -47,16 +47,18 @@ def main():
     # Trim word2vec Vectors
     abs_f_words = os.path.abspath(config.filename_words)
     abs_f_vec = os.path.abspath(config.filename_word2vec)
-    cmd = '/home/emre/fastText-0.1.0/fasttext print-word-vectors /home/emre/data/fasttext.bin ' \
+    cmd = '/home/emre/fastText-0.1.0/fasttext print-word-vectors /home/emre/data/embeddings.bin ' \
           '< {} > {}'.format(abs_f_words, abs_f_vec)
     subprocess.check_call(cmd, shell=True)
     vocab = load_vocab(config.filename_words)
     export_trimmed_word2vec_vectors(vocab, config.filename_word2vec,
                                     config.filename_trimmed, config.dim_word)
 
-    vocab = vocab & vocab_word2vec2
-    vocab.add(UNK)
-    vocab.add(NUM)
+    #vocab = vocab_words & vocab_word2vec2
+    #vocab.add(UNK)
+    #vocab.add(NUM)
+    #write_vocab(vocab, 'data/temp.txt')
+    #vocab = load_vocab('data/temp.txt')
     export_trimmed_word2vec_vectors(vocab, config.filename_word2vec2,
                                     config.filename_trimmed2, config.dim_word)
 

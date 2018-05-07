@@ -1,5 +1,6 @@
 import numpy as np
 import re
+from string import punctuation
 
 
 # shared global variables to be imported from model also
@@ -128,7 +129,7 @@ def get_char_vocab(dataset):
     vocab_char = set()
     for words, _ in dataset:
         for word in words:
-            vocab_char.update(word)
+            vocab_char.update(get_orthographic(word))
 
     return vocab_char
 
@@ -237,6 +238,21 @@ def get_trimmed_word2vec_vectors(filename):
         raise MyIOError(filename)
 
 
+def get_orthographic(word):
+    ort = ""
+    for c in str(word):
+        if c.isalpha():
+            ort += "C" if c.isupper() else "c"
+        elif c.isspace():
+            ort += " "
+        elif c.isdigit():
+            ort += "n"
+        elif c in punctuation:
+            ort += "p"
+        else: ort += "x"
+    return ort
+
+
 def get_processing_word(vocab_words=None, vocab_chars=None,
                     lowercase=False, chars=False, allow_unk=True):
     """Return lambda function that transform a word (string) into list,
@@ -257,7 +273,7 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
             char_ids = []
             for char in word:
                 # ignore chars out of vocabulary
-                if char in vocab_chars:
+                if get_orthographic(str(char)) in vocab_chars:
                     char_ids += [vocab_chars[char]]
 
         # 1. preprocess word

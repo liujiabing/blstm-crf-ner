@@ -148,7 +148,28 @@ class NERModel(BaseModel):
                         shape=[s[0]*s[1], s[-2], self.config.dim_char])
                 word_lengths = tf.reshape(self.word_lengths, shape=[s[0]*s[1]])
 
+                # Convolutional Layer #1
+                conv1 = tf.layers.conv1d(
+                    inputs=char_embeddings,
+                    filters=64,
+                    kernel_size=3,
+                    padding="same",
+                    activation=tf.nn.relu)
+
+                # Convolutional Layer #2 and Pooling Layer #2
+                conv2 = tf.layers.conv1d(
+                    inputs=conv1,
+                    filters=64,
+                    kernel_size=3,
+                    padding="same",
+                    activation=tf.nn.relu)
+                pool2 = tf.layers.max_pooling1d(inputs=conv2, pool_size=[2, 2], strides=2)
+
+                # Dense Layer
+                output = tf.layers.dense(inputs=pool2, units=32, activation=tf.nn.relu)
+
                 # bi lstm on chars
+                """
                 cell_fw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_char,
                         state_is_tuple=True)
                 cell_bw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_char,
@@ -164,6 +185,11 @@ class NERModel(BaseModel):
                 # shape = (batch size, max sentence length, char hidden size)
                 output = tf.reshape(output,
                         shape=[s[0], s[1], 2*self.config.hidden_size_char])
+                """
+
+                # shape = (batch size, max sentence length, char hidden size)
+                output = tf.reshape(output,
+                        shape=[s[0], s[1], self.config.hidden_size_char])
                 word_embeddings = tf.concat([word_embeddings, output], axis=-1)
 
         self.word_embeddings =  tf.nn.dropout(word_embeddings, self.dropout)

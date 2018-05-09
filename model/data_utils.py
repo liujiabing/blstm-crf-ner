@@ -273,8 +273,9 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
             char_ids = []
             for char in word:
                 # ignore chars out of vocabulary
-                if get_orthographic(str(char)) in vocab_chars:
-                    char_ids += [vocab_chars[char]]
+                c = get_orthographic(str(char))
+                if c in vocab_chars:
+                    char_ids += [vocab_chars[c]]
 
         # 1. preprocess word
         if lowercase:

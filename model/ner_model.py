@@ -132,65 +132,65 @@ class NERModel(BaseModel):
 
                 word_embeddings = tf.concat([word_embeddings, word_embeddings2], axis=-1)
 
-        with tf.variable_scope("chars"):
-            if self.config.use_chars:
-                # get char embeddings matrix
-                _char_embeddings = tf.get_variable(
-                        name="_char_embeddings",
-                        dtype=tf.float32,
-                        shape=[self.config.nchars, self.config.dim_char])
-                char_embeddings = tf.nn.embedding_lookup(_char_embeddings,
-                        self.char_ids, name="char_embeddings")
+        #with tf.variable_scope("chars"):
+        if self.config.use_chars:
+            # get char embeddings matrix
+            tmpchar_embeddings = tf.get_variable(
+                    name="tmpchar_embeddings",
+                    dtype=tf.float32,
+                    shape=[self.config.nchars, self.config.dim_char])
+            char_embeddings = tf.nn.embedding_lookup(tmpchar_embeddings,
+                    self.char_ids, name="char_embeddings")
 
-                # put the time dimension on axis=1
-                s = tf.shape(char_embeddings)
-                char_embeddings = tf.reshape(char_embeddings,
-                        shape=[s[0]*s[1], s[-2], self.config.dim_char])
-                word_lengths = tf.reshape(self.word_lengths, shape=[s[0]*s[1]])
+            # put the time dimension on axis=1
+            s = tf.shape(char_embeddings)
+            char_embeddings = tf.reshape(char_embeddings,
+                    shape=[s[0]*s[1], s[-2], self.config.dim_char])
+            word_lengths = tf.reshape(self.word_lengths, shape=[s[0]*s[1]])
 
-                # Convolutional Layer #1
-                conv1 = tf.layers.conv1d(
-                    inputs=char_embeddings,
-                    filters=64,
-                    kernel_size=3,
-                    padding="same",
-                    activation=tf.nn.relu)
+            # Convolutional Layer #1
+            conv1 = tf.layers.conv1d(
+                inputs=char_embeddings,
+                filters=64,
+                kernel_size=3,
+                padding="same",
+                activation=tf.nn.relu)
 
-                # Convolutional Layer #2 and Pooling Layer #2
-                conv2 = tf.layers.conv1d(
-                    inputs=conv1,
-                    filters=64,
-                    kernel_size=3,
-                    padding="same",
-                    activation=tf.nn.relu)
-                pool2 = tf.layers.max_pooling1d(inputs=conv2, pool_size=[2, 2], strides=2)
+            # Convolutional Layer #2 and Pooling Layer #2
+            conv2 = tf.layers.conv1d(
+                inputs=conv1,
+                filters=64,
+                kernel_size=3,
+                padding="same",
+                activation=tf.nn.relu)
+            pool2 = tf.layers.max_pooling1d(inputs=conv2, pool_size=2, strides=2)
 
-                # Dense Layer
-                output = tf.layers.dense(inputs=pool2, units=32, activation=tf.nn.relu)
+            # Dense Layer
+            output = tf.layers.dense(inputs=pool2, units=32, activation=tf.nn.relu)
 
-                # bi lstm on chars
-                """
-                cell_fw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_char,
-                        state_is_tuple=True)
-                cell_bw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_char,
-                        state_is_tuple=True)
-                _output = tf.nn.bidirectional_dynamic_rnn(
-                        cell_fw, cell_bw, char_embeddings,
-                        sequence_length=word_lengths, dtype=tf.float32)
+            # bi lstm on chars
+            """
+            cell_fw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_char,
+                    state_is_tuple=True)
+            cell_bw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_char,
+                    state_is_tuple=True)
+            _output = tf.nn.bidirectional_dynamic_rnn(
+                    cell_fw, cell_bw, char_embeddings,
+                    sequence_length=word_lengths, dtype=tf.float32)
 
-                # read and concat output
-                _, ((_, output_fw), (_, output_bw)) = _output
-                output = tf.concat([output_fw, output_bw], axis=-1)
+            # read and concat output
+            _, ((_, output_fw), (_, output_bw)) = _output
+            output = tf.concat([output_fw, output_bw], axis=-1)
 
-                # shape = (batch size, max sentence length, char hidden size)
-                output = tf.reshape(output,
-                        shape=[s[0], s[1], 2*self.config.hidden_size_char])
-                """
+            # shape = (batch size, max sentence length, char hidden size)
+            output = tf.reshape(output,
+                    shape=[s[0], s[1], 2*self.config.hidden_size_char])
+            """
 
-                # shape = (batch size, max sentence length, char hidden size)
-                output = tf.reshape(output,
-                        shape=[s[0], s[1], self.config.hidden_size_char])
-                word_embeddings = tf.concat([word_embeddings, output], axis=-1)
+            # shape = (batch size, max sentence length, char hidden size)
+            output = tf.reshape(output,
+                    shape=[s[0], s[1], self.config.hidden_size_char])
+            word_embeddings = tf.concat([word_embeddings, output], axis=-1)
 
         self.word_embeddings =  tf.nn.dropout(word_embeddings, self.dropout)
 
@@ -395,3 +395,4 @@ class NERModel(BaseModel):
         preds = [self.idx_to_tag[idx] for idx in list(pred_ids[0])]
 
         return preds
+

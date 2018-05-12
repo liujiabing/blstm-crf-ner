@@ -316,14 +316,14 @@ def _pad_sequences(sequences, pad_tok, max_length):
 
     for seq in sequences:
         seq = list(seq)
-        seq_ = seq[:max_length] + [pad_tok]*max(max_length - len(seq), 0)
+        seq_ = seq[:max_length] + [pad_tok]*max(max_length - len(seq), 0) if len(seq) < max_length else seq[:max_length]
         sequence_padded +=  [seq_]
         sequence_length += [min(len(seq), max_length)]
 
     return sequence_padded, sequence_length
 
 
-def pad_sequences(sequences, pad_tok, nlevels=1):
+def pad_sequences(sequences, pad_tok, nlevels=1, max_len=-1):
     """
     Args:
         sequences: a generator of list or tuple
@@ -341,7 +341,7 @@ def pad_sequences(sequences, pad_tok, nlevels=1):
 
     elif nlevels == 2:
         max_length_word = max([max(map(lambda x: len(x), seq))
-                               for seq in sequences])
+                               for seq in sequences]) if max_len == -1 else max_len
         sequence_padded, sequence_length = [], []
         for seq in sequences:
             # all words are same length now

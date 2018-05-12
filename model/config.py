@@ -68,6 +68,8 @@ class Config():
     dim_word = 200
     dim_char = 30
 
+    max_len_of_word = 20
+
     # word2vec files tr
     #filename_word2vec = "data/embeddings/tr-embeddings.txt"
     filename_word2vec = "data/embeddings/fasttext.vec"

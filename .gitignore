@@ -10,3 +10,4 @@ data/words.txt
 data/celikkaya2013/*.iobes
 virtner/
 virtual-env/
+nohup.out

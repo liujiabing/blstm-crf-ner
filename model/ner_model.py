@@ -118,19 +118,8 @@ class NERModel(BaseModel):
                         dtype=tf.float32,
                         trainable=self.config.train_embeddings)
 
-                _word_embeddings2 = tf.Variable(
-                        self.config.embeddings2,
-                        name="_word_embeddings2",
-                        dtype=tf.float32,
-                        trainable=self.config.train_embeddings)
-
-                word_embeddings2 = tf.nn.embedding_lookup(_word_embeddings2,
-                        self.word_ids, name="word_embeddings2")
-
                 word_embeddings = tf.nn.embedding_lookup(_word_embeddings,
                         self.word_ids, name="word_embeddings")
-
-                word_embeddings = tf.concat([word_embeddings, word_embeddings2], axis=-1)
 
         with tf.variable_scope("chars"):
             if self.config.use_chars:
@@ -144,11 +133,7 @@ class NERModel(BaseModel):
                 # put the time dimension on axis=1
                 s = tf.shape(char_embeddings)
                 char_embeddings = tf.reshape(char_embeddings,
-                                             shape=[-1, self.config.dim_char, self.config.max_len_of_word])
-                #word_lengths = tf.reshape(self.word_lengths, shape=[s[0] * s[1]])
-                print("INNNPUUUUUUTTTTTT")
-                print(self.char_ids)
-                print(char_embeddings)
+                                             shape=[-1, self.config.max_len_of_word, self.config.dim_char])
 
                 # Conv #1
                 conv1 = tf.layers.conv1d(
@@ -157,7 +142,6 @@ class NERModel(BaseModel):
                     kernel_size=3,
                     padding="valid",
                     activation=tf.nn.relu)
-                print(conv1)
 
                 # Conv #2
                 conv2 = tf.layers.conv1d(
@@ -166,9 +150,7 @@ class NERModel(BaseModel):
                     kernel_size=3,
                     padding="valid",
                     activation=tf.nn.relu)
-                print(conv2)
                 pool2 = tf.layers.average_pooling1d(inputs=conv2, pool_size=2, strides=1)
-                print(pool2)
 
                 # Dense Layer
                 output = tf.layers.dense(inputs=pool2, units=50, activation=tf.nn.relu)
@@ -194,10 +176,10 @@ class NERModel(BaseModel):
                 # shape = (batch size, max sentence length, char hidden size)
                 output = tf.reshape(output,
                                     shape=[s[0], s[1], -1])
+                print(output)
                 word_embeddings = tf.concat([word_embeddings, output], axis=-1)
-                word_embeddings = tf.reshape(word_embeddings, shape=[s[0], s[1], -1])
-                word_embeddings.set_shape((s[0], s[1], 450))
                 print(word_embeddings)
+                word_embeddings.set_shape((None, None, 850))
 
         self.word_embeddings =  tf.nn.dropout(word_embeddings, self.dropout)
 

@@ -54,41 +54,28 @@ class Config():
         self.embeddings = (get_trimmed_word2vec_vectors(self.filename_trimmed)
                 if self.use_pretrained else None)
 
-        # 4. get pre-trained embeddings - Word2vec
-        self.embeddings2 = (get_trimmed_word2vec_vectors(self.filename_trimmed2)
-                if self.use_pretrained else None)
-
-
     # general config
     dir_output = "results/test/"
     dir_model  = dir_output + "model.weights/"
     path_log   = dir_output + "log.txt"
 
     # embeddings
-    dim_word = 200
-    dim_char = 30
+    dim_word = 100
+    dim_char = 25
 
     max_len_of_word = 20
 
     # word2vec files tr
-    #filename_word2vec = "data/embeddings/tr-embeddings.txt"
-    filename_word2vec = "data/embeddings/fasttext.vec"
-    filename_word2vec2 = "data/embeddings/tr-embeddings.txt"
+    filename_word2vec = "data/embeddings/en-embeddings.txt"
 
     # trimmed embeddings (created from word2vec_filename with build_data.py)
     filename_trimmed = "data/embeddings.{}d.trimmed.npz".format(dim_word)
-    filename_trimmed2 = "data/embeddings2.{}d.trimmed.npz".format(dim_word)
     use_pretrained = True
 
-    # dataset en
-    #filename_dev = "data/conll2003/en/valid.txt"
-    #filename_test = "data/conll2003/en/test.txt"
-    #filename_train = "data/conll2003/en/train.txt"
-
-    # dataset tr
-    filename_dev = "data/celikkaya2013/tr.testa.iobes"
-    filename_test = "data/celikkaya2013/tr.testb.iobes"
-    filename_train = "data/celikkaya2013/tr.train.iobes"
+    # dataset 
+    filename_dev = "data/wnut17/emerging.dev.conll.preproc.url"
+    filename_test = "data/wnut17/emerging.test.conll.preproc.url"
+    filename_train = "data/wnut17/emerging.train.conll.preproc.url"
 
     max_iter = None # if not None, max number of examples in Dataset
 
@@ -109,8 +96,8 @@ class Config():
     nepoch_no_imprv  = 999
 
     # model hyperparameters
-    hidden_size_char = 30 # lstm on chars
-    hidden_size_lstm = 200 # lstm on word embeddings
+    hidden_size_char = 25 # lstm on chars
+    hidden_size_lstm = 100 # lstm on word embeddings
 
     # NOTE: if both chars and crf, only 1.6x slower on GPU
     use_crf = True # if crf, training is 1.7x slower on CPU

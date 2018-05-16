@@ -2,7 +2,7 @@ import os
 
 
 from .general_utils import get_logger
-from .data_utils import get_trimmed_word2vec_vectors, load_vocab, \
+from .data_utils import get_trimmed_word_vectors, load_vocab, \
         get_processing_word
 
 
@@ -46,13 +46,16 @@ class Config():
 
         # 2. get processing functions that map str -> id
         self.processing_word = get_processing_word(self.vocab_words,
-                self.vocab_chars, lowercase=False, chars=self.use_chars)
+                self.vocab_chars, lowercase=False, chars=(self.use_chars is not None),
+                                                   use_ortho_char=self.use_ortho_char)
         self.processing_tag  = get_processing_word(self.vocab_tags,
                 lowercase=False, allow_unk=False)
 
-        # 3. get pre-trained embeddings - FastText
-        self.embeddings = (get_trimmed_word2vec_vectors(self.filename_trimmed)
-                if self.use_pretrained else None)
+        # 3. get pre-trained embeddings
+        self.embeddings_w2v = (get_trimmed_word_vectors(self.filename_trimmed_w2v)
+                if (self.use_pretrained == "w2v" or self.use_pretrained == "both") else None)
+        self.embeddings_ft = (get_trimmed_word_vectors(self.filename_trimmed_ft)
+                if (self.use_pretrained == "ft" or self.use_pretrained == "both") else None)
 
     # general config
     dir_output = "results/test/"
@@ -63,14 +66,15 @@ class Config():
     dim_word = 100
     dim_char = 25
 
-    max_len_of_word = 20
+    use_pretrained = "ft" # ft, w2v, both or None
 
-    # word2vec files tr
-    filename_word2vec = "data/embeddings/en-embeddings.txt"
+    # pretrained files
+    filename_word2vec = "data/embeddings/tr-embeddings-w2v.txt"
+    filename_fasttext = "data/embeddings/tr-embeddings-ft.txt"
 
     # trimmed embeddings (created from word2vec_filename with build_data.py)
-    filename_trimmed = "data/embeddings.{}d.trimmed.npz".format(dim_word)
-    use_pretrained = True
+    filename_trimmed_w2v = "data/emb.w2v.{}d.trimmed.npz".format(dim_word)
+    filename_trimmed_ft = "data/emb.ft.{}d.trimmed.npz".format(dim_word)
 
     # dataset 
     filename_dev = "data/wnut17/emerging.dev.conll.preproc.url"
@@ -101,4 +105,6 @@ class Config():
 
     # NOTE: if both chars and crf, only 1.6x slower on GPU
     use_crf = True # if crf, training is 1.7x slower on CPU
-    use_chars = True # if char embedding, training is 3.5x slower on CPU
+    use_chars = "blstm" # blstm, cnn or None
+    use_ortho_char = True # use orthographic chars instead of chars
+    max_len_of_word = 20  # used only when use_chars = 'cnn'

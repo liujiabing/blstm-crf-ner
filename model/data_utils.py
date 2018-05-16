@@ -4,9 +4,6 @@ from string import punctuation
 
 
 # shared global variables to be imported from model also
-# EN
-#UNK = "$UNK$"
-# TR
 UNK = "*UNKNOWN*"
 NUM = "0"
 NONE = "O"
@@ -116,7 +113,7 @@ def get_vocabs(datasets):
     return vocab_words, vocab_tags
 
 
-def get_char_vocab(dataset):
+def get_char_vocab(dataset, get_orthographic=False):
     """Build char vocabulary from an iterable of datasets objects
 
     Args:
@@ -129,16 +126,16 @@ def get_char_vocab(dataset):
     vocab_char = set()
     for words, _ in dataset:
         for word in words:
-            vocab_char.update(get_orthographic(word))
+            vocab_char.update(get_orthographic(word) if get_orthographic else word)
 
     return vocab_char
 
 
-def get_word2vec_vocab(filename):
+def get_word_vec_vocab(filename):
     """Load vocab from file
 
     Args:
-        filename: path to the word2vec vectors
+        filename: path to the pretrained vectors
 
     Returns:
         vocab: set() of strings
@@ -198,18 +195,18 @@ def load_vocab(filename):
     return d
 
 
-def export_trimmed_word2vec_vectors(vocab, word2vec_filename, trimmed_filename, dim):
-    """Saves word2vec vectors in numpy array
+def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim):
+    """Saves pretrained vectors in numpy array
 
     Args:
         vocab: dictionary vocab[word] = index
-        word2vec_filename: a path to a word2vec file
+        vec_filename: a path to a pretrained file
         trimmed_filename: a path where to store a matrix in npy
         dim: (int) dimension of embeddings
 
     """
     embeddings = np.zeros([len(vocab), dim])
-    with open(word2vec_filename) as f:
+    with open(vec_filename) as f:
         for line in f:
             line = line.strip().split(' ')
             word = line[0]
@@ -221,7 +218,7 @@ def export_trimmed_word2vec_vectors(vocab, word2vec_filename, trimmed_filename, 
     np.savez_compressed(trimmed_filename, embeddings=embeddings)
 
 
-def get_trimmed_word2vec_vectors(filename):
+def get_trimmed_word_vectors(filename):
     """
     Args:
         filename: path to the npz file
@@ -254,7 +251,7 @@ def get_orthographic(word):
 
 
 def get_processing_word(vocab_words=None, vocab_chars=None,
-                    lowercase=False, chars=False, allow_unk=True):
+                    lowercase=False, chars=False, allow_unk=True, use_ortho_char=False):
     """Return lambda function that transform a word (string) into list,
     or tuple of (list, id) of int corresponding to the ids of the word and
     its corresponding characters.
@@ -273,7 +270,7 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
             char_ids = []
             for char in word:
                 # ignore chars out of vocabulary
-                c = get_orthographic(str(char))
+                c = get_orthographic(str(char)) if use_ortho_char else str(char)
                 if c in vocab_chars:
                     char_ids += [vocab_chars[c]]
 

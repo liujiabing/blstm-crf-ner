@@ -2,8 +2,8 @@ import os
 import subprocess
 from model.config import Config
 from model.data_utils import CoNLLDataset, get_vocabs, UNK, NUM, \
-    get_word2vec_vocab, write_vocab, load_vocab, get_char_vocab, \
-    export_trimmed_word2vec_vectors, get_processing_word
+    get_word_vec_vocab, write_vocab, load_vocab, get_char_vocab, \
+    export_trimmed_word_vectors, get_processing_word
 
 
 def main():
@@ -33,7 +33,7 @@ def main():
 
     # Build Word and Tag vocab
     vocab_words, vocab_tags = get_vocabs([train, dev, test])
-    vocab_word2vec = get_word2vec_vocab(config.filename_word2vec)
+    vocab_word2vec = get_word_vec_vocab(config.filename_word2vec)
 
     #vocab = vocab_words & vocab_word2vec
     vocab = vocab_words & vocab_word2vec
@@ -46,12 +46,12 @@ def main():
 
     # Trim word2vec Vectors
     vocab = load_vocab(config.filename_words)
-    export_trimmed_word2vec_vectors(vocab, config.filename_word2vec,
-                                    config.filename_trimmed, config.dim_word)
+    export_trimmed_word_vectors(vocab, config.filename_word2vec,
+                                config.filename_trimmed, config.dim_word)
 
     # Build and save char vocab
     train = CoNLLDataset(config.filename_train)
-    vocab_chars = get_char_vocab(train)
+    vocab_chars = get_char_vocab(train, config.use_ortho_char)
     write_vocab(vocab_chars, config.filename_chars)
 
 

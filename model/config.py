@@ -67,6 +67,8 @@ class Config():
     dim_char = 25
 
     use_pretrained = "ft" # ft, w2v, both or None
+    get_ft_vectors_cmd = '/home/emre/fastText-0.1.0/fasttext print-word-vectors /home/emre/data/embeddings.bin ' \
+              '< {} > {}'
 
     # pretrained files
     filename_word2vec = "data/embeddings/tr-embeddings-w2v.txt"

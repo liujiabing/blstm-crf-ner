@@ -33,10 +33,13 @@ def main():
 
     # Build Word and Tag vocab
     vocab_words, vocab_tags = get_vocabs([train, dev, test])
-    vocab_word2vec = get_word_vec_vocab(config.filename_word2vec)
 
-    #vocab = vocab_words & vocab_word2vec
-    vocab = vocab_words & vocab_word2vec
+    vocab = vocab_words
+    if config.use_pretrained == "w2v" or config.use_pretrained == "both":
+        vocab_word2vec = get_word_vec_vocab(config.filename_word2vec)
+        vocab = vocab_words & vocab_word2vec if config.use_pretrained == "w2v" else vocab_words
+    if config.use_pretrained == "ft" or config.use_pretrained == "both":
+        vocab_fasttext = get_word_vec_vocab(config.filename_fasttext)
     vocab.add(UNK)
     vocab.add(NUM)
 
@@ -44,10 +47,21 @@ def main():
     write_vocab(vocab, config.filename_words)
     write_vocab(vocab_tags, config.filename_tags)
 
+    # Trim FastText vectors
+    if config.use_pretrained == "ft" or config.use_pretrained == "both":
+        abs_f_words = os.path.abspath(config.filename_words)
+        abs_f_vec = os.path.abspath(config.filename_fasttext)
+        cmd = config.get_ft_vectors_cmd.format(abs_f_words, abs_f_vec)
+        subprocess.check_call(cmd, shell=True)
+        vocab = load_vocab(config.filename_words)
+        export_trimmed_word_vectors(vocab, config.filename_fasttext,
+                                        config.filename_trimmed_ft, config.dim_word)
+
     # Trim word2vec Vectors
-    vocab = load_vocab(config.filename_words)
-    export_trimmed_word_vectors(vocab, config.filename_word2vec,
-                                config.filename_trimmed, config.dim_word)
+    if config.use_pretrained == "w2v" or config.use_pretrained == "both":
+        vocab = load_vocab(config.filename_words)
+        export_trimmed_word_vectors(vocab, config.filename_word2vec,
+                                    config.filename_trimmed_w2v, config.dim_word)
 
     # Build and save char vocab
     train = CoNLLDataset(config.filename_train)

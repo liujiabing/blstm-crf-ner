@@ -29,7 +29,9 @@ class NERModel(BaseModel):
                         name="sequence_lengths")
 
         # shape = (batch size, max length of sentence, max length of word)
-        self.char_ids = tf.placeholder(tf.int32, shape=[None, None, self.config.max_len_of_word],
+        self.char_ids = tf.placeholder(tf.int32, shape=[None, None,
+                                                        self.config.max_len_of_word
+                                                        if self.config.use_chars == 'cnn' else None],
                         name="char_ids")
 
         # shape = (batch_size, max_length of sentence)
@@ -102,7 +104,7 @@ class NERModel(BaseModel):
         the correct shape is initialized.
         """
         with tf.variable_scope("words"):
-            if self.config.embeddings is None:
+            if self.config.use_pretrained is None:
                 self.logger.info("WARNING: randomly initializing word vectors")
                 _word_embeddings = tf.get_variable(
                         name="_word_embeddings",
@@ -112,14 +114,30 @@ class NERModel(BaseModel):
                 word_embeddings = tf.nn.embedding_lookup(_word_embeddings,
                                                          self.word_ids, name="word_embeddings")
             else:
-                _word_embeddings = tf.Variable(
-                        self.config.embeddings,
-                        name="_word_embeddings",
-                        dtype=tf.float32,
-                        trainable=self.config.train_embeddings)
+                if self.config.use_pretrained == "w2v" or self.config.use_pretrained == "both":
+                    _word_embeddings_w2v = tf.Variable(
+                            self.config.embeddings_w2v,
+                            name="_word_embeddings_w2v",
+                            dtype=tf.float32,
+                            trainable=self.config.train_embeddings)
 
-                word_embeddings = tf.nn.embedding_lookup(_word_embeddings,
-                        self.word_ids, name="word_embeddings")
+                    word_embeddings_w2v = tf.nn.embedding_lookup(_word_embeddings_w2v,
+                            self.word_ids, name="word_embeddings_w2v")
+                    word_embeddings = word_embeddings_w2v
+
+                if self.config.use_pretrained == "tf" or self.config.use_pretrained == "both":
+                    _word_embeddings_ft = tf.Variable(
+                            self.config.embeddings_ft,
+                            name="_word_embeddings_ft",
+                            dtype=tf.float32,
+                            trainable=self.config.train_embeddings)
+
+                    word_embeddings_ft = tf.nn.embedding_lookup(_word_embeddings_ft,
+                            self.word_ids, name="word_embeddings_ft")
+                    word_embeddings = word_embeddings_ft
+
+                if self.config.use_pretrained == "both":
+                    word_embeddings = tf.concat([word_embeddings_w2v, word_embeddings_ft], axis=-1)
 
         with tf.variable_scope("chars"):
             if self.config.use_chars:
@@ -384,5 +402,3 @@ class NERModel(BaseModel):
         preds = [self.idx_to_tag[idx] for idx in list(pred_ids[0])]
 
         return preds
-
-

@@ -1,17 +1,8 @@
 import codecs
 import numpy as np
-from pip._vendor.progress import counter
 from sklearn.model_selection import ShuffleSplit
 from shutil import copyfile
 import subprocess
-import sys
-
-"""
-
-<class 'list'>: [['@tolgaballik', 'O'], ['Başkanım', 'O'], ['misafirperverliğiniz', 'O'], ['için', 'O'], ['teşekkür', 'O'], ['ederiz', 'O'], [':)', 'O']]
-<class 'list'>: [['@pulmonerdamar', 'O'], ['kanki', 'O'], ['ben', 'O'], ['de', 'O'], ['senin', 'O'], ['tipini', 'O'], ['coh', 'O'], ['seviyoom', 'O'], [':D', 'O'], ['mucuk', 'O'], ['kanki', 'O']]
-...
-"""
 
 sentences = []
 sentence = []
@@ -130,6 +121,3 @@ for train_index, test_index in rs.split(sentences):
     print("Evaluated model.")
 
     count -= 1
-
-# TODO mean of f1 scores?
-

@@ -139,8 +139,6 @@ class NERModel(BaseModel):
                 if self.config.use_pretrained == "both":
                     word_embeddings = tf.concat([word_embeddings_w2v, word_embeddings_ft], axis=-1)
 
-            print(word_embeddings)
-
         with tf.variable_scope("chars"):
             if self.config.use_chars is not None:
                 # get char embeddings matrix
@@ -175,16 +173,16 @@ class NERModel(BaseModel):
                     pool2 = tf.layers.average_pooling1d(inputs=conv2, pool_size=2, strides=1)
 
                     # Dense Layer
-                    output = tf.layers.dense(inputs=pool2, units=50, activation=tf.nn.relu)
+                    output = tf.layers.dense(inputs=pool2, units=32, activation=tf.nn.relu)
                     # shape = (batch size, max sentence length, char hidden size)
                     output = tf.reshape(output,
                                         shape=[s[0], s[1], -1])
-
                     ws = tf.shape(word_embeddings)
                     print(word_embeddings)
                     word_embeddings = tf.concat([word_embeddings, output], axis=-1)
-                    # word_embeddings + 50 (dense): ws[-1]
-                    word_embeddings.set_shape((None, None, 850))
+                    print(word_embeddings)
+                    # word_embeddings + 50 (dense) = ws[-1]
+                    word_embeddings.set_shape((None, None, 880))
 
                 else:
                     char_embeddings = tf.reshape(char_embeddings,

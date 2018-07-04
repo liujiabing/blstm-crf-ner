@@ -1,5 +1,5 @@
 gensim
 sklearn
-numpy==1.14.1
-tensorboard==1.6.0
-tensorflow==1.6.0
+numpy>1.14.1
+tensorboard>1.6.0
+tensorflow>1.6.0

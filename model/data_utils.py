@@ -113,7 +113,7 @@ def get_vocabs(datasets):
     return vocab_words, vocab_tags
 
 
-def get_char_vocab(dataset, get_orthographic=False):
+def get_char_vocab(dataset, use_orthographic=False):
     """Build char vocabulary from an iterable of datasets objects
 
     Args:
@@ -126,7 +126,7 @@ def get_char_vocab(dataset, get_orthographic=False):
     vocab_char = set()
     for words, _ in dataset:
         for word in words:
-            vocab_char.update(get_orthographic(word) if get_orthographic else word)
+            vocab_char.update(get_orthographic(word) if use_orthographic else word)
 
     return vocab_char
 

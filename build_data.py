@@ -38,8 +38,8 @@ def main():
     if config.use_pretrained == "w2v" or config.use_pretrained == "both":
         vocab_word2vec = get_word_vec_vocab(config.filename_word2vec)
         vocab = vocab_words & vocab_word2vec if config.use_pretrained == "w2v" else vocab_words
-    if config.use_pretrained == "ft" or config.use_pretrained == "both":
-        vocab_fasttext = get_word_vec_vocab(config.filename_fasttext)
+    #if config.use_pretrained == "ft" or config.use_pretrained == "both":
+    #    vocab_fasttext = get_word_vec_vocab(config.filename_fasttext)
     vocab.add(UNK)
     vocab.add(NUM)
 

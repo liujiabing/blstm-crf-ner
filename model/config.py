@@ -47,7 +47,8 @@ class Config():
         # 2. get processing functions that map str -> id
         self.processing_word = get_processing_word(self.vocab_words,
                 self.vocab_chars, lowercase=False, chars=(self.use_chars is not None),
-                                                   use_ortho_char=self.use_ortho_char)
+                                                   use_ortho_char=self.use_ortho_char,
+                                                   replace_digits=self.replace_digits)
         self.processing_tag  = get_processing_word(self.vocab_tags,
                 lowercase=False, allow_unk=False)
 
@@ -57,16 +58,18 @@ class Config():
         self.embeddings_ft = (get_trimmed_word_vectors(self.filename_trimmed_ft)
                 if (self.use_pretrained == "ft" or self.use_pretrained == "both") else None)
 
+    replace_digits = False
+
     # general config
     dir_output = "results/test/"
     dir_model  = dir_output + "model.weights/"
     path_log   = dir_output + "log.txt"
 
     # embeddings
-    dim_word = 400
-    dim_char = 30
+    dim_word = 200
+    dim_char = 25
 
-    use_pretrained = "w2v" # ft, w2v, both or None
+    use_pretrained = None # ft, w2v, both or None
     get_ft_vectors_cmd = '/home/emre/git/fastText-0.1.0/fasttext print-word-vectors /home/emre/Documents/fasttext/embeddings.bin ' \
               '< {} > {}'
 
@@ -79,34 +82,34 @@ class Config():
     filename_trimmed_ft = "data/emb.ft.{}d.trimmed.npz".format(dim_word)
 
     # dataset 
-    filename_dev = "data/wnut17/emerging.dev.conll.preproc.url"
-    filename_test = "data/wnut17/emerging.test.conll.preproc.url"
-    filename_train = "data/wnut17/emerging.train.conll.preproc.url"
+    filename_dev = "data/dev.tmp"
+    filename_test = "data/test.tmp"
+    filename_train = "data/train.tmp"
 
     max_iter = None # if not None, max number of examples in Dataset
 
     # vocab (created from dataset with build_data.py)
-    filename_words = "data/words.txt"
-    filename_tags = "data/tags.txt"
-    filename_chars = "data/chars.txt"
+    filename_words = "data/words.tmp"
+    filename_tags = "data/tags.tmp"
+    filename_chars = "data/chars.tmp"
 
     # training
     train_embeddings = False
-    nepochs          = 150
+    nepochs          = 100
     dropout          = 0.5
     batch_size       = 500
     lr_method        = "sgd"
     lr               = 0.005
     lr_decay         = 1.0
     clip             = 5.0 # if negative, no clipping
-    nepoch_no_imprv  = 999
+    nepoch_no_imprv  = 50
 
     # model hyperparameters
-    hidden_size_char = 30 # lstm on chars
+    hidden_size_char = 25 # lstm on chars
     hidden_size_lstm = 200 # lstm on word embeddings
 
     # NOTE: if both chars and crf, only 1.6x slower on GPU
     use_crf = True # if crf, training is 1.7x slower on CPU
-    use_chars = "cnn" # blstm, cnn or None
-    use_ortho_char = True # use orthographic chars instead of chars
+    use_chars = "blstm" # blstm, cnn or None
+    use_ortho_char = False # use orthographic chars instead of chars
     max_len_of_word = 20  # used only when use_chars = 'cnn'

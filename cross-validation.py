@@ -39,7 +39,7 @@ np.random.shuffle(sentences)
 # Need numpy array so that we can 'extract' using indices
 sentences = np.array(sentences)
 
-rs = ShuffleSplit(n_splits=5, train_size=0.8, test_size=0.1)
+rs = ShuffleSplit(n_splits=10, train_size=0.8, test_size=0.1)
 count = rs.get_n_splits()
 
 # Generate n-fold CV files & build, train, eval
@@ -58,9 +58,9 @@ for train_index, test_index in rs.split(sentences):
     print("Splitted dataset into 3 parts.")
 
     # Write to respective files
-    filename_train = 'data/celikkaya2013/tr.train{}.iobes'.format(count)
-    filename_dev = 'data/celikkaya2013/tr.testa{}.iobes'.format(count)
-    filename_test = 'data/celikkaya2013/tr.testb{}.iobes'.format(count)
+    filename_train = 'data/tr.train{}.tmp'.format(count)
+    filename_dev = 'data/tr.testa{}.tmp'.format(count)
+    filename_test = 'data/tr.testb{}.tmp'.format(count)
 
     write(filename_train, train_sentences)
     write(filename_dev, dev_sentences)
@@ -68,14 +68,15 @@ for train_index, test_index in rs.split(sentences):
 
     print("Created train, dev and test sets of iteration: %i" % count)
 
-    copyfile(filename_train, 'data/celikkaya2013/tr.train.iobes')
-    copyfile(filename_dev, 'data/celikkaya2013/tr.testa.iobes')
-    copyfile(filename_test, 'data/celikkaya2013/tr.testb.iobes')
+    copyfile(filename_train, 'data/train.tmp')
+    copyfile(filename_dev, 'data/dev.tmp')
+    copyfile(filename_test, 'data/test.tmp')
 
     # Build
     with open('output.log', 'a+') as out:
         out.write("Beginning building for CV iteration:{}".format(str(count)))
-        p = subprocess.Popen('python3 build_data.py', shell=True, stdout=subprocess.PIPE, universal_newlines = True, stderr=subprocess.STDOUT)
+        p = subprocess.Popen('python3 build_data.py', shell=True, stdout=subprocess.PIPE, universal_newlines = True,
+                             stderr=subprocess.STDOUT)
         while True:
             output = p.stdout.readline()
             if output == '' and p.poll() is not None:
@@ -89,9 +90,10 @@ for train_index, test_index in rs.split(sentences):
     print("Built model.")
 
     # Train
-    with open('output.log', 'a+') as out:
+    with open('results/output.log', 'a+') as out:
         out.write("Beginning training for CV iteration:{}".format(str(count)))
-        p = subprocess.Popen('python3 train.py', shell=True, stdout=subprocess.PIPE, universal_newlines = True, stderr=subprocess.STDOUT)
+        p = subprocess.Popen('python3 train.py', shell=True, stdout=subprocess.PIPE, universal_newlines = True,
+                             stderr=subprocess.STDOUT)
         while True:
             output = p.stdout.readline()
             if output == '' and p.poll() is not None:
@@ -105,9 +107,10 @@ for train_index, test_index in rs.split(sentences):
     print("Trained model.")
 
     # Evaluate
-    with open('output.log', 'a+') as out:
+    with open('results/output.log', 'a+') as out:
         out.write("Beginning eval for CV iteration:{}".format(str(count)))
-        p = subprocess.Popen('python3 evaluate.py', shell=True, stdout=subprocess.PIPE, universal_newlines = True, stderr=subprocess.STDOUT)
+        p = subprocess.Popen('python3 evaluate.py', shell=True, stdout=subprocess.PIPE, universal_newlines = True,
+                             stderr=subprocess.STDOUT)
         while True:
             output = p.stdout.readline()
             if output == '' and p.poll() is not None:

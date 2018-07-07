@@ -251,7 +251,7 @@ def get_orthographic(word):
 
 
 def get_processing_word(vocab_words=None, vocab_chars=None,
-                    lowercase=False, chars=False, allow_unk=True, use_ortho_char=False):
+                    lowercase=False, chars=False, allow_unk=True, use_ortho_char=False, replace_digits=False):
     """Return lambda function that transform a word (string) into list,
     or tuple of (list, id) of int corresponding to the ids of the word and
     its corresponding characters.
@@ -277,8 +277,8 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
         # 1. preprocess word
         if lowercase:
             word = word.lower()
-        #if word.isdigit():
-        word = re.sub('\d', NUM, word)
+        if replace_digits:
+            word = re.sub('\d', NUM, word)
 
         # 2. get id of word
         if vocab_words is not None:

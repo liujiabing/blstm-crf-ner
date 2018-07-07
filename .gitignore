@@ -1,13 +1,10 @@
 *pyc
-/results
 *.DS_Store
 .idea/
 data/embeddings/
+data/*.tmp
 data/*.npz
-data/chars.txt
-data/tags.txt
-data/words.txt
-data/celikkaya2013/*.iobes
+results/
+results/**
 virtner/
 virtual-env/
-nohup.out

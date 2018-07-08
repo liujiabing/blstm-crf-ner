@@ -69,12 +69,12 @@ class Config():
     dim_word = 200
     dim_char = 25
 
-    use_pretrained = None # ft, w2v, both or None
+    use_pretrained = "w2v" # ft, w2v, both or None
     get_ft_vectors_cmd = '/home/emre/git/fastText-0.1.0/fasttext print-word-vectors /home/emre/Documents/fasttext/embeddings.bin ' \
               '< {} > {}'
 
     # pretrained files
-    filename_word2vec = "data/embeddings/en-w2v.txt"
+    filename_word2vec = "data/embeddings/tr-embeddings-w2v.txt"
     filename_fasttext = "data/embeddings/tr-embeddings-ft.txt"
 
     # trimmed embeddings (created from word2vec_filename with build_data.py)

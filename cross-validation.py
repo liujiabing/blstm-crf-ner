@@ -1,6 +1,6 @@
 import codecs
 import numpy as np
-from sklearn.model_selection import ShuffleSplit
+from sklearn.model_selection import KFold
 from shutil import copyfile
 import subprocess
 
@@ -39,16 +39,15 @@ np.random.shuffle(sentences)
 # Need numpy array so that we can 'extract' using indices
 sentences = np.array(sentences)
 
-rs = ShuffleSplit(n_splits=5, train_size=0.8, test_size=0.1)
+rs = KFold(n_splits=10)
 count = rs.get_n_splits()
 
 # Generate n-fold CV files & build, train, eval
 for train_index, test_index in rs.split(sentences):
     # Find dev index as well...
-    temp = list()
-    temp.extend(train_index)
-    temp.extend(test_index)
-    dev_index = list(set(range(0, len(sentences))) - set(temp))
+    numb_dev = len(train_index) // 10
+    dev_index = train_index[-1*numb_dev:]
+    train_index = train_index[:-1*numb_dev]
 
     # Extract sentences from indices
     train_sentences = sentences[train_index]

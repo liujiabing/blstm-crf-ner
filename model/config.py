@@ -67,7 +67,7 @@ class Config():
 
     # embeddings
     dim_word = 200
-    dim_char = 25
+    dim_char = 30
 
     use_pretrained = "w2v" # ft, w2v, both or None
     get_ft_vectors_cmd = '/home/emre/git/fastText-0.1.0/fasttext print-word-vectors /home/emre/Documents/fasttext/embeddings.bin ' \
@@ -97,15 +97,15 @@ class Config():
     train_embeddings = False
     nepochs          = 100
     dropout          = 0.5
-    batch_size       = 500
+    batch_size       = 10
     lr_method        = "sgd"
     lr               = 0.005
     lr_decay         = 1.0
     clip             = 5.0 # if negative, no clipping
-    nepoch_no_imprv  = 50
+    nepoch_no_imprv  = 999
 
     # model hyperparameters
-    hidden_size_char = 25 # lstm on chars
+    hidden_size_char = 30 # lstm on chars
     hidden_size_lstm = 200 # lstm on word embeddings
 
     # NOTE: if both chars and crf, only 1.6x slower on GPU

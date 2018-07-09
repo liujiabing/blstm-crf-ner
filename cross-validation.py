@@ -39,7 +39,7 @@ np.random.shuffle(sentences)
 # Need numpy array so that we can 'extract' using indices
 sentences = np.array(sentences)
 
-rs = ShuffleSplit(n_splits=10, train_size=0.8, test_size=0.1)
+rs = ShuffleSplit(n_splits=5, train_size=0.8, test_size=0.1)
 count = rs.get_n_splits()
 
 # Generate n-fold CV files & build, train, eval
@@ -73,7 +73,7 @@ for train_index, test_index in rs.split(sentences):
     copyfile(filename_test, 'data/test.tmp')
 
     # Build
-    with open('output.log', 'a+') as out:
+    with open('results/output.log', 'a+') as out:
         out.write("Beginning building for CV iteration:{}".format(str(count)))
         p = subprocess.Popen('python3 build_data.py', shell=True, stdout=subprocess.PIPE, universal_newlines = True,
                              stderr=subprocess.STDOUT)

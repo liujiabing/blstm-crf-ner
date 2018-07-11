@@ -1,3 +1,5 @@
+import os
+
 from model.data_utils import CoNLLDataset
 from model.ner_model import NERModel
 from model.config import Config
@@ -79,8 +81,13 @@ def main(interactive=False):
     test  = CoNLLDataset(config.filename_test, config.processing_word,
                          config.processing_tag, config.max_iter)
 
-    # evaluate and interact
+    # evaluate
     model.evaluate(test)
+
+    # run CoNLL evaluation script
+    os.system("%s < %s > %s" % (config.conll_eval, config.conll_output, config.conll_score))
+
+    # interact
     if interactive:
         interactive_shell(model)
 

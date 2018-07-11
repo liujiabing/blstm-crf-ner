@@ -375,7 +375,7 @@ class NERModel(BaseModel):
                         w_pred = labels_pred[s_idx][w_idx]
                         write_result(idx_to_word[word] + " " + self.idx_to_tag[w_label] + " " + self.idx_to_tag[w_pred],
                                      self.config.conll_output)
-                write_result("\n")
+                write_result("\n", self.config.conll_output)
 
             for lab, lab_pred, length in zip(labels, labels_pred,
                                              sequence_lengths):

@@ -442,3 +442,21 @@ def get_chunks(seq, tags):
         chunks.append(chunk)
 
     return chunks
+
+
+def write_result(content, filename):
+    """Writes into CoNLL-formatted result file.
+
+    Writes one (word + guessed tag + true tag) per line.
+
+    Args:
+        content: result file content
+        filename: path to result file
+
+    """
+    print("Writing result...")
+    with open(filename, "a+") as f:
+        f.write(content)
+        if content != "\n":
+            f.write("\n")
+    print("- done.")

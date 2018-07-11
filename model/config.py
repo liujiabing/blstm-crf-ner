@@ -1,5 +1,5 @@
 import os
-
+from datetime import datetime
 
 from .general_utils import get_logger
 from .data_utils import get_trimmed_word_vectors, load_vocab, \
@@ -64,6 +64,7 @@ class Config():
     dir_output = "results/test/"
     dir_model  = dir_output + "model.weights/"
     path_log   = dir_output + "log.txt"
+    conll_output = "results/conlleval{}.tmp".format(datetime.datetime.now().strftime('%d%m%Y_%H%M%S'))
 
     # embeddings
     dim_word = 200

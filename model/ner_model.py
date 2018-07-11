@@ -4,7 +4,7 @@ import tensorflow as tf
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
-from .data_utils import minibatches, pad_sequences, get_chunks
+from .data_utils import minibatches, pad_sequences, get_chunks, write_result
 from .general_utils import Progbar
 from .base_model import BaseModel
 
@@ -16,7 +16,6 @@ class NERModel(BaseModel):
         super(NERModel, self).__init__(config)
         self.idx_to_tag = {idx: tag for tag, idx in
                            self.config.vocab_tags.items()}
-
 
     def add_placeholders(self):
         """Define placeholders = entries to computational graph"""
@@ -47,7 +46,6 @@ class NERModel(BaseModel):
                         name="dropout")
         self.lr = tf.placeholder(dtype=tf.float32, shape=[],
                         name="lr")
-
 
     def get_feed_dict(self, words, labels=None, lr=None, dropout=None):
         """Given some data, pad it and build a feed dictionary
@@ -94,7 +92,6 @@ class NERModel(BaseModel):
 
         return feed, sequence_lengths
 
-
     def add_word_embeddings_op(self):
         """Defines self.word_embeddings
 
@@ -125,7 +122,7 @@ class NERModel(BaseModel):
                             self.word_ids, name="word_embeddings_w2v")
                     word_embeddings = word_embeddings_w2v
 
-                if self.config.use_pretrained == "tf" or self.config.use_pretrained == "both":
+                if self.config.use_pretrained == "ft" or self.config.use_pretrained == "both":
                     _word_embeddings_ft = tf.Variable(
                             self.config.embeddings_ft,
                             name="_word_embeddings_ft",
@@ -236,7 +233,6 @@ class NERModel(BaseModel):
             pred = tf.matmul(output, W) + b
             self.logits = tf.reshape(pred, [-1, nsteps, self.config.ntags])
 
-
     def add_pred_op(self):
         """Defines self.labels_pred
 
@@ -249,7 +245,6 @@ class NERModel(BaseModel):
         if not self.config.use_crf:
             self.labels_pred = tf.cast(tf.argmax(self.logits, axis=-1),
                     tf.int32)
-
 
     def add_loss_op(self):
         """Defines the loss"""
@@ -268,7 +263,6 @@ class NERModel(BaseModel):
         # for tensorboard
         tf.summary.scalar("loss", self.loss)
 
-
     def build(self):
         # NER specific functions
         self.add_placeholders()
@@ -282,8 +276,7 @@ class NERModel(BaseModel):
                 self.config.clip)
         self.initialize_session() # now self.sess is defined and vars are init
 
-
-    def predict_batch(self, words):
+    def predict_batch(self, words, return_feed=False):
         """
         Args:
             words: list of sentences
@@ -301,20 +294,21 @@ class NERModel(BaseModel):
             logits, trans_params = self.sess.run(
                     [self.logits, self.trans_params], feed_dict=fd)
 
-            # iterate over the sentences because no batching in vitervi_decode
+            # iterate over the sentences because no batching in viterbi_decode
             for logit, sequence_length in zip(logits, sequence_lengths):
                 logit = logit[:sequence_length] # keep only the valid steps
                 viterbi_seq, viterbi_score = tf.contrib.crf.viterbi_decode(
                         logit, trans_params)
                 viterbi_sequences += [viterbi_seq]
 
+            if return_feed:
+                return viterbi_sequences, sequence_lengths, fd
             return viterbi_sequences, sequence_lengths
 
         else:
             labels_pred = self.sess.run(self.labels_pred, feed_dict=fd)
 
             return labels_pred, sequence_lengths
-
 
     def run_epoch(self, train, dev, epoch):
         """Performs one complete pass over the train set and evaluate on dev
@@ -354,8 +348,7 @@ class NERModel(BaseModel):
 
         return metrics["f1"]
 
-
-    def run_evaluate(self, test):
+    def run_evaluate(self, test, print_to_file=False):
         """Evaluates performance on test set
 
         Args:
@@ -367,8 +360,22 @@ class NERModel(BaseModel):
         """
         accs = []
         correct_preds, total_correct, total_preds = 0., 0., 0.
+        if print_to_file:
+            idx_to_word = {idx: word for word, idx in self.config.vocab_words.items()}
         for words, labels in minibatches(test, self.config.batch_size):
-            labels_pred, sequence_lengths = self.predict_batch(words)
+            labels_pred, sequence_lengths, fd = self.predict_batch(words, return_feed=True)
+
+            if print_to_file:
+                for s_idx, sentence in enumerate(fd[self.word_ids]):
+                    for w_idx, word in enumerate(sentence):
+                        # Prevent index error
+                        if w_idx >= sequence_lengths[s_idx]:
+                            break
+                        w_label = labels[s_idx][w_idx]
+                        w_pred = labels_pred[s_idx][w_idx]
+                        write_result(idx_to_word[word] + " " + self.idx_to_tag[w_label] + " " + self.idx_to_tag[w_pred],
+                                     self.config.conll_output)
+                write_result("\n")
 
             for lab, lab_pred, length in zip(labels, labels_pred,
                                              sequence_lengths):
@@ -390,7 +397,6 @@ class NERModel(BaseModel):
         acc = np.mean(accs)
 
         return {"acc": 100*acc, "f1": 100*f1, "precision": p, "recall": r}
-
 
     def predict(self, words_raw):
         """Returns list of tags

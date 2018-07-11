@@ -86,6 +86,7 @@ def main(interactive=False):
 
     # run CoNLL evaluation script
     os.system("%s < %s > %s" % (config.conll_eval, config.conll_output, config.conll_score))
+    os.system("%s -l < %s > %s.latex" % (config.conll_eval, config.conll_output, config.conll_score))
 
     # interact
     if interactive:

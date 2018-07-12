@@ -35,7 +35,7 @@ def main():
     vocab_words, vocab_tags = get_vocabs([train, dev, test])
 
     vocab = vocab_words
-    if config.use_pretrained == "w2v" or config.use_pretrained == "both":
+    if "w2v" in config.use_pretrained:
         vocab_word2vec = get_word_vec_vocab(config.filename_word2vec)
         vocab = vocab_words & vocab_word2vec if config.use_pretrained == "w2v" else vocab_words
     if config.replace_digits:
@@ -47,17 +47,22 @@ def main():
     write_vocab(vocab_tags, config.filename_tags)
 
     # Trim FastText vectors
-    if config.use_pretrained == "ft" or config.use_pretrained == "both":
+    if "ft" in config.use_pretrained:
         abs_f_words = os.path.abspath(config.filename_words)
         abs_f_vec = os.path.abspath(config.filename_fasttext)
         cmd = config.get_ft_vectors_cmd.format(abs_f_words, abs_f_vec)
         subprocess.check_call(cmd, shell=True)
         vocab = load_vocab(config.filename_words)
-        export_trimmed_word_vectors(vocab, config.filename_fasttext,
-                                        config.filename_trimmed_ft, config.dim_word)
+        export_trimmed_word_vectors(vocab, config.filename_fasttext, config.filename_trimmed_ft, config.dim_word)
+
+    # Trim Morph2Vec vectors
+    if "m2v" in config.use_pretrained:
+        vocab = load_vocab(config.filename_words)
+        export_trimmed_word_vectors(vocab, config.filename_morph2vec,
+                                    config.filename_trimmed_m2v, config.dim_morph, config.use_deasciification)
 
     # Trim word2vec Vectors
-    if config.use_pretrained == "w2v" or config.use_pretrained == "both":
+    if "w2v" in config.use_pretrained:
         vocab = load_vocab(config.filename_words)
         export_trimmed_word_vectors(vocab, config.filename_word2vec,
                                     config.filename_trimmed_w2v, config.dim_word)

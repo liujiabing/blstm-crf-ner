@@ -53,10 +53,12 @@ class Config():
                 lowercase=False, allow_unk=False)
 
         # 3. get pre-trained embeddings
-        self.embeddings_w2v = (get_trimmed_word_vectors(self.filename_trimmed_w2v)
-                if (self.use_pretrained == "w2v" or self.use_pretrained == "both") else None)
-        self.embeddings_ft = (get_trimmed_word_vectors(self.filename_trimmed_ft)
-                if (self.use_pretrained == "ft" or self.use_pretrained == "both") else None)
+        self.embeddings_w2v = (get_trimmed_word_vectors(self.filename_trimmed_w2v) if "w2v" in self.use_pretrained
+                               else None)
+        self.embeddings_ft = (get_trimmed_word_vectors(self.filename_trimmed_ft) if "ft" in self.use_pretrained
+                              else None)
+        self.embeddings_m2v = (get_trimmed_word_vectors(self.filename_trimmed_m2v) if "m2v" in self.use_pretrained
+                              else None)
 
     replace_digits = False
 
@@ -71,19 +73,23 @@ class Config():
 
     # embeddings
     dim_word = 200
+    dim_morph = 50
     dim_char = 30
 
-    use_pretrained = "w2v" # ft, w2v, both or None
+    # ft, w2v, m2v or None (if you want to use multiple embeddings, provide them comma separated e.g. "ft,m2v"
+    use_pretrained = "w2v"
     get_ft_vectors_cmd = '/home/emre/git/fastText-0.1.0/fasttext print-word-vectors /home/emre/Documents/fasttext/embeddings.bin ' \
               '< {} > {}'
 
     # pretrained files
     filename_word2vec = "data/embeddings/tr-embeddings-w2v.txt"
     filename_fasttext = "data/embeddings/tr-embeddings-ft.txt"
+    filename_morph2vec = "data/embeddings/tr-embeddings-m2v.txt"
 
     # trimmed embeddings (created from word2vec_filename with build_data.py)
     filename_trimmed_w2v = "data/emb.w2v.{}d.trimmed.npz".format(dim_word)
     filename_trimmed_ft = "data/emb.ft.{}d.trimmed.npz".format(dim_word)
+    filename_trimmed_m2v = "data/emb.m2v.{}d.trimmed.npz".format(dim_morph)
 
     # dataset 
     filename_dev = "data/dev.tmp"
@@ -117,3 +123,4 @@ class Config():
     use_chars = "blstm" # blstm, cnn or None
     use_ortho_char = False # use orthographic chars instead of chars
     max_len_of_word = 20  # used only when use_chars = 'cnn'
+    use_deasciification = False # TODO

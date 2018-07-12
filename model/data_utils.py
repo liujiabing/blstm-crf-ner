@@ -195,7 +195,7 @@ def load_vocab(filename):
     return d
 
 
-def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim):
+def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim, deasciification=False):
     """Saves pretrained vectors in numpy array
 
     Args:
@@ -203,18 +203,27 @@ def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim):
         vec_filename: a path to a pretrained file
         trimmed_filename: a path where to store a matrix in npy
         dim: (int) dimension of embeddings
+        :param deasciification: Prior to look up a word in the vocab, apply deasciification
 
     """
     embeddings = np.zeros([len(vocab), dim])
+    numb_of_words = 0
+    numb_of_words_in_vocab = 0
     with open(vec_filename) as f:
         for line in f:
+            numb_of_words += 1
             line = line.strip().split(' ')
             word = line[0]
             embedding = [float(x) for x in line[1:]]
             if word in vocab:
+                numb_of_words_in_vocab += 1
                 word_idx = vocab[word]
                 embeddings[word_idx] = np.asarray(embedding)
+            elif deasciification: # TODO
+                pass
 
+    print("Found {} words in the pre-trained embedding file. {} number of them in dataset vocabulary."
+          .format(numb_of_words, numb_of_words_in_vocab))
     np.savez_compressed(trimmed_filename, embeddings=embeddings)
 
 
@@ -288,7 +297,7 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                 if allow_unk:
                     word = vocab_words[UNK]
                 else:
-                    raise Exception("Unknow key is not allowed. Check that "\
+                    raise Exception("Unknown key is not allowed. Check that "\
                                     "your vocab (tags?) is correct")
 
         # 3. return tuple char ids, word id

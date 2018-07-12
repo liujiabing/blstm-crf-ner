@@ -111,7 +111,7 @@ class NERModel(BaseModel):
                 word_embeddings = tf.nn.embedding_lookup(_word_embeddings,
                                                          self.word_ids, name="word_embeddings")
             else:
-                if self.config.use_pretrained == "w2v" or self.config.use_pretrained == "both":
+                if "w2v" in self.config.use_pretrained:
                     _word_embeddings_w2v = tf.Variable(
                             self.config.embeddings_w2v,
                             name="_word_embeddings_w2v",
@@ -122,7 +122,7 @@ class NERModel(BaseModel):
                             self.word_ids, name="word_embeddings_w2v")
                     word_embeddings = word_embeddings_w2v
 
-                if self.config.use_pretrained == "ft" or self.config.use_pretrained == "both":
+                if "ft" in self.config.use_pretrained:
                     _word_embeddings_ft = tf.Variable(
                             self.config.embeddings_ft,
                             name="_word_embeddings_ft",
@@ -133,8 +133,27 @@ class NERModel(BaseModel):
                             self.word_ids, name="word_embeddings_ft")
                     word_embeddings = word_embeddings_ft
 
-                if self.config.use_pretrained == "both":
-                    word_embeddings = tf.concat([word_embeddings_w2v, word_embeddings_ft], axis=-1)
+                if "m2v" in self.config.use_pretrained:
+                    _word_embeddings_m2v = tf.Variable(
+                        self.config.embeddings_m2v,
+                        name="_word_embeddings_m2v",
+                        dtype=tf.float32,
+                        trainable=self.config.train_embeddings)
+
+                    word_embeddings_m2v = tf.nn.embedding_lookup(_word_embeddings_m2v,
+                                                                self.word_ids, name="word_embeddings_m2v")
+                    word_embeddings = word_embeddings_m2v
+
+                # Multiple embeddings are used at the same time, we should concatenate them
+                if len(self.config.use_pretrained.split(',')) > 1:
+                    _embeddings = list()
+                    if "w2v" in self.config.use_pretrained:
+                        _embeddings.append(word_embeddings_w2v)
+                    if "ft" in self.config.use_pretrained:
+                        _embeddings.append(word_embeddings_ft)
+                    if "m2v" in self.config.use_pretrained:
+                        _embeddings.append(word_embeddings_m2v)
+                    word_embeddings = tf.concat(_embeddings, axis=-1)
 
         with tf.variable_scope("chars"):
             if self.config.use_chars is not None:

@@ -59,7 +59,7 @@ def main():
     if "m2v" in config.use_pretrained:
         vocab = load_vocab(config.filename_words)
         export_trimmed_word_vectors(vocab, config.filename_morph2vec,
-                                    config.filename_trimmed_m2v, config.dim_morph, config.use_deasciification)
+                                    config.filename_trimmed_m2v, config.dim_morph, partial_match=True)
 
     # Trim word2vec Vectors
     if "w2v" in config.use_pretrained:

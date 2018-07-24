@@ -195,7 +195,7 @@ def load_vocab(filename):
     return d
 
 
-def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim, deasciification=False):
+def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim, partial_match=False):
     """Saves pretrained vectors in numpy array
 
     Args:
@@ -215,12 +215,18 @@ def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim, deas
             line = line.strip().split(' ')
             word = line[0]
             embedding = [float(x) for x in line[1:]]
-            if word in vocab:
+            if partial_match:
+                matching = [s for s in vocab if word in s]
+                if not matching:
+                    continue
+                for m in matching:
+                    numb_of_words_in_vocab += 1
+                    word_idx = vocab[m]
+                    embeddings[word_idx] = np.asarray(embedding)
+            elif word in vocab:
                 numb_of_words_in_vocab += 1
                 word_idx = vocab[word]
                 embeddings[word_idx] = np.asarray(embedding)
-            elif deasciification: # TODO
-                pass
 
     print("Found {} words in the pre-trained embedding file. {} number of them in dataset vocabulary."
           .format(numb_of_words, numb_of_words_in_vocab))

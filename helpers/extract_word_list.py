@@ -1,4 +1,3 @@
-import os
 
 count = 1
 with open('/home/emre/data/embeddings.vec', encoding='utf-8') as f:

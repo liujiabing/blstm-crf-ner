@@ -216,13 +216,14 @@ def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim, part
             word = line[0]
             embedding = [float(x) for x in line[1:]]
             if partial_match:
-                matching = [s for s in vocab if word in s]
-                if not matching:
+                _matching = [s for s in vocab if word in str(s)]
+                if not _matching:
                     continue
+                matching = set(_matching)
                 for m in matching:
                     numb_of_words_in_vocab += 1
                     word_idx = vocab[m]
-                    embeddings[word_idx] = np.asarray(embedding)
+                    embeddings[word_idx] = np.array(embedding)
             elif word in vocab:
                 numb_of_words_in_vocab += 1
                 word_idx = vocab[word]

@@ -96,6 +96,9 @@ class Config():
     filename_test = "data/test.tmp"
     filename_train = "data/train.tmp"
 
+    filename_dev2 = "data/dev2.tmp"
+    filename_train2 = "data/train2.tmp"
+
     max_iter = None # if not None, max number of examples in Dataset
 
     # vocab (created from dataset with build_data.py)

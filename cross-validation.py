@@ -1,11 +1,14 @@
 import codecs
 import numpy as np
 from sklearn.model_selection import KFold
+from sklearn.model_selection import train_test_split
 from shutil import copyfile
 import subprocess
 
 sentences = []
 sentence = []
+sentences2 = []
+sentence2 = []
 
 
 def write(path, sts):
@@ -31,16 +34,37 @@ for line in codecs.open('data/celikkaya2013/input.txt', 'r', 'utf8'):
 if len(sentence) > 0:
     sentences.append(sentence)
 num_sentences = len(sentences)
-print("Found %i sentences" % num_sentences)
+print("Found %i sentences in DS-1" % num_sentences)
+
+for line in codecs.open('data/news/input.txt', 'r', 'utf8'):
+    line = line.rstrip()
+    if not line:
+        if len(sentence2) > 0:
+            sentences2.append(sentence2)
+            sentence2 = []
+    else:
+        word = line.split()
+        assert len(word) >= 2
+        sentence2.append(word)
+if len(sentence) > 0:
+    sentences2.append(sentence2)
+num_sentences2 = len(sentences2)
 
 # Randomly shuffle sentences
 np.random.shuffle(sentences)
 
 # Need numpy array so that we can 'extract' using indices
 sentences = np.array(sentences)
+sentences2 = np.array(sentences2)
 
 rs = KFold(n_splits=10)
 count = rs.get_n_splits()
+
+# News data
+train2, test2 = train_test_split(sentences2, test_size=0.1)
+
+write('data/train2.tmp', train2)
+write('data/test2.tmp', test2)
 
 # Generate n-fold CV files & build, train, eval
 for train_index, test_index in rs.split(sentences):

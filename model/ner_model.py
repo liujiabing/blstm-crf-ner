@@ -47,7 +47,9 @@ class NERModel(BaseModel):
         self.lr = tf.placeholder(dtype=tf.float32, shape=[],
                         name="lr")
 
-    def get_feed_dict(self, words, labels=None, lr=None, dropout=None):
+        self.use_alternate = tf.placeholder(dtype=tf.bool, name="use_alternate")
+
+    def get_feed_dict(self, words, labels=None, lr=None, dropout=None, use_alternate=None):
         """Given some data, pad it and build a feed dictionary
 
         Args:
@@ -89,6 +91,9 @@ class NERModel(BaseModel):
 
         if dropout is not None:
             feed[self.dropout] = dropout
+
+        if use_alternate is not None:
+            feed[self.use_alternate] = use_alternate
 
         return feed, sequence_lengths
 
@@ -241,16 +246,28 @@ class NERModel(BaseModel):
             output = tf.nn.dropout(output, self.dropout)
 
         with tf.variable_scope("proj"):
-            W = tf.get_variable("W", dtype=tf.float32,
+            W_1 = tf.get_variable("W_1", dtype=tf.float32,
                     shape=[2*self.config.hidden_size_lstm, self.config.ntags])
 
-            b = tf.get_variable("b", shape=[self.config.ntags],
+            b_1 = tf.get_variable("b_1", shape=[self.config.ntags],
                     dtype=tf.float32, initializer=tf.zeros_initializer())
 
-            nsteps = tf.shape(output)[1]
-            output = tf.reshape(output, [-1, 2*self.config.hidden_size_lstm])
-            pred = tf.matmul(output, W) + b
-            self.logits = tf.reshape(pred, [-1, nsteps, self.config.ntags])
+            W_2 = tf.get_variable("W_2", dtype=tf.float32,
+                    shape=[2*self.config.hidden_size_lstm, self.config.ntags])
+
+            b_2 = tf.get_variable("b_2", shape=[self.config.ntags],
+                    dtype=tf.float32, initializer=tf.zeros_initializer())
+
+            if not self.use_alternate:
+                nsteps = tf.shape(output)[1]
+                output = tf.reshape(output, [-1, 2*self.config.hidden_size_lstm])
+                pred = tf.matmul(output, W_1) + b_1
+                self.logits = tf.reshape(pred, [-1, nsteps, self.config.ntags])
+            else:
+                nsteps = tf.shape(output)[1]
+                output = tf.reshape(output, [-1, 2 * self.config.hidden_size_lstm])
+                pred = tf.matmul(output, W_2) + b_2
+                self.logits = tf.reshape(pred, [-1, nsteps, self.config.ntags])
 
     def add_pred_op(self):
         """Defines self.labels_pred
@@ -268,10 +285,16 @@ class NERModel(BaseModel):
     def add_loss_op(self):
         """Defines the loss"""
         if self.config.use_crf:
-            log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
+            if not self.use_alternate:
+                log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
+                        self.logits, self.labels, self.sequence_lengths)
+                self.trans_params = trans_params # need to evaluate it for decoding
+                self.loss = tf.reduce_mean(-log_likelihood)
+            else:
+                log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
                     self.logits, self.labels, self.sequence_lengths)
-            self.trans_params = trans_params # need to evaluate it for decoding
-            self.loss = tf.reduce_mean(-log_likelihood)
+                self.trans_params = trans_params  # need to evaluate it for decoding
+                self.loss2 = tf.reduce_mean(-log_likelihood)
         else:
             losses = tf.nn.sparse_softmax_cross_entropy_with_logits(
                     logits=self.logits, labels=self.labels)
@@ -291,7 +314,7 @@ class NERModel(BaseModel):
         self.add_loss_op()
 
         # Generic functions that add training op and initialize session
-        self.add_train_op(self.config.lr_method, self.lr, self.loss,
+        self.add_train_op(self.config.lr_method, self.lr, self.loss, self.loss2,
                 self.config.clip)
         self.initialize_session() # now self.sess is defined and vars are init
 
@@ -329,7 +352,7 @@ class NERModel(BaseModel):
 
             return labels_pred, sequence_lengths
 
-    def run_epoch(self, train, dev, epoch):
+    def run_epoch(self, train, dev, train2, epoch):
         """Performs one complete pass over the train set and evaluate on dev
 
         Args:
@@ -347,9 +370,11 @@ class NERModel(BaseModel):
         prog = Progbar(target=nbatches)
 
         # iterate over dataset
-        for i, (words, labels) in enumerate(minibatches(train, batch_size)):
+        i = 0
+        for (words, labels), (words2, labels2) in zip(minibatches(train, batch_size), minibatches(train2, batch_size)):
+            # DS 1
             fd, _ = self.get_feed_dict(words, labels, self.config.lr,
-                    self.config.dropout)
+                    self.config.dropout, False)
 
             _, train_loss, summary = self.sess.run(
                     [self.train_op, self.loss, self.merged], feed_dict=fd)
@@ -359,6 +384,15 @@ class NERModel(BaseModel):
             # tensorboard
             if i % 10 == 0:
                 self.file_writer.add_summary(summary, epoch*nbatches + i)
+
+            # DS 2
+            fd2, _ = self.get_feed_dict(words2, labels2, self.config.lr,
+                                       self.config.dropout, True)
+
+            _, train_loss2, summary2 = self.sess.run(
+                [self.train_op2, self.loss2, self.merged], feed_dict=fd2)
+
+            i += 1
 
         metrics = self.run_evaluate(dev)
         msg = " - ".join(["{} {:04.2f}".format(k, v)

@@ -31,8 +31,11 @@ def main():
     test  = CoNLLDataset(config.filename_test, processing_word)
     train = CoNLLDataset(config.filename_train, processing_word)
 
+    dev2   = CoNLLDataset(config.filename_dev2, processing_word)
+    train2 = CoNLLDataset(config.filename_train2, processing_word)
+
     # Build Word and Tag vocab
-    vocab_words, vocab_tags = get_vocabs([train, dev, test])
+    vocab_words, vocab_tags = get_vocabs([train, dev, test, dev2, train2])
 
     vocab = vocab_words
     if "w2v" in config.use_pretrained:

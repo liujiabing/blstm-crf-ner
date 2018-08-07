@@ -26,7 +26,7 @@ class BaseModel(object):
         self.sess.run(init)
 
 
-    def add_train_op(self, lr_method, lr, loss, clip=-1):
+    def add_train_op(self, lr_method, lr, loss, loss2, clip=-1):
         """Defines self.train_op that performs an update on a batch
 
         Args:
@@ -54,8 +54,13 @@ class BaseModel(object):
                 grads, vs     = zip(*optimizer.compute_gradients(loss))
                 grads, gnorm  = tf.clip_by_global_norm(grads, clip)
                 self.train_op = optimizer.apply_gradients(zip(grads, vs))
+
+                grads, vs = zip(*optimizer.compute_gradients(loss2))
+                grads, gnorm = tf.clip_by_global_norm(grads, clip)
+                self.train_op2 = optimizer.apply_gradients(zip(grads, vs))
             else:
                 self.train_op = optimizer.minimize(loss)
+                self.train_op2 = optimizer.minimize(loss2)
 
 
     def initialize_session(self):
@@ -102,7 +107,7 @@ class BaseModel(object):
                 self.sess.graph)
 
 
-    def train(self, train, dev):
+    def train(self, train, dev, train2):
         """Performs training with early stopping and lr exponential decay
 
         Args:
@@ -118,7 +123,7 @@ class BaseModel(object):
             self.logger.info("Epoch {:} out of {:}".format(epoch + 1,
                         self.config.nepochs))
 
-            score = self.run_epoch(train, dev, epoch)
+            score = self.run_epoch(train, dev, train2, epoch)
             self.config.lr *= self.config.lr_decay # decay learning rate
 
             # early stopping and saving best parameters

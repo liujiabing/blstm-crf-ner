@@ -8,7 +8,7 @@ from nltk.tokenize import TweetTokenizer
 # Read parameters from command line
 optparser = optparse.OptionParser()
 optparser.add_option(
-    "-m", "--muc", default="tr.twitter50K.MUClabeled",
+    "-m", "--muc", default="/home/emre/git/blstm-crf-ner/helpers/WFS7.MUClabeled",
     help="Location of MUC labelled input file"
 )
 optparser.add_option(
@@ -32,7 +32,7 @@ assert os.path.isfile(opts.muc)
 # Handles will be replaced with their annotations below
 tokenizer = TweetTokenizer(strip_handles=False, reduce_len=opts.reduce_len == 1)
 
-with open(opts.muc, "r") as muc, open("input.txt", "w+") as conll:
+with open(opts.muc, "r") as muc, open("/home/emre/git/blstm-crf-ner/helpers/input.txt", "w+") as conll:
     numb_named_entity = 0
     numb_handle = 0
     numb_token = 0

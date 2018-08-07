@@ -18,9 +18,11 @@ def main():
                          config.processing_tag, config.max_iter)
     train = CoNLLDataset(config.filename_train, config.processing_word,
                          config.processing_tag, config.max_iter)
+    train2 = CoNLLDataset(config.filename_train2, config.processing_word,
+                         config.processing_tag, config.max_iter)
 
     # train model
-    model.train(train, dev)
+    model.train(train, dev, train2)
 
 
 if __name__ == "__main__":

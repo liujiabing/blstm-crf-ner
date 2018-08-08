@@ -49,7 +49,7 @@ class NERModel(BaseModel):
 
         self.use_alternate = tf.placeholder(dtype=tf.bool, name="use_alternate")
 
-    def get_feed_dict(self, words, labels=None, lr=None, dropout=None, use_alternate=None):
+    def get_feed_dict(self, words, labels=None, lr=None, dropout=None, use_alternate=False):
         """Given some data, pad it and build a feed dictionary
 
         Args:
@@ -75,7 +75,8 @@ class NERModel(BaseModel):
         # build feed dictionary
         feed = {
             self.word_ids: word_ids,
-            self.sequence_lengths: sequence_lengths
+            self.sequence_lengths: sequence_lengths,
+            self.use_alternate: use_alternate
         }
 
         if self.config.use_chars:
@@ -91,9 +92,6 @@ class NERModel(BaseModel):
 
         if dropout is not None:
             feed[self.dropout] = dropout
-
-        if use_alternate is not None:
-            feed[self.use_alternate] = use_alternate
 
         return feed, sequence_lengths
 
@@ -258,16 +256,12 @@ class NERModel(BaseModel):
             b_2 = tf.get_variable("b_2", shape=[self.config.ntags],
                     dtype=tf.float32, initializer=tf.zeros_initializer())
 
-            if not self.use_alternate:
-                nsteps = tf.shape(output)[1]
-                output = tf.reshape(output, [-1, 2*self.config.hidden_size_lstm])
-                pred = tf.matmul(output, W_1) + b_1
-                self.logits = tf.reshape(pred, [-1, nsteps, self.config.ntags])
-            else:
-                nsteps = tf.shape(output)[1]
-                output = tf.reshape(output, [-1, 2 * self.config.hidden_size_lstm])
-                pred = tf.matmul(output, W_2) + b_2
-                self.logits = tf.reshape(pred, [-1, nsteps, self.config.ntags])
+            nsteps = tf.shape(output)[1]
+            output = tf.reshape(output, [-1, 2 * self.config.hidden_size_lstm])
+
+            self.logits = tf.cond(self.use_alternate,
+                                  lambda: tf.reshape(tf.matmul(output, W_2) + b_2, [-1, nsteps, self.config.ntags]),
+                                  lambda: tf.reshape(tf.matmul(output, W_1) + b_1, [-1, nsteps, self.config.ntags]))
 
     def add_pred_op(self):
         """Defines self.labels_pred
@@ -285,16 +279,10 @@ class NERModel(BaseModel):
     def add_loss_op(self):
         """Defines the loss"""
         if self.config.use_crf:
-            if not self.use_alternate:
-                log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
-                        self.logits, self.labels, self.sequence_lengths)
-                self.trans_params = trans_params # need to evaluate it for decoding
-                self.loss = tf.reduce_mean(-log_likelihood)
-            else:
-                log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
-                    self.logits, self.labels, self.sequence_lengths)
-                self.trans_params = trans_params  # need to evaluate it for decoding
-                self.loss2 = tf.reduce_mean(-log_likelihood)
+            log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
+                self.logits, self.labels, self.sequence_lengths)
+            self.trans_params = trans_params  # need to evaluate it for decoding
+            self.loss = tf.reduce_mean(-log_likelihood)
         else:
             losses = tf.nn.sparse_softmax_cross_entropy_with_logits(
                     logits=self.logits, labels=self.labels)
@@ -314,7 +302,7 @@ class NERModel(BaseModel):
         self.add_loss_op()
 
         # Generic functions that add training op and initialize session
-        self.add_train_op(self.config.lr_method, self.lr, self.loss, self.loss2,
+        self.add_train_op(self.config.lr_method, self.lr, self.loss,
                 self.config.clip)
         self.initialize_session() # now self.sess is defined and vars are init
 
@@ -366,7 +354,7 @@ class NERModel(BaseModel):
         """
         # progbar stuff for logging
         batch_size = self.config.batch_size
-        nbatches = (len(train) + batch_size - 1) // batch_size
+        nbatches = ((len(train) if len(train) < len(train2) else len(train2)) + batch_size - 1) // batch_size
         prog = Progbar(target=nbatches)
 
         # iterate over dataset
@@ -390,7 +378,7 @@ class NERModel(BaseModel):
                                        self.config.dropout, True)
 
             _, train_loss2, summary2 = self.sess.run(
-                [self.train_op2, self.loss2, self.merged], feed_dict=fd2)
+                [self.train_op, self.loss, self.merged], feed_dict=fd2)
 
             i += 1
 

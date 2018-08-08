@@ -52,6 +52,7 @@ num_sentences2 = len(sentences2)
 
 # Randomly shuffle sentences
 np.random.shuffle(sentences)
+np.random.shuffle(sentences2)
 
 # Need numpy array so that we can 'extract' using indices
 sentences = np.array(sentences)
@@ -61,10 +62,9 @@ rs = KFold(n_splits=10)
 count = rs.get_n_splits()
 
 # News data
-train2, test2 = train_test_split(sentences2, test_size=0.1)
+#train2, test2 = train_test_split(sentences2, test_size=0.1)
 
-write('data/train2.tmp', train2)
-write('data/test2.tmp', test2)
+write('data/train2.tmp', sentences2)
 
 # Generate n-fold CV files & build, train, eval
 for train_index, test_index in rs.split(sentences):

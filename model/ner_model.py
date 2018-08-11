@@ -47,9 +47,7 @@ class NERModel(BaseModel):
         self.lr = tf.placeholder(dtype=tf.float32, shape=[],
                         name="lr")
 
-        self.use_alternate = tf.placeholder(dtype=tf.bool, name="use_alternate")
-
-    def get_feed_dict(self, words, labels=None, lr=None, dropout=None, use_alternate=False):
+    def get_feed_dict(self, words, labels=None, lr=None, dropout=None):
         """Given some data, pad it and build a feed dictionary
 
         Args:
@@ -75,8 +73,7 @@ class NERModel(BaseModel):
         # build feed dictionary
         feed = {
             self.word_ids: word_ids,
-            self.sequence_lengths: sequence_lengths,
-            self.use_alternate: use_alternate
+            self.sequence_lengths: sequence_lengths
         }
 
         if self.config.use_chars:
@@ -259,9 +256,8 @@ class NERModel(BaseModel):
             nsteps = tf.shape(output)[1]
             output = tf.reshape(output, [-1, 2 * self.config.hidden_size_lstm])
 
-            self.logits = tf.cond(self.use_alternate,
-                                  lambda: tf.reshape(tf.matmul(output, W_2) + b_2, [-1, nsteps, self.config.ntags]),
-                                  lambda: tf.reshape(tf.matmul(output, W_1) + b_1, [-1, nsteps, self.config.ntags]))
+            self.logits = tf.reshape(tf.matmul(output, W_1) + b_1, [-1, nsteps, self.config.ntags])
+            self.logits2 = tf.reshape(tf.matmul(output, W_2) + b_2, [-1, nsteps, self.config.ntags])
 
     def add_pred_op(self):
         """Defines self.labels_pred
@@ -279,10 +275,17 @@ class NERModel(BaseModel):
     def add_loss_op(self):
         """Defines the loss"""
         if self.config.use_crf:
-            log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
-                self.logits, self.labels, self.sequence_lengths)
-            self.trans_params = trans_params  # need to evaluate it for decoding
-            self.loss = tf.reduce_mean(-log_likelihood)
+            with tf.variable_scope("crf1"):
+                log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
+                    self.logits, self.labels, self.sequence_lengths)
+                self.trans_params = trans_params  # need to evaluate it for decoding
+                self.loss = tf.reduce_mean(-log_likelihood)
+
+            with tf.variable_scope("crf2"):
+                log_likelihood2, trans_params2 = tf.contrib.crf.crf_log_likelihood(
+                    self.logits2, self.labels, self.sequence_lengths)
+                #self.trans_params2 = trans_params2  # need to evaluate it for decoding
+                self.loss2 = tf.reduce_mean(-log_likelihood2)
         else:
             losses = tf.nn.sparse_softmax_cross_entropy_with_logits(
                     logits=self.logits, labels=self.labels)
@@ -291,7 +294,7 @@ class NERModel(BaseModel):
             self.loss = tf.reduce_mean(losses)
 
         # for tensorboard
-        tf.summary.scalar("loss", self.loss)
+        #tf.summary.scalar("loss", self.loss)
 
     def build(self):
         # NER specific functions
@@ -302,7 +305,7 @@ class NERModel(BaseModel):
         self.add_loss_op()
 
         # Generic functions that add training op and initialize session
-        self.add_train_op(self.config.lr_method, self.lr, self.loss,
+        self.add_train_op(self.config.lr_method, self.lr, self.loss, self.loss2,
                 self.config.clip)
         self.initialize_session() # now self.sess is defined and vars are init
 
@@ -362,23 +365,24 @@ class NERModel(BaseModel):
         for (words, labels), (words2, labels2) in zip(minibatches(train, batch_size), minibatches(train2, batch_size)):
             # DS 1
             fd, _ = self.get_feed_dict(words, labels, self.config.lr,
-                    self.config.dropout, False)
+                    self.config.dropout)
 
-            _, train_loss, summary = self.sess.run(
-                    [self.train_op, self.loss, self.merged], feed_dict=fd)
+            _, train_loss = self.sess.run(
+                    [self.train_op, self.loss], feed_dict=fd)
 
             prog.update(i + 1, [("train loss", train_loss)])
 
             # tensorboard
-            if i % 10 == 0:
-                self.file_writer.add_summary(summary, epoch*nbatches + i)
+            #if i % 10 == 0:
+            #    self.file_writer.add_summary(summary, epoch*nbatches + i)
 
             # DS 2
             fd2, _ = self.get_feed_dict(words2, labels2, self.config.lr,
-                                       self.config.dropout, True)
+                                       self.config.dropout)
+            print(fd2)
 
-            _, train_loss2, summary2 = self.sess.run(
-                [self.train_op, self.loss, self.merged], feed_dict=fd2)
+            _, train_loss2 = self.sess.run(
+                [self.train_op2, self.loss2], feed_dict=fd2)
 
             i += 1
 

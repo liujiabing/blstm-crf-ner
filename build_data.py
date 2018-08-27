@@ -56,6 +56,14 @@ def main():
         vocab = load_vocab(config.filename_words)
         export_trimmed_word_vectors(vocab, config.filename_fasttext, config.filename_trimmed_ft, config.dim_word)
 
+    if "s2v" in config.use_pretrained:
+        abs_s_words = os.path.abspath(config.filename_words)
+        abs_s_vec = os.path.abspath(config.filename_fasttext)
+        cmd = config.get_sent2vec_vectors_cmd.format(abs_s_words, abs_s_vec)
+        subprocess.check_call(cmd, shell=True)
+        vocab = load_vocab(config.filename_words)
+        export_trimmed_word_vectors(vocab, config.filename_sent2vec, config.filename_trimmed_s2v, config.dim_sent)
+
     # Trim Morph2Vec vectors
     if "m2v" in config.use_pretrained:
         vocab = load_vocab(config.filename_words)

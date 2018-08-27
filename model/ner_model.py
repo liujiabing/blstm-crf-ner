@@ -7,6 +7,7 @@ tf.logging.set_verbosity(tf.logging.INFO)
 from .data_utils import minibatches, pad_sequences, get_chunks, write_result
 from .general_utils import Progbar
 from .base_model import BaseModel
+import itertools
 
 
 class NERModel(BaseModel):
@@ -232,13 +233,19 @@ class NERModel(BaseModel):
         of scores, of dimension equal to the number of tags.
         """
         with tf.variable_scope("bi-lstm"):
-            cell_fw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_lstm)
-            cell_bw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_lstm)
+            cell_fw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_lstm, activation=tf.nn.relu)
+            cell_bw = tf.contrib.rnn.LSTMCell(self.config.hidden_size_lstm, activation=tf.nn.relu)
             (output_fw, output_bw), _ = tf.nn.bidirectional_dynamic_rnn(
                     cell_fw, cell_bw, self.word_embeddings,
                     sequence_length=self.sequence_lengths, dtype=tf.float32)
             output = tf.concat([output_fw, output_bw], axis=-1)
             output = tf.nn.dropout(output, self.dropout)
+
+            # Linear layer
+            output = tf.layers.dense(inputs=output, units=self.config.hidden_size_lstm*2, activation=None)
+
+            # ReLU layer
+            output = tf.layers.dense(inputs=output, units=self.config.hidden_size_lstm*2, activation=tf.nn.relu)
 
         with tf.variable_scope("proj"):
             W_1 = tf.get_variable("W_1", dtype=tf.float32,
@@ -279,7 +286,7 @@ class NERModel(BaseModel):
                 log_likelihood, trans_params = tf.contrib.crf.crf_log_likelihood(
                     self.logits, self.labels, self.sequence_lengths)
                 self.trans_params = trans_params  # need to evaluate it for decoding
-                self.loss = tf.reduce_mean(-log_likelihood)
+                self.loss1 = tf.reduce_mean(-log_likelihood)
 
             with tf.variable_scope("crf2"):
                 log_likelihood2, trans_params2 = tf.contrib.crf.crf_log_likelihood(
@@ -294,7 +301,7 @@ class NERModel(BaseModel):
             self.loss = tf.reduce_mean(losses)
 
         # for tensorboard
-        #tf.summary.scalar("loss", self.loss)
+        tf.summary.scalar("loss", self.loss1)
 
     def build(self):
         # NER specific functions
@@ -305,7 +312,7 @@ class NERModel(BaseModel):
         self.add_loss_op()
 
         # Generic functions that add training op and initialize session
-        self.add_train_op(self.config.lr_method, self.lr, self.loss, self.loss2,
+        self.add_train_op(self.config.lr_method, self.lr, self.loss1, self.loss2,
                 self.config.clip)
         self.initialize_session() # now self.sess is defined and vars are init
 
@@ -357,34 +364,29 @@ class NERModel(BaseModel):
         """
         # progbar stuff for logging
         batch_size = self.config.batch_size
-        nbatches = ((len(train) if len(train) < len(train2) else len(train2)) + batch_size - 1) // batch_size
+        nbatches = (len(train) + batch_size - 1) // batch_size
         prog = Progbar(target=nbatches)
 
         # iterate over dataset
-        i = 0
-        for (words, labels), (words2, labels2) in zip(minibatches(train, batch_size), minibatches(train2, batch_size)):
-            # DS 1
+        for i, (words, labels) in enumerate(minibatches(train, batch_size)):
             fd, _ = self.get_feed_dict(words, labels, self.config.lr,
-                    self.config.dropout)
+                                       self.config.dropout)
 
-            _, train_loss = self.sess.run(
-                    [self.train_op, self.loss], feed_dict=fd)
+            _, train_loss1, summary = self.sess.run(
+                [self.train_op1, self.loss1, self.merged], feed_dict=fd)
 
-            prog.update(i + 1, [("train loss", train_loss)])
+            prog.update(i + 1, [("train loss", train_loss1)])
 
             # tensorboard
-            #if i % 10 == 0:
-            #    self.file_writer.add_summary(summary, epoch*nbatches + i)
+            if i % 10 == 0:
+                self.file_writer.add_summary(summary, epoch * nbatches + i)
 
-            # DS 2
+        for j, (words2, labels2) in enumerate(minibatches(train2, batch_size)):
             fd2, _ = self.get_feed_dict(words2, labels2, self.config.lr,
-                                       self.config.dropout)
-            print(fd2)
+                                        self.config.dropout)
 
             _, train_loss2 = self.sess.run(
                 [self.train_op2, self.loss2], feed_dict=fd2)
-
-            i += 1
 
         metrics = self.run_evaluate(dev)
         msg = " - ".join(["{} {:04.2f}".format(k, v)

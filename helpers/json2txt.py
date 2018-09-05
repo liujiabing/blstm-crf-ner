@@ -6,11 +6,11 @@ import pickle
 # Read parameters from command line
 optparser = optparse.OptionParser()
 optparser.add_option(
-    "-i", "--inp", default="vectors-tr.p",
+    "-i", "--inp", default="vectors-en.p",
     help="Path to input JSON file"
 )
 optparser.add_option(
-    "-o", "--out", default="../data/embeddings/tr-embeddings-m2v.txt",
+    "-o", "--out", default="en-embeddings-m2v.txt",
     help="Path to output text file"
 )
 opts = optparser.parse_args()[0]

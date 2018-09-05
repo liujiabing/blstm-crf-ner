@@ -213,6 +213,8 @@ def export_trimmed_word_vectors(vocab, vec_filename, trimmed_filename, dim, part
         for line in f:
             numb_of_words += 1
             line = line.strip().split(' ')
+            if not line:
+                continue
             word = line[0]
             embedding = [float(x) for x in line[1:]]
             if partial_match:

@@ -105,7 +105,7 @@ def line_to_toks(line, sent_id=-1, word_id=-1):
         return 'gold' if i == 0 else 'sys_%d' % i
 
     try:
-        fields = line.split('\t')
+        fields = line.split()
         word = fields[0]
         return {make_lbl(i): make_tok(word, bio_tag, sent_id, word_id)
                 for i, bio_tag in enumerate(fields[1:])}

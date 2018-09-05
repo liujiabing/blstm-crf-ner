@@ -4,7 +4,5 @@
 data/embeddings/
 data/*.tmp
 data/*.npz
-results/
-results/**
 virtner/
 virtual-env/

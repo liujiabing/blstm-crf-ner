@@ -41,8 +41,7 @@ class CoNLLDataset(object):
         ```
 
     """
-    def __init__(self, filename, processing_word=None, processing_tag=None,
-                 max_iter=None):
+    def __init__(self, filename, processing_word=None, processing_tag=None, max_iter=None, processing_pos=None):
         """
         Args:
             filename: path to the file
@@ -54,33 +53,35 @@ class CoNLLDataset(object):
         self.filename = filename
         self.processing_word = processing_word
         self.processing_tag = processing_tag
+        self.processing_pos = processing_pos
         self.max_iter = max_iter
         self.length = None
-
 
     def __iter__(self):
         niter = 0
         with open(self.filename) as f:
-            words, tags = [], []
+            words, tags, pos = [], [], []
             for line in f:
                 line = line.strip()
-                if (len(line) == 0 or line.startswith("-DOCSTART-")):
+                if len(line) == 0 or line.startswith("-DOCSTART-"):
                     if len(words) != 0:
                         niter += 1
                         if self.max_iter is not None and niter > self.max_iter:
                             break
-                        yield words, tags
-                        words, tags = [], []
+                        yield words, tags, pos
+                        words, tags, pos = [], [], []
                 else:
                     ls = line.split()
-                    word, tag = ls[0],ls[-1]
+                    word, tag, pos = ls[0], ls[1], ls[-1]
                     if self.processing_word is not None:
                         word = self.processing_word(word)
                     if self.processing_tag is not None:
                         tag = self.processing_tag(tag)
+                    if self.processing_pos is not None:
+                        pos = self.processing_pos(pos)
                     words += [word]
                     tags += [tag]
-
+                    pos += [pos]
 
     def __len__(self):
         """Iterates once over the corpus to set and store length"""
@@ -105,12 +106,14 @@ def get_vocabs(datasets):
     print("Building vocab...")
     vocab_words = set()
     vocab_tags = set()
+    vocab_pos = set()
     for dataset in datasets:
-        for words, tags in dataset:
+        for words, tags, pos in dataset:
             vocab_words.update(words)
             vocab_tags.update(tags)
+            vocab_pos.update(pos)
     print("- done. {} tokens".format(len(vocab_words)))
-    return vocab_words, vocab_tags
+    return vocab_words, vocab_tags, vocab_pos
 
 
 def get_char_vocab(dataset, use_orthographic=False):
@@ -124,7 +127,7 @@ def get_char_vocab(dataset, use_orthographic=False):
 
     """
     vocab_char = set()
-    for words, _ in dataset:
+    for words, _, _ in dataset:
         for word in words:
             vocab_char.update(get_orthographic(word) if use_orthographic else word)
 
@@ -264,12 +267,14 @@ def get_orthographic(word):
             ort += "n"
         elif c in punctuation:
             ort += "p"
-        else: ort += "x"
+        else:
+            ort += "x"
     return ort
 
 
 def get_processing_word(vocab_words=None, vocab_chars=None,
-                    lowercase=False, chars=False, allow_unk=True, use_ortho_char=False, replace_digits=False):
+                    lowercase=False, chars=False, allow_unk=True, use_ortho_char=False, replace_digits=False,
+                        vocab_pos=None):
     """Return lambda function that transform a word (string) into list,
     or tuple of (list, id) of int corresponding to the ids of the word and
     its corresponding characters.
@@ -309,7 +314,7 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                     raise Exception("Unknown key is not allowed. Check that "\
                                     "your vocab (tags?) is correct")
 
-        # 3. return tuple char ids, word id
+        # 3. return char ids, word id, pos id
         if vocab_chars is not None and chars == True:
             return char_ids, word
         else:
@@ -383,19 +388,20 @@ def minibatches(data, minibatch_size):
         list of tuples
 
     """
-    x_batch, y_batch = [], []
-    for (x, y) in data:
+    x_batch, y_batch, z_batch = [], [], []
+    for (x, y, z) in data:
         if len(x_batch) == minibatch_size:
-            yield x_batch, y_batch
-            x_batch, y_batch = [], []
+            yield x_batch, y_batch, z_batch
+            x_batch, y_batch, z_batch = [], [], []
 
         if type(x[0]) == tuple:
             x = zip(*x)
         x_batch += [x]
         y_batch += [y]
+        z_batch += [z]
 
     if len(x_batch) != 0:
-        yield x_batch, y_batch
+        yield x_batch, y_batch, z_batch
 
 
 def get_chunk_type(tok, idx_to_tag):

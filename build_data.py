@@ -33,7 +33,7 @@ def main():
     train2 = CoNLLDataset(config.filename_train2, processing_word)
 
     # Build Word and Tag vocab
-    vocab_words, vocab_tags = get_vocabs([train, dev, test, train2])
+    vocab_words, vocab_tags, vocab_pos = get_vocabs([train, dev, test, train2])
 
     vocab = vocab_words
     if "w2v" in config.use_pretrained:
@@ -46,6 +46,7 @@ def main():
     # Save vocab
     write_vocab(vocab, config.filename_words)
     write_vocab(vocab_tags, config.filename_tags)
+    write_vocab(vocab_pos, config.filename_pos)
 
     # Trim FastText vectors
     if "ft" in config.use_pretrained:

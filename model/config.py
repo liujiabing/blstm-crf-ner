@@ -39,10 +39,12 @@ class Config():
         self.vocab_words = load_vocab(self.filename_words)
         self.vocab_tags  = load_vocab(self.filename_tags)
         self.vocab_chars = load_vocab(self.filename_chars)
+        self.vocab_pos   = load_vocab(self.filename_pos)
 
         self.nwords     = len(self.vocab_words)
         self.nchars     = len(self.vocab_chars)
         self.ntags      = len(self.vocab_tags)
+        self.npos = len(self.vocab_pos)
 
         # 2. get processing functions that map str -> id
         self.processing_word = get_processing_word(self.vocab_words,
@@ -51,6 +53,8 @@ class Config():
                                                    replace_digits=self.replace_digits)
         self.processing_tag  = get_processing_word(self.vocab_tags,
                 lowercase=False, allow_unk=False)
+
+        self.processing_pos = get_processing_word(self.vocab_pos, lowercase=False, allow_unk=False)
 
         # 3. get pre-trained embeddings
         self.embeddings_w2v = (get_trimmed_word_vectors(self.filename_trimmed_w2v) if "w2v" in self.use_pretrained
@@ -76,6 +80,7 @@ class Config():
     dim_morph = 50
     dim_char = 30
     dim_sent = 100
+    dim_pos = 30
 
     # ft, w2v, m2v or None (if you want to use multiple embeddings, provide them comma separated e.g. "ft,m2v"
     use_pretrained = "w2v"
@@ -109,6 +114,7 @@ class Config():
     # vocab (created from dataset with build_data.py)
     filename_words = "data/words.tmp"
     filename_tags = "data/tags.tmp"
+    filename_pos = "data/pos.tmp"
     filename_chars = "data/chars.tmp"
 
     # training
@@ -132,3 +138,4 @@ class Config():
     use_ortho_char = False # use orthographic chars instead of chars
     max_len_of_word = 20  # used only when use_chars = 'cnn'
     use_deasciification = False # TODO
+    use_pos = True

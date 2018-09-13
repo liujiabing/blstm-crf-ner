@@ -34,6 +34,9 @@ class NERModel(BaseModel):
                                                         if self.config.use_chars == 'cnn' else None],
                         name="char_ids")
 
+        # shape = (batch size, max length of sentence in batch)
+        self.pos_ids = tf.placeholder(tf.int32, shape=[None, None], name="pos_ids")
+
         # shape = (batch_size, max_length of sentence)
         self.word_lengths = tf.placeholder(tf.int32, shape=[None, None],
                         name="word_lengths")
@@ -48,7 +51,7 @@ class NERModel(BaseModel):
         self.lr = tf.placeholder(dtype=tf.float32, shape=[],
                         name="lr")
 
-    def get_feed_dict(self, words, labels=None, lr=None, dropout=None):
+    def get_feed_dict(self, words, labels=None, lr=None, dropout=None, pos=None):
         """Given some data, pad it and build a feed dictionary
 
         Args:
@@ -224,6 +227,22 @@ class NERModel(BaseModel):
                                         shape=[s[0], s[1], 2 * self.config.hidden_size_char])
                     word_embeddings = tf.concat([word_embeddings, output], axis=-1)
 
+            if self.config.use_pos:
+                # get char embeddings matrix
+                _pos_embeddings = tf.get_variable(
+                    name="_pos_embeddings",
+                    dtype=tf.float32,
+                    shape=[self.config.npos, self.config.dim_pos])
+                pos_embeddings = tf.nn.embedding_lookup(_pos_embeddings,
+                                                         self.pos_ids, name="pos_embeddings")
+
+                # TODO
+                # TODO
+                # TODO
+
+                # put the time dimension on axis=1
+                s = tf.shape(pos_embeddings)
+
             self.word_embeddings = tf.nn.dropout(word_embeddings, self.dropout)
 
     def add_logits_op(self):
@@ -368,9 +387,9 @@ class NERModel(BaseModel):
         prog = Progbar(target=nbatches)
 
         # iterate over dataset
-        for i, (words, labels) in enumerate(minibatches(train, batch_size)):
+        for i, (words, labels, pos) in enumerate(minibatches(train, batch_size)):
             fd, _ = self.get_feed_dict(words, labels, self.config.lr,
-                                       self.config.dropout)
+                                       self.config.dropout, pos)
 
             _, train_loss1, summary = self.sess.run(
                 [self.train_op1, self.loss1, self.merged], feed_dict=fd)
@@ -381,9 +400,9 @@ class NERModel(BaseModel):
             if i % 10 == 0:
                 self.file_writer.add_summary(summary, epoch * nbatches + i)
 
-        for j, (words2, labels2) in enumerate(minibatches(train2, batch_size)):
+        for j, (words2, labels2, pos2) in enumerate(minibatches(train2, batch_size)):
             fd2, _ = self.get_feed_dict(words2, labels2, self.config.lr,
-                                        self.config.dropout)
+                                        self.config.dropout, pos2)
 
             _, train_loss2 = self.sess.run(
                 [self.train_op2, self.loss2], feed_dict=fd2)

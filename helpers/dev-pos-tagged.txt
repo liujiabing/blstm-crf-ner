@@ -1,0 +1,1009 @@
+stabilized/O/JJ approach/O/NN or/O/CC not/O/RB ?/O/. that/O/DT #ERR#/O/HT s/O/RB insane/O/JJ and/O/CC good/O/JJ ./O/.
+you/O/PRP should/O/MD '/O/VB ve/O/PRP stayed/O/VBD on/O/IN redondo/O/DT beach/O/NN blvd/O/NN ./O/. you/O/PRP were/O/VBD in/O/IN the/O/DT borderlines/O/NNS of/O/IN gardena/B-ENTITY/NNP //O/CC compton/O/NNP
+all/O/DT i/O/NN '/O/'' ve/O/VBP been/O/VBN doing/O/VBG is/O/NN binge/O/NN watching/O/VBG rick/B-ENTITY/NNP and/O/CC morty/O/HT #ERR#/O/HT
+wow/O/UH emma/B-ENTITY/NNP and/O/CC kaite/O/NNP is/O/VBZ so/O/RB very/O/RB cute/O/JJ and/O/CC so/O/RB funny/O/JJ #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT i/O/PRP wish/O/VBP im/O/PRP ryan/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+this/O/DT is/O/VBZ so/O/RB good/O/JJ
+trump/B-ENTITY/NNP is/O/VBZ the/O/DT kremlin/O/NN '/O/'' s/O/UH boy/O/UH
+hobby/O/NN frog/O/NN is/O/VBZ a/O/DT savege/O/NN
+creepy/O/UH af/O/UH ./O/UH lol/O/UH
+these/O/DT trap/O/NN came/O/VBD from/O/IN taiwan/B-ENTITY/NNP ./O/.
+idiot/O/NN needs/O/VBZ to/O/TO be/O/VB punched/O/VBN in/O/IN the/O/DT throat/O/NN ,/O/, he/O/PRP has/O/VBZ no/O/DT business/O/NN with/O/IN a/O/DT kitten/O/NN or/O/CC a/O/DT baby/O/NN ,/O/, a/O/DT donkey/O/JJ punch/O/NN to/O/TO the/O/DT back/O/NN of/O/IN his/O/PRP$ head/O/NN is/O/VBZ warranted/O/VBN as/O/IN well/O/RB ,/O/, fucking/O/JJ moron/O/NN !/O/.
+mine/O/NN is/O/VBZ a/O/DT skin/O/NN product/O/NN but/O/CC i/O/PRP never/O/RB need/O/VBP any/O/DT moisturizer/O/NN or/O/CC primer/O/NN in/O/IN the/O/DT morning/O/NN ./O/. it/O/PRP '/O/VBZ s/O/PRP called/O/VBD ha/O/JJ 5/O/CD ./O/. it/O/PRP '/O/VBZ s/O/PRP amazing/O/JJ ./O/. takes/O/VBZ my/O/PRP$ dark/O/NN circles/O/NNS and/O/CC puffiness/O/NN away/O/RB !/O/. makeup/O/NN lays/O/VBZ beautiful/O/JJ over/O/IN it/O/PRP !/O/.
+had/O/VBD to/O/TO mute/O/VB this/O/DT because/O/IN she/O/PRP sounds/O/VBZ so/O/RB dumb/O/JJ
+warriors/O/NNS looked/O/VBD a/O/DT little/O/RB bored/O/VBN ,/O/, gave/O/VBD a/O/DT c/O/NN plus/O/JJ effort/O/NN and/O/CC got/O/VBD the/O/DT win/O/NN ./O/. ./O/. ./O/. this/O/DT should/O/MD be/O/VB short/O/JJ and/O/CC sweet/O/JJ ./O/.
+wow/O/UH smh/O/JJ envy/O/NN nails/O/NNS are/O/VBP so/O/RB clean/O/JJ and/O/CC long/O/JJ ,/O/, thought/O/VBD they/O/PRP were/O/VBD fake/O/JJ
+everyday/O/JJ i/O/NNS '/O/POS m/O/CC more/O/JJR and/O/CC more/O/JJR thankful/O/NNS that/O/WDT hillary/O/VBZ clinton/B-ENTITY/NNP will/O/MD never/O/RB be/O/VB president/O/NN
+i/O/PRP wo/O/MD n/O/NNS '/O/POS t/O/NN support/O/NN for/O/IN donald/B-ENTITY/NNP trump/I-ENTITY/NNP if/O/IN i/O/PRP get/O/VBP 5/O/CD likes/O/VBZ
+ca/O/WRB n/O/NNP '/O/'' t/O/TO watch/O/VB this/O/DT nearly/O/RB enough/O/RB ./O/. ./O/. much/O/JJ love/O/NN to/O/TO your/O/PRP$ lost/O/JJ one/O/CD </O/UH 3/O/UH
+i/O/NNS '/O/POS m/O/IN getting/O/VBG a/O/DT garbage/O/NN ,/O/, kylie/B-ENTITY/JJ minogue/I-ENTITY/JJ feel/O/NN ./O/. ./O/. ./O/. i/O/PRP love/O/VBP it/O/PRP
+thanks/O/NNS for/O/IN colors/O/NNS superheroes/O/JJ kids/O/NNS videos/O/NNS !/O/. )/O/) like/O/CC learn/O/VB colors/O/NNS and/O/CC numbers/O/NNS !/O/. )/O/) #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+12/O/CD :/O/: 46/O/CD is/O/VBZ it/O/PRP just/O/RB me/O/NN who/O/WP thought/O/VBD that/O/IN maryjs/O/NNS #ERR#/O/MD look/O/VB alike/O/RB in/O/IN the/O/DT audience/O/NN is/O/VBZ a/O/DT dude/O/NN ?/O/. sorry/O/JJ if/O/IN she/O/PRP ain/O/NNS '/O/POS t/O/NN ./O/.
+watched/O/VBD your/O/PRP$ video/O/NN !/O/. great/O/JJ work/O/NN !/O/. thumbs/O/UH up/O/UH !/O/. !/O/UH !/O/. welcome/O/VB to/O/TO my/O/PRP$ channel/O/NN !/O/.
+kenny/B-ENTITY/NNP ,/O/, you/O/PRP need/O/VBP to/O/TO get/O/VB back/O/RB to/O/TO your/O/PRP$ roots/O/NNS ./O/. this/O/DT is/O/VBZ crap/O/NN ./O/. leave/O/VB the/O/DT politics/O/NNS to/O/TO the/O/DT politicians/O/NNS and/O/CC start/O/VB producing/O/VBG country/O/NN music/O/NN again/O/RB !/O/.
+hhaahaa/O/HT #ERR#/O/HT #ERR#/O/HT martin/O/NN short/O/JJ great/O/JJ !/O/.
+not/O/RB a/O/DT trump/B-ENTITY/NNP supporter/O/NN by/O/IN any/O/DT meabs/O/NNS but/O/CC she/O/PRP just/O/RB sounds/O/VBZ like/O/IN a/O/DT sore/O/JJ looser/O/NN ./O/. like/O/IN a/O/DT middle/O/JJ schooler/O/NN who/O/WP got/O/VBD chosen/O/VBN last/O/JJ ./O/.
+i/O/PRP love/O/VBP the/O/DT cute/O/JJ lil/O/JJ darth/O/NN vader/O/NN kitten/O/NN !/O/.
+feeling/O/VBG to/O/TO much/O/VB proud/O/JJ nd/O/CC happy/O/JJ ki/O/NN punjabiya/O/UH toh/O/UH zada/O/UH vadiya/O/UH koi/O/NNP hiaga/O/NNP nahi/O/NN ,/O/, and/O/CC really/O/RB the/O/DT beauty/O/NN of/O/IN north/O/NNP is/O/VBZ unbeatable/O/JJ as/O/IN comparison/O/NN to/O/TO another/O/DT one/O/NN '/O/'' s/O/NN ./O/. #ERR#/O/HT #ERR#/O/HT
+"/O/'' there/O/NNS ai/O/VBP n/O/NNS '/O/POS t/O/NN no/O/DT party/O/NN like/O/IN a/O/DT daily/O/JJ bumps/O/NNS party/O/NN "/O/'' hahaha/O/NN that/O/IN '/O/'' s/O/RB true/O/JJ
+damn/O/UH adapt/O/MD be/O/VB looking/O/VBG like/O/IN the/O/DT guy/O/NN in/O/IN the/O/DT skittles/O/NNS commercial/O/JJ
+chief/O/JJ thats/O/NNS too/O/RB harsh/O/JJ !/O/. !/O/UH !/O/. !/O/UH !/O/. hangwani/O/VB u/O/PRP see/O/VBP now/O/RB !/O/. !/O/UH !/O/. next/O/JJ time/O/NN dont/O/PRP$ rush/O/NN ,/O/, kk/O/NNP is/O/VBZ going/O/VBG to/O/TO be/O/VB happy/O/JJ
+pyrion/O/NN continues/O/VBZ his/O/PRP$ streak/O/NN as/O/IN the/O/DT world/O/NN '/O/'' s/O/JJ worst/O/JJ detective/O/NN ./O/.
+if/O/IN roman/B-ENTITY/NNP made/O/VBD a/O/DT new/O/JJ channel/O/NN ,/O/, i/O/PRP promise/O/VBP ,/O/, it/O/PRP will/O/MD get/O/VB a/O/DT million/O/CD subs/O/NNS in/O/IN a/O/DT day/O/NN
+that/O/DT moment/O/NN lil/O/JJ wayne/B-ENTITY/NNP get/O/VBP on/O/IN the/O/DT hook/O/NN and/O/CC i/O/PRP gotta/O/NNP hit/O/VBD mute/O/NN !/O/. !/O/. #ERR#/O/HT #ERR#/O/HT
+trump/O/NNP '/O/'' s/O/VB a/O/DT stud/O/NN
+no/O/DT intent/O/NN to/O/TO hurt/O/VB cindy/B-ENTITY/NNP ./O/. hope/O/VBP she/O/PRP is/O/VBZ okay/O/JJ ./O/. that/O/DT '/O/'' s/O/IN no/O/DT way/O/NN to/O/TO treat/O/VB a/O/DT lady/O/NN ./O/.
+well/O/UH thank/O/VB you/O/PRP lol/O/UH for/O/IN making/O/VBG jinx/O/IN she/O/PRP made/O/VBD me/O/PRP try/O/VBP this/O/DT game/O/NN out/O/RP ./O/. thank/O/VB you/O/PRP jinx/O/VBP
+that/O/DT rick/B-ENTITY/JJ roll/O/NN was/O/VBD so/O/RB good/O/JJ xd/O/UH
+i/O/PRP love/O/VBP the/O/DT canadian/O/JJ pokemon/O/NN characters/O/NNS #ERR#/O/URL #ERR#/O/HT #ERR#/O/HT
+nightwing/O/NN and/O/CC black/O/JJ adam/O/JJ
+why/O/WRB isnt/O/VBZ anybody/O/NN fckin/O/VBD talking/O/VBG that/O/IN roger/O/IN the/O/DT roo/O/NN is/O/VBZ real/O/JJ !/O/. !/O/. like/O/VB come/O/VB on/O/IN people/O/NNS he/O/PRP is/O/VBZ like/O/IN the/O/DT biggest/O/JJS evidance/O/NN that/O/IN animals/O/NNS are/O/VBP equally/O/RB adptaple/O/JJ as/O/IN humans/O/NNS
+good/O/JJ job/O/NN officer/O/NN !/O/. now/O/RB let/O/VB '/O/'' s/O/MD wait/O/VB for/O/IN the/O/DT internet/O/NN trolls/O/VBZ to/O/TO say/O/VB it/O/PRP '/O/VBZ s/O/PRP fake/O/JJ or/O/CC some/O/DT dumb/O/JJ shit/O/NN ./O/.
+i/O/PRP might/O/MD kill/O/VB myself/O/PRP ./O/. ./O/. just/O/RB so/O/IN they/O/PRP can/O/MD play/O/VB this/O/DT at/O/IN my/O/PRP$ funeral/O/NN ./O/.
+gotta/O/JJ love/O/NN that/O/WDT canon/O/VBZ g/O/NNP 7/O/CD x/O/NN focus/O/NN seeking/O/VBG ./O/.
+shaq/B-ENTITY/NNP had/O/VBD me/O/PRP weak/O/JJ #ERR#/O/NN ./O/. (/O/UH cough/O/UH cough/O/UH so/O/UH umm/O/UH you/O/PRP not/O/RB gon/O/VBG add/O/VB my/O/PRP$ name/O/NN on/O/IN that/O/DT list/O/NN lol/O/UH )/O/)
+jedidiah/O/NNP is/O/VBZ beyond/O/IN irritating/O/VBG ./O/. seriously/O/RB ,/O/, she/O/PRP literally/O/RB paraphrases/O/VBZ the/O/DT others/O/NNS or/O/CC says/O/VBZ nothing/O/NN when/O/WRB it/O/PRP comes/O/VBZ to/O/TO anything/O/NN trump/O/NN related/O/VBD
+motherfucke/O/IN r/O/NN ./O/. a/O/DT lot/O/NN of/O/IN people/O/NNS dont/O/VBP have/O/VB any/O/DT phone/O/NN ./O/. but/O/CC breaking/O/VBG the/O/DT phones/O/NNS
+marty/O/NNP short/O/NNP is/O/VBZ the/O/DT best/O/JJS
+i/O/NNS '/O/POS m/O/NNP here/O/RB because/O/IN of/O/IN tay/O/NN ./O/. ./O/. ./O/CC am/O/VBP i/O/PRP alone/O/RB ?/O/. love/O/VB this/O/DT song/O/NN #ERR#/O/HT #ERR#/O/HT
+the/O/DT chinese/O/NNP said/O/VBD "/O/'' it/O/PRP can/O/MD come/O/VB in/O/IN ,/O/, but/O/CC ca/O/VBD n/O/NNP '/O/'' t/O/NN get/O/VB out/O/IN "/O/''
+nothing/O/NN beats/O/VBZ a/O/DT thick/O/JJ french/O/JJ copper/O/NN pan/O/NN with/O/IN stainless/O/JJ lining/O/NN ./O/. ./O/UH ./O/UH ./O/UH ./O/. if/O/IN all/O/DT clad/O/VBN and/O/CC demeyere/O/NNP are/O/VBP the/O/DT ferrari/O/NN '/O/'' s/O/NN of/O/IN pots/O/NNS then/O/IN a/O/DT matfer/O/NN bourgeat/O/NN is/O/VBZ a/O/DT bugatti/O/NN
+did/O/VBD this/O/DT come/O/NN out/O/RP after/O/IN twin/B-ENTITY/NN peaks/I-ENTITY/NNS or/O/CC was/O/VBD it/O/PRP supposed/O/VBD to/O/TO be/O/VB watched/O/VBN before/O/IN it/O/PRP all/O/DT kicked/O/VBN off/O/RP ?/O/.
+welcome/O/VB to/O/TO oregon/B-ENTITY/NNP from/O/IN troutdale/O/NN (/O/( east/O/NNP portland/O/NN )/O/) ,/O/, enjoy/O/VB our/O/PRP$ (/O/JJ few/O/JJ )/O/RB nice/O/JJ days/O/NNS right/O/RB now/O/RB ./O/.
+nifty/O/JJ gadgets/O/NNS !/O/. love/O/VB the/O/DT light/O/NN best/O/RB ./O/. yet/O/RB i/O/PRP would/O/MD camp/O/VB with/O/IN all/O/DT of/O/IN the/O/DT items/O/NNS ./O/. ax/O/NNP was/O/VBD cool/O/JJ too/O/RB !/O/.
+question/O/NN ./O/. how/O/WRB do/O/VBP you/O/PRP have/O/VBP 267/O/CD k/O/JJ subs/O/NNS and/O/CC zero/O/JJ views/O/NNS ?/O/. #/O/HT bots/O/HT #/O/HT payforsubs/O/:
+can/O/CC i/O/PRP have/O/VBP fidget/O/VBN spinner/O/VBG my/O/PRP$ name/O/NN is/O/VBZ called/O/VBN ahmed/B-ENTITY/NNP and/O/CC i/O/PRP am/O/VBP go/O/VB to/O/TO orchard/O/VB academy/O/NN in/O/IN milton/B-ENTITY/NNP keyons/I-ENTITY/NNPS
+when/O/WRB people/O/NNS want/O/VBP a/O/DT pure/O/JJ breed/O/NN they/O/PRP should/O/MD buy/O/VB a/O/DT dog/O/NN with/O/IN pedigree/O/NN ./O/. if/O/IN they/O/PRP dont/O/VBP care/O/NN then/O/RB just/O/RB support/O/VB a/O/DT shelter/O/NN ,/O/, therr/O/NN is/O/VBZ tons/O/NNS of/O/IN young/O/JJ dogs/O/NNS and/O/CC even/O/RB puppies/O/NNS ./O/. ./O/. ./O/.
+kimmel/O/NNP 2015/O/CD ?/O/.
+the/O/DT best/O/JJS part/O/NN about/O/IN your/O/PRP$ videos/O/NNS is/O/VBZ the/O/DT way/O/NN you/O/PRP present/O/JJ stuff/O/NN ,/O/, the/O/DT video/O/NN is/O/VBZ always/O/RB well/O/RB written/O/VBN ,/O/, the/O/DT humour/O/NN makes/O/VBZ it/O/PRP even/O/RB better/O/JJR plus/O/IN the/O/DT innovation/O/NN you/O/PRP put/O/VBP into/O/IN stuff/O/NN if/O/IN brilliant/O/JJ ./O/. great/O/JJ idea/O/NN with/O/IN the/O/DT clear/O/JJ s/O/NNP 8/O/CD ./O/.
+zweibrucken/O/UH !/O/. i/O/PRP lived/O/VBD there/O/RB as/O/IN a/O/DT kid/O/NN right/O/RB before/O/IN they/O/PRP closed/O/VBD the/O/DT base/O/NN ./O/.
+she/O/PRP probably/O/RB wo/O/MD n/O/NNS '/O/POS t/O/MD be/O/VB playing/O/VBG with/O/IN emergency/O/NN doors/O/NNS ever/O/RB again/O/RB ./O/. glad/O/JJ she/O/NN '/O/'' s/O/NN safe/O/NN though/O/RB ./O/.
+done/O/NN notifications/O/NNS on/O/IN
+that/O/DT '/O/'' s/O/NN probably/O/RB wendy/O/NNP '/O/'' s/O/DT biggest/O/JJS dream/O/NN coming/O/VBG true/O/JJ :/O/: he/O/PRP confirmed/O/VBD the/O/DT fantasy/O/NN at/O/IN the/O/DT hospital/O/NN story/O/NN and/O/CC answered/O/VBD it/O/PRP all/O/DT about/O/IN mariah/O/O hahahahahaha/O/UH
+don/B-ENTITY/NNP muthafuckin/O/VBD cheadle/O/JJ ladies/O/NNS and/O/CC gentlemen/O/NNS ./O/.
+i/O/PRP looked/O/VBD forever/O/RB to/O/TO find/O/VB the/O/DT toyota/O/NN from/O/IN your/O/PRP$ thumbnail/O/NN in/O/IN the/O/DT vlog/O/NN !/O/. when/O/WRB do/O/VBP i/O/PRP see/O/VBP it/O/PRP ?/O/. !/O/UH !/O/.
+my/O/PRP$ cousin/O/NN is/O/VBZ tyler/B-ENTITY/NNP boyd/I-ENTITY/NNP ./O/. i/O/PRP '/O/VBP m/O/PRP surprised/O/VBD to/O/TO see/O/VB the/O/DT bengals/O/NN pickup/O/NN a/O/DT wide/O/JJ out/O/IN first/O/JJ round/O/NN ./O/.
+kids/O/NNS are/O/VBP so/O/RB brutally/O/RB honest/O/JJ ./O/. poor/O/UH jimmy/O/UH xd/O/UH
+ledger/O/NNP >/O/RT >/O/USR >/O/USR >/O/USR >/O/WRB every/O/DT joker/O/NN ever/O/RB
+i/O/PRP love/O/VBP this/O/DT ajbduenndjd/O/JJ
+my/O/PRP$ cat/O/NN would/O/MD not/O/RB allow/O/VB me/O/PRP to/O/TO put/O/VB him/O/PRP ina/O/JJ pouch/O/NN ./O/. hed/O/MD claw/O/VB the/O/DT hell/O/NN outta/O/IN me/O/PRP !/O/.
+is/O/VBZ that/O/DT mauro/O/VBZ renallo/O/JJ ?/O/.
+my/O/PRP$ favorite/O/JJ puppy/O/NN is/O/VBZ brown/O/NNP and/O/CC white/O/NN too/O/RB peyton/B-ENTITY/JJ and/O/CC i/O/PRP have/O/VBP went/O/VBN camping/O/VBG before/O/RB and/O/CC great/O/JJ vidoi/O/NNS
+casey/B-ENTITY/NNP has/O/VBZ officially/O/RB reached/O/VBN spider-man/O/JJ status/O/NN ./O/.
+dude/O/NN that/O/WDT was/O/VBD savage/O/JJ
+every/O/DT fucktard/O/NN is/O/VBZ a/O/DT backyard/O/NN mechanic/O/NN dispensing/O/VBG bad/O/JJ advice/O/NN
+i/O/PRP just/O/RB love/O/VBP how/O/WRB he/O/PRP started/O/VBD his/O/PRP$ audition/O/NN with/O/IN clair/O/NNP de/O/IN lune/O/, which/O/WDT is/O/VBZ my/O/PRP$ favorite/O/JJ piece/O/NN !/O/.
+so/O/IN no/O/DT ones/O/NNS gonna/O/DT talk/O/NN about/O/IN kane/O/JJ dry/O/JJ humping/O/NN in/O/IN the/O/DT garage/O/NN before/O/IN the/O/DT party/O/NN ./O/. ./O/. ./O/.
+aw/O/UH ,/O/, this/O/DT is/O/VBZ adorable/O/JJ ./O/. i/O/PRP especially/O/RB love/O/VBP the/O/DT faces/O/NNS shasta/O/NN makes/O/VBZ every/O/DT time/O/NN he/O/PRP '/O/VBZ s/O/PRP told/O/VBD to/O/TO turn/O/VB it/O/PRP back/O/RB on/O/IN ./O/.
+this/O/DT guy/O/NN '/O/'' s/O/RB smooth/O/JJ af/O/NN #ERR#/O/HT #ERR#/O/HT
+might/O/NN as/O/RB well/O/RB be/O/VB deaf/O/JJ ./O/. lab/O/NN results/O/NNS are/O/VBP falsified/O/VBN to/O/TO keep/O/VB doctors/O/NNS out/O/IN of/O/IN court/O/NN ./O/. so/O/RB much/O/JJ for/O/IN hipaa/O/JJ law/O/NN ./O/.
+im/O/PRP a/O/DT minecraft/O/NN gamer/O/NN and/O/CC grian/O/JJ fan/O/NN so/O/IN i/O/PRP can/O/MD say/O/VB that/O/IN your/O/PRP$ house/O/NN is/O/VBZ horroble/O/JJ
+i/O/PRP really/O/RB do/O/VBP think/O/VB stan/B-ENTITY/NNP lee/I-ENTITY/NNP is/O/VBZ the/O/DT watcher/O/NN and/O/CC when/O/WRB he/O/PRP passes/O/VBZ they/O/PRP will/O/MD make/O/VB a/O/DT subplot/O/NN about/O/IN it/O/PRP </O/UH 3/O/UH
+was/O/IN that/O/DT elektra/O/NN !/O/. !/O/UH !/O/. !/O/UH !/O/.
+if/O/IN i/O/PRP like/O/VBP a/O/DT style/O/NN is/O/VBZ evi/O/JJ
+stop/O/VBP singing/O/VBG !/O/. !/O/UH !/O/. !/O/.
+without/O/IN sunil/O/JJ grover/O/NNP show/O/NN is/O/VBZ very/O/RB borring/O/VBD missing/O/VBG to/O/TO sunil/O/VB gover/O/: ali/O/NNP askar/O/NN ,/O/, chandu/O/NN
+how/O/WRB can/O/MD a/O/DT beam/O/NN of/O/IN light/O/NN moving/O/VBG faster/O/JJR than/O/IN light/O/JJ not/O/RB transfer/O/VB any/O/DT information/O/NN ?/O/.
+in/O/IN 15/O/CD years/O/NNS this/O/DT audience/O/NN will/O/MD be/O/VB cheering/O/VBG a/O/DT trump/O/NN impersonator/O/NN ./O/. people/O/NNS are/O/VBP dumb/O/JJ ./O/.
+did/O/VBD you/O/PRP not/O/RB try/O/VB zero/O/NN latency/O/NN vr/O/NN ./O/. i/O/PRP have/O/VBP been/O/VBN to/O/TO the/O/DT one/O/NN in/O/IN australia/B-ENTITY/NNP and/O/CC its/O/PRP$ awsome/O/NN
+is/O/VBZ tamina/O/JJ heel/O/NN or/O/CC face/O/NN ?/O/. ?/O/UH ?/O/.
+willies/O/JJ music/O/NN ,/O/, the/O/DT style/O/NN it/O/PRP '/O/VBZ s/O/PRP amazing/O/JJ how/O/WRB he/O/PRP '/O/VBZ s/O/NN himself/O/PRP ,/O/, creative/O/JJ ,/O/, his/O/PRP$ own/O/JJ style/O/NN ,/O/, his/O/PRP$ voice/O/NN ,/O/, what/O/WP i/O/PRP really/O/RB like/O/IN about/O/IN willie/B-ENTITY/NNP nelson/I-ENTITY/NNP is/O/VBZ he/O/PRP '/O/VBZ s/O/NN himself/O/PRP ,/O/, i/O/PRP love/O/VBP reabeating/O/VBG it/O/PRP ./O/.
+jar/O/NN jar/O/NN binx/O/NN is/O/VBZ a/O/DT dic/O/NN #/O/HT
+with/O/IN the/O/DT first/O/JJ lambo/O/NN the/O/DT house/O/NN dont/O/NN looks/O/VBZ so/O/RB nice/O/JJ ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH photoshop/O/NNP ?/O/. ?/O/UH ?/O/.
+put/O/VB a/O/DT lamborghini/O/JJ poster/O/NN on/O/IN one/O/CD of/O/IN his/O/PRP$ walls/O/NNS
+scotty/O/NN looks/O/VBZ so/O/RB sad/O/JJ here/O/RB ./O/. so/O/RB on/O/IN brand/O/NN lol/O/UH i/O/PRP love/O/VBP him/O/PRP
+that/O/DT was/O/VBD freakin/O/RB awesome/O/JJ !/O/.
+salute/O/NN to/O/TO sitaram/O/VB katel/O/NN and/O/CC kunjana/O/JJ
+please/O/VB tell/O/VB me/O/PRP that/O/DT rift/B-ENTITY/NN herald/I-ENTITY/NN still/O/RB will/O/MD have/O/VB that/O/DT easter/O/JJR egg/O/NN of/O/IN if/O/IN you/O/PRP dance/O/VBP she/O/PRP dances/O/VBZ ./O/. i/O/PRP love/O/VBP to/O/TO do/O/VB that/O/IN when/O/WRB im/O/PRP jungle/O/NNP and/O/CC waiting/O/VBG for/O/IN camps/O/NNS to/O/TO respawn/O/VB
+lil/O/JJ sly-/O/JJ turn/O/NN up/O/IN green/O/JJ #/O/HT nexttoblow/O/:
+am/O/VBP i/O/PRP the/O/DT only/O/JJ thinking/O/NN there/O/RB for/O/IN looks/O/NNS do/O/VBP good/O/JJ and/O/CC wondering/O/VBG where/O/WRB it/O/PRP '/O/VBZ s/O/PRP from/O/IN lol/O/UH
+good/O/UH video/O/UH dude/O/UH ./O/. do/O/VB n/O/NNP '/O/'' t/O/NNS listen/O/VBP to/O/TO the/O/DT haters/O/NNS
+anytime/O/RB you/O/PRP build/O/VBP a/O/DT pc/O/NN with/O/IN only/O/RB one/O/CD gpu/O/NN ,/O/, go/O/VBP mini/O/JJ itx/O/NN ./O/.
+fake/O/JJ channel/O/NN !/O/.
+omg/O/UH ,/O/, i/O/PRP ca/O/MD n/O/NNS '/O/POS t/O/RB believe/O/VB it/O/PRP ahahahha/O/IN i/O/PRP bet/O/VBP she/O/PRP was/O/VBD thinking/O/VBG "/O/'' yes/O/NN ,/O/, okok/O/UH ./O/UH ./O/UH ./O/UH kinda/O/UH cocky/O/UH tbh/O/UH "/O/UH lol/O/UH
+gonna/O/VBG make/O/VB damn/O/RB sure/O/JJ they/O/PRP keep/O/VBP making/O/VBG billions/O/NNS ./O/. ./O/. ./O/. cuz/O/IN if/O/IN you/O/PRP keep/O/VBP vin/O/NNP ,/O/, dwayne/B-ENTITY/NNP ,/O/, ty/O/NNP ,/O/, luda/B-ENTITY/NNP ,/O/, jason/B-ENTITY/NNP &/O/CC michelle/B-ENTITY/NNP ./O/. ./O/. ./O/. i/O/PRP will/O/MD keep/O/VB watching/O/VBG !/O/.
+where/O/NNS '/O/POS s/O/IN the/O/DT jetta/O/NN and/O/CC 350/O/CD z/O/UH ./O/UH _/O/UH ./O/UH
+we/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN have/O/VBP it/O/PRP in/O/IN french/O/JJ disney/O/JJ parks/O/NNS :/O/: (/O/DT mo/O/NN '/O/'' at/O/NN is/O/VBZ really/O/RB beautiful/O/JJ like/O/IN in/O/IN the/O/DT movie/O/NN ,/O/, she/O/PRP inspires/O/VBD me/O/PRP for/O/IN a/O/DT next/O/JJ cosplay-dance/O/JJ dress/O/NN with/O/IN led/O/VBN wings/O/NNS
+its/O/PRP so/O/RB painful/O/JJ to/O/TO watch/O/VB the/O/DT way/O/NN suzanne/O/NN and/O/CC wendy/B-ENTITY/NNP interact/O/NN ./O/. ./O/. ./O/. ./O/.
+south/O/NNP movies/O/NNS are/O/VBP on/O/IN the/O/DT way/O/NN to/O/TO become/O/VB best/O/JJR than/O/IN bollywood/O/CD due/O/JJ to/O/TO their/O/PRP$ scripts/O/NNS and/O/CC action/O/NN ./O/.
+"/O/'' hey/O/NN guys/O/NNS ,/O/, this/O/DT is/O/VBZ unbox/O/JJ advertisement/O/NN therapy/O/NN ,/O/, today/O/NN will/O/MD take/O/VB a/O/DT look/O/NN at/O/IN an/O/DT acer/O/NN that/O/WDT is/O/VBZ basically/O/RB a/O/DT lenovo/O/NN yoga/O/NN laptop/O/NN "/O/UH -/O/UH wow/O/UH ./O/.
+good/O/JJ luck/O/NN to/O/TO you/O/PRP and/O/CC davis/B-ENTITY/NNP with/O/IN everything/O/NN !/O/. so/O/RB exciting/O/JJ and/O/CC i/O/PRP totally/O/RB wish/O/VBP i/O/PRP could/O/MD attend/O/VB your/O/PRP$ yard/O/NN sale/O/NN i/O/PRP can/O/MD only/O/RB imagine/O/VB all/O/DT the/O/DT great/O/JJ things/O/NNS !/O/.
+one/O/CD word/O/NN ,/O/, powerful/O/JJ
+iphone/B-ENTITY/NNP 7/O/CD comes/O/VBZ with/O/IN a/O/DT dongle/O/NN ./O/.
+#/O/HT bringkeptoback/O/:
+please/O/VB add/O/DT feature/O/NN of/O/IN offline/O/PRP$ download/O/NN in/O/IN ozee/O/JJ
+lol/O/UH hhay/O/CC sometimes/O/RB beauty/O/NN '/O/'' s/O/NN mother/O/NN reminds/O/VBZ me/O/PRP of/O/IN amos/O/NNS from/O/IN uzalo/O/NNP
+i/O/PRP loved/O/VBD the/O/DT gpk/O/NN :/O/: movie/O/NN !/O/. !/O/UH !/O/.
+come/O/VB to/O/TO ireland/B-ENTITY/NNP again/O/RB pleeeeease/O/VB !/O/. jay/O/NNP &/O/CC trish/O/NNP are/O/VBP craving/O/VBG some/O/DT tra/O/UH la/O/UH traaah/O/UH ah/O/UH la/O/UH </O/UH 3/O/UH
+super/O/NNP bock/O/NN beer/O/NN !/O/. !/O/. great/O/JJ taste/O/NN #ERR#/O/HT
+i/O/PRP know/O/VBP i/O/NNS '/O/POS m/O/NNS late/O/JJ ,/O/, but/O/CC one/O/CD of/O/IN his/O/PRP$ favorite/O/JJ channels/O/NNS is/O/VBZ threadbanger/O/RB !/O/. !/O/.
+ive/O/PRP been/O/VBN waiting/O/VBG for/O/IN this/O/DT
+yeah/O/UH ./O/. ./O/. great/O/JJ video/O/NN it/O/PRP protect/O/VBP us/O/PRP from/O/IN dangerous/O/JJ slide/O/NN ./O/. s/O/CD ./O/. ./O/.
+great/O/JJ video/O/NN !/O/. good/O/JJ comparisons/O/NNS between/O/IN the/O/DT ipad/B-ENTITY/NN and/O/CC the/O/DT ipad/O/NN pro/O/NN !/O/.
+that/O/DT bands/O/NNS right/O/RB up/O/IN there/O/RB with/O/IN weird/O/JJ al/O/NNP ./O/.
+wow/O/UH smart/O/UH man/O/UH
+it/O/PRP s/O/JJ mine/O/NN 1020/O/CD ky/O/NNP
+such/O/JJ hype/O/NN !/O/. !/O/UH so/O/UH wow/O/UH !/O/. !/O/.
+elsewhere/O/RB the/O/DT best/O/JJS !/O/.
+i/O/PRP pronounce/O/VBP it/O/PRP nye-on/O/VBZ cat/O/NN
+i/O/PRP was/O/VBD like/O/IN domo/O/DT better/O/JJR stop/O/NN dancing/O/VBG before/O/RB crissy/O/JJ wakes/O/NNS up/O/IN #ERR#/O/HT #ERR#/O/HT
+nice/O/JJ vid/O/JJ captain/B-ENTITY/NN obvious/O/JJ
+play/O/VB with/O/IN that/O/DT pussy/O/NN like/O/IN peek/O/IN a/O/DT boo/O/NN #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+faze/O/MD censor/O/VB your/O/PRP$ dad/O/NN is/O/VBZ smart/O/JJ
+is/O/VBZ it/O/PRP like/O/IN a/O/DT game/O/NN now/O/RB or/O/CC something/O/NN to/O/TO hit/O/VB the/O/DT dislike/O/NN button/O/NN ?/O/. kinda/O/RB childish/O/JJ ./O/. ./O/. ./O/. ./O/.
+i/O/PRP love/O/VBP the/O/DT video/O/NN ,/O/, lena/B-ENTITY/NNP !/O/. much/O/RB better/O/JJR than/O/IN the/O/DT music/O/NN sorry/O/RB
+heaven/O/NN hello/O/NN from/O/IN abq/O/VB new/O/JJ mexico/O/NN !/O/.
+does/O/VBZ anyone/O/NN know/O/VB what/O/WP vlogging/O/DT camera/O/NN they/O/PRP use/O/VBP
+jailbreak/O/NN that/O/WDT waifu/O/VBZ box/O/NN and/O/CC get/O/VB the/O/DT hentai/O/NN going/O/VBG !/O/.
+is/O/VBZ n/O/NNP '/O/'' t/O/NN indi/O/PRP go/O/VBP go/O/VB the/O/DT name/O/NN of/O/IN that/O/DT majora/O/NN '/O/'' s/O/NN mask/O/NN zora/O/NN band/O/NN ?/O/.
+the/O/DT trump/O/NN tower/O/NN ./O/. coming/O/VBG august/O/NNP
+boi/O/UH ching/O/NNP lang/O/NNP is/O/VBZ providing/O/VBG cancer/O/NN
+that/O/DT cute/O/JJ cellist/O/NN was/O/VBD happy/O/JJ to/O/TO play/O/VB with/O/IN alt/O/NN -/O/: j/O/NNP </O/UH 3/O/UH ./O/UH </O/UH 3/O/UH
+kekekekekekekekkeke/O/UH cool/O/UH ass/O/UH
+sharing/O/VBG ,/O/, justice/O/NN and/O/CC peace/O/NN for/O/IN all/O/DT -/O/: save/O/VB our/O/PRP$ planet/O/NN ./O/.
+to/O/TO help/O/VB mason/B-ENTITY/NNP squeeze/O/NN he/O/PRP '/O/VBZ s/O/NN glove/O/NN he/O/PRP should/O/MD use/O/VB a/O/DT batting/O/NN glove/O/NN ./O/. it/O/PRP helps/O/VBZ me/O/PRP
+tanner/B-ENTITY/NNP foxx/I-ENTITY/NNP
+bill/O/NN is/O/VBZ from/O/IN the/O/DT labyrinth/O/NN review/O/NN
+why/O/WRB are/O/VBP you/O/PRP bringing/O/VBG this/O/DT up/O/IN now/O/RB nbc/O/NNP ,/O/, what/O/WP are/O/VBP you/O/PRP planning/O/VBG ?/O/.
+literally/O/RB she/O/PRP was/O/VBD just/O/RB talking/O/VBG about/O/IN trump/O/NNP not/O/RB grabbing/O/VBG her/O/PRP$ puss/O/NNS and/O/CC now/O/RB she/O/PRP '/O/VBZ s/O/PRP talking/O/VBG about/O/IN getting/O/VBG eaten/O/VBN out/O/RP wtf/O/UH !/O/. !/O/UH ?/O/. ?/O/UH !/O/. !/O/.
+im/O/PRP having/O/VBG a/O/DT heart/O/NN attack/O/NN
+how/O/WRB dare/O/VBZ he/O/PRP slapped/O/VBD her/O/PRP ?/O/. !/O/. he/O/PRP should/O/MD be/O/VB hang/O/RB like/O/VB back/O/RB in/O/IN the/O/DT days/O/NNS and/O/CC the/O/DT 2/O/CD nice/O/JJ ladies/O/NNS should/O/MD be/O/VB elected/O/VBN president/O/NN of/O/IN the/O/DT united/B-ENTITY/JJ states/I-ENTITY/NNS
+jjbjnbj/O/RT ntv/O/USR
+i/O/PRP love/O/VBP your/O/PRP$ tesla/O/NNP videos/O/NNS !/O/. and/O/CC the/O/DT value/O/NN just/O/RB got/O/VBD higher/O/JJR yesterday/O/NN ./O/. is/O/VBZ it/O/PRP possible/O/JJ because/O/IN of/O/IN a/O/DT successfull/O/JJ spacex/O/NN launch/O/NN or/O/CC why/O/PRP ?/O/.
+this/O/DT channel/O/NN is/O/VBZ amazing/O/JJ ./O/. have/O/VB you/O/PRP thoughts/O/VBZ about/O/IN doing/O/VBG fargo/O/NNP (/O/( the/O/DT coen/O/NN brothers/O/NNS '/O/POS movie/O/NN )/O/) next/O/JJ ?/O/. would/O/MD love/O/VB to/O/TO see/O/VB you/O/PRP dissect/O/VBP their/O/PRP$ screenwriting/O/NN ,/O/, and/O/CC it/O/PRP '/O/: s/O/NNP one/O/CD of/O/IN their/O/PRP$ best/O/JJS examples/O/NNS ./O/.
+you/O/PRP forgot/O/VBD aces/O/NNS haki/O/. but/O/CC battle/O/NN was/O/VBD bad/O/JJ and/O/CC screwattack/O/NNP has/O/VBZ not/O/RB done/O/VBN a/O/DT good/O/JJ fight/O/NN ever/O/RB since/O/IN they/O/PRP always/O/RB do/O/VBP piss/O/JJ research/O/NN ./O/.
+you/O/PRP know/O/VBP unless/O/IN brett/O/NN pulls/O/VBZ a/O/DT dick/O/NN move/O/NN to/O/TO get/O/VB a/O/DT promotion/O/NN he/O/PRP might/O/MD be/O/VB on/O/IN his/O/PRP$ way/O/NN to/O/TO being/O/VBG decent/O/JJ
+those/O/DT (/O/RB more/O/RBR than/O/IN )/O/$ 20/O/CD k/O/NN steps/O/VBZ a/O/DT day/O/NN were/O/VBD totally/O/RB worth/O/JJ it/O/PRP !/O/. as/O/IN always/O/RB an/O/DT amazing/O/JJ video/O/NN !/O/. #ERR#/O/HT what/O/VB a/O/DT great/O/JJ idea/O/NN !/O/. :/O/UH 3/O/UH and/O/CC everything/O/NN is/O/VBZ sooo/O/RB beautiful/O/JJ :/O/: d/O/NNP
+i/O/PRP peed/O/VBD ./O/. hhahahaha/O/UH
+like/O/IN something/O/NN out/O/IN of/O/IN a/O/DT gta/O/NN iv/O/URL cutscene/O/HT #ERR#/O/HT
+my/O/PRP$ name/O/NN is/O/VBZ krithika/B-ENTITY/NNP and/O/CC i/O/PRP love/O/VBP you/O/PRP karina/B-ENTITY/NNP and/O/CC karina/B-ENTITY/JJ s/I-ENTITY/NN cake/I-ENTITY/NN
+billdo/O/NN is/O/VBZ such/O/JJ a/O/DT sell/O/NN out/O/IN im/O/PRP so/O/RB disappointed/O/VBN ./O/. bill/O/NN for/O/IN fucks/O/JJ sake/O/NN man/O/NN you/O/PRP are/O/VBP only/O/RB honest/O/JJ about/O/IN islam/O/NNP ./O/.
+i/O/PRP ca/O/MD n/O/NNS '/O/POS t/O/NN believe/O/VBP all/O/DT of/O/IN the/O/DT detail/O/NN that/O/WDT went/O/VBD into/O/IN this/O/DT !/O/. !/O/UH !/O/. if/O/IN this/O/DT is/O/VBZ anything/O/NN like/O/IN what/O/WP star/O/NN wars/O/NNS land/O/NN is/O/VBZ going/O/VBG to/O/TO be/O/VB ,/O/, i/O/PRP ca/O/MD n/O/NNS '/O/POS t/O/NN wait/O/NN !/O/. !/O/UH !/O/.
+i/O/PRP wish/O/VBP i/O/PRP grew/O/VBD up/O/RP in/O/IN finland/B-ENTITY/NN
+that/O/DT freaking/O/JJ place/O/NN is/O/VBZ scary/O/JJ ./O/. i/O/PRP got/O/VBD my/O/PRP$ serpintine/O/NN belt/O/NN cut/O/VBN off/O/RP in/O/IN compton/O/NN ./O/. but/O/CC they/O/PRP struck/O/VBD out/O/RP ./O/. i/O/PRP carry/O/VBP a/O/DT spare/O/JJ ,/O/, and/O/CC was/O/VBD out/O/IN of/O/IN there/O/RB in/O/IN 15/O/CD minutes/O/NNS ./O/. never/O/RB to/O/TO return/O/VB ./O/. it/O/PRP is/O/VBZ a/O/DT cesspool/O/NN ./O/.
+stop/O/VBP vlogging/O/VBG and/O/CC driving/O/VBG asshole/O/USR
+the/O/DT language/O/NN is/O/VBZ in/O/IN arabic/O/NNP in/O/IN my/O/PRP$ tv/O/NN
+its/O/PRP a/O/DT glitch/O/NN the/O/DT rc/O/NN var/O/NN thing/O/NN
+third/O/JJ times/O/NNS a/O/DT charm/O/NN !/O/.
+why/O/WRB is/O/VBZ he/O/PRP so/O/RB hot/O/JJ ?/O/. !/O/.
+what/O/WP will/O/MD happen/O/VB if/O/IN your/O/PRP$ head/O/NN once/O/RB opened/O/VBN and/O/CC once/O/RB your/O/PRP$ brain/O/NN touch/O/NN (/O/( brain/O/DT surgery/O/NN )/O/)
+that/O/DT '/O/'' s/O/IN da/O/DT girl/O/NN from/O/IN orange/O/NN is/O/VBZ the/O/DT new/O/JJ black/O/NN ./O/.
+fuck/O/UH yeah/O/UH cant/O/MD wait/O/VB for/O/IN june/O/NNP 9/O/CD th/O/NNP
+i/O/PRP love/O/VBP this/O/DT song/O/NN !/O/. check/O/VB out/O/RP the/O/DT video/O/NN abbey/O/NN and/O/CC i/O/PRP posted/O/VBD !/O/. !/O/.
+"/O/'' oh/O/NN ,/O/, i/O/PRP remember/O/VBP things/O/NNS now/O/RB "/O/'' =/O/IN they/O/PRP finally/O/RB held/O/VBN up/O/RP the/O/DT cue/O/NN card/O/NN ./O/. come/O/VB on/O/IN ,/O/, girl/O/NN ./O/.
+i/O/PRP only/O/RB pressed/O/VBD this/O/DT because/O/IN i/O/PRP saw/O/VBD idris/B-ENTITY/NNP elba/I-ENTITY/NNP
+wow/O/UH ./O/. that/O/DT '/O/'' s/O/PRP a/O/DT great/O/JJ phone/O/NN ./O/. i/O/PRP love/O/VBP the/O/DT video/O/NN ./O/. its/O/PRP so/O/RB detail/O/NN ./O/. because/O/IN you/O/PRP always/O/RB mention/O/VBP every/O/DT single/O/JJ specification/O/NN ./O/.
+hi/O/UH everyone/O/UH i/O/PRP just/O/RB started/O/VBD a/O/DT battlefield/O/NN channel/O/NN anyone/O/NN got/O/VBD any/O/DT suggestions/O/NNS for/O/IN a/O/DT battlefield/O/NN 1/O/CD video/O/NN ?/O/. who/O/PRP ever/O/RB replies/O/NN gets/O/VBZ a/O/DT shoutout/O/NN on/O/IN the/O/DT video/O/NN !/O/. (/O/( dont/O/PRP take/O/VBP this/O/DT a/O/DT advertisment/O/NN only/O/RB need/O/VBP ideas/O/NNS !/O/. )/O/)
+sterling/O/NN you/O/PRP gone/O/VBD too/O/RB far/O/RB enuh/O/JJ ute/O/NN #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+yay/O/UH 2/O/UH m/O/UH subs/O/UH
+murphy/O/NNP '/O/'' s/O/NN law/O/NN :/O/: everything/O/NN that/O/WDT could/O/MD go/O/VB wrong/O/RB will/O/MD go/O/VB wrong/O/JJ
+luv/O/IN the/O/DT vids/O/NNS
+i/O/PRP think/O/VBP the/O/DT original/O/NN sounds/O/VBZ better/O/RBR #/O/RT gazagenahsyde/O/USR
+awesome/O/JJ video/O/NN ./O/. the/O/DT girls/O/NNS are/O/VBP super/O/JJ mega/O/JJ cute/O/JJ </O/UH 3/O/UH
+primer/O/NN hokage/O/NN :/O/: v/O/NNP
+throwing/O/VBG a/O/DT donnunt/O/NN ./O/. ./O/. ./O/. talking/O/VBG about/O/IN nk/O/USR
+"/O/'' dodge/O/NN cuda/O/UH "/O/UH ./O/UH ./O/UH ./O/UH ?/O/.
+this/O/DT is/O/VBZ best/O/JJ song/O/NN of/O/IN 2017/O/CD girl/O/NN is/O/VBZ very/O/RB beautiful/O/JJ boy/O/NN is/O/VBZ very/O/RB handsome/O/JJ
+niskanen/O/PRP should/O/MD have/O/VB said/O/VBN "/O/'' i/O/PRP #ERR#/O/HT ve/O/PRP gotten/O/VBD those/O/DT before/O/IN ./O/. they/O/PRP don/O/HT #ERR#/O/HT t/O/PRP feel/O/VBP good/O/JJ ./O/. #ERR#/O/HT
+the/O/DT sangoma/O/JJ guy/O/NN is/O/VBZ a/O/DT neat/O/JJ freak/O/NN yhoooo/O/UH
+i/O/PRP saw/O/VBD you/O/PRP through/O/IN bridget/B-ENTITY/NN but/O/CC i/O/PRP like/O/VBP you/O/PRP
+this/O/DT is/O/VBZ diah/O/JJ diah/O/NN has/O/VBZ no/O/DT freinds/O/NN i/O/PRP like/O/VBP =/O/UH 1/O/UH freind/O/UH
+6/O/LS :/O/IN 50/O/CD no/O/DT sex/O/NN tonight/O/NN krillin/O/NN ./O/.
+biker/O/NN looks/O/VBZ for/O/IN plate/O/NN on/O/IN back/O/NN of/O/IN the/O/DT kenworth/O/NN when/O/WRB semis/O/NNS are/O/VBP n/O/NNS '/O/POS t/O/NN needed/O/VBN to/O/TO have/O/VB one/O/CD on/O/IN the/O/DT back/O/NN lol/O/UH
+book/O/NN not/O/RB movie/O/NN hahaha/O/UH
+is/O/VBZ it/O/PRP me/O/PRP or/O/CC does/O/VBZ number/O/NN 11/O/CD look/O/NN like/O/IN ian/B-ENTITY/NNP connor/I-ENTITY/NN ?/O/.
+holiday/O/NN rooooooooooaaaaaaaaaaaaaaaaaaaaaaaaadddddddddddddd/O/VBD
+awwwww/O/HT didga/O/HT #ERR#/O/HT #ERR#/O/HT so/O/RB cute/O/JJ baby/O/NN !/O/. i/O/PRP want/O/VBP to/O/TO hug/O/VB her/O/PRP and/O/CC squish/O/VB her/O/PRP until/O/IN she/O/PRP meows/O/NN ,/O/, she/O/PRP '/O/VBZ s/O/PRP irresistible/O/JJ !/O/.
+no/O/DT pine/O/JJ nuts/O/NNS ?/O/.
+black/O/JJ ,/O/, green/B-ENTITY/NNP and/I-ENTITY/CC gold/I-ENTITY/NN ./O/. ./O/UH ./O/UH ./O/UH ./O/UH up/O/UH up/O/UH up/O/UH mi/O/UH seh/O/UH #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+this/O/DT is/O/VBZ just/O/RB a/O/DT subaru/O/NN and/O/CC chrysler/B-ENTITY/NNP advertisement/O/NN ./O/.
+stop/O/VBP trampoline/O/NN vs/O/NN !/O/. !/O/. you/O/PRP just/O/RB destroy/O/VB your/O/PRP$ tramp/O/NN by/O/IN doing/O/VBG this/O/DT
+omg/O/UH your/O/PRP$ face/O/NN is/O/VBZ so/O/RB ugry/O/JJ and/O/CC look/O/VB like/O/IN troll/O/NN face/O/NN in/O/IN your/O/PRP$ start/O/NN video/O/NN ssundee/O/NN
+this/O/DT is/O/VBZ like/O/IN a/O/DT 2017/O/CD version/O/NN of/O/IN a/O/DT busta/O/NN rhymes/O/VBZ video/O/NN ,/O/, especially/O/RB around/O/IN 2/O/CD :/O/: 42/O/CD
+glenda/B-ENTITY/NNP is/O/VBZ related/O/VBN to/O/TO ayanda/O/VB
+dude/O/NN that/O/WDT looks/O/VBZ awesome/O/JJ !/O/. i/O/PRP can/O/MD play/O/VB ps/O/NNP 4/O/CD anywhere/O/RB with/O/IN that/O/DT !/O/. great/O/JJ vid/O/NN man/O/NN !/O/.
+ur/O/JJ guys/O/NNS are/O/VBP awesome/O/JJ !/O/.
+was/O/RT mortdecai/O/USR rly/O/CC so/O/RB bad/O/JJ ?/O/. i/O/PRP thougt/O/VBP it/O/PRP was/O/VBD ok/O/JJ ,/O/, seen/O/VBN way/O/RB more/O/RBR floppy/O/JJ films/O/NNS then/O/IN mortdecai/O/NN ./O/.
+where/O/WRB '/O/VBZ s/O/NN kishan/O/NN ?/O/.
+thanks/O/UH obama/O/UH !/O/.
+nigga/O/NNS '/O/POS s/O/JJ rings/O/NNS shining/O/VBG brighter/O/JJR than/O/IN my/O/PRP$ future/O/NN ./O/.
+girl/O/NN you/O/PRP need/O/VBP to/O/TO try/O/VB it/O/PRP cosmetics/O/VBZ superhero/O/JJ eslastic/O/JJ stretch/O/NN mascara/O/NN ./O/. it/O/PRP '/O/VBZ s/O/PRP the/O/DT best/O/JJS ./O/.
+it/O/PRP has/O/VBZ to/O/TO be/O/VB true/O/JJ ./O/. you/O/PRP ca/O/MD n/O/NNS '/O/POS t/O/NN make/O/VBP this/O/DT @/O/IN $/O/NNP &/O/CC @/O/VBN up/O/RP !/O/.
+fuck/O/VB leto/O/NN ./O/. ledgend/O/JJ lives/O/NNS on/O/IN
+altho/O/CC i/O/PRP dont/O/VBP like/O/IN hitler/O/NNP tbh/O/NN he/O/PRP saved/O/VBD cod/O/JJ
+is/O/VBZ that/O/IN idris/O/NNS ?/O/. !/O/UH !/O/. black/O/JJ british/O/JJ actors/O/NNS pull/O/VBP upp/O/NN !/O/. !/O/.
+bye/O/UH capwin/O/UH !/O/.
+when/O/WRB i/O/PRP was/O/VBD a/O/DT kid/O/NN my/O/PRP$ dad/O/NN shot/O/VBD me/O/PRP in/O/IN the/O/DT head/O/NN with/O/IN a/O/DT real/O/JJ gun/O/NN ,/O/, killing/O/VBG me/O/PRP instantly/O/RB ,/O/, but/O/CC it/O/PRP made/O/VBD me/O/PRP a/O/DT stronger/O/JJR person/O/NN !/O/.
+game/O/NN of/O/IN thrones/O/NNS is/O/VBZ not/O/RB based/O/VBN on/O/IN earth/O/NN js/O/NN
+rip/O/JJ turtle/O/NN cam/O/NN ./O/.
+where/O/WRB is/O/VBZ vinkare/O/NNP and/O/CC herbalisti/O/HT #/O/HT torillatavataa/O/:
+first/O/JJ ho-/O/JJ oh/O/NNS next/O/IN his/O/PRP$ brother/O/NN lugia/O/USR
+the/O/DT clinton/O/NN foundation/O/NN should/O/MD be/O/VB #/O/HT 1/O/NN with/O/IN $/O/$ 2/O/CD billion/O/CD collected/O/VBN and/O/CC less/O/JJR than/O/IN 10/O/CD %/O/NN to/O/TO the/O/DT needy/O/NN ./O/.
+request/O/NN :/O/: sml/O/DT movie/O/NN :/O/: princess/O/NN peach/O/NN comes/O/VBZ back/O/RB
+am/O/VBP i/O/PRP the/O/DT only/O/JJ one/O/NN who/O/WP cannot/O/MD stand/O/VB how/O/WRB ivanka/O/JJ talks/O/NNS
+mehmood/O/HT sahab/O/PRP never/O/RB give/O/VB a/O/DT bad/O/JJ word/O/NN to/O/TO some/O/DT person/O/NN mom/O/NN dad/O/VBD he/O/PRP said/O/VBD pagal/O/. kay/B-ENTITY/NNP bacha/O/MD please/O/VB do/O/VB n/O/NNP '/O/'' t/O/NN abuse/O/NN
+mlg/O/NNP 6531/O/CC play/O/VB this/O/DT game/O/NN
+hangwani/O/NNP is/O/VBZ slaying/O/VBG colours/O/NN like/O/IN her/O/PRP$
+where/O/WRB can/O/MD we/O/PRP find/O/VBP jessie/O/NNS '/O/POS s/O/JJ electric/O/JJ bicycle/O/NN ?/O/.
+jews/O/NNP left/O/VBD black/O/JJ an/O/DT came/O/VBD back/O/RB white/O/JJ r/O/NN ./O/. i/O/UH ./O/UH p/O/UH hitler/O/UH
+thank/O/VB you/O/PRP for/O/IN this/O/DT !/O/NN !/O/. !/O/UH !/O/. !/O/UH !/O/. please/O/VB make/O/VB more/O/JJ music/O/NN !/O/.
+1/O/NN :/O/: 14/O/CD "/O/JJ bars/O/NNS could/O/MD n/O/NNS '/O/POS t/O/CC keep/O/VB them/O/PRP apart/O/RB "/O/UH yeah/O/UH ./O/UH ./O/UH ./O/. but/O/CC he/O/PRP was/O/VBD n/O/NNP '/O/'' t/O/NN behind/O/IN bars/O/NNS
+go/O/VB to/O/TO clark/B-ENTITY/NNP airbase/O/NN hospital/O/NN ./O/.
+bulbulay/O/NN is/O/VBZ so/O/RB so/O/RB so/O/RB funny/O/JJ #ERR#/O/HT
+useless/O/NNS staged/O/VBD vid/O/PRP posted/O/VBD for/O/IN likes/O/NNS and/O/CC publicity/O/NN ./O/. merc/O/NNP driver/O/NN is/O/VBZ sitting/O/VBG on/O/IN pavement/O/NN at/O/IN 0/O/CD :/O/: 15/O/CD ./O/.
+the/O/DT hood/O/NN opening/O/NN reminds/O/VBZ me/O/PRP of/O/IN a/O/DT classic/O/JJ saab/O/NNP 900/O/CD ./O/.
+that/O/DT first/O/JJ yank/O/NN in/O/IN the/O/DT pub/O/NN would/O/MD have/O/VB been/O/VBN taking/O/VBG his/O/PRP$ teeth/O/NN home/O/NN in/O/IN a/O/DT bag/O/NN
+there/O/EX are/O/VBP like/O/IN 785/O/CD #ERR#/O/NNS think/O/VBP
+can/O/VBP you/O/PRP set/O/VBD up/O/RP auditory/O/NN controls/O/NNS so/O/IN that/O/IN i/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN have/O/VBP to/O/TO dirty/O/VB up/O/RP my/O/PRP$ mirror/O/NN ?/O/. thanks/O/NNS ,/O/, -/O/JJ damien/O/NN
+so/O/UH uh/O/UH ./O/UH ./O/UH ./O/UH ./O/. what/O/WP do/O/VBP you/O/PRP guys/O/NNS think/O/VBP the/O/DT price/O/NN tag/O/NN on/O/IN the/O/DT scaled/O/VBN down/O/RP model/O/NN would/O/MD be/O/VB ?/O/. that/O/DT '/O/'' d/O/NNS make/O/VBP a/O/DT sick/O/JJ r/O/NN //O/CC c/O/NN car/O/NN :/O/: d/O/NNP
+jordan/B-ENTITY/NNP ./O/. ./O/. score/O/VB a/O/DT few/O/JJ more/O/NN ./O/. ./O/. ./O/. and/O/CC stop/O/VB getting/O/VBG f/O/NN @/O/IN #/O/HT king/B-ENTITY/NNP injured/O/VBD you/O/PRP c/O/NN @/O/IN #/O/HT t/O/NN
+okay/O/UH ./O/. tell/O/VB me/O/PRP why/O/RB this/O/DT man/O/NN loses/O/VBZ his/O/PRP$ glasses/O/NNS every/O/DT time/O/NN he/O/PRP falls/O/VBZ and/O/CC then/O/RB conveniently/O/RB finds/O/VBZ them/O/PRP 2/O/NN inches/O/NNS away/O/RB ./O/.
+nice/O/JJ video/O/NN ,/O/, really/O/RB enjoyed/O/VBN it/O/PRP ./O/. thanks/O/NNS for/O/IN uploading/O/VBG ./O/. much/O/UH love/O/UH miccoli/O/UH
+pg/O/RT troydan/O/USR eh/O/UH ?/O/. lol/O/UH
+hey/O/UH chicken/O/UH
+how/O/WRB people/O/NNS '/O/POS s/O/JJ memory/O/NN is/O/VBZ short/O/JJ ./O/. britian/O/NNP went/O/VBD to/O/TO war/O/VB for/O/IN poland/B-ENTITY/NNP and/O/CC then/O/RB helped/O/VBD save/O/VB europe/B-ENTITY/NNP ./O/. this/O/DT bankrupted/O/JJ britian/O/JJ and/O/CC this/O/DT is/O/VBZ how/O/WRB they/O/PRP treat/O/VBP us/O/PRP
+brah/O/RB this/O/DT straight/O/JJ up/O/RB came/O/VBD out/O/IN of/O/IN my/O/PRP$ screen/O/NN and/O/CC slapped/O/VBD me/O/PRP when/O/WRB it/O/PRP dropped/O/VBD
+"/O/'' designing/O/VBG things/O/NNS is/O/VBZ hard/O/JJ ,/O/, you/O/PRP must/O/MD go/O/VB to/O/TO school/O/NN for/O/IN that/O/DT ./O/. "/O/'' thanks/O/NNS for/O/IN the/O/DT update/O/NN sherlock/O/VBD holmes/O/NNP
+put/O/VB trump/O/NNP frog/O/NN in/O/IN the/O/DT jail/O/NN
+what/O/WP happened/O/VBD to/O/TO ollie/B-ENTITY/NNS '/O/POS s/O/JJ nose/O/NN
+u/O/PRP should/O/MD sell/O/VB the/O/DT paint/O/NN trampoline/O/NN on/O/IN ebay/O/NN for/O/IN ur/O/PRP$ fans/O/NNS
+did/O/VBD he/O/PRP just/O/RB take/O/VB credit/O/NN for/O/IN writing/O/VBG the/O/DT movies/O/NNS ?/O/. lol/O/UH ./O/. he/O/PRP was/O/VBD definitely/O/RB a/O/DT producer/O/NN though/O/RB ./O/. hahahaha/O/UH ./O/UH
+the/O/DT "/O/'' stanima/O/UH "/O/UH ?/O/. i/O/PRP '/O/VBP m/O/VB a/O/DT linguist/O/NN ./O/. sorry/O/JJ ./O/.
+linus/B-ENTITY/NNP ,/O/, lately/O/RB i/O/PRP can/O/MD feel/O/VB there/O/EX is/O/VBZ a/O/DT disturbance/O/NN in/O/IN the/O/DT force/O/NN ./O/. do/O/VB n/O/NNP '/O/'' t/O/NN yield/O/NN to/O/TO the/O/DT dark/O/JJ side/O/NN ./O/. stay/O/VB true/O/JJ to/O/TO the/O/DT path/O/NN and/O/CC '/O/PRP ll/O/MD never/O/RB be/O/VB a/O/DT stranger/O/NN ./O/. sincerely/O/UH ./O/UH :/O/UH )/O/UH
+congrats/O/NNP 200/O/CD k/O/NN guys/O/NNS !/O/. !/O/. also/O/RB wtf/O/NN did/O/VBD janice/B-ENTITY/NNP do/O/VBP she/O/PRP fucked/O/VBD up/O/RP the/O/DT deal/O/NN !/O/. !/O/UH ?/O/.
+casey/B-ENTITY/NNP is/O/VBZ a/O/DT great/O/JJ person/O/NN
+i/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NNS think/O/VBP i/O/NNS '/O/POS d/O/PRP enjoy/O/VBP such/O/JJ a/O/DT tour/O/NN ./O/. ./O/UH ./O/UH ./O/UH ./O/UH but/O/UH ./O/UH ./O/UH ./O/. i/O/PRP guess/O/VBP there/O/PRP$ must/O/NN at/O/IN least/O/JJS be/O/VB a/O/DT first/O/JJ some/O/DT day/O/NN in/O/IN that/O/DT regard/O/NN :/O/: -/O/JJ x/O/NN especially/O/RB after/O/IN watching/O/VBG such/O/JJ an/O/DT appealing/O/VBG video/O/NN about/O/IN the/O/DT tour/O/NN ^/O/UH ^/O/UH
+lebron/B-ENTITY/NNP is/O/VBZ by/O/RB far/O/RB the/O/DT most/O/RBS entertaining/O/JJ player/O/NN in/O/IN these/O/DT playoffs/O/NNS ./O/. y/O/NNP '/O/'' all/O/NN thought/O/VBD we/O/PRP was/O/VBD lying/O/VBG when/O/WRB we/O/PRP said/O/VBD he/O/PRP flips/O/VBZ a/O/DT switch/O/NN smh/O/UH
+bruh/O/UH yo/O/UH u/O/PRP can/O/MD tell/O/VB it/O/PRP '/O/VBZ s/O/PRP fake/O/JJ
+martin/O/NNP short/O/NN sucks/O/VBZ he/O/PRP '/O/VBZ s/O/PRP not/O/RB funny/O/JJ never/O/RB was/O/VBD never/O/RB will/O/MD be/O/VB
+the/O/DT package/O/NN of/O/IN that/O/DT mouse/O/NN trap/O/NN simply/O/RB means/O/VBZ "/O/JJ mouse/O/NN can/O/MD come/O/VB in/O/IN ,/O/, but/O/CC no/O/DT get/O/NN out/O/IN from/O/IN here/O/RB "/O/'' (/O/( the/O/DT white/O/JJ chinese/O/JJ words/O/NNS translated/O/VBN into/O/IN english/O/JJ )/O/NN that/O/WDT was/O/VBD only/O/RB a/O/DT slogan/O/NN only/O/RB ,/O/, marketing/O/NN ,/O/, you/O/PRP know/O/VBP #ERR#/O/PRP
+i/O/PRP thought/O/VBD undead/O/NN nightmare/O/NN was/O/VBD pretty/O/RB fucking/O/JJ cool/O/NN ./O/.
+no/O/DT dodge/O/NN demon/O/NN ?/O/. it/O/PRP was/O/VBD teased/O/VBN a/O/DT little/O/JJ bit/O/NN in/O/IN fate/O/NN of/O/IN the/O/DT furious/O/JJ ./O/. ./O/. ./O/.
+feel/O/VB good/O/JJ ink/O/NN part/O/NN 2/O/TO please/O/VB and/O/CC a/O/DT remake/O/NN of/O/IN clint/B-ENTITY/NN eastwood/I-ENTITY/NN
+put/O/VB dozer/O/NNS '/O/POS s/O/MD spit/O/VB
+damn/O/UH so/O/UH you/O/PRP we/O/NNS '/O/POS re/O/JJ in/O/IN wi/O/NNP ?/O/. thats/O/NNS '/O/POS s/O/JJ where/O/WRB we/O/NNS '/O/POS re/O/NNS from/O/IN ./O/.
+hahahahhahahaha/O/UH lol/O/UH my/O/PRP$ sister/O/NN and/O/CC i/O/PRP watch/O/VBP ur/B-ENTITY/DT older/O/JJR video/O/NN =/O/UH o/O/UH uija/O/JJ board/O/NN in/O/IN an/O/DT asylum/O/NN =/O/IN the/O/DT alien/O/JJ thingy/O/NN and/O/CC know/O/VBP shes/O/PRP scared/O/VBD of/O/IN you/O/PRP and/O/CC she/O/PRP is/O/VBZ know/O/VB a/O/DT logang/O/NN
+play/O/VB monopoly/O/NN
+can/O/MD guess/O/VB how/O/WRB many/O/JJ times/O/NNS they/O/PRP said/O/VBD "/O/'' fire/O/NN "/O/'' in/O/IN this/O/DT episode/O/NN ?/O/.
+hey/O/UH gt/O/NNP will/O/MD you/O/PRP do/O/VBP 1/O/CD on/O/IN sup/O/NN ?/O/.
+hope/O/VBP youre/O/PRP gaining/O/VBG money/O/NN again/O/RB cause/O/VB im/O/PRP seeing/O/VBG ads/O/NNS again/O/RB
+la/O/UH la/O/PRP$ land/O/NN is/O/VBZ my/O/PRP$ favorite/O/JJ movie/O/NN guys/O/NNS ./O/. ./O/UH ./O/UH ./O/UH wait/O/UH there/O/EX has/O/VBZ been/O/VBN a/O/DT mistake/O/NN moonlight/O/NN is/O/VBZ actually/O/RB my/O/PRP$ favorite/O/JJ movie/O/NN
+why/O/WRB are/O/VBP u/O/PRP giving/O/VBG 1/O/NNS '/O/POS 000/O/NNS '/O/POS 000/O/JJ supercell/O/NN omfg/O/NN
+lmao/O/UH "/O/JJ concentration/O/NN clubs/O/NNS "/O/POS
+i/O/PRP just/O/RB did/O/VBD the/O/DT research/O/NN and/O/CC found/O/VBD out/O/IN the/O/DT reason/O/NN lebron/O/NN started/O/VBD laughing/O/VBG at/O/IN 7/O/CD :/O/: 41/O/CD is/O/VBZ because/O/IN he/O/PRP finally/O/RB seen/O/VBN oprah/O/NNP side/O/NN nappy/O/UH ass/O/UH un/O/NNP picked/O/VBD ass/O/NNS need/O/VBP a/O/DT weed/O/NN sacker/O/NN for/O/IN my/O/PRP$ lineup/O/NN ugly/O/JJ ass/O/NN haircut/O/NN my/O/UH nigga/O/UH
+represents/O/VBZ my/O/PRP$ time/O/NN at/O/IN school/O/NN right/O/RB now/O/RB ./O/. stupid/O/JJ exams/O/NNS ./O/. when/O/WRB i/O/PRP come/O/VBP home/O/NN i/O/PRP listen/O/VBP to/O/TO this/O/DT song/O/NN ./O/. thank/O/VB you/O/PRP paramore/O/VBP !/O/.
+please/O/VB upload/O/UH */O/UH desi/O/JJ boys/O/NNS */O/.
+dude/O/NN should/O/MD join/O/VB tyt/O/NN ./O/. those/O/DT guys/O/NNS are/O/VBP doing/O/VBG really/O/RB good/O/JJ reporting/O/NN ./O/.
+is/O/VBZ it/O/PRP me/O/PRP ?/O/. or/O/CC does/O/VBZ trumpty/O/JJ dumpty/O/NNS seem/O/VBP even/O/RB more/O/RBR clueless/O/RB than/O/IN ever/O/RB ?/O/. jesus/O/UH ,/O/, joseph/B-ENTITY/NNP and/O/CC mary/B-ENTITY/NNP ,/O/, we/O/PRP are/O/VBP doomed/O/VBN ./O/.
+a/O/DT modern/O/JJ boy/O/NN in/O/IN the/O/DT bubble/O/NN ./O/. can/O/VBP it/O/PRP deliver/O/VBP ?/O/.
+norman/B-ENTITY/NNP is/O/VBZ busy/O/JJ watching/O/NN everything/O/NN you/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN wendy/O/NNP
+that/O/DT old/O/JJ map/O/NN does/O/VBZ say/O/VB new/O/JJ orleans/O/NNP square/O/NNP just/O/RB above/O/RB haunted/O/VBN house/O/NNP ./O/.
+the/O/DT real/O/JJ question/O/NN is/O/VBZ why/O/WRB did/O/NN rose/O/VBD have/O/VB her/O/PRP$ kids/O/NNS this/O/DT whole/O/JJ time/O/NN is/O/VBZ pretty/O/RB hard/O/RB for/O/IN a/O/DT man/O/NN to/O/TO get/O/VB custody/O/NN over/O/IN a/O/DT woman/O/NN so/O/IN whats/O/IN the/O/DT real/O/JJ story/O/NN with/O/IN this/O/DT lady/O/NN ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/.
+did/O/VBD you/O/PRP call/O/VBP him/O/PRP hubert/O/NNP ?/O/. my/O/PRP$ name/O/NN is/O/VBZ hubert/O/NNP
+that/O/DT mrs/O/NN ./O/. doubtfire/O/JJ cutaway/O/NN about/O/IN joan/B-ENTITY/NNP collins/I-ENTITY/NNP made/O/VBD me/O/PRP laugh/O/VBP more/O/RBR than/O/IN it/O/PRP should/O/MD have/O/VB
+all/O/DT i/O/PRP hear/O/VBP is/O/VBZ marty/O/JJ from/O/IN madagascar/O/NN when/O/WRB he/O/PRP speaks/O/VBZ #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+coyote/O/NN i/O/PRP want/O/VBP whatever/O/VB your/O/PRP$ having/O/NN
+thanks/O/NNS for/O/IN sharing/O/VBG for/O/IN those/O/DT which/O/PRP could/O/MD not/O/RB access/O/VB the/O/DT amazon/O/JJ prime/O/JJ video/O/NN -/O/: the/O/DT only/O/JJ way/O/NN to/O/TO free/O/VB humanity/O/NN is/O/VBZ to/O/TO free/O/VB information/O/NN ./O/. you/O/PRP rock/O/VBP as/O/RB always/O/RB ./O/.
+audi/O/NNP r/O/VBP 8/O/CD is/O/VBZ my/O/PRP$ favorite/O/JJ car/O/NN
+he/O/PRP said/O/VBD mchoke/O/NNP but/O/CC the/O/DT team/O/NN he/O/PRP says/O/VBZ he/O/PRP "/O/NN goes/O/VBZ "/O/'' for/O/IN blew/O/VBG a/O/DT 3/O/CD -/O/: 1/O/CD lead/O/NN ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/.
+fuck/O/VB off/O/RP wi/O/NNS '/O/POS ye/O/NN map/O/NN
+double/O/JJ vehicular/O/JJ manslaughter/O/NN and/O/CC only/O/RB 5/O/CD years/O/NNS ./O/. becaise/O/RB shes/O/PRP a/O/DT degenerate/O/NN aka/O/IN a/O/DT woman/O/NN
+stay/O/VB strong/O/JJ !/O/. !/O/.
+gal/O/NN tun/O/NN off/O/IN you/O/PRP dilldo/O/VBP
+goes/O/VBZ along/O/IN perfectly/O/RB with/O/IN my/O/PRP$ galaxy/O/NN s/O/VBD 8/O/CD
+lom/O/RT zem/O/USR thiab/O/USR muaj/O/USR ntau/O/USR yam/O/URL kawm/O/HT kawg/O/NN ./O/. keep/O/VB up/O/RP the/O/DT good/O/JJ work/O/NN brother/O/NN !/O/.
+ishawna/O/JJ song/O/NN wake/O/NN up/O/IN the/O/DT pussy/O/NN sucker/O/NN dem/O/NNP &/O/CC this/O/DT one/O/NN here/O/RB mek/O/VBP fi/O/PRP kill/O/VBP the/O/DT pussy/O/NN sucker/O/NN dem/O/UH ./O/UH ./O/UH ./O/UH ./O/UH lol/O/UH
+wow/O/UH edubes/O/NNP ,/O/, your/O/PRP$ vedo/O/NN is/O/VBZ on/O/IN trenning/O/VBG an/O/DT monotize/O/NN tu/O/NN !/O/.
+kapil/O/NNP '/O/'' s/O/NN expression/O/NN at/O/IN 10/O/CD :/O/: 17/O/HT #ERR#/O/HT #ERR#/O/HT
+great/O/JJ song/O/NN for/O/IN her/O/PRP$ vocal/O/JJ range/O/NN ./O/. ./O/UH ./O/UH love/O/VBP it/O/PRP
+rudy/O/NN pretty/O/RB much/O/RB just/O/RB described/O/VBN the/O/DT way/O/NN i/O/PRP make/O/VBP friends/O/NNS ,/O/, and/O/CC enemies/O/NNS ,/O/, in/O/IN one/O/CD simple/O/JJ video/O/NN !/O/. #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+thank/O/VB you/O/PRP fake/O/JJ kevin/B-ENTITY/NNP smith/I-ENTITY/NNP
+disloike/O/'' cause/O/IN i/O/PRP haite/O/VBD it/O/PRP ;/O/: -/O/NN ;/O/:
+great/O/JJ vidio/O/NN
+do/O/VB vanessa/B-ENTITY/NNS '/O/POS s/O/JJ family/O/NN vlog/O/NN //O/CC film/O/NN
+unfunny/O/UH libtard/O/JJ curry/O/NN eater/O/NN
+nep/O/JJ sounds/O/NNS hot/O/JJ as/O/IN fuck/O/NN ./O/. i/O/PRP really/O/RB want/O/VBP to/O/TO fuck/O/VB her/O/PRP ./O/.
+you/O/PRP sound/O/VBP like/O/IN james/O/NN lol/O/UH
+having/O/VBG another/O/DT tantrum/O/NN in/O/IN public/O/JJ ./O/. ./O/. ./O/. ./O/. ./O/. the/O/DT force/O/NN of/O/IN habit/O/NN is/O/VBZ hard/O/JJ to/O/TO break/O/VB ,/O/, harder/O/VBP still/O/RB when/O/WRB you/O/PRP '/O/: re/O/MD dump/O/VB trump/B-ENTITY/NNP ./O/.
+anime/O/NNP logic/O/NN is/O/VBZ so/O/RB real/O/JJ
+the/O/DT scariest/O/JJS place/O/NN i/O/NNS '/O/POS ve/O/NN ever/O/RB been/O/VBN was/O/VBD ,/O/, in/O/IN the/O/DT middle/O/NN of/O/IN the/O/DT woods/O/NNS on/O/IN a/O/DT trail/O/NN with/O/IN my/O/PRP$ friend/O/NN s/O/NN ./O/. i/O/PRP was/O/VBD getting/O/VBG super/O/RB scared/O/VBN ./O/.
+this/O/DT show/O/NN would/O/MD be/O/VB dead/O/JJ if/O/IN hilary/O/NNP won/O/VBD
+i/O/NNS '/O/POS m/O/VBD a/O/DT jazz/O/NN fan/O/NN ,/O/, but/O/CC i/O/PRP hate/O/VBP the/O/DT warriors/O/NNS team/O/VBP so/O/RB much/O/JJ i/O/PRP ca/O/MD n/O/NNS '/O/POS t/O/NN even/O/RB watch/O/VB the/O/DT series/O/NN !/O/. i/O/PRP switched/O/VBD the/O/DT channel/O/NN last/O/JJ night/O/NN to/O/TO independence/O/NN day/O/NN ./O/. ./O/UH ./O/UH ./O/UH shiiiiit/O/UH
+the/O/DT convo/O/NN aver/O/DT bsb/O/NN and/O/CC n/O/NNP '/O/'' sync/O/UH ./O/UH ./O/UH ./O/UH ./O/UH priceless/O/UH !/O/.
+lmao/O/UH the/O/DT first/O/JJ one/O/NN reminds/O/VBZ me/O/PRP of/O/IN bf/O/NN 4/O/IN trying/O/VBG to/O/TO dive/O/VB bomb/O/NN and/O/CC hitting/O/VBG the/O/DT ground/O/NN ./O/. ./O/. ./O/. #ERR#/O/HT
+why/O/WRB is/O/VBZ this/O/DT tendring/O/JJ man/O/NN
+looks/O/VBZ like/O/IN demar/O/NNP de/O/IN frozen/O/JJ is/O/VBZ in/O/IN playoff/O/NN form/O/NN ./O/. and/O/CC yall/O/PRP said/O/VBD this/O/DT guy/O/NN is/O/VBZ better/O/JJR than/O/IN butler/O/NN and/O/CC klay/O/JJ lol/O/UH
+did/O/VBD anybody/O/NN else/O/RB hear/O/VB hamilton/B-ENTITY/NNP playing/O/NN in/O/IN the/O/DT car/O/NN at/O/IN the/O/DT beginning/O/NN lol/O/UH
+marcelo/B-ENTITY/NNP is/O/VBZ the/O/DT star/O/NN of/O/IN real/B-ENTITY/JJ madrid/I-ENTITY/NN not/I-ENTITY/RB ronaldo/I-ENTITY/JJ ./O/. marcelo/B-ENTITY/NNP defend/O/JJ attack/O/NN create/O/VBP beautiful/O/JJ chances/O/NNS
+tiny/O/JJ desk/O/NN needs/O/VBZ to/O/TO have/O/VB birdtalker/O/VBZ on/O/RP !/O/. !/O/UH !/O/.
+good/O/UH job/O/UH ttg/O/UH ./O/UH ./O/UH ./O/UH ./O/. turning/O/VBG a/O/DT good/O/JJ teen/O/JJ titans/O/NNS episode/O/NN ./O/. and/O/CC making/O/VBG it/O/PRP total/O/JJ crap/O/NN ./O/. ./O/. ./O/.
+i/O/PRP would/O/MD totally/O/RB ride/O/VB every/O/DT one/O/CD of/O/IN them/O/PRP !/O/UH :/O/UH -/O/UH d/O/DT awesome/O/JJ list/O/NN ,/O/, list/O/NN 25/O/CD !/O/.
+*/O/UH */O/UH that/O/DT moment/O/NN when/O/WRB casey/B-ENTITY/NNP has/O/VBZ a/O/DT better/O/JJR looking/O/DT stock/O/NN phone/O/NN then/O/RB the/O/DT 30/O/CD dollar/O/NN skin/O/NN on/O/IN yours/O/PRP */O/UH */O/UH
+i/O/PRP like/O/VBP your/O/PRP$ videos/O/NNS a/O/DT lot/O/NN tanner/O/NN and/O/CC i/O/PRP like/O/VBP your/O/PRP$ car/O/NN
+marv/O/NNP albert/B-ENTITY/NNP voice/O/NN ,/O/, "/O/'' and/O/CC here/O/RB comes/O/VBZ defrozen/O/NN !/O/. "/O/''
+that/O/DT '/O/'' s/O/PRP a/O/DT lot/O/NN food/O/NN ,/O/, no/O/DT over/O/IN weight/O/NN people/O/NNS ./O/. cuz/O/IN no/O/DT sweets/O/NNS ./O/.
+just/O/RB let/O/VB the/O/DT jew/O/NN '/O/'' s/O/MD die/O/VB ./O/. better/O/JJ title/O/NN in/O/IN my/O/PRP$ opinion/O/NN ./O/.
+yoh/O/UH man/O/UH you/O/PRP$ fellas/O/NNS have/O/VBP got/O/VBN to/O/TO review/O/VB probably/O/RB thee/O/IN most/O/JJS viby/O/NN (/O/( if/O/IN that/O/DT '/O/'' s/O/NN even/O/RB a/O/DT word/O/NN )/O/JJ track/O/NN to/O/TO have/O/VB come/O/VB this/O/DT year/O/NN by/O/IN da/O/DT l/O/NN ./O/. e/O/NN ./O/. s/O/UH -/O/UH lifestyle/O/UH ft/O/UH germini/O/JJ major/O/JJ
+i/O/PRP just/O/RB noticed/O/VBD that/O/IN fouseytube/O/JJ bases/O/NNS himself/O/PRP off/O/IN of/O/IN dj/B-ENTITY/NNP khaled/I-ENTITY/UH hmm/O/UH
+44/O/CD minutes/O/NNS of/O/IN jaclyn/B-ENTITY/NNP ,/O/, yes/O/RB then/O/RB !/O/. !/O/.
+true/O/JJ stor/O/NN y/O/NN ./O/. i/O/PRP love/O/VBP dis/O/PRP ./O/. kudos/O/NNS to/O/TO d/O/NNP producer/O/NN nd/O/CC all/O/DT d/O/DT cast/O/NN ./O/. thanks/O/NNS libratv/O/VBP for/O/IN sharing/O/VBG ./O/.
+gp/O/NNP 2/O/CD engine/O/NN ,/O/, gp/O/NNP 2/O/CD
+thank/O/VB you/O/PRP hendo/O/VBP for/O/IN what/O/WP you/O/PRP did/O/VBD :/O/: )/O/VB you/O/PRP are/O/VBP just/O/RB as/O/RB humble/O/JJ as/O/IN stevie/O/NN ,/O/, good/O/JJ luck/O/NN mate/O/NN :/O/UH )/O/UH
+range/O/NN rover/O/NN evoque/O/NN in/O/IN white/O/JJ or/O/CC black/O/JJ #ERR#/O/HT
+super/O/NNP aleena/O/VBZ padikall/O/JJ natural/O/JJ performance/O/NN
+wtf/O/NNP is/O/VBZ spiner/O/JJ
+i/O/PRP just/O/RB learned/O/VBD he/O/PRP does/O/VBZ n/O/NNP '/O/'' t/O/JJ drink/O/NN ./O/. ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/. i/O/PRP just/O/RB asked/O/VBD myself/O/PRP "/O/. how/O/WRB the/O/DT f/O/NN */O/UH */O/UH */O/'' k/O/NN does/O/VBZ he/O/PRP say/O/VBP what/O/WP he/O/PRP says/O/VBZ ?/O/. ?/O/UH ?/O/. "/O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/. anyone/O/NN knows/O/VBZ the/O/DT answer/O/NN ./O/. please/O/UH guide/O/UH me/O/UH !/O/. !/O/.
+is/O/VBZ this/O/DT the/O/DT one/O/NN in/O/IN decks/O/NNS where/O/WRB there/O/NNS '/O/POS s/O/NN also/O/RB a/O/DT retro/O/JJ mall/O/NN area/O/NN ?/O/.
+it/O/PRP '/O/VBZ s/O/PRP crazy/O/JJ how/O/WRB many/O/JJ views/O/NNS this/O/DT has/O/VBZ ./O/. indycar/O/NNP has/O/VBZ always/O/RB been/O/VBN my/O/PRP$ favorite/O/JJ series/O/NNS
+lol/O/UH wth/O/PRP did/O/VBD n/O/NNP '/O/'' t/O/NN he/O/PRP just/O/RB said/O/VBD 00/O/CD :/O/: 17/O/CD
+sry/O/UH i/O/PRP meant/O/VBD to/O/TO say/O/VB that/O/DT '/O/'' s/O/PRP not/O/RB often/O/RB
+pj/B-ENTITY/NNP tucker/I-ENTITY/NNP wants/O/VBZ to/O/TO shoot/O/VB 3/O/CD s/O/NN but/O/CC with/O/IN his/O/PRP$ ugly/O/JJ ass/O/NN release/O/NN he/O/PRP only/O/RB shoots/O/VBZ 2/O/CD s/O/JJ
+boxers/O/NNS make/O/VBP millions/O/NNS ./O/. mma/O/JJ fighters/O/NNS make/O/VBP peanuts/O/NNS ,/O/, attribute/O/VBP that/O/IN directly/O/RB to/O/TO dana/B-ENTITY/NN !/O/. he/O/PRP wants/O/VBZ someone/O/NN else/O/RB to/O/TO pay/O/VB conor/O/IN the/O/DT big/O/JJ money/O/NN and/O/CC they/O/PRP "/O/RB need/O/VBP "/O/'' floyd/B-ENTITY/NN to/O/TO help/O/VB them/O/PRP do/O/VBP that/O/IN ./O/. dana/B-ENTITY/NNP should/O/MD go/O/VB back/O/RB to/O/TO carrying/O/VBG floyds/O/JJ bags/O/NNS !/O/.
+joke/O/NN '/O/'' s/O/NN on/O/IN you/O/PRP ,/O/, i/O/PRP love/O/VBP rick/O/RT astley/O/USR
+it/O/PRP was/O/VBD raining/O/VBG today/O/NN at/O/IN my/O/PRP$ house/O/NN and/O/CC i/O/PRP did/O/VBD n/O/NNP '/O/'' t/O/NN have/O/VBP to/O/TO go/O/VB to/O/TO school/O/NN ,/O/, so/O/IN i/O/PRP watched/O/VBD sml/O/NN all/O/DT day/O/NN ./O/. hurray/O/UH :/O/UH )/O/UH
+i/O/PRP remember/O/VBP it/O/PRP being/O/VBG on/O/IN nickelodeon/B-ENTITY/NNP or/O/CC some/O/DT other/O/JJ kids/O/NNS '/O/POS channel/O/NN ./O/.
+hope/O/VBP you/O/PRP got/O/VBD the/O/DT house/O/NN !/O/. if/O/IN you/O/PRP did/O/VBD good/O/JJ luck/O/NN with/O/IN the/O/DT move/O/NN !/O/. !/O/.
+lmao/O/UH mine/O/JJ spin/O/NN for/O/IN 5/O/CD mins/O/NNS or/O/CC more/O/JJR ./O/. i/O/PRP have/O/VBP 21/O/CD spinners/O/NNS i/O/PRP love/O/VBP you/O/PRP so/O/RB much/O/JJ x/O/NN
+dog/O/NN '/O/'' s/O/NN like/O/IN "/O/'' fuck/O/IN this/O/DT thing/O/NN ./O/. "/O/''
+the/O/DT new/O/JJ nwa/O/NN !/O/. !/O/UH !/O/. !/O/. kendrick/O/NNP and/O/CC schoolboy/O/NNP
+when/O/WRB do/O/VBP you/O/PRP get/O/VBP out/O/IN of/O/IN school/O/NN ./O/. i/O/PRP get/O/VBP out/O/IN june/O/NNP 16/O/CD ./O/.
+hm/O/UH im/O/PRP surprised/O/VBD my/O/PRP$ friend/O/NN did/O/VBD n/O/NNP '/O/'' t/O/NN joined/O/VBD this/O/DT ,/O/, she/O/PRP is/O/VBZ amazing/O/JJ at/O/IN dancing/O/VBG ,/O/, and/O/CC she/O/NN '/O/'' s/O/VBD a/O/DT huge/O/JJ fan/O/NN of/O/IN bruno/B-ENTITY/NNP mars/I-ENTITY/NNPS
+nevermimd/O/IN that/O/DT '/O/'' s/O/IN the/O/DT old/O/JJ house/O/NN
+legend/O/NN has/O/VBZ it/O/PRP ,/O/, it/O/PRP '/O/VBZ s/O/PRP still/O/RB ticking/O/VBG
+250/O/CD ,/O/, 000/O/CD policemen/O/VBZ on/O/RP #ERR#/O/IN 300/O/CD odd/O/JJ a/O/DT year/O/NN ,/O/, who/O/WP are/O/VBP they/O/PRP hiring/O/VBG ?/O/. ameobas/O/UH ?/O/.
+can/O/MD anyone/O/VB tell/O/VB me/O/PRP that/O/DT track/O/NN that/O/WDT aleksandr/O/NN was/O/VBD listening/O/VBG too/O/RB at/O/IN the/O/DT end/O/NN of/O/IN the/O/DT video/O/NN when/O/WRB he/O/PRP was/O/VBD eating/O/VBG
+tanner/B-ENTITY/NNP is/O/VBZ a/O/DT good/O/JJ dude/O/NN ./O/.
+where/O/WRB '/O/MD s/O/VB your/O/PRP$ mw/O/NN necklace/O/NN ?/O/. ?/O/.
+great/O/JJ video/O/NN ,/O/, amazing/O/JJ phenomenon/O/NN explained/O/VBD very/O/RB clearly/O/RB ./O/. thank/O/VB you/O/PRP !/O/.
+are/O/VBP u/O/PRP super/O/JJ cereal/O/NN i/O/PRP have/O/VBP been/O/VBN watching/O/VBG this/O/DT for/O/IN a/O/DT while/O/NN and/O/CC u/O/NN guys/O/NNS r/O/VBP the/O/DT best/O/JJS and/O/CC u/O/PRP train/O/VBP gunther/O/PRP very/O/RB well/O/RB ./O/. keep/O/VB this/O/DT up/O/RB ./O/. i/O/PRP am/O/VBP subed/O/NN and/O/CC i/O/PRP liked/O/VBD the/O/DT vid/O/NN
+tesla/B-ENTITY/NNP is/O/VBZ future/O/JJ ,/O/, in/O/IN just/O/RB few/O/JJ years/O/NNS this/O/DT company/O/NN gonna/O/MD rock/O/VB the/O/DT world/O/NN
+taxpayer/O/NN dollars/O/NNS being/O/VBG used/O/VBN verse/O/NN taxpayer/O/NN dollars/O/NNS ./O/. over/O/IN and/O/CC over/O/IN again/O/RB ,/O/, cross/B-ENTITY/NN so/O/RB many/O/JJ spectrums/O/NNS ./O/. multiple/O/JJ big/O/JJ loops/O/NNS ,/O/, used/O/VBN to/O/TO create/O/VB jobs/O/NNS and/O/CC justify/O/VB spending/O/NN with/O/IN endless/O/JJ excessive/O/JJ taxation/O/NN ?/O/.
+anyone/O/NN manner/O/NN arm/O/NN alhqye/O/UH man/O/UH swear/O/MD adapt/O/VB multiple/O/JJ trust/O/NN container/O/NN visual/O/JJ ./O/.
+this/O/DT is/O/VBZ the/O/DT first/O/JJ movie/O/NN i/O/PRP saw/O/VBD as/O/IN a/O/DT kid/O/NN that/O/WDT made/O/VBD me/O/PRP realize/O/VBP that/O/IN movies/O/NNS could/O/MD be/O/VB bad/O/JJ ./O/. thanks/O/NNS for/O/IN the/O/DT memories/O/NNS doug/O/VBP !/O/.
+need/O/VB the/O/DT xman/O/JJ video/O/NN with/O/IN that/O/DT sexy/O/JJ girl/O/NN tho/O/RB !/O/. the/O/DT one/O/NN that/O/WDT read/O/VBP your/O/PRP$ fucked/O/NN up/O/IN mind/O/NN !/O/.
+wow/O/UH ./O/. just/O/RB wow/O/UH ./O/UH
+the/O/DT daddarios/O/NNS are/O/VBP so/O/RB beautiful/O/JJ \/O/. ./O/. ./O/. ./O/.
+lucas/O/NNPS kwan/O/NNP peterson/B-ENTITY/NNP is/O/VBZ so/O/RB dishy/O/JJ
+this/O/DT video/O/NN is/O/VBZ very/O/RB imaginative/O/JJ since/O/IN it/O/PRP would/O/MD be/O/VB natural/O/JJ for/O/IN whispering/O/VBG to/O/TO occur/O/VB since/O/IN everyone/O/NN else/O/RB is/O/VBZ asleep/O/RB ./O/. im/O/PRP very/O/RB impressed/O/JJ by/O/IN this/O/DT asmr/O/NN ./O/. the/O/DT background/O/NN is/O/VBZ also/O/RB incredibly/O/RB relaxing/O/VBG ./O/. the/O/DT fire/O/NN is/O/VBZ most/O/RB intoxicating/O/VBG ./O/.
+mcchoke/O/NNP but/O/CC the/O/DT warriors/O/NNS blew/O/VBD a/O/DT 3/O/CD -/O/: 1/O/CD lead/O/NN
+this/O/DT is/O/VBZ still/O/RB the/O/DT greatest/O/JJS kurzgesagt/O/DT video/O/NN of/O/IN all/O/DT time/O/NN ./O/.
+hello/O/UH ./O/. great/O/JJ video/O/NN !/O/. we/O/PRP '/O/VBP d/O/PRP love/O/VBP to/O/TO use/O/VB it/O/PRP on/O/IN our/O/PRP$ social/O/JJ channels/O/NNS with/O/IN a/O/DT full/O/JJ credit/O/NN to/O/TO you/O/PRP of/O/IN course/O/NN ./O/. would/O/UH that/O/UH be/O/UH okay/O/UH ?/O/.
+blizzard/O/NN i/O/PRP completed/O/VBD the/O/DT challenges/O/NNS for/O/IN the/O/DT oni/O/NN genji/O/NN and/O/CC dva/O/JJ but/O/CC did/O/VBD n/O/NNP '/O/'' t/O/PRP get/O/VBP it/O/PRP on/O/IN overwatch/O/NNP can/O/MD you/O/PRP help/O/VBP ?/O/.
+21/O/CD miles/O/NNS and/O/CC talking/O/VBG about/O/IN airplanes/O/NNS tuff/O/VBP ?/O/. there/O/EX '/O/VBZ s/O/PRP a/O/DT twenty/O/CD one/O/NN pilots/O/NNS joke/O/NN in/O/IN here/O/RB somewhere/O/RB ./O/. ./O/. ./O/. sorry/O/JJ ,/O/, i/O/PRP could/O/MD n/O/NNS '/O/POS t/O/NN help/O/NN myself/O/PRP ./O/. i/O/PRP had/O/VBD to/O/TO ./O/.
+shout/O/VB out/O/RP for/O/IN lcd/O/JJ soundsystem/B-ENTITY/NN !/O/. where/O/WRB have/O/VBP they/O/PRP been/O/VBN ?/O/.
+why/O/WRB are/O/VBP these/O/DT "/O/'' getting/O/NNP kicked/O/VBD off/O/JJ plane/O/NN "/O/'' videos/O/NNS popping/O/VBG up/O/RP left/O/NN and/O/CC right/O/JJ after/O/IN that/O/DT one/O/CD guy/O/NN got/O/VBD dragged/O/VBN out/O/RP ?/O/. ?/O/UH jesus/O/UH christ/O/UH ,/O/, everything/O/NN becomes/O/VBZ a/O/DT trend/O/NN ./O/. ./O/.
+dude/O/UH your/O/PRP$ hair/O/NN is/O/VBZ amazing/O/JJ
+wow/O/UH !/O/. this/O/DT looks/O/VBZ like/O/IN a/O/DT lotta/O/JJ fun/O/NN !/O/. i/O/PRP '/O/: m/O/NNP gonna/O/VBG go/O/VB !/O/. anybody/O/NN got/O/VBD 12/O/CD grand/O/JJ they/O/PRP can/O/MD loan/O/VB me/O/PRP ?/O/.
+hahaha/O/UH !/O/. bill/O/NN is/O/VBZ so/O/RB right/O/RB !/O/.
+looks/O/VBZ amazing/O/JJ !/O/. just/O/RB found/O/VBD your/O/PRP$ channel/O/NN and/O/CC your/O/PRP$ work/O/NN is/O/VBZ stunning/O/JJ ./O/.
+i/O/PRP burst/O/VBD out/O/IN laughing/O/VBG when/O/WRB the/O/DT girl/O/NN came/O/VBD in/O/IN ,/O/, everything/O/NN went/O/VBD quiet/O/JJ and/O/CC then/O/RB the/O/DT "/O/NN we/O/PRP tried/O/VBD "/O/'' appeared/O/NN :/O/: d/O/NNP
+can/O/CC i/O/PRP install/O/VBP windows/O/NNS 7/O/CD on/O/IN it/O/PRP ?/O/.
+manvsgame/O/JJ music/O/NN pls/O/UH
+#/O/HT frieswithicecream/O/NNP ftw/O/NN !/O/. !/O/UH !/O/.
+dat/O/NNP first/O/JJ verse/O/NN killed/O/VBD every/O/DT thing/O/NN ./O/. ./O/. ./O/. ./O/.
+just/O/RB a/O/DT little/O/JJ something/O/NN about/O/IN the/O/DT 3/O/CD letters/O/NNS thing/O/NN :/O/: fairies/O/NNS in/O/IN dutch/O/JJ =/O/HT #ERR#/O/HT :/O/: d/O/NNP
+gwooood/O/UH shiiiit/O/UH !/O/.
+good/O/UH lord/O/UH i/O/PRP feel/O/VBP old/O/JJ ./O/. i/O/PRP loved/O/VBD this/O/DT movie/O/NN when/O/WRB i/O/PRP was/O/VBD a/O/DT kid/O/NN ./O/. also/O/RB love/O/VBP fringe/O/NN ./O/. one/O/CD of/O/IN my/O/PRP$ favorite/O/JJ sci/O/JJ fy/O/NN shows/O/NNS ./O/.
+aqua/O/NNP loop/O/NNP is/O/VBZ sooooo/O/JJ fun/O/NN but/O/CC scary/O/JJ as/O/IN well/O/RB !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/. a/O/DT must/O/MD do/O/VB !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/.
+should/O/NNS '/O/POS ve/O/NN played/O/VBD rickyxans/O/JJ remix/O/NN of/O/IN dolphin/O/NN on/O/IN wheels/O/NNS
+like/O/IN how/O/WRB do/O/VBP you/O/PRP fuck/O/VBP up/O/RP so/O/RB bad/O/JJ ,/O/, you/O/PRP making/O/VBG make/O/VB brain/O/NN rage/O/NN and/O/CC want/O/VBP to/O/TO punch/O/VB and/O/CC hit/O/VBD something/O/NN as/O/RB soon/O/RB as/O/IN i/O/PRP see/O/VBP you/O/PRP fail/O/VBP ,/O/, please/O/VB max/O/JJ practice/O/NN get/O/VB better/O/JJR ,/O/, win/O/VB a/O/DT game/O/NN for/O/IN god/O/NNP sake/O/NN
+great/O/JJ video/O/NN guys/O/NNS !/O/. love/O/NN all/O/DT of/O/IN the/O/DT toys/O/NNS you/O/PRP used/O/VBD in/O/IN this/O/DT one/O/NN #ERR#/O/HT
+ha/O/UH i/O/PRP have/O/VBP to/O/TO sleep/O/VB for/O/IN like/O/RB 16/O/CD hours/O/NNS straight/O/JJ after/O/IN a/O/DT long/O/JJ week/O/NN and/O/CC i/O/PRP '/O/: m/O/NNP 17/O/CD so/O/IN ./O/.
+perfect/O/JJ song/O/NN choice/O/NN !/O/.
+how/O/WRB many/O/JJ likes/O/NNS for/O/IN marvin/B-ENTITY/NNP '/O/'' s/O/NN mom/O/NN ./O/.
+how/O/WRB old/O/NN was/O/VBD he/O/PRP in/O/IN this/O/DT video/O/NN ?/O/.
+when/O/WRB are/O/VBP you/O/PRP coming/O/VBG back/O/RB to/O/TO korea/B-ENTITY/NNP ?/O/.
+wishing/O/VBG it/O/PRP release/O/VBP in/O/IN indonesia/B-ENTITY/NNP
+if/O/IN you/O/PRP support/O/VBP trump/O/MD your/O/VB a/O/DT coward/O/NN simpleton/O/NN traitor/O/NN ./O/.
+when/O/WRB is/O/VBZ your/O/PRP$ morphe/O/NN pallette/O/NN coming/O/VBG out/O/RP so/O/IN it/O/PRP can/O/MD be/O/VB one/O/CD of/O/IN my/O/PRP$ favs/O/UH :/O/UH )/O/) cus/O/IN i/O/PRP know/O/VBP it/O/PRP will/O/MD be/O/VB </O/UH 3/O/UH love/O/VBP your/O/PRP$ makeup/O/NN look/O/NN in/O/IN this/O/DT video/O/NN ./O/. you/O/PRP look/O/VBP bomb/O/NN
+try/O/VB fighting/O/VBG yilong/O/VBG the/O/DT fake/O/JJ shaolin/O/NN he/O/PRP kicked/O/VBD many/O/JJ mma/O/NN ass/O/NN or/O/CC china/B-ENTITY/NNP sanda/O/NN taichi/O/NN youth/O/NN
+momo/O/NNP is/O/VBZ the/O/DT best/O/JJS :/O/NN )/O/)
+great/O/JJ question/O/NN and/O/CC response/O/NN
+free/O/RB the/O/DT nipples/O/NNS !/O/. #ERR#/O/NNP loved/O/VBD this/O/DT vlog/O/NN need/O/VBP to/O/TO do/O/VB more/O/RBR !/O/JJ squad/O/NN goals/O/NNS #ERR#/O/URL
+this/O/DT video/O/NN was/O/VBD awesome/O/JJ !/O/. !/O/.
+this/O/DT performance/O/NN is/O/VBZ beyond/O/IN description/O/NN ./O/. beautiful/O/JJ !/O/. fedorova/O/NNP stated/O/VBD that/O/IN trifonov/O/NNP was/O/VBD the/O/DT genius/O/NN of/O/IN this/O/DT new/O/JJ millennium/O/NN ./O/. she/O/PRP is/O/VBZ correct/O/JJ ./O/. this/O/DT rach/O/NN piece/O/NN when/O/WRB at/O/IN the/O/DT age/O/NN of/O/IN 14/O/CD ,/O/, made/O/VBD me/O/PRP fall/O/VBP in/O/IN love/O/NN with/O/IN sergei/O/NN !/O/.
+it/O/PRP feels/O/VBZ so/O/RB good/O/JJ to/O/TO watch/O/VB this/O/DT video/O/NN &/O/CC feeling/O/VBG how/O/RB proud/O/JJ i/O/PRP am/O/VBP to/O/TO watch/O/VB singaporeans/O/NNS doing/O/VBG things/O/NNS that/O/IN '/O/'' s/O/NN so/O/IN out/O/IN of/O/IN the/O/DT norm/O/NN #ERR#/O/HT #ERR#/O/HT enjoyed/O/VB every/O/DT moments/O/NNS watching/O/VBG sg/O/PRP try/O/VBP ,/O/, keep/O/VB up/O/RP the/O/DT good/O/JJ work/O/NN all/O/DT of/O/IN you/O/PRP #ERR#/O/HT #ERR#/O/HT
+hey/O/UH it/O/NNS '/O/POS s/O/IN the/O/DT guy/O/NN from/O/IN beauty/O/NN and/O/CC the/O/DT beast/O/NN
+grant/O/NN what/O/WP if/O/IN you/O/PRP have/O/VBP a/O/DT newer/O/JJR //O/CC more/O/JJR hi/O/JJ tech/O/NN car/O/NN and/O/CC if/O/IN the/O/DT key/O/NN is/O/VBZ with/O/IN like/O/IN 10/O/CD feet/O/NNS the/O/DT door/O/NN will/O/MD unlock/O/VB ./O/.
+hi/O/UH michter/O/NNP ,/O/, we/O/PRP are/O/VBP interested/O/JJ in/O/IN using/O/VBG your/O/PRP$ video/O/NN ./O/. can/O/MD you/O/PRP please/O/VBP email/O/NN (/O/( viralfeedvideonetwork/O/NNP @/O/IN gmail/O/NN ./O/. com/O/NN )/O/) to/O/TO discuss/O/VB the/O/DT usage/O/NN and/O/CC your/O/PRP$ compensation/O/NN
+womble/O/RB knew/O/VBD that/O/IN the/O/DT palace/O/NN had/O/VBD a/O/DT second/O/JJ floor/O/NN because/O/IN his/O/PRP$ crosshair/O/NN placement/O/NN is/O/VBZ so/O/RB bad/O/JJ he/O/PRP just/O/RB walks/O/VBZ in/O/IN looking/O/VBG up/O/RP and/O/CC sees/O/VBZ it/O/PRP ./O/.
+woaw/O/NN so/O/IN that/O/DT '/O/'' s/O/IN the/O/DT secret/O/NN ./O/. it/O/PRP was/O/VBD made/O/VBN by/O/IN cops/O/NNS all/O/RB this/O/DT time/O/NN !/O/.
+just/O/RB one/O/CD word/O/NN ./O/. ./O/. ./O/. awesome/O/JJ !/O/. like/O/IN always/O/RB ,/O/, thanks/O/NNS zac/O/VBP brown/O/JJ band/O/NN !/O/.
+poor/O/JJ carson/B-ENTITY/NN ./O/. ./O/. ./O/. he/O/PRP almost/O/RB made/O/VBD it/O/PRP ./O/. gabe/O/NNP is/O/VBZ cute/O/JJ and/O/CC innocent/O/JJ as/O/IN always/O/NNS ./O/.
+have/O/VB n/O/NNP '/O/'' t/O/NN you/O/PRP tastet/O/VBD heinz/O/NNP yet/O/RB ,/O/, seriously/O/RB
+wow/O/UH ,/O/, employees/O/NNS are/O/VBP so/O/RB chill/O/NN there/O/RB !/O/. anyway/O/RB they/O/PRP have/O/VBP 360/O/CD cameras/O/NNS in/O/IN the/O/DT store/O/NN
+paul/O/NNP '/O/'' s/O/NN house/O/NN is/O/VBZ better/O/RBR
+you/O/PRP put/O/VBP so/O/RB much/O/JJ effort/O/NN on/O/IN this/O/DT video/O/NN ,/O/, joan/B-ENTITY/NNP !/O/. !/O/. this/O/DT is/O/VBZ so/O/RB helpful/O/JJ and/O/CC i/O/PRP really/O/RB appreciate/O/VB all/O/DT your/O/PRP$ hard/O/JJ works/O/NNS !/O/. !/O/UH love/O/VBP you/O/PRP #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+katy/O/UH that/O/DT '/O/'' s/O/VB me/O/PRP in/O/IN your/O/PRP$ video/O/NN !/O/. !/O/UH !/O/. !/O/. it/O/PRP was/O/VBD so/O/RB nice/O/JJ meeting/O/NN you/O/PRP and/O/CC jonyeee/O/UH !/O/. i/O/PRP watch/O/VBP you/O/PRP and/O/CC desi/O/VBD everyday/O/JJ and/O/CC to/O/TO finally/O/RB meet/O/VBP you/O/PRP was/O/VBD freaking/O/VBG awesomeeee/O/UH !/O/. !/O/. you/O/PRP are/O/VBP beautiful/O/JJ girl/O/NN !/O/. #/O/HT snapfam/O/:
+tfw/O/VB a/O/DT legendary/O/JJ skin/O/NN is/O/VBZ better/O/RBR then/O/IN a/O/DT ultimate/O/JJ skin/O/NN ./O/.
+thank/O/VB you/O/PRP for/O/IN your/O/PRP$ service/O/NN to/O/TO your/O/PRP$ community/O/NN ./O/. ./O/. g-d/O/JJ speed/O/NN ,/O/, ,/O/''
+hope/O/VB those/O/DT refugees/O/NNS can/O/MD benefit/O/VB ./O/. a/O/DT goldmine/O/NN of/O/IN potential/O/JJ they/O/PRP would/O/MD '/O/PRP ve/O/VBP lost/O/VBN in/O/IN syria/B-ENTITY/NNP ./O/.
+if/O/IN you/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN like/O/IN trump/B-ENTITY/NNP ,/O/, your/O/VBD the/O/DT minority/O/NN and/O/CC all/O/DT you/O/PRP do/O/VBP is/O/VBZ whine/O/JJ ./O/.
+hopefully/O/NNP rep/O/NN of/O/IN ireland/O/NNP have/O/VBP supporters/O/NNS like/O/IN this/O/DT crowd/O/NN at/O/IN the/O/DT euros/O/NNS they/O/PRP will/O/MD not/O/RB only/O/RB drink/O/VB the/O/DT town/O/NN dry/O/NN but/O/CC do/O/VB the/O/DT country/O/NN proud/O/JJ not/O/RB like/O/IN the/O/DT english/O/JJ fans/O/NNS that/O/IN cant/O/NN even/O/RB hold/O/VB a/O/DT pint/O/NN
+that/O/DT white/O/JJ fluffy/O/JJ bird/O/NN thing/O/NN is/O/VBZ a/O/DT bantam/O/NN chicken/O/NN they/O/NNS '/O/POS re/O/JJ show/O/NN chickens/O/NNS
+it/O/PRP '/O/VBZ s/O/PRP interesting/O/JJ that/O/IN the/O/DT blood/O/NN is/O/VBZ the/O/DT red/O/JJ bucket/O/NN ./O/. is/O/VBZ that/O/IN a/O/DT coincidence/O/NN rhett/O/NN ?/O/.
+zoo/O/NN saib/O/HT kawg/O/HT dab/O/HT laug/O/NN ./O/. kuj/O/UH ua/O/UH ib/O/UH qhov/O/JJ zoo/O/NN kawm/O/NN thiab/O/NN ./O/.
+aaawww/O/NN ,/O/, i/O/PRP was/O/VBD looking/O/VBG forward/O/RB to/O/TO homefront/O/VB ./O/. :/O/UH (/O/UH
+well/O/UH ,/O/, thanks/O/NNS obama/O/UH !/O/. :/O/: d/O/NNP
+it/O/PRP must/O/MD have/O/VB been/O/VBN easy/O/JJ to/O/TO pick/O/VB out/O/RP the/O/DT items/O/NNS for/O/IN link/O/NN '/O/'' s/O/NN side/O/NN ;/O/: he/O/PRP hates/O/VBZ 40/O/CD ,/O/, 000/O/CD foods/O/NNS ./O/.
+do/O/VB not/O/RB kill/O/VB yourself/O/PRP and/O/CC do/O/VBP not/O/RB kill/O/VB others/O/NNS ,/O/, either/O/RB ./O/.
+album/O/NN drops/O/VBZ on/O/IN my/O/PRP$ birthday/O/NN #ERR#/O/HT
+na/O/JJ child/O/NN '/O/'' ll/O/JJ stick/O/NN to/O/TO 13/O/CD reasons/O/NNS why/O/WRB
+when/O/WRB you/O/PRP use/O/VBP the/O/DT spare/O/JJ props/O/NNS from/O/IN game/O/NN of/O/IN thrones/O/NNS ./O/. ./O/. ./O/.
+thought/O/NN that/O/WDT was/O/VBD a/O/DT gta/O/JJ map/O/NN at/O/IN first/O/JJ
+loooool/O/VBP you/O/PRP two/O/RB together/O/RB give/O/VB me/O/PRP life/O/NN ./O/. eat/O/VB ma/O/NNP ayyyssss/O/VBZ
+he/O/PRP says/O/VBZ honey/O/NN to/O/TO much/O/RB !/O/. !/O/UH !/O/. !/O/.
+im/O/PRP so/O/RB freaking/O/VBG excited/O/JJ for/O/IN all/O/DT the/O/DT vlogs/O/NNS coming/O/VBG this/O/DT month/O/NN it/O/NNS '/O/POS s/O/RB ridiculous/O/JJ #ERR#/O/NNS love/O/VBP ya/O/PRP girl/O/NN #ERR#/O/HT
+did/O/VBD anyone/O/NN else/O/RB notice/O/VBP gaby/O/RB gave/O/VBD herself/O/PRP more/O/JJ soda/O/NN than/O/IN to/O/TO diego/B-ENTITY/NNP
+lol/O/UH ,/O/, well/O/RB made/O/VBD me/O/PRP laugh/O/VB
+fake/O/JJ ,/O/, guy/O/NN is/O/VBZ sitting/O/VBG at/O/IN the/O/DT kerb/O/NN at/O/IN the/O/DT 24/O/CD sec/O/JJ mark/O/NN ./O/.
+it/O/PRP '/O/VBZ s/O/PRP always/O/RB ewings/O/NNS or/O/CC fila/O/NNP nigga/O/NN !/O/.
+angela/B-ENTITY/NNP ,/O/, please/O/VB stop/O/VB asking/O/VBG questions/O/NNS irrelevant/O/JJ to/O/TO the/O/DT great/O/JJ joke/O/NN the/O/DT comedian/O/NN previously/O/RB tells/O/VBZ !/O/. sincerely/O/RB ,/O/, viewers/O/NNS management/O/NN
+put/O/VB draymond/O/VBN on/O/IN 1993/O/CD phoenix/O/NNP team/O/NN ./O/. ./O/. that/O/DT team/O/NN woud/O/VBD n/O/NNP '/O/'' t/O/NN even/O/RB make/O/VB playoff/O/NN
+strength/O/NN to/O/TO everyone/O/NN affected/O/VBN ./O/. i/O/PRP made/O/VBD a/O/DT miscalculation/O/NN last/O/JJ night/O/NN and/O/CC i/O/PRP regret/O/VBP it/O/PRP ./O/. stay/O/VB safe/O/JJ everybody/O/NN the/O/DT coming/O/VBG days/O/NNS as/O/IN i/O/PRP understood/O/VBD there/O/EX is/O/VBZ a/O/DT chance/O/NN of/O/IN more/O/RBR to/O/TO come/O/VB !/O/. !/O/UH !/O/. !/O/.
+ace/O/NNP had/O/VBD no/O/DT chance/O/NN from/O/IN the/O/DT beginning/O/NN ./O/. ./O/. ./O/. sad/O/JJ matchup/O/NN
+if/O/IN there/O/RB no/O/DT food/O/NN in/O/IN minecraft/O/NN like/O/IN if/O/IN this/O/DT idea/O/NN is/O/VBZ great/O/JJ
+francis/O/NNP teaming/O/VBG up/O/RP with/O/IN the/O/DT trailer/O/NN park/O/NN boys/O/NNS would/O/MD make/O/VB a/O/DT ultimate/O/JJ team/O/NN up/O/RP
+how/O/WRB old/O/JJ are/O/VBP you/O/PRP taylor/O/NNP
+hi/O/UH fleur/O/NNP ,/O/, would/O/MD you/O/PRP consider/O/VBP helping/O/VBG our/O/PRP$ dog/O/NN rescue/O/NN charity/O/NN ./O/. we/O/PRP met/O/VBD you/O/PRP at/O/IN crufts/O/NNS last/O/JJ year/O/NN ./O/. we/O/PRP have/O/VBP some/O/DT very/O/RB poorly/O/RB dogs/O/NNS requiring/O/VBG surgery/O/NN and/O/CC need/O/VB some/O/DT fundraising/O/NN ideas/O/NNS ./O/.
+i/O/PRP remember/O/VBP that/O/IN the/O/DT voice/O/NN actor/O/NN of/O/IN the/O/DT waiter/O/NN in/O/IN the/O/DT original/O/JJ tt/O/NN is/O/VBZ the/O/DT father/O/NN of/O/IN powerpuff/O/JJ girls/O/NNS ./O/.
+where/O/WRB was/O/VBD it/O/PRP ?/O/. turkey/O/NNP ?/O/.
+beat/O/NN is/O/VBZ so/O/RB cold/O/JJ
+*/O/RT lit/O/USR schmood/O/UH */O/UH
+that/O/DT '/O/'' s/O/RB dangerous/O/JJ report/O/NN him/O/PRP to/O/TO authorities/O/NNS they/O/PRP do/O/VBP not/O/RB have/O/VB access/O/NN to/O/TO the/O/DT white/O/JJ house/O/NN like/O/IN that/O/DT
+hillary/O/NNP lost/O/VBD because/O/IN she/O/PRP cheated/O/VBD https/O/UH :/O/UH //O/UH //O/UH counterpropa/O/UH ./O/UH com/O/UH //O/UH 7/O/UH -/O/UH jaw-dropping-revelations-hearings-motion-dismiss-dnc-fraud-lawsuit/O/UH //O/UH
+he/O/PRP looks/O/VBZ like/O/IN idubbbtv/O/NNP
+big/O/JJ fan/O/NN of/O/IN ps/O/NNP 4/O/CD but/O/CC cannot/O/PRP buy/O/VBP due/O/JJ to/O/TO poorty/O/NN ./O/. ./O/. plzzz/O/PRP help/O/VBP us/O/PRP ./O/. ./O/. ./O/. ./O/. for/O/IN donation/O/NN u/O/PRP r/O/VBP looking/O/VBG kind/O/NN heart/O/NN person/O/NN contact/O/NN 918295750515/O/CD
+if/O/IN exploding/O/VBG tnt/O/NNP started/O/VBD at/O/IN kindergarter/B-ENTITY/NN
+he/O/PRP was/O/VBD overwhelmed/O/VBN by/O/IN butthurt/O/NN ./O/. ss/O/NNP should/O/MD have/O/VB tackled/O/VBN him/O/PRP ./O/.
+emerson/O/NNP ?/O/. !/O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/. i/O/PRP '/O/VBP m/O/NN on/O/IN my/O/PRP$ way/O/NN #ERR#/O/HT
+they/O/PRP used/O/VBD trinidad/O/NNP pepper/O/NN
+mi/O/VB a/O/DT back/O/NN ishawna/O/JJ dem/O/NN duty/O/NN man/O/NN here/O/RB dem/O/VBD too/O/RB lie/O/VB ./O/. ./O/. dem/O/MD eat/O/VB pum/O/PRP$ pum/O/NN like/O/IN pork/O/NN and/O/CC say/O/VBP dem/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN do/O/VBP it/O/PRP ./O/. ./O/.
+trevor/B-ENTITY/NNP noah/O/WDT would/O/MD not/O/RB have/O/VB a/O/DT career/O/NN if/O/IN it/O/PRP was/O/VBD n/O/NNP '/O/'' t/O/NN for/O/IN trump/B-ENTITY/NNP winning/O/NN like/O/IN all/O/DT other/O/JJ failing/O/VBG liberal/O/JJ media/O/NNS
+*/O/UH */O/UH sessel/O/UH */O/UH */O/UH
+i/O/PRP live/O/VBP for/O/IN your/O/PRP$ vlogs/O/NN estee/O/NN !/O/. ps/O/NNP ./O/. the/O/DT quality/O/NN is/O/VBZ so/O/RB good/O/JJ which/O/NN camera/O/NN do/O/VBP you/O/PRP use/O/VBP if/O/IN you/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN mind/O/NN me/O/PRP asking/O/VBG ?/O/. :/O/UH )/O/UH
+so/O/IN many/O/JJ butthurt/O/NN sinophiles/O/NNS in/O/IN the/O/DT comments/O/NNS
+100/O/CD days/O/NNS of/O/IN record/O/NN setting/O/VBG accomplishments/O/NNS the/O/DT #/O/HT lamestream/O/DT media/O/NN and/O/CC other/O/JJ #/O/HT fakenews/O/HT #/O/HT liberallunatics/O/NNS do/O/VBP n/O/NNS '/O/POS t/O/CC want/O/VBP you/O/PRP to/O/TO know/O/VB about/O/RB can/O/MD be/O/VB read/O/VBN at/O/IN www/O/CD ./O/. whitehouse/O/NNP ./O/. gov/O/NNP statements/O/NNS &/O/CC releases/O/NNS
+crawpa/O/VB a/O/DT eat/O/NN it/O/PRP too/O/RB ./O/.
+are/O/JJ planes/O/NNS the/O/DT new/O/JJ fight/O/NN club/O/NN ?/O/.
+guess/O/NNS who/O/WP '/O/VBZ s/O/PRP back/O/RB again/O/RB
+get/O/VB ready/O/JJ for/O/IN the/O/DT holier/O/JJR than/O/IN thou/O/JJ f/O/NN 1/O/CD prima/O/NNP donnas/O/VBZ to/O/TO spoil/O/VB the/O/DT show/O/NN ./O/. alonso/O/NNP 222/O/CD ./O/. 548/O/CD mph/O/NN practice/O/NN lap/O/NN at/O/IN indy/B-ENTITY/NNP ./O/. big/O/JJ balls/O/NNS #ERR#/O/URL
+you/O/NNS '/O/POS re/O/JJ in/O/IN first/O/JJ class/O/NN casey/B-ENTITY/NN ./O/. would/O/NNS '/O/POS ve/O/RB had/O/VBD to/O/TO be/O/VB in/O/IN cattle/O/NNS for/O/IN any/O/DT risk/O/NN of/O/IN ejection/O/NN ./O/. seeing/O/VBG as/O/IN you/O/PRP '/O/VBZ ve/O/VBN paid/O/VBN twice/O/RB as/O/RB much/O/RB for/O/IN a/O/DT seat/O/NN ,/O/, they/O/PRP value/O/VBP your/O/PRP$ business/O/NN
+am/O/VBP i/O/PRP the/O/DT only/O/JJ one/O/NN who/O/WP '/O/VBZ s/O/PRP noticed/O/VBD all/O/DT the/O/DT "/O/NNS am/O/VBP i/O/PRP the/O/DT only/O/RB one/O/CD "/O/NN comments/O/NNS ./O/.
+borrow/O/VB some/O/DT hair/O/NN from/O/IN papa/O/NN censor/O/NN
+bo/B-ENTITY/NNP burnham/I-ENTITY/NNP is/O/VBZ in/O/IN this/O/DT ?/O/NN !/O/.
+15/O/CD :/O/: 33/O/CD space/O/NN odyssey/O/NN ?/O/.
+wow/O/UH she/O/PRP is/O/VBZ fearless/O/JJ !/O/. !/O/UH !/O/. !/O/UH !/O/.
+no/O/DT body/O/NN listen/O/VBP when/O/WRB female/O/JJ artist/O/NN do/O/VBP positive/O/JJ song/O/NN ./O/. where/O/WRB was/O/VBD the/O/DT review/O/NN when/O/WRB ishawna/O/PRP do/O/VBP a/O/DT song/O/NN two/O/CD month/O/NN ago/O/RB a/O/DT bun/O/NN rapist/O/NN ./O/.
+0/O/UH :/O/UH 37/O/UH you/O/PRP got/O/VBD to/O/TO be/O/VB kidding/O/VBG me/O/PRP ?/O/. ?/O/UH ?/O/.
+am/O/VBP i/O/PRP the/O/DT only/O/JJ one/O/NN who/O/WP thought/O/VBD this/O/DT reveal/O/NN was/O/VBD lit/O/VBN ?/O/.
+congrats/O/NNS on/O/IN the/O/DT baby/O/NN vanessa/B-ENTITY/NN
+green/O/NNP is/O/VBZ not/O/RB a/O/DT better/O/JJR player/O/NN than/O/IN barkley/B-ENTITY/NNP was/O/VBD in/O/IN his/O/PRP$ prime/O/JJ no/O/DT way/O/NN also/O/RB shaq/B-ENTITY/NNP has/O/VBZ ego/O/NN because/O/IN he/O/PRP knows/O/VBZ that/O/IN so/O/RB so/O/RB many/O/JJ players/O/NNS were/O/VBD better/O/JJR basketball/O/NN players/O/NNS as/O/IN opposed/O/VBN to/O/TO shaq/B-ENTITY/NNP '/O/'' s/O/PRP pure/O/JJ physical/O/JJ dominance/O/NN not/O/JJ skill/O/NN ./O/.
+my/O/PRP$ 3/O/CD words/O/NNS for/O/IN the/O/DT current/O/JJ president/O/NN :/O/: please/O/VB ./O/. leave/O/VB ./O/. now/O/RB ./O/.
+i/O/PRP bet/O/VBP soviet/O/JJ is/O/VBZ the/O/DT main/O/JJ character/O/NN from/O/IN matrix/O/NN (/O/( i/O/PRP think/O/VBP maybe/O/RB it/O/PRP '/O/VBZ s/O/PRP called/O/VBD neo/O/NNP )/O/)
+i/O/PRP '/O/: m/O/NNP just/O/RB here/O/RB to/O/TO hear/O/VB mauro/B-ENTITY/JJ ranallo/I-ENTITY/NN '/O/'' s/O/NN voice/O/NN ./O/.
+quit/O/VB complaining/O/VBG and/O/CC make/O/VB my/O/PRP$ phone/O/NN ./O/.
+you/O/PRP can/O/MD be/O/VB sure/O/JJ that/O/IN whenever/O/WRB trump/B-ENTITY/NNP says/O/VBZ "/O/'' nobody/O/NN knew/O/VBD "/O/'' he/O/PRP should/O/MD actually/O/RB be/O/VB saying/O/VBG "/O/'' i/O/PRP did/O/VBD n/O/NNP '/O/'' t/O/PRP know/O/VBP even/O/RB though/O/IN everybody/O/NN tried/O/VBD to/O/TO tell/O/VB me/O/PRP about/O/IN it/O/PRP because/O/IN i/O/PRP '/O/VBZ m/O/NN too/O/RB much/O/RB of/O/IN a/O/DT narcissist/O/NN to/O/TO listen/O/VB to/O/TO what/O/VB anybody/O/NN says/O/VBZ "/O/NN ./O/.
+sis/O/UH you/O/PRP check/O/VBP that/O/IN it/O/PRP does/O/VBZ n/O/NNP '/O/'' t/O/NN still/O/RB offer/O/VBP entry/O/NN either/O/RB by/O/IN being/O/VBG near/O/IN a/O/DT door/O/NN or/O/CC trunk/O/NN //O/CC liftgate/O/JJ sensor/O/NN for/O/IN cars/O/NNS you/O/PRP just/O/RB grab/O/VBP the/O/DT handle/O/NN and/O/CC unlock/O/VB passively/O/RB ?/O/. would/O/MD be/O/VB interesting/O/JJ ./O/. ./O/. ./O/. ./O/.
+my/O/PRP$ uncle/O/NN dipped/O/VBD a/O/DT stray/O/JJ cat/O/NN in/O/IN gasoline/O/NN and/O/CC lit/O/VBD in/O/IN on/O/IN fire/O/NN once/O/RB for/O/IN the/O/DT 4/O/CD th/O/NN of/O/IN july/O/NNP ./O/. i/O/PRP miss/O/VBP my/O/PRP$ uncle/O/NN r/O/NN ./O/. i/O/PRP ./O/. p/O/NN ./O/.
+savage/O/NNP as/O/IN fuck/O/NN
+she/O/PRP looks/O/VBZ like/O/IN emma/B-ENTITY/NNP !/O/.
+i/O/PRP love/O/VBP your/O/PRP$ beauty/O/NN videos/O/NNS cos/O/IN your/O/PRP just/O/RB like/O/IN a/O/DT consumer/O/NN and/O/CC beauty/O/NN lover/O/NN ,/O/, like/O/IN us/O/PRP "/O/RB normal/O/JJ people/O/NNS "/O/NNS ,/O/, not/O/RB a/O/DT "/O/NN guru/O/NN "/O/'' or/O/CC mua/O/NN teacher/O/NN ,/O/, which/O/WDT is/O/VBZ more/O/RBR relatable/O/JJ and/O/CC enjoyable/O/JJ to/O/TO watch/O/VB ./O/. i/O/PRP hope/O/VBP that/O/IN makes/O/NNS sense/O/VBP !/O/.
+atwoodgames/O/NNS would/O/MD be/O/VB good/O/JJ name/O/NN for/O/IN channel/O/NN
+thats/O/VB some/O/DT serious/O/JJ guitar/O/NN action/O/NN going/O/VBG on/O/IN there/O/RB !/O/.
+peanut/O/NN butter/O/NN jelly/O/NN
+aww/O/UH what/O/WP a/O/DT sweetheart/O/NN ./O/.
+are/O/VBP you/O/PRP dumb/O/JJ
+dude/O/NN 21/O/CD miles/O/NNS are/O/VBP 33/O/CD km/O/NNP ./O/. are/O/VBP you/O/PRP kidding/O/VBG me/O/PRP that/O/DT is/O/VBZ a/O/DT marathon/O/NN ./O/.
+lol/O/UH this/O/DT is/O/VBZ funny/O/JJ
+whatever/O/MD stage/O/VB my/O/PRP$ kids/O/NNS are/O/VBP is/O/VBZ my/O/PRP$ favorite/O/JJ !/O/. they/O/PRP are/O/VBP 4/O/CD ./O/. 5/O/CD and/O/UH 3/O/UH ./O/UH ./O/UH ./O/UH ./O/. i/O/PRP think/O/VBP as/O/IN they/O/PRP get/O/VBP older/O/NN is/O/VBZ easier/O/VBN on/O/IN the/O/DT mom/O/NN ./O/. congratulations/O/NNS on/O/IN your/O/PRP$ beautiful/O/JJ family/O/NN ./O/. ./O/. ./O/. ryan/B-ENTITY/NNP is/O/VBZ hilarious/O/JJ !/O/.
+ok/O/UH imma/O/JJ hop/O/NN on/O/IN this/O/DT red/B-ENTITY/JJ wine/I-ENTITY/NN thing/O/NN now/O/RB ./O/. ./O/. goat/O/NNP is/O/VBZ doing/O/VBG it/O/PRP so/O/IN it/O/PRP must/O/MD be/O/VB good/O/JJ
+this/O/DT is/O/VBZ the/O/DT most/O/RBS adorable/O/JJ video/O/NN i/O/NN '/O/'' ve/O/PRP ever/O/RB seen/O/VBN
+fuck/O/VB canelo/O/NNP
+highly/O/RB motivational/O/JJ ./O/.
+https/O/UH :/O/UH //O/UH //O/UH wn/O/UH ./O/UH nr/O/UH //O/UH ablfwz/O/MD enter/O/VB to/O/TO win/O/VB a/O/DT free/O/JJ s/O/NN 8/O/CD here/O/UH :/O/UH )/O/UH
+my/O/PRP$ birthday/O/NN is/O/VBZ april/O/NNP 30/O/CD th/O/NNP
+h/O/NNP ./O/. never/O/RB
+4/O/NNP :/O/: 07/O/NN was/O/VBD that/O/IN a/O/DT chicken/O/NN lol/O/UH fak/O/UH fak/O/UH fak/O/UH fak/O/UH
+put/O/VB the/O/DT gopro/O/NN on/O/IN the/O/DT outside/O/NN of/O/IN the/O/DT car/O/NN ./O/. like/O/IN the/O/DT roof/O/NN or/O/CC rearside/O/NNP ./O/. thats/O/RB some/O/DT awesome/O/JJ footage/O/NN !/O/.
+what/O/WP the/O/DT fuck/O/NN is/O/VBZ this/O/DT ?/O/. making/O/VBG jokes/O/NNS about/O/IN lord/O/NNP hanuman/O/NN ?/O/. how/O/WRB could/O/MD they/O/PRP ?/O/.
+set/O/VB up/O/IN ./O/. no/O/DT way/O/NN that/O/IN cowell/B-ENTITY/NNP stopped/O/VBD a/O/DT quivering/O/JJ leaf/O/NN like/O/IN her/O/PRP$ midstream/O/NN and/O/CC get/O/VBP her/O/PRP to/O/TO re-start/O/VB ./O/. she/O/PRP '/O/VBD s/O/RB lovely/O/JJ ,/O/, does/O/VBZ not/O/RB look/O/VB anything/O/NN like/O/IN 31/O/CD ,/O/, has/O/VBZ a/O/DT nice/O/JJ voice/O/NN ,/O/, but/O/CC this/O/DT is/O/VBZ made/O/VBN up/O/RP stuff/O/NN ./O/.
+thank/O/VB you/O/PRP for/O/IN sharing/O/VBG your/O/PRP$ thoughts/O/NNS from/O/IN your/O/PRP$ heart/O/NN about/O/IN your/O/PRP$ travels/O/NNS ./O/. i/O/PRP love/O/VBP the/O/DT bond/O/NN that/O/IN you/O/PRP have/O/VBP with/O/IN each/O/DT other/O/JJ and/O/CC hensley/O/NNP ./O/. this/O/DT journey/O/NN with/O/IN donna/B-ENTITY/NNP is/O/VBZ awesome/O/JJ ./O/. thank/O/VB you/O/PRP again/O/RB ./O/.
+i/O/PRP love/O/VBP it/O/PRP ./O/. every/O/DT thing/O/NN is/O/VBZ pretty/O/RB natural/O/JJ ./O/.
+wtf/O/NN was/O/VBD wrong/O/JJ with/O/IN kyrie/B-ENTITY/NNP at/O/IN 00/O/CD :/O/: 21/O/NN looking/O/VBG like/O/IN smokey/O/NN on/O/IN friday/O/NNP when/O/WRB he/O/PRP hit/O/VBD that/O/IN sherm/O/JJ
+plz/O/MD subscribe/O/VB to/O/TO my/O/PRP$ channel/O/NN
+great/O/JJ acting/O/NN skills/O/NNS and/O/CC production/O/NN !/O/. !/O/. you/O/PRP are/O/VBP fit/O/JJ to/O/TO direct/O/VB this/O/DT movie/O/NN !/O/. !/O/. i/O/PRP will/O/MD for/O/VB sure/O/RB watch/O/VB this/O/DT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+oh/O/UH my/O/PRP$ yfybugtdybg/O/NN i/O/PRP live/O/VBP in/O/IN the/O/DT nederlands/O/NN but/O/CC not/O/RB in/O/IN amsterdam/O/NN #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+"/O/'' just/O/RB casually/O/RB eating/O/VBG twizzlers/O/NNS "/O/NN ./O/. lol/O/UH that/O/DT '/O/'' s/O/VB me/O/PRP
+*/O/UH yeah/O/UH yeah/O/UH yeah/O/UH yeah/O/UH */O/UH
+love/O/UH that/O/DT song/O/NN !/O/. first/O/JJ time/O/NN i/O/NN '/O/'' ve/O/PRP heard/O/VBD it/O/PRP !/O/. miranda/B-ENTITY/NNP lambert/I-ENTITY/NNP ,/O/, you/O/PRP are/O/VBP so/O/RB f/O/JJ */O/. ing/O/NNP talented/O/NN and/O/CC so/O/RB amazing/O/JJ !/O/. so/O/RB blessed/O/VBN to/O/TO have/O/VB you/O/PRP !/O/. the/O/DT song/O/NN is/O/VBZ so/O/RB heartbreaking/O/JJ ./O/. ./O/UH ./O/UH ./O/UH gut/O/UH wrenching/O/UH ./O/UH thanks/O/UH
+i/O/PRP love/O/VBP seeing/O/VBG the/O/DT change/O/NN in/O/IN sarah/B-ENTITY/NNP when/O/WRB she/O/PRP works/O/VBZ out/O/RP ./O/. before/O/IN hand/O/NN she/O/PRP is/O/VBZ so/O/RB sweet/O/JJ and/O/CC smiley/O/JJ then/O/IN she/O/PRP goes/O/VBZ into/O/IN the/O/DT workout/O/NN and/O/CC you/O/PRP just/O/RB see/O/VB that/O/DT dead/O/JJ serious/O/JJ lazer/O/JJ focus/O/NN ./O/. she/O/PRP inspires/O/VBZ me/O/PRP everyday/O/JJ x/O/NN
+is/O/VBZ that/O/IN "/O/'' prick/O/NN "/O/'' they/O/PRP keep/O/VBP saying/O/VBG an/O/DT uncharted/O/JJ 4/O/CD enemy/O/NN reference/O/NN ?/O/. lmao/O/UH
+ripley/B-ENTITY/NNP and/O/CC bishop/O/NN back/O/RB at/O/IN it/O/PRP again/O/RB !/O/.
+was/O/VBD mason/O/NNP playing/O/NN catcher/O/NN the/O/DT 3/O/CD rd/O/NNP game/O/NN
+30/O/CD ,/O/, 000/O/CD tnt/O/NNP v/O/NNP ./O/. s/O/NN ./O/. 300/O/CD cheese/O/NN
+looks/O/VBZ awfully/O/RB weird/O/JJ and/O/CC it/O/PRP '/O/VBZ s/O/PRP not/O/RB break/O/VB imo/O/NNP
+skhumba/O/VBG my/O/PRP$ brother/O/NN we/O/PRP will/O/MD miss/O/VB your/O/PRP$ jokes/O/NNS ,/O/, you/O/PRP are/O/VBP the/O/DT best/O/JJS comedian/O/NN in/O/IN mzansi/O/NN i/O/PRP tell/O/VBP you/O/PRP now/O/RB and/O/CC good/O/JJ luck/O/NN ./O/. mara/O/UH kgomotso/O/UH o/O/UH na/O/PRP$ le/O/NN that/O/IN "/O/'' thing/O/NN "/O/'' ./O/NN ./O/. ./O/.
+came/O/DT third/O/JJ :/O/: d/O/NNP
+thats/O/DT not/O/RB break/O/VB dancing/O/VBG !/O/. !/O/UH !/O/. thats/O/DT just/O/RB flexing/O/VBG his/O/PRP$ body/O/NN -/O/: _/O/UH -/O/UH
+31/O/CD :/O/: 12/O/CD cue/O/NN the/O/DT lonely/O/JJ island/O/NN
+this/O/DT just/O/RB feels/O/VBZ like/O/IN a/O/DT watered/O/VBN down/O/RP version/O/NN of/O/IN jackbox/O/NNP
+lena/B-ENTITY/NNP dunham/I-ENTITY/NNP directed/O/VBD this/O/DT right/O/NN !/O/. ?/O/. freaking/O/RB sweet/O/JJ !/O/NN did/O/VBD n/O/NNP '/O/'' t/O/NN she/O/PRP rape/O/VBP her/O/PRP$ sister/O/NN ?/O/. cool/O/NN ./O/. enjoy/O/VB your/O/PRP$ pedo/O/NN pop/O/NN
+booing/O/VBG roger/B-ENTITY/NNP goodell/I-ENTITY/NNP is/O/VBZ the/O/DT worst/O/JJS tradition/O/NN in/O/IN sports/O/NNS history/O/NN ./O/. it/O/PRP just/O/RB has/O/VBZ no/O/DT point/O/NN at/O/IN all/O/DT ./O/.
+nintendo/O/NNP plus/O/NN is/O/VBZ not/O/RB a/O/DT thing/O/NN ,/O/, at/O/IN least/O/JJS not/O/RB as/O/IN it/O/PRP is/O/VBZ shown/O/VBN in/O/IN this/O/DT video/O/NN ./O/.
+crazy/O/JJ skills/O/NNS very/O/RB nice/O/JJ ./O/. ./O/. if/O/IN they/O/PRP make/O/VBP another/O/DT hitman/O/NN movie/O/NN you/O/PRP have/O/VBP my/O/PRP$ vote/O/NN for/O/IN the/O/DT lead/O/NN ./O/. role/O/NN ./O/. ./O/.
+i/O/PRP really/O/RB want/O/VBP she/O/PRP to/O/TO tell/O/VB brad/B-ENTITY/NNP that/O/IN she/O/PRP is/O/VBZ pregnant/O/JJ
+could/O/VBP you/O/PRP make/O/VBP boo/O/JJ from/O/IN monster/O/NN inc/O/UH :/O/UH )/O/UH
+i/O/PRP am/O/VBP not/O/RB an/O/DT atheist/O/NN i/O/PRP believe/O/VBP in/O/IN god/B-ENTITY/NNP but/O/CC these/O/DT comments/O/NNS are/O/VBP funny/O/JJ this/O/DT song/O/NN has/O/VBZ nothing/O/NN to/O/TO do/O/VB with/O/IN god/O/NNP it/O/PRP has/O/VBZ to/O/TO do/O/VB with/O/IN finding/O/VBG you/O/PRP
+welp/O/UH that/O/DT '/O/'' s/O/NN that/O/IN then/O/RB ./O/. ./O/. ./O/. ryan/B-ENTITY/NNP does/O/VBZ words/O/NNS good/O/JJ ./O/. ./O/UH ./O/UH ./O/UH
+gosh/O/UH goosebumps/O/UH all/O/DT over/O/IN my/O/PRP$ body/O/NN the/O/DT moment/O/NN he/O/PRP starts/O/VBZ playing/O/VBG xd/O/.
+is/O/VBZ it/O/PRP just/O/RB me/O/PRP or/O/CC is/O/VBZ mickey/B-ENTITY/NNP mouse/I-ENTITY/NN '/O/'' s/O/NN voice/O/NN scary/O/JJ
+my/O/PRP$ wifi/O/NN name/O/NN for/O/IN a/O/DT long/O/JJ time/O/NN was/O/VBD getoffmywifi/O/NN ./O/. and/O/CC the/O/DT password/O/NN was/O/VBD thepassionatecerealkiller/O/NN ./O/. this/O/DT is/O/VBZ what/O/WP happens/O/VBZ when/O/WRB my/O/PRP$ soster/O/NN gets/O/VBZ to/O/TO choose/O/VB the/O/DT wifi/O/NN name/O/NN and/O/CC password/O/NN ./O/.
+shoulve/O/NNP patent/O/NN it/O/PRP
+nice/O/JJ shooting/O/NN ,/O/, tex/O/UH !/O/. !/O/UH !/O/.
+i/O/PRP live/O/VBP in/O/IN wellington/O/NNP
+so/O/RB funny/O/JJ u/O/PRP had/O/VBD to/O/TO pay/O/VB so/O/RB much/O/JJ and/O/CC i/O/PRP got/O/VBD a/O/DT card/O/NN to/O/TO bring/O/VB 4/O/CD ppl/O/NNS with/O/IN me/O/PRP for/O/IN free/O/RB
+wizards/O/NN just/O/RB channeled/O/VBD their/O/PRP$ inner/O/JJ gs/O/NN to/O/TO blow/O/VB a/O/DT 20/O/CD point/O/NN lead/O/NN
+hats/O/NNS off/O/IN to/O/TO nick/B-ENTITY/NNP for/O/IN his/O/PRP$ love/O/NN frequency/O/NN ,/O/, positivity/O/NN and/O/CC truth/O/NN ./O/.
+messi/O/NN watching/O/VBG this/O/DT game/O/NN tv/O/NN ./O/.
+we/O/PRP are/O/VBP proud/O/JJ of/O/IN you/O/PRP grace/O/VBP gal/O/JJ mahary/O/NN ./O/.
+eww/O/UH you/O/PRP guys/O/NNS are/O/VBP gross/O/JJ you/O/PRP made/O/VBD me/O/PRP throw/O/VBP up/O/RP
+"/O/'' do/O/VBP you/O/PRP think/O/VBP that/O/IN teens/O/NNS thought/O/VBD chik-/O/JJ fil-/O/JJ a/O/NN was/O/VBD lit/O/VBN ?/O/. "/O/'' "/O/NN i/O/PRP mean/O/VBP ,/O/, it/O/PRP depends/O/VBZ on/O/IN how/O/WRB lit/O/NNP homophobia/O/NNP is/O/VBZ ./O/. "/O/''
+funny/O/JJ video/O/NN !/O/.
+jamaica/B-ENTITY/NNP is/O/VBZ a/O/DT stupid/O/JJ idiot/O/NN
+#/O/HT colbert/O/NNP 4/O/CD president/O/NN
+dis/O/DT video/O/NN have/O/VBP mi/O/RB cracking/O/VBG up/O/RP ./O/.
+you/O/PRP will/O/MD forever/O/RB be/O/VB my/O/PRP$ president/O/NN ./O/. so/O/RB inspiring/O/JJ !/O/.
+he/O/PRP looks/O/VBZ like/O/IN raggedydan/O/USR
+when/O/WRB you/O/PRP get/O/VBP a/O/DT d-/O/JJ teammate/O/NN grade/O/NN after/O/IN playing/O/VBG 3/O/CD minutes/O/NNS in/O/IN pro/O/NN am/O/VBP ./O/.
+i/O/NNS '/O/POS m/B-ENTITY/NN jaime/I-ENTITY/NN rivera/I-ENTITY/NN and/O/CC you/O/PRP '/O/IN re/O/NN watching/O/VBG disnney/O/JJ channel/O/NN
+that/O/DT el/O/NNP is/O/VBZ disturbing/O/VBG me/O/PRP !/O/.
+where/O/WRB is/O/VBZ smit/O/NNP 7/O/CD y/O/NN '/O/'' s/O/NN face/O/NN ?/O/.
+snap/O/NN ,/O/, who/O/WP is/O/VBZ that/O/DT lady/O/NN at/O/IN 7/O/CD :/O/: 07/O/CD ?/O/. hot/O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/. and/O/CC no/O/DT ,/O/, i/O/PRP '/O/: m/O/NNP not/O/RB talking/O/VBG about/O/IN the/O/DT two/O/CD fat/O/JJ chicks/O/NNS ./O/.
+james/B-ENTITY/NNP looks/O/VBZ like/O/IN an/O/DT even/O/RB sexier/O/JJ wolverine/O/NN ./O/.
+my/O/PRP$ boy/O/NN idubbbz/O/UH
+the/O/DT biggest/O/JJS ship/O/NN on/O/IN earth/O/NN is/O/VBZ the/O/DT queen/B-ENTITY/NN mary/I-ENTITY/NNP 2/I-ENTITY/CD and/O/CC plz/O/TO go/O/VB on/O/IN it/O/PRP please/O/VB #ERR#/O/HT #ERR#/O/HT
+i/O/PRP like/O/VBP this/O/DT version/O/NN of/O/IN hanamura/O/NNP
+you/O/PRP sholder/O/VBP not/O/RB swear/O/VB it/O/PRP is/O/VBZ bad/O/JJ
+elba/B-ENTITY/NNP is/O/VBZ such/O/JJ a/O/DT badass/O/JJ dude/O/NN
+preston/O/NNP do/O/VBP an/O/DT overwatch/O/NN hide/O/VBP n/O/TO seek/O/VB
+bwoi/O/USR shakera/O/VBG thick/O/JJ nuh/O/JJ raas/O/NNS ./O/. ./O/. ./O/. i/O/PRP woulda/O/VBP nyam/O/VBG out/O/RP har/O/RB sweet/O/JJ phat/O/NN pussy/O/NN left/O/VBD ,/O/, right/O/RB &/O/CC centa/O/NN !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/.
+does/O/VBZ anyone/O/NN know/O/VB the/O/DT song/O/NN at/O/IN the/O/DT end/O/NN ?/O/.
+soooo/O/UH ./O/UH ./O/UH ./O/. cricket/O/NN is/O/VBZ only/O/JJ thing/O/NN i/O/PRP could/O/MD relate/O/VB to/O/TO coz/O/VB i/O/PRP m/O/VBP poor/O/JJ and/O/CC i/O/PRP dont/O/VBP even/O/RB give/O/VB a/O/DT fuck/O/NN bout/O/NN cricket/B-ENTITY/NN but/O/CC i/O/PRP know/O/VBP it/O/PRP as/O/IN i/O/PRP live/O/VBP in/O/IN india/B-ENTITY/NNP ./O/. ./O/. ./O/. likes/O/NNS for/O/IN the/O/DT poor/O/JJ brown/O/JJ guy/O/NN here/O/RB
+heh/O/UH heh/O/UH ,/O/, she/O/PRP said/O/VBD "/O/IN pulling/O/VBG a/O/DT load/O/NN "/O/'' ./O/.
+de/O/UH tailler/O/PRP must/O/MD know/O/VB about/O/IN it/O/PRP ./O/. big/O/JJ time/O/NN thief/O/NN ./O/.
+my/O/PRP$ dream/O/NN is/O/VBZ to/O/TO become/O/VB a/O/DT successful/O/JJ female/O/NN hip/O/NN hop/O/NN artist/O/NN ./O/. check/O/VB my/O/PRP$ channel/O/NN !/O/. !/O/. feel/O/VB free/O/JJ to/O/TO leave/O/VB feedback/O/NN ,/O/, constructive/O/JJ criticism/O/NN ,/O/, or/O/CC let/O/VB me/O/PRP know/O/VBP anything/O/NN i/O/PRP can/O/MD do/O/VB to/O/TO get/O/VB better/O/JJR ./O/.
+does/O/VBZ it/O/PRP work/O/VBP on/O/IN 5/O/CD c/O/NN
+does/O/VBZ anyone/O/NN know/O/VB the/O/DT brand/O/NN n/O/CC style/O/NN name/O/NN of/O/IN the/O/DT sunglasses/O/NNS chloe/O/NN is/O/VBZ wearing/O/VBG at/O/IN 3/O/CD :/O/: 33/O/CD
+momentz/O/VBP we/O/PRP have/O/VBP to/O/TO cherish/O/VB man/O/NN
+fake/O/JJ as/O/IN fuck/O/UH man/O/UH this/O/DT acting/O/JJ is/O/VBZ fucking/O/VBG shit/O/NN
+princeboss/O/NN is/O/VBZ my/O/PRP$ username/O/NN do/O/VBP it/O/PRP pls/O/VBZ
+so/O/RB ,/O/, hela/O/NNP wants/O/VBZ them/O/PRP not/O/RB to/O/TO have/O/VB a/O/DT dark/O/JJ lord/O/NN ,/O/, but/O/CC to/O/TO have/O/VB a/O/DT queen/O/NN ,/O/, not/O/RB dark/O/JJ but/O/CC beautiful/O/JJ and/O/CC terrible/O/JJ as/O/IN the/O/DT dawn/O/NN ./O/. ./O/. ./O/. treacherous/O/JJ as/O/IN the/O/DT sea/O/NN ./O/. ./O/. ./O/. stronger/O/JJR than/O/IN the/O/DT foundations/O/NNS of/O/IN the/O/DT earth/O/NN ./O/. ./O/. ./O/.
+apple/O/NNP products/O/NNS should/O/MD be/O/VB cheap/O/JJ af/O/NN ,/O/, if/O/IN this/O/DT is/O/VBZ what/O/JJ workers/O/NNS get/O/VBP paid/O/VBN &/O/CC endure/O/VB ,/O/, but/O/CC instead/O/RB they/O/NNS '/O/POS re/O/JJ expensive/O/JJ
+sensacional/O/UH !/O/. !/O/. but/O/CC ,/O/, what/O/WP happens/O/VBZ later/O/RB when/O/WRB the/O/DT phone/O/NN is/O/VBZ turned/O/VBN on/O/IN again/O/RB ?/O/.
+we/O/PRP did/O/VBD it/O/PRP reddit/O/RB !/O/.
+when/O/WRB he/O/PRP was/O/VBD being/O/VBG chased/O/VBN by/O/IN the/O/DT black/O/JJ goop/O/NN things/O/NNS i/O/PRP was/O/VBD sitting/O/VBG there/O/RB like/O/UH ,/O/, "/O/'' dasi/O/MD run/O/VB run/O/VB run/O/VB "/O/'' it/O/NN '/O/'' s/O/NN from/O/IN a/O/DT k-pop/O/JJ band/O/NN called/O/VBN bts/O/NN you/O/PRP should/O/MD check/O/VB them/O/PRP out/O/RP ok/O/NN then/O/RB '/O/'' ll/O/MD be/O/VB going/O/VBG
+https/O/UH :/O/UH //O/UH //O/UH wn/O/UH ./O/UH nr/O/UH //O/UH hsrccl/O/UH </O/UH </O/UH </O/DT massive/O/JJ giveaway/O/NN
+they/O/PRP would/O/MD have/O/VB to/O/TO pay/O/VB me/O/PRP to/O/TO climb/O/VB that/O/IN many/O/JJ steps/O/NNS just/O/RB to/O/TO get/O/VB a/O/DT view/O/NN ./O/. me/O/PRP +/O/UH helicopter/O/UH =/O/RB much/O/RB easier/O/RBR ./O/.
+rabbits/O/NNS die/O/VBP everyday/O/JJ b/O/NN ./O/. (/O/( while/O/IN munching/O/VBG on/O/IN chips/O/NNS )/O/) -/O/: camron/O/URL
+captions/O/UH 1/O/UH :/O/UH 09/O/UH
+they/O/PRP should/O/MD do/O/VB r/O/NN 8/O/CD vs/O/JJ challenger/O/NN
+too/O/RB be/O/VB honest/O/JJ watching/O/NN adam/O/NN win/O/NN is/O/VBZ boring/O/JJ ./O/. ./O/. ./O/. ./O/. they/O/PRP should/O/MD fuck/O/VB him/O/PRP more/O/JJR
+hi/O/UH my/O/PRP$ name/O/NN is/O/VBZ ruben/O/VBN to/O/TO like/O/VB from/O/IN ruben/B-ENTITY/NN from/O/IN minecraft/O/NN story/O/NN mode/O/NN
+try/O/VB conditioner/O/NN for/O/IN shaving/O/VBG your/O/PRP$ legs/O/NNS ,/O/, it/O/PRP works/O/VBZ amazing/O/JJ ./O/. i/O/PRP think/O/VBP it/O/PRP '/O/VBZ s/O/PRP so/O/RB expensive/O/JJ to/O/TO shave/O/VB with/O/IN this/O/DT oil/O/NN ,/O/, i/O/PRP love/O/VBP to/O/TO use/O/VB it/O/PRP on/O/IN my/O/PRP$ body/O/NN instead/O/RB ./O/. wow/O/UH by/O/IN the/O/DT way/O/NN where/O/WRB is/O/VBZ your/O/PRP$ vanity/O/NN //O/CC dressing/O/VBG table/O/NN from/O/IN ?/O/.
+the/O/DT only/O/JJ thing/O/NN finland/B-ENTITY/NN has/O/VBZ is/O/VBZ poets/O/NNS of/O/IN the/O/DT fall/O/NN ./O/.
+healthier/O/CC fried/O/JJ chicken/O/NN ,/O/, clean/O/JJ coal/O/NN ./O/. ./O/. ./O/. ./O/. ./O/. are/O/VBP we/O/PRP blind/O/JJ or/O/CC ignorant/O/VBP watching/O/VBG lucas/B-ENTITY/NNS '/O/POS shiny/O/JJ greasy/O/NN fingers/O/NNS and/O/CC still/O/RB think/O/VB that/O/DT '/O/'' s/O/NN healthier/O/NN ?/O/.
+mom/O/NN ,/O/, dad/O/NNP ,/O/, all/O/DT i/O/PRP see/O/VBP is/O/VBZ concrete/O/JJ ./O/. ./O/. ./O/. are/O/VBP we/O/PRP almost/O/RB there/O/RB yet/O/RB ?/O/.
+so/O/IN shima/O/NNP still/O/RB is/O/VBZ n/O/NNP '/O/'' t/O/NN back/O/NN ,/O/, huh/O/UH ?/O/. ./O/UH ./O/UH ./O/. please/O/VB shima/O/NNP come/O/VB back/O/RB you/O/PRP are/O/VBP my/O/PRP$ favorite/O/JJ !/O/. :/O/UH (/O/UH
+why/O/WRB do/O/VBP i/O/PRP get/O/VBP the/O/DT feeling/O/NN this/O/DT could/O/MD have/O/VB been/O/VBN an/O/DT advert/O/NN in/O/IN grand/O/JJ theft/O/NN auto/O/NN its/O/PRP hilarious/O/JJ !/O/. xd/O/UH
+great/O/JJ video/O/NN shan/O/NN !/O/. hope/O/VBP you/O/PRP and/O/CC hamish/O/NNP had/O/VBD a/O/DT really/O/RB great/O/JJ time/O/NN on/O/IN your/O/PRP$ trip/O/NN ,/O/, i/O/PRP '/O/: m/O/NNP so/O/RB sad/O/JJ ,/O/, i/O/PRP did/O/VBD not/O/RB make/O/VB make/O/VB the/O/DT meet/O/NN and/O/CC greet/O/VB as/O/IN i/O/PRP was/O/VBD out/O/IN of/O/IN town/O/NN ./O/. looks/O/NNS like/O/IN you/O/PRP guys/O/NNS had/O/VBD so/O/RB much/O/JJ fun/O/NN !/O/. love/O/UH ya/O/UH both/O/UH !/O/. !/O/.
+willie/B-ENTITY/NNP nelson/I-ENTITY/NNP will/O/MD always/O/RB be/O/VB a/O/DT true/O/JJ legend/O/NN and/O/CC still/O/RB making/O/VBG good/O/JJ music/O/NN at/O/IN 84/O/CD years/O/NNS old/O/JJ
+that/O/DT eclipse/O/NN spyder/O/NN thoo/O/NN ./O/. ./O/. love/O/NN at/O/IN first/O/JJ sight/O/NN !/O/. !/O/.
+themba/O/NNP is/O/VBZ obsessed/O/VBN
+why/O/WRB are/O/VBP you/O/PRP not/O/RB talking/O/VBG about/O/IN trump/O/NN using/O/VBG the/O/DT white/O/JJ power/O/NN hand/O/NN signal/O/NN ./O/. #/O/HT notok/O/:
+narrator/O/NN sucks/O/VBZ !/O/NNS are/O/VBP they/O/PRP teaching/O/VBP female/O/JJ anchors/O/NNS to/O/TO sound/O/VB like/O/IN valley/B-ENTITY/NN girls/O/NNS now/O/RB ?/O/.
+wait/O/VB simon/B-ENTITY/NNP wears/O/VBZ glasses/O/NNS ?/O/. ?/O/UH ?/O/UH ?/O/.
+when/O/WRB you/O/PRP order/O/VBP deconstructed/O/JJ car/O/NN at/O/IN the/O/DT mcm/O/JJ restaurant/O/NN
+jaime/B-ENTITY/NNP please/O/VBP i/O/PRP need/O/VBP help/O/VB ,/O/, google/B-ENTITY/JJ pixel/O/NN or/O/CC galaxy/O/NNP s/O/NNP 8/O/CD ?/O/. i/O/PRP trust/O/VBP you/O/PRP ./O/.
+so/O/UH fitting/O/UH that/O/DT bodega/O/NN was/O/VBD a/O/DT shit/O/NN detective/O/NN ./O/.
+plus/O/UH ?/O/. seriously/O/RB ?/O/. jesus/O/UH you/O/PRP ca/O/MD n/O/NNS '/O/POS t/O/NN even/O/RB think/O/VBP of/O/IN a/O/DT name/O/NN by/O/IN yourselves/O/NNS ./O/. ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH
+it/O/PRP '/O/VBZ s/O/NN show/O/NN time/O/NN all/O/DT guys/O/NNS wait/O/VBP for/O/IN it/O/PRP to/O/TO bang/O/VB jai/O/URL rebelism/O/HT #/O/HT jai/O/NN prabhas/O/NNS
+proof/O/NN that/O/WDT travis/B-ENTITY/VBZ scott/I-ENTITY/NNP sold/O/VBD his/O/PRP$ soul/O/NN to/O/TO the/O/DT devil/O/NN #ERR#/O/HT #ERR#/O/HT
+nice/O/JJ of/O/IN the/O/DT jerk/O/NN who/O/WP cross/B-ENTITY/NNP checked/O/VBD him/O/PRP upside/O/RB the/O/DT head/O/NN to/O/TO come/O/VB see/O/VB if/O/IN he/O/PRP '/O/VBZ s/O/PRP ok/O/JJ ./O/NN was/O/VBD n/O/NNP '/O/'' t/O/NN it/O/PRP ?/O/.
+omfg/O/UH why/O/UH this/O/DT shit/O/NN is/O/VBZ 1/O/CD s/O/NN in/O/IN trending/O/VBG ?/O/. omfg/O/TO remove/O/VB this/O/DT shit/O/NN !/O/.
+bruh/O/UH she/O/PRP was/O/VBD slick/O/JJ mad/O/JJ i/O/PRP would/O/MD be/O/VB mad/O/JJ lol/O/UH #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+5/O/NN :/O/: 07/O/NNP "/O/'' chill/O/NN "/O/'' i/O/PRP ./O/. e/O/MD lock/O/VB off/O/RP your/O/PRP$ motive/O/NN with/O/IN the/O/DT car/O/NN ./O/. lmaoo/O/UH !/O/. !/O/.
+give/O/VB it/O/PRP to/O/TO him/O/PRP !/O/. !/O/UH !/O/. !/O/.
+black/O/JJ women/O/NNS are/O/VBP the/O/DT worst/O/JJS drivers/O/NNS in/O/IN the/O/DT universe/O/NN ./O/.
+im/O/PRP waiting/O/VBG for/O/IN you/O/PRP to/O/TO get/O/VB the/O/DT xiaomi/O/NN mi/O/VBD 6/O/CD ,/O/, really/O/RB curious/O/JJ on/O/IN how/O/WRB it/O/PRP will/O/MD survive/O/VB your/O/PRP$ unrealistic/O/JJ yet/O/RB very/O/RB justifiable/O/JJ torture/O/NN test/O/NN
+dumbass/O/NN mo/O/NN does/O/VBZ n/O/NNP '/O/'' t/O/NN know/O/VB how/O/WRB to/O/TO throw/O/VB a/O/DT football/O/NN
+make/O/VB 2017/O/IN the/O/DT year/O/NN of/O/IN pocs/O/NNS in/O/IN lead/O/NN roles/O/NNS please/O/VBP
+herge/O/NNP '/O/'' s/O/NN rocket/O/NN '/O/'' designs/O/NNS '/O/POS were/O/NN pretty/O/RB similar/O/JJ to/O/TO what/O/VB spacex/O/NNP is/O/VBZ doing/O/VBG ./O/. ./O/UH ./O/UH so/O/UH i/O/UH '/O/UH m/O/VBP guessing/O/VBG this/O/DT idea/O/NN is/O/VBZ pretty/O/RB old/O/JJ ,/O/, good/O/JJ on/O/IN him/O/PRP making/O/VBG it/O/PRP work/O/VBP tho/O/RB !/O/.
+i/O/PRP remember/O/VBP the/O/DT beginning/O/NN music/O/NN from/O/IN this/O/DT old/O/JJ movie/O/NN "/O/'' the/O/DT three/O/CD stooges/O/NNS "/O/UH ah/O/UH ./O/UH ./O/UH ./O/. good/O/JJ movie/O/NN ./O/. ./O/. ./O/.
+who/O/WP else/O/RB was/O/VBD fanboying/O/VBG out/O/IN of/O/IN their/O/PRP$ fucking/O/JJ mind/O/NN and/O/CC yelling/O/VBG "/O/. yes/O/UH !/O/. yes/O/UH !/O/. yes/O/UH !/O/. "/O/'' at/O/IN the/O/DT screen/O/NN when/O/WRB jack/B-ENTITY/NNP was/O/VBD transformed/O/VBN into/O/IN his/O/PRP$ classic/O/JJ self/O/NN and/O/CC got/O/VBD his/O/PRP$ sword/O/NN back/O/RB ?/O/.
+"/O/'' what/O/JJ age/O/NN can/O/NN babies/O/NNS fight/O/VBP for/O/IN the/O/DT death/O/NN "/O/'' lmao/O/UH
+best/O/RB ./O/. francis/O/NNP ./O/. ever/O/RB ./O/. also/O/RB ./O/. ./O/. ./O/. everyone/O/NN at/O/IN nintendo/B-ENTITY/NNP corporate/O/NNP should/O/MD be/O/VB forced/O/VBN to/O/TO watch/O/VB this/O/DT ./O/.
+i/O/PRP like/O/VBP mal/O/NNS '/O/POS s/O/IN blonde/O/JJ hair/O/NN with/O/IN the/O/DT purple/O/JJ tips/O/NNS ,/O/, but/O/CC i/O/PRP absolutely/O/RB love/O/VBP her/O/PRP purple/O/JJ hair/O/NN #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+you/O/PRP need/O/VBP to/O/TO tell/O/VB me/O/PRP where/O/VBP you/O/PRP got/O/VBD everything/O/NN in/O/IN your/O/PRP$ room/O/NN
+so/O/RB obsessed/O/VBD with/O/IN girl/O/NN boss-/O/NN watched/O/VBD them/O/PRP all/O/DT in/O/IN like/O/IN 3/O/CD days/O/NNS hahah/O/UH !/O/. so/O/RB funny/O/JJ !/O/.
+audi/B-ENTITY/NNP mercedes/I-ENTITY/NNPS bmw/I-ENTITY/NNP
+great/O/JJ animation/O/NN mate/O/NN ,/O/, i/O/PRP am/O/VBP giving/O/VBG you/O/PRP a/O/DT like/O/NN ,/O/, but/O/CC next/O/JJ time/O/NN try/O/VBP to/O/TO work/O/VB a/O/DT little/O/JJ bit/O/NN harder/O/NN on/O/IN the/O/DT story/O/NN itself/O/PRP ./O/. it/O/PRP '/O/VBZ s/O/PRP not/O/RB bad/O/JJ ,/O/, but/O/CC it/O/PRP can/O/MD be/O/VB better/O/JJR :/O/NNP )/O/)
+is/O/VBZ it/O/PRP just/O/RB me/O/PRP or/O/CC is/O/VBZ this/O/DT along/O/IN with/O/IN saturday/O/NNP night/O/NN live/O/VBP just/O/RB not/O/RB funny/O/JJ like/O/IN it/O/PRP used/O/VBD to/O/TO be/O/VB ./O/. like/O/IN the/O/DT jokes/O/NNS were/O/VBD normally/O/RB on/O/IN point/O/NN about/O/IN presidents/O/NNS but/O/CC now/O/RB they/O/NNS '/O/POS re/O/JJ weak/O/JJ at/O/IN best/O/NN ./O/.
+dj/O/NNP khaled/O/NN looks/O/VBZ exactly/O/RB like/O/IN cartman/O/NN from/O/IN south/O/JJ park/O/NN
+the/O/DT only/O/JJ reason/O/NN why/O/WRB lil/O/JJ yachty/O/NN does/O/VBZ n/O/NNP '/O/'' t/O/TO remember/O/VB the/O/DT last/O/JJ time/O/NN he/O/PRP was/O/VBD wrong/O/JJ because/O/IN hes/O/PRP a/O/DT crack/O/NN head/O/NN ./O/.
+wish/O/VB it/O/PRP was/O/VBD on/O/IN june/O/NNP 15/O/CD 2017/O/NNP
+trump/O/NNP will/O/MD make/O/VB the/O/DT universe/O/NN great/O/RB again/O/RB ./O/.
+wtf/O/NN is/O/VBZ going/O/VBG on/O/IN
+i/O/PRP can/O/MD see/O/VB trump/B-ENTITY/NNP saltmining/O/VBG inc/O/NNP ./O/. had/O/VBD discovered/O/VBN another/O/DT source/O/NN ,/O/, this/O/DT comment/O/NN section/O/NN !/O/.
+i/O/PRP was/O/VBD there/O/EX lol/O/NN did/O/VBD you/O/PRP go/O/VBP on/O/IN the/O/DT big/O/JJ rides/O/NNS like/O/IN saw/O/NN swarm/O/NN
+so/O/IN if/O/IN detta/O/NNS copy/O/VBP why/O/WRB fagtel/O/VBZ no/O/DT tek/O/NN back/O/RB wey/O/JJ im/O/NN copy/O/NN break/O/NN im/O/PRP down/O/IN u/O/PRP pussy/O/NN face/O/NN plaza/O/NN fans/O/NNS u/O/PRP tink/O/VBP a/O/DT flopcorn/O/JJ fishmarco/O/NN fagylee/O/NN are/O/VBP fasicka/O/JJ ./O/. it/O/PRP '/O/VBZ s/O/PRP a/O/DT gully/O/NN detta/O/HT #ERR#/O/HT
+love/O/VB this/O/DT ./O/. it/O/PRP '/O/VBZ s/O/PRP great/O/JJ to/O/TO see/O/VB players/O/NNS doing/O/VBG this/O/DT like/O/IN this/O/DT ./O/. from/O/IN a/O/DT united/O/JJ fan/O/NN ./O/.
+sml/O/JJ idea/O/NN :/O/: codys/O/JJ real/O/JJ parents/O/NNS
+cant/O/MD you/O/PRP dissolve/O/VBP the/O/DT plastic/O/NN that/O/WDT goes/O/VBZ around/O/IN the/O/DT charging/O/VBG coil/O/NN and/O/CC replace/O/VB it/O/PRP with/O/IN a/O/DT clear/O/JJ plastic/O/NN instead/O/RB ?/O/. or/O/CC just/O/RB get/O/VB a/O/DT replacement/O/NN clear/O/JJ coil/O/NN ?/O/.
+who/O/WP ships/O/VBZ noah/B-ENTITY/NNP and/O/CC courtney/B-ENTITY/NNP
+i/O/PRP clicked/O/VBD on/O/IN this/O/DT out/O/IN of/O/IN boredom/O/NN and/O/CC ended/O/VBD up/O/RP loving/O/IN every/O/DT second/O/NN of/O/IN it/O/PRP hahah/O/UH "/O/NNS who/O/WP put/O/VBP that/O/IN there/O/RB ?/O/. "/O/UH lol/O/UH holy/O/UH shit/O/UH that/O/DT bastard/O/NN is/O/VBZ funny/O/JJ
+plz/O/UH get/O/VB some/O/DT fidget/O/JJ spinners/O/NNS (/O/( btw/O/IN i/O/PRP have/O/VBP a/O/DT rainbow/O/NN one/O/NN :/O/: d/O/NNP )/O/)
+did/O/VBD n/O/NNP '/O/'' t/O/PRP know/O/VBP they/O/PRP were/O/VBD all/O/DT canadian/O/JJ
+youre/O/CC younger/O/JJR than/O/IN my/O/PRP$ parents/O/NNS ;/O/: l/O/UH
+i/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN see/O/VBP how/O/WRB kennedy/B-ENTITY/NNP is/O/VBZ not/O/RB the/O/DT number/O/NN one/O/NN paid/O/VBD country/O/NN singer/O/NN he/O/PRP is/O/VBZ amazing/O/JJ
+jaiden/O/NNP ,/O/, you/O/PRP are/O/VBP so/O/RB beautiful/O/JJ ./O/. i/O/PRP love/O/VBP you/O/PRP ./O/. */O/UH virtual/O/UH hug/O/UH */O/UH
+it/O/PRP '/O/VBZ s/O/PRP only/O/RB a/O/DT matter/O/NN of/O/IN time/O/NN until/O/IN we/O/PRP get/O/VBP the/O/DT heidi/O/JJ break/O/NN up/O/IN video/O/NN into/O/IN the/O/DT full/O/JJ "/O/'' i/O/NN '/O/'' ve/O/NN loved/O/VBD becca/O/IN all/O/DT along/O/IN "/O/''
+but/O/CC he/O/PRP aint/O/VBP kobe/O/NNP
+a/O/DT lot/O/NN has/O/VBZ changed/O/VBN since/O/IN 1956/O/CD !/O/. those/O/DT mules/O/NNS took/O/VBD up/O/RP a/O/DT lot/O/NN more/O/NN of/O/IN the/O/DT trail/O/NN when/O/WRB my/O/PRP$ scout/O/NN troop/O/NN walked/O/VBD the/O/DT trail/O/NN !/O/.
+fuck/O/VB that/O/DT rag/O/NN bag/O/NN "/O/'' newspaper/O/NN "/O/'' murderer/O/NN of/O/IN dead/O/JJ ppl/O/NNS fuj/O/IN that/O/DT man/O/NN lost/O/VBD a/O/DT lot/O/NN of/O/IN respect/O/NN for/O/IN u/O/PRP -/O/UH 1/O/UH sub/O/UH +/O/UH 1/O/UH dislike/O/JJ not/O/RB welcome/O/VB in/O/IN merseyside/O/NN or/O/CC the/O/DT united/O/JJ kingdom/O/NN for/O/IN that/O/DT matter/O/NN
+that/O/DT bagdanovich/O/NN part/O/NN i/O/PRP rewind/O/VBD 3/O/CD times/O/NNS ./O/. lmfao/O/UH
+dr/O/NNP ./O/. cox/O/NNP still/O/RB hittin/O/VBD em/O/PRP with/O/IN some/O/DT heavy/O/JJ life/O/NN lessons/O/NNS
+where/O/WRB '/O/VBZ s/O/NN kishan/O/NN ?/O/.
+the/O/DT movie/O/NN its/O/PRP not/O/RB bad/O/JJ ,/O/, eyin/O/UH omo/O/UH eda/O/NNP adamo/O/NN ,/O/, won/O/VBD fi/O/NNP enu/O/RT gba/O/USR je/O/JJ ,/O/, kudos/O/NNS to/O/TO the/O/DT crews/O/NNS ,/O/, let/O/VB us/O/PRP appreciate/O/VBP there/O/PRP$ efforts/O/NNS ,/O/, thanks/O/NNS for/O/IN the/O/DT upload/O/NN ./O/.
+yeah/O/UH but/O/CC conor/B-ENTITY/NN makes/O/VBZ more/O/JJR than/O/IN anyone/O/NN like/O/IN a/O/DT million/O/CD ./O/. conor/B-ENTITY/NNP makes/O/VBZ millions/O/NNS for/O/IN a/O/DT fight/O/NN ./O/.
+i/O/PRP think/O/VBP #/O/JJ 5/O/CD is/O/VBZ inspired/O/VBN by/O/IN "/O/'' who/O/NN '/O/'' s/O/NN on/O/IN first/O/JJ ?/O/. "/O/''
+this/O/DT makes/O/VBZ me/O/PRP extremely/O/RB uncomfortable/O/JJ ./O/. ./O/UH ./O/UH like/O/UH wow/O/UH lmfao/O/UH
+could/O/VB you/O/PRP guys/O/NNS go/O/VBP to/O/TO ipswich/B-ENTITY/NNP ,/O/, qld/B-ENTITY/NNP
+beauty/O/NN and/O/CC the/O/DT beast/O/NN live/O/VBP action/O/NN was/O/VBD great/O/JJ ./O/. ./O/. ./O/. on/O/IN par/O/NN with/O/IN the/O/DT original/O/NN ,/O/, if/O/IN not/O/RB better/O/RBR ./O/.
+we/O/PRP definitely/O/RB need/O/VBP more/O/JJR drugged/O/NNS out/O/IN coyote/O/NN crib/O/NN videos/O/NNS this/O/DT was/O/VBD amazing/O/JJ
+beyoooooond/O/RB excited/O/JJ to/O/TO have/O/VB you/O/PRP in/O/IN my/O/PRP$ life/O/NN everyday/O/RB this/O/DT month/O/NN !/O/. !/O/UH !/O/.
+i/O/PRP love/O/VBP a/O/DT good/O/JJ epic/O/NN mickey/O/NNP joke/O/NN ./O/. lovin/O/NNP '/O/'' it/O/PRP ./O/.
+always/O/RB good/O/JJ to/O/TO see/O/VB someone/O/NN from/O/IN englewood/B-ENTITY/NNP doing/O/VBG good/O/JJ for/O/IN themselves/O/PRP !/O/. instead/O/RB of/O/IN ending/O/VBG up/O/RP sucking/O/DT dick/O/NN for/O/IN some/O/DT roxys/O/NNS or/O/CC meth/O/HT #ERR#/O/HT
+i/O/PRP wish/O/VBP i/O/PRP had/O/VBD even/O/RB just/O/RB a/O/DT vestige/O/NN of/O/IN the/O/DT life/O/NN you/O/PRP live/O/VBP ./O/. not/O/RB easy/O/JJ to/O/TO chase/O/VB your/O/PRP$ dreams/O/NNS ;/O/: giving/O/VBG up/O/RP on/O/IN mine/O/NN ./O/. congrats/O/NNS man/O/NN ./O/. that/O/DT '/O/'' s/O/PRP freakin/O/VBG awesome/O/JJ ./O/.
+loved/O/VBD this/O/DT vlog/O/NN !/O/. please/O/VB do/O/VB more/O/RBR decluterring/O/JJ vlogs/O/NNS xx/O/)
+jason/B-ENTITY/NNP '/O/'' s/O/NN so/O/IN fucking/O/RB rude/O/JJ to/O/TO that/O/DT girl/O/NN ?/O/. ?/O/UH ?/O/.
+why/O/WRB is/O/VBZ this/O/DT not/O/RB hot/O/JJ ?/O/. mean/O/VB jamhere/O/UH !/O/. t/O/NN ./O/. i/O/PRP with/O/IN the/O/DT political/O/JJ veiw/O/NN ,/O/, great/O/JJ song/O/NN !/O/. chur/O/NNP
+hey/O/UH deji/O/NNS make/O/VBP a/O/DT vidoe/O/NN on/O/IN this/O/DT new/O/JJ fidget/O/NN thing/O/NN called/O/VBD a/O/DT fidget/O/NN spinner/O/NN so/O/RB do/O/VB a/O/DT vidoe/O/NN on/O/IN it/O/PRP while/O/IN u/O/PRP try/O/VBP to/O/TO do/O/VB tricks/O/NNS with/O/IN it/O/PRP
+had/O/VBD to/O/TO replay/O/NN haha/O/UH
+but/O/CC when/O/WRB you/O/PRP throw/O/VBP a/O/DT slinky/O/NN on/O/IN earth/O/NN it/O/PRP also/O/RB experiences/O/VBZ 0/O/CD g/O/NNP but/O/CC just/O/RB do/O/VBP n/O/NNS '/O/POS t/O/NN stay/O/NN in/O/IN the/O/DT air/O/NN as/O/RB long/O/RB (/O/( obviously/O/CD )/O/) ./O/. that/O/DT was/O/VBD a/O/DT waste/O/NN of/O/IN a/O/DT 22/O/CD seconds/O/NNS ./O/.
+do/O/VB something/O/NN star/O/NN wars/O/NNS for/O/IN may/O/NNP 4/O/CD ./O/. oh/O/UH ,/O/, and/O/CC pat/B-ENTITY/NNP ./O/. may/O/VB the/O/DT forth/O/RB be/O/VB with/O/IN you/O/PRP !/O/.
+rip/O/JJ chiefs/O/NNS ./O/.
+j/O/NNP ./O/. cole/B-ENTITY/NNP is/O/VBZ a/O/DT living/O/NN legend/O/NN ./O/. #ERR#/O/HT
+ariana/O/NNP '/O/'' s/O/NN voice/O/NN seems/O/VBZ like/O/IN it/O/PRP has/O/VBZ matured/O/VBN a/O/DT little/O/JJ ./O/.
+ya/O/PRP see/O/VBP people/O/NNS ?/O/. most/O/JJS musicians/O/NNS have/O/VBP been/O/VBN pushing/O/VBG themselves/O/CD years/O/NNS before/O/IN they/O/PRP get/O/VBP big/O/JJ ./O/. i/O/PRP '/O/PRP m/O/VBP no/O/DT fan/O/NN of/O/IN sheeran/O/NN but/O/CC he/O/PRP has/O/VBZ obviously/O/RB worked/O/VBD really/O/RB hard/O/RB
+1/O/UH :/O/UH 10/O/UH percy/O/IN the/O/DT mass-murderer/O/JJ holy/O/JJ fuck/O/NN ./O/.
+if/O/IN only/O/RB childish/O/JJ gambino/O/NN was/O/VBD on/O/IN the/O/DT track/O/NN and/O/CC in/O/IN the/O/DT vid/O/NN !/O/.
+i/O/PRP miss/O/VBP rusty/O/JJ in/O/IN this/O/DT video/O/NN ,/O/, but/O/CC carl/B-ENTITY/NNP definitely/O/RB grew/O/VBD on/O/IN me/O/PRP in/O/IN the/O/DT 16/O/CD minutes/O/NNS and/O/CC 35/O/CD seconds/O/NNS we/O/PRP spent/O/VBD with/O/IN him/O/PRP ./O/.
+where/O/WRB '/O/VBZ s/O/NN kishan/O/NN ?/O/.
+this/O/DT is/O/VBZ amazing/O/JJ !/O/. great/O/JJ work/O/NN !/O/. im/O/PRP a/O/DT design/O/NN student/O/NN myself/O/PRP and/O/CC use/O/VB keyshot/O/NN for/O/IN my/O/PRP$ rendering/O/NN ./O/. what/O/WP do/O/VBP you/O/PRP use/O/VBP for/O/IN your/O/PRP$ renderings/O/NNS and/O/CC animations/O/NNS ?/O/.
+the/O/DT best/O/JJS the/O/NN voice/O/NN winner/O/NN !/O/.
+_/O/UH some/O/NNS say/O/VBP hes/O/PRP still/O/RB hanging/O/VBG in/O/IN there/O/RB _/O/UH
+i/O/NNS '/O/POS m/O/RB blown/O/VBN away/O/RB people/O/VBP actually/O/RB get/O/VBP rid/O/JJ of/O/IN the/O/DT pox/O/NN //O/CC papers/O/NNS ./O/. good/O/JJ for/O/IN him/O/PRP -/O/: he/O/PRP deserves/O/VBZ every/O/DT penny/B-ENTITY/NN and/O/CC more/O/JJR ./O/.
+did/O/VBD anyone/O/NN look/O/VBP at/O/IN the/O/DT lyrics/O/NNS and/O/CC think/O/VBP their/O/PRP$ talking/O/NN about/O/IN the/O/DT band/O/NN itself/O/PRP
+i/O/PRP wish/O/VBP that/O/IN tesla/O/NNP will/O/MD rise/O/VB and/O/CC rise/O/NN ./O/. they/O/PRP want/O/VBP a/O/DT better/O/JJR future/O/NN for/O/IN everyone/O/NN ./O/. this/O/DT is/O/VBZ my/O/PRP$ opinion/O/NN
+i/O/PRP would/O/MD like/O/VB to/O/TO enter/O/VB the/O/DT giveaway/O/NN !/O/. thank/O/VB you/O/PRP !/O/.
+how/O/WRB does/O/VBZ mamlambo/O/JJ cook/O/NN something/O/NN for/O/IN nosipho/O/NNS when/O/WRB she/O/PRP is/O/VBZ in/O/IN a/O/DT coma/O/NN ?/O/.
+rick/O/NNP and/O/CC morty/O/NN !/O/.
+i/O/PRP would/O/MD love/O/VB to/O/TO see/O/VB a/O/DT full/O/JJ eye/O/NN makeup/O/NN with/O/IN your/O/PRP$ palette/O/NN !/O/. !/O/. i/O/PRP own/O/VBP it/O/PRP and/O/CC i/O/PRP love/O/VBP it/O/PRP so/O/RB much/O/JJ !/O/. !/O/UH (/O/UH excuse/O/UH my/O/PRP$ english/O/NN !/O/. )/O/) #ERR#/O/HT #ERR#/O/HT
+that/O/DT '/O/'' s/O/PRP a/O/DT big/O/JJ pac-/O/JJ man/O/NN
+amy/B-ENTITY/NNP schumer/I-ENTITY/NN trying/O/VBG to/O/TO get/O/VB in/O/IN at/O/IN every/O/DT sentence/O/NN is/O/VBZ awful/O/JJ ./O/. ./O/. ./O/. ./O/. but/O/CC she/O/PRP clearly/O/RB could/O/MD n/O/NNS '/O/POS t/O/NN remember/O/VB any/O/DT other/O/JJ comedians/O/JJ jokes/O/NNS
+great/O/JJ variety/O/NN of/O/IN shots/O/NNS covered/O/VBN in/O/IN this/O/DT video/O/NN !/O/. very/O/RB comprehensive/O/JJ ,/O/, well/O/RB done/O/VBN !/O/.
+hol/O/NNP '/O/'' up/O/IN ./O/. something/O/NN '/O/'' s/O/PRP not/O/RB adding/O/VBG up/O/RP ./O/.
+i/O/PRP wish/O/VBP the/O/DT reporter/O/NN stressed/O/VBD on/O/IN trump/B-ENTITY/NNP about/O/IN something/O/NN useful/O/JJ ./O/. ./O/. like/O/IN social/O/JJ service/O/NN ,/O/, people/O/NNS '/O/POS s/O/NN safety/O/NN ,/O/, health/O/NN ,/O/, etc/O/NNP ./O/. ./O/. ./O/. trump/O/NNP you/O/PRP are/O/VBP awesome/O/JJ ./O/. ./O/. you/O/PRP do/O/VBP n/O/NNP '/O/'' t/O/NN dodge/O/NN ./O/. ./O/. you/O/PRP speak/O/VBP what/O/WP you/O/PRP have/O/VBP in/O/IN mind/O/NN ./O/. ./O/. ./O/.
+rudy/B-ENTITY/NNP is/O/VBZ the/O/DT modern/O/JJ mysteryguitarman/O/NN
+u/O/PRP forgot/O/VBD the/O/DT optical/O/JJ drive/O/NN ./O/.
+i/O/PRP remember/O/VBP back/O/RB in/O/IN the/O/DT 1700/O/CD s/O/. no/O/DT one/O/NN was/O/VBD fighting/O/VBG to/O/TO get/O/VB o/O/IN the/O/DT planes/O/NNS ./O/. wtf/O/NN happened/O/VBD t/O/NN society/O/NN ?/O/. !/O/.
+please/O/VB will/O/VB you/O/PRP do/O/VBP an/O/DT updated/O/VBN skincare/O/NN video/O/NN !/O/. thanks/O/UH xx/O/UH
+alan/B-ENTITY/NNP watts/I-ENTITY/URL #ERR#/O/HT
+this/O/DT was/O/VBD wonderful/O/JJ !/O/. ca/O/MD n/O/NNS '/O/POS t/O/NN wait/O/NN to/O/TO see/O/VB what/O/IN great/O/JJ things/O/NNS you/O/PRP bring/O/VBP next/O/JJ ./O/.
+dreymond/O/NN ,/O/, so/O/RB much/O/RB better/O/JJR player/O/NN than/O/IN lequeen/O/NN ,/O/, complete/O/JJ pkg/O/NN
+i/O/PRP love/O/VBP you/O/PRP momo/O/VBP you/O/PRP are/O/VBP soooo/O/RB beautiful/O/JJ sweet/O/JJ ,/O/, cute/O/JJ ,/O/, lovely/O/JJ women/O/NNS in/O/IN the/O/DT world/O/NN i/O/PRP am/O/VBP 10/O/CD year/O/NN old/O/JJ
+7/O/LS transformer/O/JJ movies/O/NNS ?/O/. */O/NN pulls/O/VBZ a/O/DT gun/O/NN at/O/IN my/O/PRP$ head/O/NN */O/UH
+as/O/IN i/O/PRP sit/O/VBP here/O/RB and/O/CC contemplate/O/VB moving/O/VBG back/O/RB in/O/IN with/O/IN my/O/PRP$ parents/O/NNS ,/O/, this/O/DT is/O/VBZ actually/O/RB depressing/O/VBG ./O/. funny/O/UH af/O/UH ,/O/, but/O/CC i/O/PRP '/O/: m/O/NNP crying/O/VBG as/O/IN i/O/PRP '/O/PRP m/O/VBP laughing/O/VBG ./O/. do/O/VB they/O/PRP have/O/VBP an/O/DT emoji/O/NN for/O/IN that/O/DT ?/O/.
+and/O/CC once/O/RB again/O/RB the/O/DT regular/O/JJ rwby/O/JJ series/O/NNS is/O/VBZ pushed/O/VBN back/O/RB another/O/DT year/O/NN ./O/. ./O/. ./O/. again/O/RB ./O/.
+i/O/PRP live/O/VBP in/O/IN nj/B-ENTITY/NNP so/O/IN i/O/PRP went/O/VBD to/O/TO kingda/B-ENTITY/NNP ka/O/UH
+this/O/DT happened/O/VBN yesterday/O/NN ./O/. ./O/. ./O/. ./O/. he/O/PRP said/O/VBD holy/O/JJ shit/O/NN #ERR#/O/HT #ERR#/O/HT
+alex/B-ENTITY/NNP when/O/WRB you/O/PRP two/O/PRP come/O/VBP to/O/TO philippines/O/NNS ?/O/. #ERR#/O/HT
+finding/O/VBG bigfoot/O/NN in/O/IN a/O/DT nutshell/O/NN
+wow/O/UH !/O/. tiana/B-ENTITY/NNS '/O/POS s/O/JJ mummy/O/NN '/O/'' s/O/NN cake/O/NN looked/O/VBD really/O/RB yummy/O/JJ and/O/CC my/O/PRP$ favourite/O/NN part/O/NN was/O/VBD when/O/WRB tiana/B-ENTITY/NNS '/O/POS s/O/JJ daddy/O/NN fell/O/VBD over/O/RB on/O/IN the/O/DT cake/O/NN because/O/IN it/O/PRP made/O/VBD me/O/PRP laugh/O/VB #ERR#/O/HT #ERR#/O/HT
+youtube/B-ENTITY/NNP finally/O/RB recommended/O/VBN me/O/PRP something/O/NN good/O/JJ ./O/. after/O/IN watching/O/VBG this/O/DT i/O/PRP had/O/VBD to/O/TO subscribe/O/VB ,/O/, and/O/CC turn/O/VB the/O/DT notifications/O/NNS on/O/IN ./O/. this/O/DT kind/O/NN of/O/IN information/O/NN ,/O/, is/O/VBZ priceless/O/JJ ./O/.
+paw/O/NNP patrol/O/NN and/O/CC friends/O/NNS electrocuted/O/VBD in/O/IN the/O/DT pool/O/NN party/O/NN !/O/.
+you/O/PRP should/O/MD react/O/VB to/O/TO musicallys/B-ENTITY/NNS with/O/IN tanner/B-ENTITY/NN ,/O/, then/O/RB make/O/VB one/O/NN together/O/RB afterwards/O/RB !/O/.
+wait/O/UH wat/O/CC if/O/IN the/O/DT wood/O/NN had/O/VBD a/O/DT splinter/O/NN and/O/CC ur/O/PRP using/O/VBG ur/O/PRP$ penis/O/NNS ./O/.
+omg/O/UH yes/O/UH yes/O/UH yes/O/UH yes/O/UH yes/O/UH yes/O/UH yes/O/UH !/O/.
+what/O/WP would/O/MD happen/O/VB if/O/IN the/O/DT earth/O/NN suddenly/O/RB disappeared/O/VBN ?/O/. what/O/WP would/O/MD happen/O/VB to/O/TO all/O/DT the/O/DT space/O/NN stations/O/NNS ?/O/.
+they/O/PRP should/O/MD have/O/VB a/O/DT tri/O/NN tip/O/NN feast/O/JJ since/O/IN theyre/O/JJ in/O/IN cali/O/NNP
+hit/O/VBP the/O/DT like/O/JJ button/O/NN great/O/JJ person/O/NN of/O/IN punjabi/O/JJ music/O/NN industry/O/NN
+goodbye/O/UH monetization/O/UH !/O/. #/O/HT 1/O/NN on/O/IN trending/O/VBG
+i/O/PRP swear/O/VBP i/O/PRP thought/O/VBD that/O/DT was/O/VBD a/O/DT throwback/O/NN of/O/IN bindi/B-ENTITY/JJ irwin/I-ENTITY/NN !/O/.
+whats/O/IN the/O/DT song/O/NN called/O/VBD when/O/WRB brett/O/NN gets/O/VBZ kissed/O/JJ lmao/O/UH
+is/O/VBZ it/O/PRP me/O/PRP or/O/CC did/O/VBD elmo/B-ENTITY/JJ sound/O/NN like/O/IN a/O/DT car/O/NN locking/O/VBG
+kapil/O/VBP very/O/RB nice/O/JJ
+i/O/PRP swear/O/VBP freddie/O/JJ laughs/O/NNS at/O/IN everything/O/NN
+economics/O/NNS give/O/VBP me/O/PRP a/O/DT headache/O/NN
+miranda/B-ENTITY/NNP is/O/VBZ the/O/DT best/O/JJS ./O/. her/O/PRP$ writing/O/NN performance/O/NN and/O/CC keeping/O/VBG it/O/PRP together/O/RB skills/O/NNS are/O/VBP epic/O/JJ
+zac/O/NN efron/O/NN '/O/'' s/O/NN face/O/NN is/O/VBZ slowly/O/RB turning/O/VBG into/O/IN a/O/DT perfect/O/JJ square/O/NN
+love/O/VB how/O/WRB much/O/JJ we/O/PRP got/O/VBD to/O/TO see/O/VB jon/B-ENTITY/NNP on/O/IN this/O/DT blob/O/NN </O/UH 3/O/UH and/O/CC when/O/WRB he/O/PRP gave/O/VBD you/O/PRP the/O/DT ring/O/NN ./O/. ./O/. mi/O/UH corazon/O/UH !/O/. !/O/UH !/O/. it/O/PRP '/O/VBZ s/O/IN the/O/DT little/O/JJ things/O/NNS !/O/.
+angus/O/NNP buchan/O/NN came/O/VBD to/O/TO my/O/PRP$ school/O/NN last/O/JJ year/O/NN to/O/TO pray/O/VB for/O/IN rain/O/NN
+but/O/CC morales/B-ENTITY/NNP is/O/VBZ a/O/DT black/O/JJ spiderman/O/NN
+grace/B-ENTITY/NNP sibei/O/RB cute/O/JJ sia/O/NNS look/O/VBP like/O/IN dora/O/IN the/O/DT explorer/O/NN ./O/.
+drop/O/VB a/O/DT thousand/O/CD of/O/IN these/O/DT on/O/IN daish/O/NNP
+iam/O/RB looking/O/VBG for/O/IN 10/O/CD serious/O/JJ business/O/NN investment/O/NN people/O/NNS and/O/CC they/O/PRP can/O/MD earn/O/VB monthly/O/JJ 500/O/CD aed/O/URL -/O/: 5000/O/CD aed/O/NN ./O/.
+why/O/WRB did/O/VBD a/O/DT third/O/JJ tower/O/NN fall/O/NN on/O/IN september/O/NNP the/O/DT 11/O/CD th/O/NNP 2001/O/CD ?/O/. */O/UH gotcha/O/UH */O/UH
+super/O/NNP video/O/NN ,/O/, keep/O/VBP it/O/PRP up/O/IN ./O/. we/O/PRP look/O/VBP with/O/IN pleasure/O/NN !/O/.
+i/O/NNS '/O/POS ve/O/PRP noticed/O/VBD that/O/IN i/O/PRP love/O/VBP a/O/DT 24/O/CD movies/O/NNS ./O/.
+i/O/PRP need/O/VBP those/O/DT airpods/O/JJ lol/O/UH
+what/O/WP you/O/PRP see/O/VBP with/O/IN casey/B-ENTITY/NNP is/O/VBZ what/O/WP you/O/PRP get/O/VBP ./O/. he/O/PRP is/O/VBZ himself/O/PRP in/O/IN everything/O/NN he/O/PRP does/O/VBZ ./O/. that/O/DT is/O/VBZ why/O/WRB he/O/PRP is/O/VBZ gold/O/NN !/O/.
+this/O/DT songs/O/NNS makes/O/VBZ me/O/PRP hit/O/VBP gym/O/NN ,/O/, i/O/PRP am/O/VBP in/O/IN shape/O/NN by/O/IN the/O/DT way/O/NN and/O/CC of/O/IN course/O/NN round/O/NN is/O/VBZ a/O/DT shape/O/NN o/O/UH
+this/O/DT is/O/VBZ just/O/RB a/O/DT info/O/NN about/O/IN deadpool/O/NN ./O/. most/O/JJS of/O/IN this/O/DT shit/O/NN you/O/PRP can/O/MD find/O/VB on/O/IN a/O/DT wiki/O/NN ./O/.
+@/O/IN 1/O/CD :/O/: 53/O/NNP "/O/'' i/O/PRP got/O/VBD a/O/DT walker/O/NN how/O/WRB bout/O/NN dat/O/NN ?/O/. !/O/. "/O/'' lololololololololololololol/O/NN
+check/O/VB out/O/RP "/O/DT critic/O/NN -/O/: on/O/IN my/O/PRP$ way/O/NN "/O/'' the/O/DT video/O/NN is/O/VBZ ridiculous/O/JJ ,/O/, inspired/O/VBN by/O/IN paul/B-ENTITY/NNP walker/I-ENTITY/NNP
+i/O/PRP have/O/VBP a/O/DT joke/O/NN cory/O/NN :/O/: kindergarten/O/NN !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH moi/O/UH :/O/UH chill/O/UH dude/O/UH croy/O/UH :/O/UH aaaaaaaaaaaaaaaa/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/.
+awesome/O/JJ video/O/NN sir/O/VBD your/O/PRP$ narration/O/NN and/O/CC vocabulary/O/NN is/O/VBZ just/O/RB exquisite/O/JJ ./O/. just/O/RB love/O/VB your/O/PRP$ reviews/O/NNS ./O/. i/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/RB watch/O/VB any/O/DT single/O/JJ pocketnow/O/NN video/O/NN just/O/RB because/O/IN you/O/PRP are/O/VBP n/O/NNS '/O/POS t/O/NN narrating/O/VBG it/O/PRP ./O/. keep/O/VB up/O/RP the/O/DT good/O/JJ work/O/NN sir/O/NN ./O/.
+you/O/PRP should/O/MD put/O/VB "/O/'' laurex/O/NN "/O/'' on/O/IN the/O/DT zipper/O/NNP one/O/CD )/O/) :/O/: 3/O/LS
+amy/B-ENTITY/NNP schumer/I-ENTITY/NNP is/O/VBZ all/O/DT about/O/IN self/O/NN pity/O/NN just/O/RB because/O/IN she/O/PRP is/O/VBZ a/O/DT woman/O/NN ./O/. get/O/VB over/O/IN your/O/PRP$ self/O/NN you/O/PRP cow/O/NN ,/O/, you/O/PRP '/O/VBP re/O/PRP not/O/RB funny/O/JJ anymore/O/RB ./O/.
+fuck/O/VB those/O/DT filthy/O/JJ muslims/O/NNS
+s/O/NNP 8/O/CD strong/O/JJ in/O/IN front/O/NN and/O/CC back/O/RB bad/O/JJ
+great/O/JJ video/O/NN ,/O/, liked/O/VBD ,/O/, how/O/WRB about/O/IN a/O/DT laptop/O/NN spinner/O/NN !/O/.
+act/O/UH one/O/UH lol/O/UH ./O/. go/O/VB and/O/CC bang/O/NN onto/O/IN people/O/NNS if/O/IN the/O/DT uncle/O/NN is/O/VBZ me/O/PRP i/O/PRP will/O/MD punch/O/VB him/O/PRP in/O/IN the/O/DT cock/O/NN so/O/RB rude/O/JJ //O/CC fp/O/. fuck/O/VB them/O/PRP no/O/DT discipline/O/NN by/O/IN both/O/DT parent/O/NN
+thank/O/VB you/O/PRP !/O/. !/O/UH !/O/.
+exciting/O/JJ and/O/CC new/O/JJ car/O/NN smell/O/NN ./O/. enjoy/O/VB ,/O/, sarah/B-ENTITY/NNP ./O/.
+loey/O/NN ,/O/, do/O/VBP you/O/PRP not/O/RB have/O/VB any/O/DT more/O/RBR personal/O/JJ paranormal/O/JJ experience/O/NN stories/O/NNS ?/O/.
+me/O/UH :/O/UH w-/O/UH i-c-k-e-d/O/UH !/O/. mom/O/NN :/O/: good/O/JJ ,/O/, sweetie/O/UH !/O/. you/O/PRP are/O/VBP great/O/JJ at/O/IN spelling/O/NN ./O/.
+what/O/WP a/O/DT genius/O/NN invention/O/NN ./O/. basically/O/RB like/O/IN running/O/VBG straight/O/JJ pipes/O/NNS ./O/. or/O/CC when/O/WRB the/O/DT cops/O/NNS are/O/VBP around/O/IN just/O/RB close/O/VB it/O/PRP up/O/IN ./O/. ./O/. sounds/O/VBZ like/O/IN a/O/DT nascar/O/NN
+video/O/NN does/O/VBZ not/O/RB say/O/VB anything/O/NN about/O/IN casaulties/O/NNS ,/O/, i/O/PRP just/O/RB hope/O/VBP all/O/DT people/O/NNS survived/O/VBN ./O/.
+this/O/DT is/O/VBZ not/O/RB gorillaz/O/JJ
+u/O/NN guys/O/NNS should/O/MD do/O/VB a/O/DT fidget/O/NN spinner/O/NN vid/O/NN
+discovery/O/NN island/O/NN video/O/NN ?/O/.
+breaks/O/VBZ the/O/DT hood/O/NN latch/O/NN of/O/IN the/O/DT slr/O/NN
+where/O/WRB are/O/VBP the/O/DT martinez/O/NN twins/O/VBZ
+his/O/PRP$ voice/O/NN is/O/VBZ everything/O/NN
+i/O/NNS '/O/POS m/O/RB sorry/O/JJ but/O/CC i/O/PRP do/O/VBP want/O/VB my/O/PRP$ federal/O/JJ government/O/NN to/O/TO care/O/VB about/O/IN my/O/PRP$ health/O/NN !/O/. what/O/WP ,/O/, should/O/MD i/O/PRP move/O/VBP to/O/TO north/B-ENTITY/NNP korea/I-ENTITY/NNP in/O/IN order/O/NN to/O/TO get/O/VB some/O/DT attention/O/NN mr/O/NNP ./O/. president/O/NNP ?/O/.
+guys/O/NNS i/O/PRP swear/O/VBP i/O/PRP just/O/RB got/O/VBD ./O/. $/O/$ 1566/O/CD ./O/. free/O/JJ ./O/. money/O/NN from/O/IN this/O/DT amazing/O/JJ website/O/NN :/O/: (/O/: just/O/RB type/O/VB in/O/IN g/O/NNP 00/O/CD gle/O/NNP )/O/) =/O/UH >/O/UH */O/UH _/O/UH freeppalmon/O/UH xyz/O/UH _/O/UH */O/UH
+was/O/PRP there/O/RB a/O/DT time/O/NN he/O/PRP never/O/RB looked/O/VBN old/O/JJ ?/O/. lol/O/UH
+father/O/NN of/O/IN all/O/DT bombs/O/NNS takes/O/VBZ second/O/JJ place/O/NN to/O/TO mother/O/NN of/O/IN all/O/DT bombs/O/NNS ./O/. ./O/. ./O/. remember/O/VB never/O/RB mess/O/NN with/O/IN the/O/DT fury/O/NN of/O/IN an/O/DT angry/O/JJ mother/O/NN //O/IN mother/O/NN bear/O/NN ./O/.
+this/O/DT guy/O/NN needs/O/VBZ to/O/TO shut/O/VB up/O/RP or/O/CC get/O/VB his/O/PRP$ channel/O/NN will/O/MD get/O/VB shutdown/O/NN #ERR#/O/VBD so/O/RB much/O/RB with/O/IN the/O/DT constitution/O/NN
+i/O/PRP love/O/VBP your/O/PRP$ voice/O/NN ,/O/, kate/B-ENTITY/NNP ,/O/, and/O/CC love/O/VB your/O/PRP$ channel/O/NN ,/O/, keep/O/VB up/O/RP the/O/DT nice/O/JJ work/O/NN ,/O/, guys/O/NNS ./O/.
+omg/O/UH poor/O/JJ emily/B-ENTITY/NN !/O/. !/O/. !/O/UH !/O/. plz/O/UH can/O/MD i/O/PRP get/O/VBP pinned/O/VBN
+what/O/WP will/O/MD happen/O/VB to/O/TO ice/O/NN cream/O/NN if/O/IN you/O/PRP put/O/VBP liquid/O/JJ nitrogen/O/NN in/O/IN it/O/PRP ?/O/. like/O/IN if/O/IN you/O/PRP agree/O/VBP
+cory/O/MD please/O/VB play/O/VB this/O/DT again/O/RB ?/O/. i/O/PRP '/O/'' m/O/NN enjoying/O/VBG this/O/DT series/O/NN so/O/RB far/O/RB
+that/O/DT episode/O/NN is/O/VBZ finnish-ed/O/VBN ./O/.
+i/O/PRP hate/O/VBP the/O/DT god/O/NNP damn/O/JJ dog/O/NN filter/O/NN
+4/O/UH :/O/UH 30/O/UH ammm/O/UH i/O/UH apologize/O/UH ./O/UH ./O/UH ./O/UH ./O/. i/O/PRP planned/O/VBD to/O/TO kill/O/VB you/O/PRP but/O/CC you/O/PRP survived/O/VBD ./O/.
+where/O/WRB was/O/VBD freddy/O/JJ
+happy/O/JJ new/O/JJ year/O/NN amber/O/NN ,/O/, i/O/PRP love/O/VBP your/O/PRP$ videos/O/NNS of/O/IN your/O/PRP$ master/O/NN as/O/IN you/O/PRP catch/O/VBP him/O/PRP ./O/. i/O/PRP am/O/VBP now/O/RB a/O/DT member/O/NN of/O/IN the/O/DT vizsla/O/NN face/O/NN book/O/NN page/O/NN and/O/CC with/O/IN luck/O/NN have/O/VBP the/O/DT friend/O/NN ship/O/NN of/O/IN a/O/DT vizsla/O/NN this/O/DT year/O/NN to/O/TO run/O/VB with/O/IN me/O/PRP ./O/.
+i/O/PRP noticed/O/VBD desi/B-ENTITY/NNP likes/O/VBZ to/O/TO say/O/VB "/O/'' boujee/O/NN "/O/'' now/O/HT #ERR#/O/HT
+and/O/CC the/O/DT apple/O/NN home/O/NN v/O/NNP 2/O/CD is/O/VBZ coming/O/VBG soon/O/RB too/O/RB !/O/. its/O/PRP almost/O/RB like/O/IN they/O/PRP '/O/VBP re/O/PRP not/O/RB dick-riding/O/VBG each/O/DT other/O/JJ ooooh/O/MD wait/O/VB
+fucking/O/JJ hell/O/NN that/O/IN '/O/'' s/O/PRP awesome/O/JJ fucking/O/VBG mp/O/NNP 5/O/CD floooowwwww/O/NN bang/O/NN kendrick/O/NN !/O/.
+it/O/PRP '/O/VBZ s/O/PRP a/O/DT nice/O/JJ video/O/NN #ERR#/O/HT like/O/NN and/O/CC abbo/O/VB you/O/PRP gott/O/HT #ERR#/O/HT
+kelsey/B-ENTITY/NN you/O/PRP should/O/MD die/O/VB your/O/PRP$ hair/O/NN the/O/DT color/O/NN it/O/PRP was/O/VBD when/O/WRB you/O/PRP first/O/RB met/O/VBD ollie/B-ENTITY/NNP
+i/O/PRP ca/O/MD n/O/NNS '/O/POS t/O/NN believe/O/VBP how/O/WRB beautiful/O/JJ that/O/IN looks/O/NNS ./O/. just/O/RB fantastic/O/JJ !/O/. !/O/. nice/O/JJ job/O/NN !/O/.
+where/O/WRB is/O/VBZ kk/O/NNP
+lol/O/UH this/O/DT video/O/NN had/O/VBD me/O/PRP lmao/O/UH !/O/. #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+yeah/O/UH ,/O/, but/O/CC they/O/PRP are/O/VBP no/O/DT "/O/NN tyler/O/NN '/O/'' s/O/NN waffles/O/NNS "/O/POS waffles/O/NNS ./O/.
+looks/O/VBZ like/O/IN this/O/DT foot/O/NN it/O/PRP died/O/VBD before/O/IN jesus/O/NNS ./O/.
+yes/O/UH yandere/O/UH sim/O/UH !/O/.
+reminds/O/VBZ me/O/PRP of/O/IN la/O/NNP la/O/JJ land/O/NN
+make/O/VB gun/O/NN powder/O/NN from/O/IN scratch/O/NN
+where/O/WRB are/O/VBP my/O/PRP$ testicles/O/NNS ,/O/, summer/O/NN ?/O/.
+full/O/JJ of/O/IN algae/O/USR
+this/O/DT is/O/VBZ very/O/RB good/O/JJ advice/O/NN for/O/IN anyone/O/NN who/O/WP works/O/VBZ for/O/IN a/O/DT non-profit/O/JJ ./O/. thank/O/VB you/O/PRP so/O/RB much/O/JJ for/O/IN posting/O/VBG this/O/DT video/O/NN !/O/.
+are/O/VB there/O/RB any/O/DT trump/B-ENTITY/NNP supporters/O/NNS here/O/RB and/O/CC if/O/IN so/O/RB ,/O/, please/O/NNS state/O/VBP your/O/PRP$ reasons/O/NNS you/O/PRP support/O/VBP him/O/PRP ?/O/.
+back/O/RB airpods/O/VBZ
+best/O/NN of/O/IN ranbir/O/USR
+please/O/VB upload/O/IN some/O/DT random/O/JJ videos/O/NNS so/O/IN we/O/PRP can/O/MD view/O/VB it/O/PRP and/O/CC give/O/VB you/O/PRP money/O/NN :/O/: d/O/VBP we/O/PRP need/O/VBP to/O/TO support/O/VB you/O/PRP so/O/RB please/O/JJ upload/O/NN :/O/: d/O/NNP
+the/O/DT mother/O/NN of/O/IN all/O/DT bombs/O/NNS is/O/VBZ the/O/DT "/O/'' tsar/O/NN "/O/''
+this/O/DT is/O/VBZ just/O/RB great/O/JJ !/O/. please/O/VB do/O/VB more/O/RBR braiden/O/RB slouching/O/VBG
+directed/O/VBN by/O/IN lsd/B-ENTITY/NNP ./O/. ./O/. ./O/.
+things/O/NNS are/O/VBP starting/O/VBG to/O/TO get/O/VB '/O/'' ray/O/NN bradbury-/O/NN ish/O/NNS '/O/POS ./O/.
+worlds/O/NNS destiny/O/RB sits/O/VBZ on/O/IN our/O/PRP$ shoulders/O/NNS ./O/. when/O/WRB will/O/VBP we/O/PRP start/O/VBP to/O/TO take/O/VB it/O/PRP back/O/RB ?/O/.
+"/O/'' please/O/NNS do/O/VBP n/O/NNS '/O/POS t/O/NN fire/O/NN me/O/VBP you/O/PRP cucks/O/VBP "/O/UH lmfao/O/UH
+ohh/O/UH he/O/PRP said/O/VBD the/O/DT n/O/NN word/O/NN said/O/VBD tana/B-ENTITY/NNP i/O/NNS '/O/POS m/O/NNS calling/O/VBG the/O/DT police/O/NN bich/O/UH plz/O/UH #ERR#/O/HT
+link/O/NN should/O/MD not/O/RB hold/O/VB knives/O/NNS or/O/CC dogs/O/NNS ./O/. what/O/WP '/O/VBZ s/O/NN with/O/IN all/O/DT that/O/DT excessive/O/JJ rubbing/O/NN ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. ?/O/UH ?/O/. //O/UH //O/UH //O/UH
+damn/O/UH we/O/PRP finally/O/RB get/O/VB a/O/DT black/O/JJ #ERR#/O/HT
+can/O/CC i/O/PRP have/O/VBP 2/O/CD normal/O/JJ plastic/O/JJ fidget/O/JJ spinners/O/NNS
+i/O/PRP am/O/VBP so/O/RB proud/O/JJ of/O/IN the/O/DT jamaican/O/JJ squad/O/NN !/O/. !/O/UH !/O/. !/O/. these/O/DT young/O/JJ ladies/O/NNS are/O/VBP sensational/O/JJ !/O/. !/O/UH !/O/. !/O/. thanks/O/NNS girls/O/NNS -/O/: you/O/PRP are/O/VBP simply/O/RB the/O/DT best/O/JJS !/O/NN !/O/.
+she/O/PRP will/O/MD serve/O/VB 2/O/CD years/O/NNS in/O/IN a/O/DT minimum/O/NN security/O/NN honor/O/NN camp/O/NN very/O/RB rarely/O/RB does/O/VBZ anyone/O/NN serve/O/VB the/O/DT first/O/JJ number/O/NN of/O/IN a/O/DT sentence/O/NN ./O/.
+car/O/NN loader/O/NN for/O/IN kids/O/NNS and/O/CC children/O/NNS
+guys/O/NNS ,/O/, i/O/PRP know/O/VBP black/O/JJ lives/O/NNS matter/O/NN but/O/CC they/O/PRP have/O/VBP to/O/TO die/O/VB first/O/RB ./O/. still/O/RB ./O/. always/O/RB ./O/.
+this/O/DT is/O/VBZ n/O/NNP '/O/'' t/O/NN paper/O/NN mario/O/CC finish/O/VB a/O/DT series/O/NN you/O/PRP attention/O/NN deficit/O/NN dill/O/NN holes/O/NNS
+teared/O/VBN up/O/RP and/O/CC i/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN even/O/RB like/O/IN kids/O/NNS ./O/. because/O/IN :/O/: humanity/O/NN
+i/O/PRP love/O/VBP vader/O/NNS '/O/POS s/O/JJ entrance/O/NN ./O/. it/O/PRP makes/O/VBZ the/O/DT entire/O/JJ video/O/NN worth/O/JJ watching/O/NN !/O/.
+starvin/O/VBG marvin/B-ENTITY/NNP
+simple/O/JJ but/O/CC so/O/RB effective/O/JJ teaser/O/NN trailer/O/NN ./O/. ./O/. ./O/. ./O/. im/O/PRP all/O/RB hyped/O/VBD up/O/RB now/O/RB !/O/. !/O/.
+amanda/B-ENTITY/NNP is/O/VBZ in/O/IN love/O/NN with/O/IN him/O/PRP the/O/DT moment/O/NN he/O/PRP stepped/O/VBD into/O/IN the/O/DT stage/O/NN check/O/NN the/O/DT way/O/NN she/O/PRP stares/O/VBZ at/O/IN him/O/PRP
+ann/B-ENTITY/NNP is/O/VBZ one/O/CD of/O/IN those/O/DT heartless/O/NNS ,/O/, rich/O/JJ white/O/JJ men/O/NNS conservatives/O/NNS who/O/WP talk/O/VBP out/O/IN of/O/IN their/O/PRP$ asses/O/NNS ./O/.
+every/O/DT minecraft/O/NN ever/O/RB what/O/WP if/O/IN minecraft/O/NN were/O/VBD ./O/. ./O/. ./O/.
+hey/O/UH titi/O/RB nice/O/JJ video/O/NN
+did/O/VBD n/O/NNP '/O/'' t/O/NN riceball/O/MD have/O/VB a/O/DT different/O/JJ owner/O/NN in/O/IN the/O/DT walking/O/VBG your/O/PRP$ cat/O/NN video/O/NN ?/O/.
+like/O/UH bubble/O/UH boy/O/UH -/O/UH -/O/UH except/O/IN with/O/IN a/O/DT girl/O/NN ./O/. bubble/O/JJ chick/O/NN ./O/.
+i/O/PRP request/O/VBP to/O/TO see/O/VB a/O/DT reaction/O/NN to/O/TO dj/O/DT switch/O/NN now/O/RB or/O/CC never/O/RB ft/O/JJ kwesta/O/NN and/O/CC other/O/JJ artists/O/NNS
+yea/O/UH tanner/O/NNP do/O/VBP another/O/DT hide/O/NN and/O/CC seek/O/VB but/O/CC dont/O/DT name/O/NN it/O/PRP the/O/DT new/O/JJ house/O/NN
+when/O/WRB is/O/VBZ the/O/DT youtube/B-ENTITY/JJ fanfest/O/NN gonna/O/VBG happen/O/VB ?/O/. #ERR#/O/HT
+i/O/PRP missed/O/VBD it/O/PRP ./O/. just/O/RB had/O/VBD ribs/O/NNS finish/O/VBP in/O/IN the/O/DT q/O/NN when/O/WRB i/O/PRP dropped/O/VBD a/O/DT knife/O/NN on/O/IN a/O/DT major/O/JJ artery/O/NN ./O/.
+im/O/PRP sure/O/RB you/O/PRP may/O/MD build/O/VB it/O/PRP too/O/RB guys/O/NNS ./O/. just/O/RB look/O/VBP for/O/IN woodprix/O/JJ page/O/NN and/O/CC build/O/VB it/O/PRP too/O/RB ./O/.
+omg/O/UH thank/O/VB you/O/PRP to/O/TO do/O/VB this/O/DT ,/O/, i/O/PRP would/O/MD like/O/VB won/O/VBD the/O/DT jet/O/NN black/O/JJ airpods/O/NNS ./O/.
+when/O/WRB will/O/VBP we/O/PRP get/O/VBP that/O/IN filthy/O/JJ frank/O/JJ reaction/O/NN ?/O/.
+my/O/PRP$ hole/O/NN school/O/NN is/O/VBZ hyped/O/VBN because/O/IN ever/O/RB since/O/IN he/O/PRP came/O/VBD here/O/RB iowa/B-ENTITY/NNP started/O/VBD to/O/TO get/O/VB popular/O/JJ
+bravo/O/UH !/O/. funny/O/UH !/O/. :/O/UH )/O/UH
+the/O/DT fuckin/O/JJ kendrick/O/NN reference/O/NN
+my/O/PRP$ dog/O/NN was/O/VBD fast/O/JJ asleep/O/RB and/O/CC then/O/RB heard/O/VBN jpeg/O/JJ cry/O/NN and/O/CC it/O/PRP woke/O/VBD her/O/PRP up/O/IN ./O/. now/O/RB she/O/PRP wants/O/VBZ to/O/TO leave/O/VB the/O/DT room/O/NN ./O/. lol/O/UH
+"/O/'' get/O/VBP your/O/PRP$ head/O/NN down/O/RP and/O/CC keep/O/VB moving/O/VBG !/O/. "/O/'' that/O/IN part/O/NN brings/O/VBZ me/O/PRP back/O/RB to/O/TO the/O/DT old/O/JJ days/O/NNS of/O/IN cod/B-ENTITY/NNP and/O/CC gives/O/VBZ me/O/PRP goosebumps/O/RP
+you/O/PRP gotta/O/NNP love/O/VBP the/O/DT cavs/O/NNS '/O/POS camaraderie/O/NN ,/O/, it/O/PRP '/O/VBZ s/O/PRP great/O/JJ to/O/TO see/O/VB the/O/DT big/O/JJ three/O/CD gell/O/NNS ,/O/, especially/O/RB kevin/B-ENTITY/JJ love/I-ENTITY/NN
+you/O/PRP are/O/VBP not/O/RB bad/O/JJ with/O/IN takoyaki/O/NN ./O/. great/O/JJ video/O/NN !/O/.
+lol/O/UH singaporeans/O/PRP should/O/MD kill/O/VB each/O/DT other/O/JJ off/O/JJ ,/O/, bunch/O/NN of/O/IN uncivilised/O/JJ donkeys/O/NNS ,/O/, if/O/IN they/O/PRP try/O/VBP this/O/DT stunt/O/NN in/O/IN the/O/DT u/O/NN ./O/. s/O/NNP ,/O/, they/O/PRP will/O/MD get/O/VB a/O/DT headshot/O/NN free/O/JJ of/O/IN charge/O/NN courtesy/O/NN of/O/IN being/O/VBG a/O/DT bitch/O/NN #ERR#/O/HT
+upcoming/O/VBG the/O/DT fight/O/NN of/O/IN the/O/DT decade/O/NN ,/O/, canelo/B-ENTITY/NNP vs/O/URL julio/O/HT #ERR#/O/HT jrs/O/NN ./O/. who/O/WP will/O/MD win/O/VB ?/O/.
+aussie/O/NNP faggot/O/NN and/O/CC gay/O/JJ cancer/O/NN patient/O/NN in/O/IN remission/O/NN play/O/NN with/O/IN cocks/O/NNS ./O/.
+omg/O/UH you/O/PRP craft/O/DT better/O/JJR then/O/IN me/O/PRP #ERR#/O/NNP ./O/. so/O/RB cool/O/JJ #ERR#/O/HT
+this/O/DT is/O/VBZ a/O/DT perfect/O/JJ mother/O/NN '/O/'' s/O/JJ day/O/NN gift/O/NN just/O/RB to/O/TO have/O/VB her/O/PRP$ children/O/NNS back/O/RB ./O/. i/O/PRP '/O/VBP m/O/NN so/O/RB happy/O/JJ for/O/IN her/O/PRP !/O/.
+i/O/PRP know/O/VBP they/O/PRP were/O/VBD aliens/O/NNS and/O/CC are/O/VBP n/O/NNS '/O/POS t/O/NN real/O/JJ ,/O/, but/O/CC we/O/PRP need/O/VBP the/O/DT adipose/O/JJ pills/O/NNS from/O/IN doctor/O/NN who/O/WP ,/O/, they/O/PRP actually/O/RB worked/O/VBD ,/O/, and/O/CC the/O/DT adipose/O/NNS are/O/VBP really/O/RB cute/O/JJ xd/O/UH
+this/O/DT is/O/VBZ amazing/O/JJ ./O/. sad/O/JJ for/O/IN me/O/PRP as/O/IN i/O/PRP do/O/VBP n/O/NNS '/O/POS t/O/NN have/O/VBP a/O/DT cat/O/NN anymore/O/RB ,/O/, another/O/DT is/O/VBZ on/O/IN my/O/PRP$ list/O/NN 100/O/CD %/O/NN
+this/O/DT is/O/VBZ amazing/O/JJ ./O/. praise/O/VB his/O/PRP$ holly/O/NN name/O/NN #ERR#/O/HT #ERR#/O/HT
+malume/O/UH freddy/O/UH l/O/UH love/O/VBP you/O/PRP ,/O/, kkkkkkk/O/JJ dintle/O/NN imali/O/UH dololo/O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH yv/O/NNP and/O/CC romeo/B-ENTITY/VB my/O/PRP$ favorite/O/JJ people/O/NNS good/O/JJ matching/O/JJ team/O/NN ./O/.
+i/O/PRP am/O/VBP a/O/DT jake/O/NN pouler/O/RB its/O/PRP every/O/DT day/O/NN bro/O/UH
+do/O/VB n/O/NNP '/O/'' t/O/NNS mean/O/VBP to/O/TO be/O/VB rude/O/JJ ,/O/, but/O/CC you/O/PRP should/O/MD do/O/VB some/O/DT actual/O/JJ research/O/NN ,/O/, the/O/DT amount/O/NN of/O/IN repetion/O/NN and/O/CC misinformation/O/NN is/O/VBZ annoying/O/JJ ./O/. please/O/VB consider/O/VB making/O/VBG some/O/DT changes/O/NNS ./O/. no/O/RB hate/O/VBP ,/O/, just/O/RB criticism/O/NN :/O/UH )/O/UH
+the/O/DT pitch/O/NN in/O/IN your/O/PRP$ voice/O/NN ,/O/, what/O/WP '/O/VBZ s/O/PRP going/O/VBG on/O/RP ?/O/RB had/O/VBD to/O/TO stop/O/VB the/O/DT video/O/NN ./O/.
+want/O/VB a/O/DT 18/O/CD +/O/. then/O/RB sing/O/VBG up/O/RP http/O/UH :/O/UH //O/UH //O/JJ links/O/NNS ./O/. report/O/VB //O/JJ track/O/NN //O/NN ?/O/. oid/O/UH =/O/UH 20/O/UH &/O/UH uid/O/UH =/O/UH 17/O/UH
+#/O/HT sharethelove/O/:
+please/O/VB add/O/VB iranian/O/JJ vidio/O/NN
+plz/O/UH can/O/MD i/O/PRP have/O/VBP the/O/DT black/O/JJ airpods/O/NNS
+how/O/WRB to/O/TO avoid/O/VB the/O/DT akwardness/O/NNS when/O/WRB getting/O/VBG rick/B-ENTITY/NNP rolled/O/VBD :/O/: step/O/VB 1/O/CD :/O/: smile/O/NN and/O/CC start/O/VB dancing/O/VBG step/O/NN 2/O/CD :/O/: dance/O/VB your/O/PRP$ way/O/NN out/O/IN of/O/IN the/O/DT room/O/NN
+please/O/VB sub/O/NN to/O/TO me/O/PRP it/O/PRP would/O/MD mean/O/VB alot/O/JJ
+idk/O/UH why/O/UH but/O/CC this/O/DT guy/O/NN comes/O/VBZ across/O/IN as/O/IN an/O/DT asshole/O/NN to/O/TO me/O/PRP
+hey/O/UH coyote/O/UH i/O/PRP have/O/VBP a/O/DT 70/O/CD inch/O/NN tv/O/NN
+its/O/PRP is/O/VBZ so/O/RB funny/O/JJ looking/O/VBG at/O/IN coments/O/NNS and/O/CC seeing/O/VBG a/O/DT ton/O/NN of/O/IN comments/O/NNS about/O/IN noodle/O/NN the/O/DT like/O/NN "/O/'' dares/O/JJ coments/O/NNS noodles/O/JJ dancing/O/NN is/O/VBZ so/O/RB nauthureal/O/JJ its/O/PRP just/O/RB graet/O/JJ and/O/CC ya/O/PRP
+damn/O/UH athenas/O/PRP$ daughter/O/NN is/O/VBZ sexy/O/JJ af/O/NN
+katy/O/NNP had/O/VBD to/O/TO put/O/VB her/O/PRP brush/O/VBP down/O/RP to/O/TO morn/O/VB desi/O/NNS '/O/POS s/O/JJ brush/O/JJ loss/O/NN
+great/O/JJ to/O/TO see/O/VB isaiah/O/NN in/O/IN good/O/JJ spirits/O/NNS !/O/.
+lauren/B-ENTITY/NNP you/O/PRP should/O/MD have/O/VB eye/O/NN drops/O/VBZ and/O/CC flonase/O/JJ nasal/O/JJ spray/O/NN
+how/O/WRB anyone/O/NN can/O/MD prefer/O/VB a/O/DT v/O/NN 6/O/CD over/O/IN a/O/DT straight/O/JJ 6/O/CD is/O/VBZ beyond/O/IN me/O/PRP ./O/. ./O/. ./O/. ./O/. such/O/JJ a/O/DT nice/O/JJ sound/O/NN !/O/.
+make/O/VB more/O/JJR if/O/IN you/O/PRP like/O/VBP if/O/IN you/O/PRP agree/O/VBP
+um/O/UH it/O/PRP '/O/VBZ s/O/PRP just/O/RB music/O/NN ./O/. you/O/PRP people/O/NNS are/O/VBP taking/O/VBG it/O/PRP way/O/NN too/O/RB personal/O/JJ ./O/. ishawna/O/NN did/O/VBD an/O/DT ok/O/JJ song/O/NN but/O/CC this/O/DT diss/O/NN was/O/VBD fire/O/NN #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT it/O/NNS '/O/POS s/O/VBD a/O/DT money/O/NN making/O/VBG industry/O/NN and/O/CC clearly/O/RB suck/O/VB pussy/O/NN nah/O/UH do/O/VB road/O/NN ./O/. so/O/RB relax/O/VB and/O/CC have/O/VBP a/O/DT good/O/JJ listen/O/NN ./O/.
+wtf/O/VB these/O/DT niggas/O/NNS snappin/O/URL #ERR#/O/HT #ERR#/O/HT feel/O/NN sorry/O/JJ for/O/IN the/O/DT upcomming/O/JJ artist/O/NN #/O/HT qc/O/: fuck/O/VB niggas/O/NNS
+this/O/DT would/O/MD have/O/VB been/O/VBN a/O/DT lot/O/NN better/O/NN if/O/IN bee/O/PRP was/O/VBD n/O/NNP '/O/'' t/O/NN so/O/RB annoying/O/JJ
+i/O/PRP wonder/O/VBP if/O/IN idubbbz/O/PRP just/O/RB plays/O/VBZ with/O/IN this/O/NNS when/O/WRB he/O/PRP '/O/VBZ s/O/PRP not/O/RB filming/O/VBG ./O/.
+muselk/O/NNP is/O/VBZ the/O/DT best/O/JJS :/O/: d/O/RB sexy/O/JJ junkrat/O/UH ftw/O/UH
+rip/O/NNS in/O/IN pieces/O/NNS ryzen/O/URL
+i/O/PRP can/O/MD only/O/RB imagine/O/VB how/O/WRB happy/O/JJ you/O/PRP must/O/MD have/O/VB been/O/VBN to/O/TO find/O/VB out/O/IN you/O/PRP were/O/VBD pregnant/O/JJ !/O/. my/O/PRP$ husband/O/NN and/O/CC i/O/PRP have/O/VBP been/O/VBN trying/O/VBG for/O/IN 15/O/CD months/O/NNS (/O/( i/O/PRP have/O/VBP pcos/O/NNP )/O/) and/O/CC whenever/O/WRB i/O/PRP find/O/VBP out/O/RP i/O/NNS '/O/POS m/O/VBD pregnant/O/JJ '/O/'' ll/O/VBP probably/O/RB fall/O/VBP apart/O/O haha/O/UH ./O/.
+archakam/O/NNP teaser/O/NN darling/O/NN fans/O/NNS
+no/O/DT rate/O/NN dah/O/NN song/O/NN total/O/JJ fuckry/O/NN ishawna/O/MD tink/O/VB a/O/DT hip/O/NN hop/O/NN dis/O/JJ song/O/NN nah/O/UH go/O/VB mek/O/IN u/O/PRP get/O/VBP no/O/DT popularity/O/NN in/O/IN dancehall/O/NN head/O/NN sick/O/JJ bout/O/NN man/O/NN fe/O/NNP nyam/O/MD lame/O/VB any/O/DT party/O/NN me/O/PRP dah/O/NNP n/O/CC dis/O/CC play/O/VB a/O/DT instant/O/JJ exit/O/NN
+my/O/PRP$ name/O/NN is/O/VBZ nathan/O/NNP
+t/O/NN ./O/. i/O/PRP ./O/. quit/O/VB inciting/O/VBG violence/O/NN you/O/PRP ai/O/VBP n/O/NNS '/O/POS t/O/NN helping/O/VBG the/O/DT situation/O/NN ./O/. ./O/. ./O/. or/O/CC are/O/VBP you/O/PRP using/O/VBG these/O/DT shootings/O/NNS for/O/IN something/O/NN to/O/TO rap/O/VB about/O/RB ?/O/. that/O/DT '/O/'' s/O/UH janky/O/UH bro/O/UH ./O/UH smh/O/UH
+if/O/IN my/O/PRP$ lip/O/NN reading/O/NN is/O/VBZ as/O/RB accurate/O/JJ as/O/IN i/O/PRP think/O/VBP it/O/PRP is/O/VBZ ,/O/, i/O/PRP believe/O/VBP the/O/DT old/O/JJ man/O/NN whispered/O/VBD bs/O/NN at/O/IN the/O/DT 3/O/CD :/O/: 10/O/CD mark/O/NN ./O/.
+why/O/WRB d/O/NNP ./O/. v/O/NNP ./O/. a/O/DT -/O/NN ./O/. -/O/:
+how/O/WRB come/O/JJ natalia/B-ENTITY/NN '/O/'' s/O/NN sister/O/NN is/O/VBZ never/O/RB in/O/IN the/O/DT vlog/O/NN ?/O/. ?/O/UH ?/O/.
+4/O/CD year/O/NN old/O/JJ video/O/NN trending/O/NN ?/O/. shut/O/VB up/O/IN people/O/NNS ,/O/, the/O/DT trending/O/JJ system/O/NN is/O/VBZ not/O/RB broken/O/VBN ./O/.
+i/O/PRP '/O/PRP m/O/VBP looking/O/VBG at/O/IN my/O/PRP$ casio/O/NN and/O/CC sighing/O/VBG disappointedly/O/RB ./O/.
+what/O/WP i/O/PRP never/O/RB understood/O/VBN about/O/IN the/O/DT '/O/'' depopulation/O/IN secret/O/JJ agenda/O/NN '/O/'' is/O/VBZ if/O/IN that/O/DT is/O/VBZ the/O/DT goal/O/NN why/O/VBD not/O/RB just/O/RB make/O/VB contraception/O/VB free/O/JJ and/O/CC fast/O/JJ track/O/NN risug/O/NN and/O/CC then/O/RB do/O/VB a/O/DT massive/O/JJ family/O/NN planning/O/VBG //O/JJ sex/O/NN education/O/NN media/O/NN blitz/O/NN ?/O/.
+leeds/B-ENTITY/NNP fan/O/NN i/O/PRP i/O/PRP come/O/VBP here/O/RB for/O/IN the/O/DT laughs/O/NNS
+obama/O/NNP is/O/VBZ so/O/RB cool/O/JJ
+thank/O/VB you/O/PRP joan/B-ENTITY/NNP &/O/CC k/O/JJ choi/O/NN for/O/IN these/O/DT awesome/O/JJ helpful/O/JJ video/O/NN !/O/. !/O/UH !/O/. #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+does/O/VBZ not/O/RB work/O/VB on/O/IN update/O/NN
+i/O/PRP cant/O/MD believe/O/VB this/O/DT is/O/VBZ on/O/IN the/O/DT trending/O/NN tab/O/NN when/O/WRB its/O/PRP from/O/IN 2013/O/CD
+your/O/PRP$ eyeliner/O/NN looks/O/VBZ good/O/JJ ./O/. ./O/. i/O/PRP cant/O/VBP ever/O/RB get/O/VB a/O/DT cateye/O/JJ look/O/NN aceptable/O/NN and/O/CC you/O/PRP did/O/VBD a/O/DT better/O/JJR job/O/NN han/O/IN myself/O/PRP
+jft/O/$ 96/O/CD never/O/RB buy/O/VB the/O/DT scum/O/NN
+i/O/PRP swear/O/VBP this/O/DT is/O/VBZ the/O/DT best/O/JJS wendy/O/DT show/O/NN i/O/NN '/O/'' ve/O/PRP watched/O/VBD ./O/. ./O/. ./O/. funny/O/JJ and/O/CC want/O/VBP more/O/RBR ./O/. ./O/. ./O/. getting/O/VBG nicky/O/NNP
+"/O/'' wooow/O/NN ./O/. ./O/. what/O/WP part/O/NN of/O/IN jamaica/B-ENTITY/NNP is/O/VBZ he/O/PRP from/O/IN ?/O/. "/O/'' #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/HT
+omg/O/UH yasssssssssssss/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. !/O/UH !/O/. 1/O/CD
+nothing/O/NN but/O/CC crap/O/JJ news/O/NN strikes/O/NNS again/O/RB
+skipppppppppppppppppppppppppp/O/HT
+please/O/VB give/O/VB me/O/PRP 1/O/NN phone/O/NN
+"/O/'' nice/O/JJ beaver/O/NNP !/O/. "/O/''
+for/O/IN that/O/DT remy/O/JJ effect-/O/JJ 1/O/CD :/O/: 40/O/CD ,/O/, remy/O/NN hair/O/NN ,/O/, shoe/O/NN n/O/CC clothes/O/NNS game/O/VBP been/O/VBN a/O/DT trademark/O/NN
+i/O/PRP was/O/VBD knew/O/PRP$ ti/O/NN is/O/VBZ better/O/RBR thsn/O/VB a/O/DT lotta/O/VB em/O/PRP fake/O/JJ ass/O/NN poluticians/O/NNS ./O/.
+macy/O/NNP was/O/VBD so/O/RB mean/O/JJ to/O/TO emily/B-ENTITY/VB i/O/PRP ca/O/MD n/O/NNS '/O/POS t/O/NN believe/O/VB she/O/PRP did/O/VBD that/O/DT
+hi/O/UH guys/O/NNS ,/O/, i/O/PRP have/O/VBP a/O/DT joke/O/NN :/O/: why/O/WRB are/O/VBP there/O/PRP$ peanuts/O/NNS at/O/IN a/O/DT berry/O/NNP farm/O/NN ./O/. ./O/. ./O/. #ERR#/O/HT
+great/O/JJ show/O/NN ;/O/: great/O/JJ ,/O/, great/O/JJ acting/O/NN and/O/CC scenery/O/NN ./O/. one/O/CD of/O/IN jim/B-ENTITY/NNP carrey/I-ENTITY/NNP '/O/'' s/O/DT greatest/O/JJS classics/O/NNS right/O/RB here/O/RB ./O/.
+i/O/PRP love/O/VBP april/O/NNP
+i/O/PRP have/O/VBP said/O/VBN "/O/'' is/O/VBZ there/O/RB any/O/DT food/O/NN left/O/VBD from/O/IN that/O/DT board/O/NN meeting/O/NN ?/O/. "/O/'' about/O/IN 100/O/CD times/O/NNS ./O/. fave/O/CD ./O/.
+still/O/RB my/O/PRP$ favorite/O/JJ meta/O/NN af/O/NN hero/O/NN :/O/: d/O/NNP
+my/O/PRP$ uncle/O/NN '/O/'' s/O/NN galaxy/O/NN note/O/NN 7/O/CD blew/O/VBD up/O/RP much/O/RB harder/O/RBR
+guys/O/NNS ,/O/, who/O/WP '/O/VBZ s/O/PRP the/O/DT guy/O/NN on/O/IN the/O/DT bench/O/NN !/O/. ?/O/UH
+hey/O/UH gweh/O/VBP u/O/PRP suck/O/VBP pussy/O/NN like/O/IN dog/O/NN stfu/O/NN
+silver/O/JJ falls/O/NNS !/O/.
+this/O/DT is/O/VBZ why/O/WRB fallon/B-ENTITY/NNP is/O/VBZ better/O/RBR ./O/. not/O/RB just/O/RB shitty/O/JJ trump/O/JJ jokes/O/NNS ./O/. actual/O/JJ content/O/NN ./O/.
+this/O/DT may/O/MD be/O/VB oliver/O/NNP '/O/'' s/O/DT best/O/JJS piece/O/NN yet/O/RB ./O/.
+save/O/VB our/O/PRP$ country/O/NN ./O/.
+wow/O/UH amazing/O/JJ trailer/O/NN :/O/: d/O/NNP
+i/O/NNS '/O/POS ve/O/PRP never/O/RB been/O/VBN so/O/RB glad/O/JJ i/O/PRP live/O/VBP in/O/IN canada/B-ENTITY/NNP
+your/O/PRP a/O/DT lot/O/NN braver/O/NN man/O/NN than/O/IN i/O/PRP am/O/VBP lol/O/UH ./O/. i/O/PRP drive/O/VBP a/O/DT truck/O/NN to/O/TO los/O/NNP angeles/O/IN every/O/DT week/O/NN ,/O/, and/O/CC i/O/PRP wo/O/MD n/O/NNS '/O/POS t/O/NN stay/O/NN in/O/IN compton/O/NN ./O/. just/O/RB sayin/O/UH
+when/O/WRB white/O/JJ people/O/NNS do/O/VBP it/O/PRP it/O/NNS '/O/POS s/O/JJ cultural/O/JJ appropriation/O/NN but/O/CC when/O/WRB black/O/JJ people/O/NNS do/O/VBP it/O/PRP it/O/NNS '/O/POS s/O/JJ trend/O/NN setters/O/NNS ?/O/. ?/O/UH ?/O/. ?/O/UH aight/O/UH
+ahh/O/UH that/O/DT '/O/'' s/O/RB cute/O/JJ
+its/O/PRP over/O/IN 9000/O/CD
+i/O/PRP love/O/VBP this/O/DT song/O/NN ./O/. now/O/RB if/O/IN only/O/RB del/O/NNP will/O/MD make/O/VB a/O/DT return/O/NN
+if/O/IN you/O/PRP book/O/NN and/O/CC fly/O/VB with/O/IN united/O/VBN after/O/IN seeing/O/VBG the/O/DT doctor/O/NN get/O/VB abused/O/VBN by/O/IN this/O/DT company/O/NN ./O/. ./O/. ./O/. you/O/PRP get/O/VBP what/O/WP you/O/PRP deserve/O/VBP ./O/.
+what/O/WP happened/O/VBD to/O/TO shima/B-ENTITY/NNP is/O/VBZ shi/O/O ok/O/UH ?/O/.
+every/O/DT sci-/O/NN fi/O/NN ever/O/RB !/O/. ?/O/UH ?/O/.
+https/O/UH :/O/UH //O/UH //O/UH wn/O/UH ./O/UH nr/O/UH //O/UH hsrccl/O/UH </O/UH </O/UH </O/DT massive/O/JJ giveaway/O/NN
+the/O/DT mini/O/NN dance/O/NN session/O/NN tho/O/HT #ERR#/O/HT #ERR#/O/HT #ERR#/O/RB happy/O/JJ asf/O/NN to/O/TO prank/O/VB crissy/O/NN lol/O/UH love/O/VBP y/O/NN '/O/'' all/O/HT #ERR#/O/HT
+hey/O/UH tanner/B-ENTITY/NNP is/O/VBZ your/O/PRP$ last/O/JJ name/O/NN actually/O/RB fox/O/NNP
+lil/O/JJ yachty/O/NN sounds/O/VBZ like/O/IN he/O/PRP is/O/VBZ halfway/O/JJ remedial/O/NN ./O/. this/O/DT new/O/JJ generation/O/NN of/O/IN rap/O/NN is/O/VBZ garbage/O/NN ./O/.
+oh/O/UH ./O/UH ./O/UH ./O/UH koops/O/UH ./O/UH ./O/UH ./O/UH
+ronaldo/B-ENTITY/NNP fifa/O/NN 18/O/CD card/O/NN shooting/O/NN stats/O/NNS :/O/: shot/O/NN power/O/NN :/O/: 96/O/CD long/O/JJ shots/O/NNS :/O/: 92/O/CD volleys/O/UH :/O/UH 89/O/UH jumping/O/UH :/O/UH 95/O/UH heading/O/UH acc/O/UH ./O/UH :/O/UH 91/O/UH
+and/O/CC do/O/VBP draw/O/VB your/O/PRP$ comments/O/NNS
+where/O/WRB '/O/VBZ s/O/NN kishan/O/NN ?/O/.
+if/O/IN you/O/PRP want/O/VBP anigga/O/VBP u/O/PRP go/O/VBP have/O/VB to/O/TO send/O/VB a/O/DT swat/O/NN team/O/NN
+so/O/RB much/O/JJ references/O/NNS in/O/IN the/O/DT video/O/NN shoot/O/NN :/O/: dmx/B-ENTITY/NNP ,/O/, busta/O/NN and/O/CC i/O/PRP probably/O/RB miss/O/VB some/O/DT other/O/JJ
+why/O/WRB mini-/O/JJ dp/O/NN instead/O/RB of/O/IN thunderbolt/O/UH 3/O/UH -/O/UH ./O/UH -/O/UH
+i/O/PRP bet/O/VBP this/O/DT was/O/VBD the/O/DT most/O/JJ fun/O/NN don/O/NN cheadle/O/NN had/O/VBD in/O/IN a/O/DT long/O/JJ time/O/NN
+well/O/RB since/O/IN it/O/PRP has/O/VBZ scumlims/O/VBN in/O/IN this/O/DT move/O/NN i/O/PRP will/O/MD never/O/RB watch/O/VB it/O/PRP ./O/. probably/O/RB a/O/DT part/O/NN of/O/IN the/O/DT scumlim/O/NN brotherhood/O/NN
+cool/O/NN video/O/NN !/O/. you/O/PRP made/O/VBD it/O/PRP interesting/O/JJ and/O/CC fun/O/NN !/O/. i/O/PRP liked/O/VBD how/O/WRB you/O/PRP included/O/VBD your/O/PRP$ wife/O/NN //O/JJ girlfriend/O/NN in/O/IN the/O/DT video/O/NN too/O/RB ./O/. :/O/UH )/O/UH
+if/O/IN you/O/PRP miss/O/VBP speaking/O/VBG french/O/JJ you/O/NN guys/O/NNS could/O/MD practice/O/VB with/O/IN me/O/PRP !/O/.
+you/O/PRP better/O/JJ drop/O/NN tonight/O/NN ryan/B-ENTITY/NN ,/O/, last/O/RB cancoon/O/JJ vlog/O/NN i/O/PRP #ERR#/O/HT nobiggietv/O/NN '/O/'' s/O/NN and/O/CC i/O/PRP like/O/VBP watching/O/VBG your/O/PRP$ videos/O/NNS more/O/JJR ,/O/, soo/O/NNP upload/O/VBD
+this/O/DT looks/O/VBZ as/O/RB entertaining/O/JJ as/O/IN iasm/O/NN ./O/. oh/O/UH well/O/UH ./O/. at/O/IN least/O/JJS '/O/: ll/O/MD eat/O/VB some/O/DT of/O/IN the/O/DT crowd/O/NN ./O/. flight/O/NN of/O/IN passage/O/NN should/O/MD be/O/VB good/O/JJ though/O/RB ./O/.
+interesting/O/JJ how/O/WRB ray/B-ENTITY/NNP was/O/VBD n/O/NNP '/O/'' t/O/NN there/O/RB ./O/. ./O/. ./O/. but/O/CC that/O/IN '/O/'' s/O/DT none/O/NN of/O/IN my/O/PRP$ business/O/NN
+wait/O/UH ,/O/, do/O/VBP you/O/PRP delete/O/VBP criticism/O/NN ,/O/, cuz/O/IN i/O/PRP saw/O/VBD some/O/DT comments/O/NNS about/O/IN how/O/WRB bad/O/JJ your/O/JJ videos/O/NNS are/O/VBP with/O/IN a/O/DT lot/O/NN of/O/IN likes/O/NNS and/O/CC now/O/RB they/O/NNS '/O/POS re/O/RB gone/O/VBN
+i/O/PRP does/O/VBZ cant/O/PRP get/O/VBP enough/O/NN of/O/IN his/O/PRP$ videos/O/NNS it/O/PRP shiub/O/MD be/O/VB 30/O/CD minutes/O/NNS long/O/JJ love/O/NN when/O/WRB he/O/PRP talks/O/VBZ bout/O/NN trump/O/NN ah/O/NN weak/O/JJ
+does/O/VBZ anyone/O/NN know/O/VB where/O/WRB casey/B-ENTITY/NNP '/O/'' s/O/NN t-shirt/O/NN at/O/IN 3/O/CD :/O/: 03/O/NN is/O/VBZ from/O/IN ?/O/. thank/O/VB you/O/PRP :/O/UH )/O/UH :/O/UH )/O/UH
+this/O/DT is/O/VBZ going/O/VBG to/O/TO be/O/VB awesome/O/JJ !/O/. ca/O/MD n/O/NNS '/O/POS t/O/MD wait/O/VB for/O/IN the/O/DT next/O/JJ episode/O/NN !/O/. great/O/JJ work/O/NN olan/O/NN !/O/.
+i/O/PRP read/O/VBP the/O/DT title/O/NN as/O/IN "/O/'' top/O/NNP 10/O/CD apple/O/NN products/O/NNS that/O/WDT are/O/VBP designed/O/VBN to/O/TO fail/O/VB "/O/'' #ERR#/O/HT
+where/O/WRB did/O/VBD you/O/PRP get/O/VBP the/O/DT food/O/NN from/O/IN and/O/CC where/O/WRB did/O/VBD you/O/PRP get/O/VBP the/O/DT barbie/O/NN dolls/O/NNS from/O/IN
+omg/O/UH that/O/UH dab/O/UH nooooooo/O/UH 2/O/UH :/O/UH 20/O/UH
+is/O/VBZ it/O/PRP just/O/RB me/O/PRP or/O/CC does/O/VBZ wildcat/O/JJ look/O/NN like/O/IN scarce/O/JJ
+the/O/DT lack/O/NN of/O/IN gwil/O/NN during/O/IN taro/B-ENTITY/NNP made/O/VBD me/O/PRP really/O/RB sad/O/JJ
+the/O/DT kings/O/NNS are/O/VBP back/O/RB
+when/O/WRB can/O/MD we/O/PRP start/O/VBP spreading/O/VBG the/O/DT zeitgeist/O/NN message/O/NN to/O/TO muslim/O/JJ countries/O/NNS ?/O/.
+where/O/WRB the/O/DT hell/O/NN is/O/VBZ he/O/PRP ?/O/. ?/O/UH ?/O/.
+hide/O/VB and/O/CC seek/O/VB
+this/O/DT trailer/O/NN was/O/VBD 100/O/CD time/O/NN better/O/NN then/O/RB half/O/JJ girlfriend/O/NN ./O/. ./O/UH !/O/. dhoni/B-ENTITY/NNP vs/O/IN nehra/B-ENTITY/NNP definitely/O/RB it/O/PRP '/O/VBZ s/O/PRP a/O/DT awesome/O/JJ movie/O/NN ./O/. ./O/.
+incredible/O/JJ film/O/NN !/O/. bravo/O/UH !/O/.
+hasan/B-ENTITY/NNP is/O/VBZ a/O/DT fucking/O/JJ goat/O/NN lol/O/UH
+dude/O/UH i/O/PRP love/O/VBP your/O/PRP$ chanle/O/NN so/O/RB much/O/RB but/O/CC the/O/DT next/O/JJ video/O/NN
+nice/O/JJ vid/O/NN mabey/O/NN you/O/PRP can/O/MD do/O/VB a/O/DT give/O/NN away/O/RB
+jon/B-ENTITY/NNP is/O/VBZ hilarious/O/JJ and/O/CC you/O/PRP and/O/CC des/O/NNP looked/O/VBD beautiful/O/JJ !/O/.
+superman/O/MD kill/O/VB his/O/PRP$ self/O/NN
+sounds/O/VBZ like/O/IN united/O/NNP has/O/VBZ put/O/VBN themselves/O/NNS in/O/IN a/O/DT very/O/RB bad/O/JJ situation/O/NN here/O/RB lately/O/RB ./O/. ceo/O/NNP might/O/MD want/O/VB to/O/TO start/O/VB looking/O/VBG for/O/IN a/O/DT job/O/NN at/O/IN mcdonald/O/NN '/O/'' s/O/NN ,/O/, as/O/IN a/O/DT server/O/NN ./O/.
+remember/O/VB that/O/IN in/O/IN this/O/DT world/O/NN any/O/DT inanimate/O/JJ object/O/NN could/O/MD be/O/VB alive/O/JJ ./O/.
+am/O/DT jake/O/NN you/O/PRP never/O/RB said/O/VBD goodbye/O/NN on/O/IN the/O/DT ougie/O/NN bord/O/NN
+this/O/DT music/O/NN grasp/O/VB my/O/PRP$ heart/O/NN so/O/RB strongly/O/RB ./O/. are/O/VBP they/O/PRP listening/O/VBG their/O/PRP$ own/O/JJ recording/O/NN ?/O/. the/O/DT ending/O/NN made/O/VBD me/O/PRP big/O/JJ smile/O/NN !/O/. thank/O/VB you/O/PRP !/O/. !/O/.
+nurture/O/VBD his/O/PRP$ interest/O/NN on/O/IN firetrucks/O/NNS ./O/. cutie/O/UH little/O/JJ one/O/NN ./O/.
+hands/O/NNS down/O/IN favourite/O/JJ person/O/NN to/O/TO watch/O/VB on/O/IN youtube/B-ENTITY/NNP !/O/. i/O/PRP wish/O/VBP your/O/PRP$ videos/O/NNS were/O/VBD longer/O/RB though/O/RB !/O/. :/O/UH )/O/UH
+2/O/NN :/O/: 59/O/CD spammin/O/NNS '/O/POS out/O/NN balls/O/NNS
+i/O/PRP actually/O/RB respect/O/VBP the/O/DT ladies/O/NNS at/O/IN the/O/DT view/O/NN for/O/IN having/O/VBG coulter/O/NNP on/O/NNP &/O/CC standing/O/VBG up/O/RP for/O/IN free/O/JJ speech/O/NN despite/O/IN their/O/PRP$ own/O/JJ political/O/JJ views/O/NNS ./O/.
+i/O/PRP love/O/VBP ittttttt/O/PRP
+tanner/B-ENTITY/NNP why/O/PRP do/O/VBP you/O/PRP call/O/VBP taylor/O/NN tanner/O/NN some/O/DT time/O/NN or/O/CC is/O/VBZ that/O/DT just/O/RB me/O/PRP
+lol/O/UH the/O/DT questions/O/NNS were/O/VBD planned/O/VBN ./O/. ./O/. ./O/.
+i/O/PRP '/O/: m/O/NNP gonna/O/VBG go/O/VB out/O/RP on/O/IN a/O/DT limb/O/NN here/O/RB and/O/CC guess/O/VB red/O/NN is/O/VBZ not/O/RB sponsoring/O/VBG this/O/DT video/O/NN ./O/. ./O/. ./O/.
+harry/O/NNP got/O/VBD shot/O/VBN in/O/IN the/O/DT head/O/NN in/O/IN the/O/DT last/O/JJ movie/O/NN ,/O/, now/O/RB he/O/PRP comes/O/VBZ back/O/RB with/O/IN an/O/DT eye/O/NN patch/O/NN ./O/. */O/UH ok/O/UH */O/UH */O/UH then/O/UH */O/UH
+yooooooooooo/O/NNS ./O/. are/O/VBP you/O/PRP playing/O/NN league/O/NN ?/O/.
+*/O/NNS do/O/VBP */O/UH */O/UH you/O/UH */O/UH */O/UH you/O/UH */O/UH */O/UH know/O/UH */O/UH */O/UH how/O/UH */O/UH */O/UH to/O/UH */O/UH */O/UH do/O/UH */O/UH */O/UH this/O/DT */O/''
+finally/O/RB you/O/PRP '/O/VBP ve/O/PRP covered/O/VBD this/O/DT !/O/NN does/O/VBZ this/O/NNS mean/O/VBP your/O/PRP$ titan/O/NN ae/O/NN review/O/NN is/O/VBZ just/O/RB around/O/IN the/O/DT corner/O/NN too/O/RB ?/O/.
+04/O/NN :/O/: 26/O/NNP "/O/'' i/O/PRP have/O/VBP a/O/DT theory/O/NN ./O/. ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/UH ./O/. "/O/'' does/O/VBZ she/O/PRP really/O/RB believe/O/VB that/O/RB ?/O/. my/O/PRP$ gawd/O/NN ,/O/, they/O/PRP '/O/VBP ve/O/VBZ all/O/DT gone/O/VBN stark/O/JJ raving/O/NN ,/O/, full-on/O/JJ loony/O/NN !/O/.
+i/O/PRP am/O/VBP proud/O/JJ of/O/IN bill/O/NN ./O/. he/O/PRP went/O/VBD from/O/IN making/O/VBG soft/O/JJ core/O/NN porn/O/NN movies/O/NNS in/O/IN the/O/DT 80/O/NN '/O/'' s/O/NN to/O/TO having/O/VBG his/O/PRP$ own/O/JJ show/O/NN and/O/CC being/O/VBG a/O/DT dick/O/NN liberal/O/NN ./O/.
+otaku/O/NNP here/O/RB and/O/CC i/O/PRP heard/O/VBD spice/O/NN from/O/IN shokugeki/O/IN no/O/DT souma/O/NN !/O/. !/O/UH !/O/. !/O/.
+0/O/UH :/O/UH 17/O/UH what/O/NNS '/O/POS s/O/JJ lena/B-ENTITY/JJ paul/I-ENTITY/NN doing/O/VBG there/O/RB ?/O/.
+you/O/PRP should/O/MD summon/O/VB ldshadowlady/O/HT aka/O/NN lizzie/B-ENTITY/NN and/O/CC you/O/PRP should/O/MD bring/O/VB aphmau/O/NN -/O/: senpai/O/URL
+i/O/PRP know/O/VBP it/O/PRP '/O/VBZ s/O/PRP a/O/DT weird/O/JJ thing/O/NN to/O/TO say/O/VB but/O/IN your/O/PRP$ lips/O/NNS are/O/VBP beautiful/O/JJ ./O/. your/O/PRP$ natural/O/JJ lip/O/NN color/O/NN is/O/VBZ literally/O/RB the/O/DT best/O/JJS !/O/. aaanyway/O/UH love/O/VBP you/O/PRP </O/UH 3/O/UH
+did/O/VBD anyone/O/NN notice/O/NN that/O/IN the/O/DT picture/O/NN to/O/TO the/O/DT top/O/JJ right/O/NN of/O/IN links/O/NNS head/O/VBP always/O/RB changes/O/NNS to/O/TO fit/O/VB the/O/DT episode/O/NN ./O/.
+do/O/VB n/O/NNP '/O/'' t/O/NN forget/O/NN that/O/IN her/O/PRP$ sentences/O/NNS does/O/VBZ n/O/NNP '/O/'' t/O/NN end/O/NN with/O/IN [/O/, unintelligible/O/JJ ]/O/:
+seriously/O/RB just/O/RB reading/O/VBG these/O/DT comments/O/NNS show/O/VBP how/O/WRB disgusting/O/JJ humans/O/NNS can/O/MD be/O/VB ./O/. thank/O/VB you/O/PRP jaclyn/O/NN for/O/IN looking/O/VBG past/O/IN the/O/DT bullshit/O/NN and/O/CC staying/O/VBG strong/O/JJ #ERR#/O/HT #ERR#/O/HT
+superior/O/JJ white/O/JJ people/O/NNS -/O/: truly/O/RB a/O/DT gift/O/NN to/O/TO all/O/DT mankind/O/NN ./O/.
+the/O/DT nokia/B-ENTITY/NN 888/O/NN looks/O/VBZ fake/O/JJ
+baironpuria/O/JJ fan/O/NN billa/O/IN da/O/DT
+think/O/VBP hoopa/O/JJ spawns/O/NNS on/O/IN the/O/DT 3/O/CD rd/O/NNP room/O/NN
+how/O/WRB the/O/DT fuck/O/NN does/O/VBZ elton/O/TO afford/O/VB that/O/DT mansion/O/NN
+there/O/EX was/O/VBD intent/O/NN to/O/TO cross/O/VB check/O/NN ./O/. it/O/PRP was/O/VBD just/O/RB the/O/DT fact/O/NN that/O/IN crosby/B-ENTITY/NNP went/O/VBD down/O/RB that/O/WDT was/O/VBD the/O/DT accident/O/NN ./O/.
+resonance/O/NN of/O/IN fate/O/NN (/O/( end/O/NN of/O/IN eternity/O/NN )/O/) is/O/VBZ the/O/DT only/O/RB good/O/JJ game/O/NN ./O/. literally/O/RB the/O/DT only/O/RB good/O/JJ game/O/NN ever/O/RB made/O/VBD ./O/.
+s/O/UH e/O/UH x/O/UH y/O/UH c/O/UH h/O/UH i/O/UH l/O/UH d/O/NNP r/O/NN e/O/NN n/O/CC
+1/O/NN :/O/: 15/O/CD it/O/NNS '/O/POS s/O/NNP polish/O/NN and/O/CC it/O/PRP means/O/VBZ rollercoaster/O/JJ
+lily/B-ENTITY/NNP i/O/PRP love/O/VBP your/O/PRP$ videos/O/NNS ,/O/, you/O/PRP are/O/VBP amazing/O/JJ !/O/. !/O/.
+am/O/VBP i/O/PRP the/O/DT only/O/JJ one/O/NN who/O/WP still/O/RB sees/O/VBZ shawn/B-ENTITY/NNP has/O/VBZ an/O/DT innocent/O/JJ little/O/JJ bean/O/NN who/O/WP i/O/PRP just/O/RB want/O/VBP to/O/TO wrap/O/VB in/O/IN a/O/DT blanket/O/NN and/O/CC protect/O/VB ?/O/. ?/O/UH ?/O/. ugh/O/UH ./O/.
+hit/O/VB like/O/IN if/O/IN u/O/PRP think/O/VBP its/O/PRP like/O/IN a/O/DT hollywood/O/NN teaser/O/NN ./O/. ./O/. ./O/. ./O/.
+how/O/WRB many/O/JJ boom/O/NN counts/O/VBZ in/O/IN this/O/DT video/O/NN ?/O/.
+get/O/VB gased/O/VBN and/O/CC and/O/VBP cremated/O/VBN
+tebogo/O/NNP is/O/VBZ cute/O/JJ ./O/. ./O/. ./O/.
+call/O/VB us/O/PRP "/O/'' martians/O/NN "/O/'' cause/O/IN your/O/PRP$ last/O/JJ name/O/NN is/O/VBZ martin/O/JJ lmao/O/UH
+this/O/DT was/O/VBD ./O/. ./O/. ./O/. funny/O/JJ ?/O/. billy/O/NNP o/O/NN '/O/'' cuntface/O/NN did/O/VBD to/O/TO comedy/O/NN what/O/WP aids/O/NNP did/O/VBD to/O/TO niggers/O/NNS and/O/CC queers/O/NNS
+mauro/B-ENTITY/NNP started/O/VBD commentating/O/VBG for/O/IN boxing/O/VBG and/O/CC no/O/DT more/O/RBR smackdown/O/JJ ?/O/.
+at/O/UH 0/O/UH :/O/UH 14/O/UH i/O/PRP swear/O/VBP i/O/PRP saw/O/VBD a/O/DT starbucks/O/NN ./O/. they/O/PRP '/O/VBP re/O/PRP everywhere/O/RB !/O/. !/O/UH !/O/. !/O/UH !/O/.
+you/O/PRP sorted/O/VBD that/O/IN amos/O/NNP thing/O/NN mom/O/NN
+he/O/PRP used/O/VBD chi/B-ENTITY/NNP blast/O/NN to/O/TO drop/O/VB that/O/DT old/O/JJ man/O/NN ./O/. (/O/( that/O/DT or/O/VBZ he/O/PRP was/O/VBD tripped/O/VBN by/O/IN the/O/DT invisible/O/JJ man/O/NN )/O/) ./O/. then/O/RB proceeded/O/VBD to/O/TO sandwich/O/VB his/O/PRP$ leg/O/NN and/O/CC throw/O/VB a/O/DT barrage/O/NN of/O/IN squishing/O/JJ sounds/O/NNS to/O/TO his/O/PRP$ ears/O/NNS ./O/. social/O/JJ security/O/NN has/O/VBZ never/O/RB sounded/O/VBD so/O/RB good/O/JJ !/O/.
+your/O/PRP$ sarcasm/O/NN is/O/VBZ goals/O/NNS :/O/: d/O/NNP :/O/: d/O/NNP
+i/O/PRP hate/O/VBP this/O/DT i/O/PRP hate/O/VBP this/O/DT i/O/PRP hate/O/VBP this/O/DT omg/O/NN i/O/PRP feel/O/VBP so/O/RB awkward/O/JJ
+for/O/IN education/O/NN ./O/. lol/O/UH yeah/O/UH like/O/UH my/O/PRP$ dads/O/NNS gonna/O/PRP spend/O/VBP #ERR#/O/$ 999/O/CD ./O/. ./O/. ./O/.
+excellent/O/JJ poem/O/NN #ERR#/O/HT
+this/O/DT guy/O/NN needs/O/VBZ his/O/PRP$ own/O/JJ show/O/NN on/O/IN discivery/O/JJ channel/O/NN !/O/.

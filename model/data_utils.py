@@ -41,7 +41,7 @@ class CoNLLDataset(object):
         ```
 
     """
-    def __init__(self, filename, processing_word=None, processing_tag=None, max_iter=None, processing_pos=None):
+    def __init__(self, filename, processing_word=None, processing_tag=None, max_iter=None):
         """
         Args:
             filename: path to the file
@@ -53,7 +53,6 @@ class CoNLLDataset(object):
         self.filename = filename
         self.processing_word = processing_word
         self.processing_tag = processing_tag
-        self.processing_pos = processing_pos
         self.max_iter = max_iter
         self.length = None
 
@@ -77,8 +76,6 @@ class CoNLLDataset(object):
                         word = self.processing_word(word)
                     if self.processing_tag is not None:
                         tag = self.processing_tag(tag)
-                    if self.processing_pos is not None:
-                        pos = self.processing_pos(pos)
                     words += [word]
                     tags += [tag]
                     pos += [pos]
@@ -388,20 +385,19 @@ def minibatches(data, minibatch_size):
         list of tuples
 
     """
-    x_batch, y_batch, z_batch = [], [], []
-    for (x, y, z) in data:
+    x_batch, y_batch = [], []
+    for (x, y) in data:
         if len(x_batch) == minibatch_size:
-            yield x_batch, y_batch, z_batch
-            x_batch, y_batch, z_batch = [], [], []
+            yield x_batch, y_batch
+            x_batch, y_batch = [], []
 
         if type(x[0]) == tuple:
             x = zip(*x)
         x_batch += [x]
         y_batch += [y]
-        z_batch += [z]
 
     if len(x_batch) != 0:
-        yield x_batch, y_batch, z_batch
+        yield x_batch, y_batch
 
 
 def get_chunk_type(tok, idx_to_tag):

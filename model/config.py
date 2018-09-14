@@ -54,8 +54,6 @@ class Config():
         self.processing_tag  = get_processing_word(self.vocab_tags,
                 lowercase=False, allow_unk=False)
 
-        self.processing_pos = get_processing_word(self.vocab_pos, lowercase=False, allow_unk=False)
-
         # 3. get pre-trained embeddings
         self.embeddings_w2v = (get_trimmed_word_vectors(self.filename_trimmed_w2v) if "w2v" in self.use_pretrained
                                else None)
@@ -131,6 +129,7 @@ class Config():
     # model hyperparameters
     hidden_size_char = 30 # lstm on chars
     hidden_size_lstm = 200 # lstm on word embeddings
+    hidden_size_pos  = 30
 
     # NOTE: if both chars and crf, only 1.6x slower on GPU
     use_crf = True # if crf, training is 1.7x slower on CPU

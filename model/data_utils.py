@@ -71,14 +71,14 @@ class CoNLLDataset(object):
                         words, tags, pos = [], [], []
                 else:
                     ls = line.split()
-                    word, tag, pos = ls[0], ls[1], ls[-1]
+                    word, tag, po = ls[0], ls[1], ls[-1]
                     if self.processing_word is not None:
                         word = self.processing_word(word)
                     if self.processing_tag is not None:
                         tag = self.processing_tag(tag)
                     words += [word]
                     tags += [tag]
-                    pos += [pos]
+                    pos += [po]
 
     def __len__(self):
         """Iterates once over the corpus to set and store length"""
@@ -385,19 +385,20 @@ def minibatches(data, minibatch_size):
         list of tuples
 
     """
-    x_batch, y_batch = [], []
-    for (x, y) in data:
+    x_batch, y_batch, z_batch = [], [], []
+    for (x, y, z) in data:
         if len(x_batch) == minibatch_size:
-            yield x_batch, y_batch
-            x_batch, y_batch = [], []
+            yield x_batch, y_batch, z_batch
+            x_batch, y_batch, z_batch = [], [], []
 
         if type(x[0]) == tuple:
             x = zip(*x)
         x_batch += [x]
         y_batch += [y]
+        z_batch += [z]
 
     if len(x_batch) != 0:
-        yield x_batch, y_batch
+        yield x_batch, y_batch, z_batch
 
 
 def get_chunk_type(tok, idx_to_tag):

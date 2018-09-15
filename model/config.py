@@ -53,6 +53,8 @@ class Config():
                                                    replace_digits=self.replace_digits)
         self.processing_tag  = get_processing_word(self.vocab_tags,
                 lowercase=False, allow_unk=False)
+        self.processing_pos = get_processing_word(self.vocab_pos,
+                                                  lowercase=False, allow_unk=False)
 
         # 3. get pre-trained embeddings
         self.embeddings_w2v = (get_trimmed_word_vectors(self.filename_trimmed_w2v) if "w2v" in self.use_pretrained

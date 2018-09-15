@@ -15,11 +15,11 @@ def main():
 
     # create datasets
     dev   = CoNLLDataset(config.filename_dev, config.processing_word,
-                         config.processing_tag, config.max_iter)
+                         config.processing_tag, config.max_iter, config.processing_pos)
     train = CoNLLDataset(config.filename_train, config.processing_word,
-                         config.processing_tag, config.max_iter)
+                         config.processing_tag, config.max_iter, config.processing_pos)
     train2 = CoNLLDataset(config.filename_train2, config.processing_word,
-                          config.processing_tag, config.max_iter)
+                          config.processing_tag, config.max_iter, config.processing_pos)
 
     # train model
     model.train(train, dev, train2)

@@ -51,7 +51,7 @@ class NERModel(BaseModel):
         self.lr = tf.placeholder(dtype=tf.float32, shape=[],
                         name="lr")
 
-    def get_feed_dict(self, words, labels=None, lr=None, dropout=None, pos=None):
+    def get_feed_dict(self, words, labels=None, lr=None, dropout=None, pos_ids=None):
         """Given some data, pad it and build a feed dictionary
 
         Args:
@@ -84,8 +84,9 @@ class NERModel(BaseModel):
             feed[self.char_ids] = char_ids
             feed[self.word_lengths] = word_lengths
 
-        if self.config.use_pos:
-            feed[self.pos_ids] = pos
+        if pos_ids is not None and self.config.use_pos:
+            pos_ids, _ = pad_sequences(pos_ids, 0)
+            feed[self.pos_ids] = pos_ids
 
         if labels is not None:
             labels, _ = pad_sequences(labels, 0)
@@ -242,15 +243,21 @@ class NERModel(BaseModel):
 
                 # put the time dimension on axis=1
                 s2 = tf.shape(pos_embeddings)
-                cell_fw2 = tf.contrib.rnn.LSTMCell(self.config.hidden_size_pos,
-                                                  state_is_tuple=True)
-                cell_bw2 = tf.contrib.rnn.LSTMCell(self.config.hidden_size_pos,
-                                                  state_is_tuple=True)
-                _output2 = tf.nn.bidirectional_dynamic_rnn(
-                    cell_fw2, cell_bw2, pos_embeddings, dtype=tf.float32)
+                print("TESTTTT")
+                print(pos_embeddings)
 
-                _, ((_, output_fw2), (_, output_bw2)) = _output2
-                output2 = tf.concat([output_fw2, output_bw2], axis=-1)
+                cell_fw2 = tf.contrib.rnn.LSTMCell(self.config.hidden_size_pos, state_is_tuple=True)
+                cell_bw2 = tf.contrib.rnn.LSTMCell(self.config.hidden_size_pos, state_is_tuple=True)
+                (output2, states) = tf.nn.bidirectional_dynamic_rnn(
+                    cell_fw2, cell_bw2, pos_embeddings,
+                    sequence_length=self.sequence_lengths,
+                    dtype=tf.float32)
+
+                output2 = tf.concat(output2, axis=-1)
+                print("TESTTTT2222")
+                print(output2)
+                print("TESTTTT3333")
+                print(word_embeddings)
 
                 output2 = tf.reshape(output2,
                                     shape=[s2[0], s2[1], 2 * self.config.hidden_size_pos])
@@ -348,7 +355,7 @@ class NERModel(BaseModel):
                 self.config.clip)
         self.initialize_session() # now self.sess is defined and vars are init
 
-    def predict_batch(self, words, return_feed=False):
+    def predict_batch(self, words, return_feed=False, pos=None):
         """
         Args:
             words: list of sentences
@@ -358,7 +365,7 @@ class NERModel(BaseModel):
             sequence_length
 
         """
-        fd, sequence_lengths = self.get_feed_dict(words, dropout=1.0)
+        fd, sequence_lengths = self.get_feed_dict(words, dropout=1.0, pos_ids=pos)
 
         if self.config.use_crf:
             # get tag scores and transition params of CRF
@@ -441,8 +448,8 @@ class NERModel(BaseModel):
         correct_preds, total_correct, total_preds = 0., 0., 0.
         if print_to_file:
             idx_to_word = {idx: word for word, idx in self.config.vocab_words.items()}
-        for words, labels in minibatches(test, self.config.batch_size):
-            labels_pred, sequence_lengths, fd = self.predict_batch(words, return_feed=True)
+        for words, labels, pos in minibatches(test, self.config.batch_size):
+            labels_pred, sequence_lengths, fd = self.predict_batch(words, return_feed=True, pos=pos)
 
             if print_to_file:
                 for s_idx, sentence in enumerate(fd[self.word_ids]):

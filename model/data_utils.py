@@ -41,7 +41,7 @@ class CoNLLDataset(object):
         ```
 
     """
-    def __init__(self, filename, processing_word=None, processing_tag=None, max_iter=None):
+    def __init__(self, filename, processing_word=None, processing_tag=None, max_iter=None, processing_pos=None):
         """
         Args:
             filename: path to the file
@@ -53,6 +53,7 @@ class CoNLLDataset(object):
         self.filename = filename
         self.processing_word = processing_word
         self.processing_tag = processing_tag
+        self.processing_pos = processing_pos
         self.max_iter = max_iter
         self.length = None
 
@@ -76,6 +77,8 @@ class CoNLLDataset(object):
                         word = self.processing_word(word)
                     if self.processing_tag is not None:
                         tag = self.processing_tag(tag)
+                    if self.processing_pos is not None:
+                        po = self.processing_pos(po)
                     words += [word]
                     tags += [tag]
                     pos += [po]

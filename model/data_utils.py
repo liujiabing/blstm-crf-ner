@@ -41,7 +41,7 @@ class CoNLLDataset(object):
         ```
 
     """
-    def __init__(self, filename, processing_word=None, processing_tag=None, max_iter=None, processing_pos=None):
+    def __init__(self, filename, processing_word=None, processing_tag=None, max_iter=None):
         """
         Args:
             filename: path to the file
@@ -53,35 +53,58 @@ class CoNLLDataset(object):
         self.filename = filename
         self.processing_word = processing_word
         self.processing_tag = processing_tag
-        self.processing_pos = processing_pos
         self.max_iter = max_iter
         self.length = None
 
     def __iter__(self):
         niter = 0
         with open(self.filename) as f:
-            words, tags, pos = [], [], []
+            words, tags, pos_tags = [], [], []
+            prev_word = None
             for line in f:
                 line = line.strip()
                 if len(line) == 0 or line.startswith("-DOCSTART-"):
                     if len(words) != 0:
+                        if prev_word is not None:
+                            prev_pos_tag = '0'
+                            if len(pos_tags) >= 2:
+                                cur_pos_tag = pos_tags[-1]
+                                prev_pos_tag = pos_tags[-2]
+                            else:
+                                cur_pos_tag = pos_tags[0] if len(pos_tag) == 1 else '0'
+                            word = self.processing_word(prev_word, pos_tags=[prev_pos_tag, cur_pos_tag, '0'])
+                            words[-1] = word
                         niter += 1
                         if self.max_iter is not None and niter > self.max_iter:
                             break
-                        yield words, tags, pos
-                        words, tags, pos = [], [], []
+                        yield words, tags, pos_tags
+                        words, tags, pos_tags = [], [], []
+                        prev_word = None
                 else:
                     ls = line.split()
-                    word, tag, po = ls[0], ls[1], ls[-1]
+                    word, tag, pos_tag = ls[0], ls[1], ls[-1]
                     if self.processing_word is not None:
                         word = self.processing_word(word)
+                        print("WORD:" + str(word))
+                        if prev_word is not None:
+                            print("PREV_WORD:" + str(prev_word))
+                            # Here, we also provide PoS tags with a context window of 3.
+                            prev_pos_tag = '0'
+                            next_pos_tag = pos_tag
+                            if len(pos_tags) >= 2:
+                                cur_pos_tag = pos_tags[-1]
+                                prev_pos_tag = pos_tags[-2]
+                            else:
+                                cur_pos_tag = pos_tags[0] if len(pos_tag) == 1 else '0'
+                            prev_word = self.processing_word(prev_word, pos_tags=[prev_pos_tag, cur_pos_tag, next_pos_tag])
+                            print("WORDS:" + str(words))
+                            words[-1] = prev_word
+                        prev_word = ls[0]
                     if self.processing_tag is not None:
                         tag = self.processing_tag(tag)
-                    if self.processing_pos is not None:
-                        po = self.processing_pos(po)
                     words += [word]
                     tags += [tag]
-                    pos += [po]
+                    pos_tags += [pos_tag]
 
     def __len__(self):
         """Iterates once over the corpus to set and store length"""
@@ -287,7 +310,7 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                  = (list of char ids, word id)
 
     """
-    def f(word):
+    def f(word, pos_tags=None):
         # 0. get chars of words
         if vocab_chars is not None and chars == True:
             char_ids = []
@@ -296,6 +319,12 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                 c = get_orthographic(str(char)) if use_ortho_char else str(char)
                 if c in vocab_chars:
                     char_ids += [vocab_chars[c]]
+
+        if vocab_pos is not None and pos_tags is not None:
+            pos_ids = []
+            for pos_tag in pos_tags:
+                if pos_tag in vocab_pos:
+                    pos_ids += [vocab_pos[pos_tag]]
 
         # 1. preprocess word
         if lowercase:
@@ -314,9 +343,9 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                     raise Exception("Unknown key is not allowed. Check that "\
                                     "your vocab (tags?) is correct")
 
-        # 3. return char ids, word id, pos id
-        if vocab_chars is not None and chars == True:
-            return char_ids, word
+        # 3. return char ids, pos id, word id
+        if vocab_pos is not None and pos_tags is not None and vocab_chars is not None and chars == True:
+            return char_ids, pos_ids, word
         else:
             return word
 
@@ -385,23 +414,23 @@ def minibatches(data, minibatch_size):
         minibatch_size: (int)
 
     Yields:
-        list of tuples
+        list of tuples of words and tags
 
     """
-    x_batch, y_batch, z_batch = [], [], []
-    for (x, y, z) in data:
+    # x: words, y:tags, z:pos_tags
+    x_batch, y_batch, = [], []
+    for (x, y, _) in data:
         if len(x_batch) == minibatch_size:
-            yield x_batch, y_batch, z_batch
-            x_batch, y_batch, z_batch = [], [], []
+            yield x_batch, y_batch
+            x_batch, y_batch = [], []
 
         if type(x[0]) == tuple:
             x = zip(*x)
         x_batch += [x]
         y_batch += [y]
-        z_batch += [z]
 
     if len(x_batch) != 0:
-        yield x_batch, y_batch, z_batch
+        yield x_batch, y_batch
 
 
 def get_chunk_type(tok, idx_to_tag):

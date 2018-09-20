@@ -50,11 +50,10 @@ class Config():
         self.processing_word = get_processing_word(self.vocab_words,
                 self.vocab_chars, lowercase=False, chars=(self.use_chars is not None),
                                                    use_ortho_char=self.use_ortho_char,
-                                                   replace_digits=self.replace_digits)
+                                                   replace_digits=self.replace_digits,
+                                                   vocab_pos=self.vocab_pos)
         self.processing_tag  = get_processing_word(self.vocab_tags,
                 lowercase=False, allow_unk=False)
-        self.processing_pos = get_processing_word(self.vocab_pos,
-                                                  lowercase=False, allow_unk=False)
 
         # 3. get pre-trained embeddings
         self.embeddings_w2v = (get_trimmed_word_vectors(self.filename_trimmed_w2v) if "w2v" in self.use_pretrained

@@ -265,7 +265,7 @@ class NERModel(BaseModel):
                 output2 = tf.reshape(pos_embeddings,
                                      shape=[s2[0], s2[1], s2[-2]*self.config.dim_pos])
                 print("HEBELEEEEE")
-                output2.set_shape((None, None, 120))
+                output2.set_shape((None, None, 3*self.config.dim_pos))
                 print(output2)
                 word_embeddings = tf.concat([word_embeddings, output2], axis=-1)
 
@@ -371,7 +371,7 @@ class NERModel(BaseModel):
             sequence_length
 
         """
-        fd, sequence_lengths = self.get_feed_dict(words, dropout=1.0, pos_ids=pos)
+        fd, sequence_lengths = self.get_feed_dict(words, dropout=1.0)
 
         if self.config.use_crf:
             # get tag scores and transition params of CRF

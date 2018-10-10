@@ -69,8 +69,12 @@ def main():
 
     # Build and save char vocab
     train = CoNLLDataset(config.filename_train)
-    vocab_chars = get_char_vocab(train, config.use_ortho_char)
+    vocab_chars = get_char_vocab(train, False)
     write_vocab(vocab_chars, config.filename_chars)
+
+    train = CoNLLDataset(config.filename_train)
+    vocab_ortho = get_char_vocab(train, True)
+    write_vocab(vocab_ortho, config.filename_ortho)
 
 
 if __name__ == "__main__":

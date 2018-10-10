@@ -266,7 +266,7 @@ def get_orthographic(word):
     return ort
 
 
-def get_processing_word(vocab_words=None, vocab_chars=None,
+def get_processing_word(vocab_words=None, vocab_chars=None, vocab_ortho=None,
                     lowercase=False, chars=False, allow_unk=True, use_ortho_char=False, replace_digits=False):
     """Return lambda function that transform a word (string) into list,
     or tuple of (list, id) of int corresponding to the ids of the word and
@@ -284,11 +284,15 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
         # 0. get chars of words
         if vocab_chars is not None and chars == True:
             char_ids = []
+            ortho_ids = []
             for char in word:
                 # ignore chars out of vocabulary
-                c = get_orthographic(str(char)) if use_ortho_char else str(char)
+                c = str(char)
+                o = get_orthographic(str(char))
                 if c in vocab_chars:
                     char_ids += [vocab_chars[c]]
+                if o in vocab_ortho:
+                    ortho_ids += [vocab_ortho[o]]
 
         # 1. preprocess word
         if lowercase:
@@ -308,8 +312,8 @@ def get_processing_word(vocab_words=None, vocab_chars=None,
                                     "your vocab (tags?) is correct")
 
         # 3. return tuple char ids, word id
-        if vocab_chars is not None and chars == True:
-            return char_ids, word
+        if vocab_chars is not None and vocab_ortho is not None and chars == True:
+            return ortho_ids, char_ids, word
         else:
             return word
 

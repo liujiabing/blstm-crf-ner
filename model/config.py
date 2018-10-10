@@ -39,14 +39,17 @@ class Config():
         self.vocab_words = load_vocab(self.filename_words)
         self.vocab_tags  = load_vocab(self.filename_tags)
         self.vocab_chars = load_vocab(self.filename_chars)
+        self.vocab_ortho = load_vocab(self.filename_ortho)
+
 
         self.nwords     = len(self.vocab_words)
         self.nchars     = len(self.vocab_chars)
+        self.northo     = len(self.vocab_ortho)
         self.ntags      = len(self.vocab_tags)
 
         # 2. get processing functions that map str -> id
         self.processing_word = get_processing_word(self.vocab_words,
-                self.vocab_chars, lowercase=False, chars=(self.use_chars is not None),
+                self.vocab_chars, self.vocab_ortho, lowercase=False, chars=(self.use_chars is not None),
                                                    use_ortho_char=self.use_ortho_char,
                                                    replace_digits=self.replace_digits)
         self.processing_tag  = get_processing_word(self.vocab_tags,
@@ -102,6 +105,7 @@ class Config():
     filename_words = "data/words.tmp"
     filename_tags = "data/tags.tmp"
     filename_chars = "data/chars.tmp"
+    filename_ortho = "data/ortho.tmp"
 
     # training
     train_embeddings = False

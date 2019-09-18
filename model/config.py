@@ -75,18 +75,19 @@ class Config():
     conll_score = "results/conllscore{}.tmp".format(now_str)
 
     # embeddings
-    dim_word = 200
-    dim_morph = 50
-    dim_char = 30
+    dim_word = 100
+    dim_morph = 100
+    dim_char = 100
 
     # ft, w2v, m2v or None (if you want to use multiple embeddings, provide them comma separated e.g. "ft,m2v"
-    use_pretrained = "w2v"
-    get_ft_vectors_cmd = '/home/emre/git/fastText-0.1.0/fasttext print-word-vectors /home/emre/Documents/fasttext/embeddings.bin ' \
+    use_pretrained = "ft"
+    #get_ft_vectors_cmd = '/home/emre/git/fastText-0.1.0/fasttext print-word-vectors /home/emre/Documents/fasttext/embeddings.bin ' \
+    get_ft_vectors_cmd = '/data/duobi/fastText/fasttext print-word-vectors /data/duobi/fastText/session_wp_model.bin  ' \
               '< {} > {}'
 
     # pretrained files
     filename_word2vec = "data/embeddings/tr-embeddings-w2v.txt"
-    filename_fasttext = "data/embeddings/tr-embeddings-ft.txt"
+    filename_fasttext = "/data/duobi/fastText/session_wp_model.txt"
     filename_morph2vec = "data/embeddings/tr-embeddings-m2v.txt"
 
     # trimmed embeddings (created from word2vec_filename with build_data.py)
@@ -95,9 +96,9 @@ class Config():
     filename_trimmed_m2v = "data/emb.m2v.{}d.trimmed.npz".format(dim_morph)
 
     # dataset 
-    filename_dev = "data/dev.tmp"
-    filename_test = "data/test.tmp"
-    filename_train = "data/train.tmp"
+    filename_dev = "data/dev.txt"
+    filename_test = "data/test.txt"
+    filename_train = "data/train.txt"
 
     max_iter = None # if not None, max number of examples in Dataset
 

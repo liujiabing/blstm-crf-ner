@@ -24,7 +24,7 @@ def main():
     # get config and processing of words
 
     config = Config(load=False)
-    processing_word = get_processing_word(lowercase=False)
+    processing_word = get_processing_word(lowercase=True)
 
     # Generators
     dev   = CoNLLDataset(config.filename_dev, processing_word)
@@ -38,6 +38,8 @@ def main():
     if "w2v" in config.use_pretrained:
         vocab_word2vec = get_word_vec_vocab(config.filename_word2vec)
         vocab = vocab_words & vocab_word2vec if config.use_pretrained == "w2v" else vocab_words
+    elif 'ft' in config.use_pretrained:
+        vocab = get_word_vec_vocab(config.filename_fasttext)
     if config.replace_digits:
         vocab.add(NUM)
     vocab.add(UNK)
@@ -50,8 +52,8 @@ def main():
     if "ft" in config.use_pretrained:
         abs_f_words = os.path.abspath(config.filename_words)
         abs_f_vec = os.path.abspath(config.filename_fasttext)
-        cmd = config.get_ft_vectors_cmd.format(abs_f_words, abs_f_vec)
-        subprocess.check_call(cmd, shell=True)
+        #cmd = config.get_ft_vectors_cmd.format(abs_f_words, abs_f_vec)
+        #subprocess.check_call(cmd, shell=True)
         vocab = load_vocab(config.filename_words)
         export_trimmed_word_vectors(vocab, config.filename_fasttext, config.filename_trimmed_ft, config.dim_word)
 

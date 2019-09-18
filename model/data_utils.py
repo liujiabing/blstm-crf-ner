@@ -144,6 +144,8 @@ def get_word_vec_vocab(filename):
     vocab = set()
     with open(filename) as f:
         for line in f:
+            if len(line.split(' ')) == 2:
+                continue
             word = line.strip().split(' ')[0]
             vocab.add(word)
     print("- done. {} tokens".format(len(vocab)))

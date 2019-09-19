@@ -70,7 +70,7 @@ class Config():
     dir_model  = dir_output + "model.weights/"
     path_log   = dir_output + "log.txt"
     now_str = dt.now().strftime('%d%m%Y_%H%M%S')
-    conll_eval = "eval/conlleval"
+    conll_eval = "python eval/conlleval.py"
     conll_output = "results/conlleval{}.tmp".format(now_str)
     conll_score = "results/conllscore{}.tmp".format(now_str)
 

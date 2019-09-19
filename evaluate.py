@@ -84,9 +84,9 @@ def main(interactive=False):
     # evaluate
     model.evaluate(test)
 
-    # run CoNLL evaluation script
-    os.system("%s < %s > %s" % (config.conll_eval, config.conll_output, config.conll_score))
-    os.system("%s -l < %s > %s.latex" % (config.conll_eval, config.conll_output, config.conll_score))
+    # run CoNLL evaluation script #这里的数据集有些不一样,不适用这个script
+    #os.system("%s < %s > %s" % (config.conll_eval, config.conll_output, config.conll_score))
+    #os.system("%s -l < %s > %s.latex" % (config.conll_eval, config.conll_output, config.conll_score))
 
     # interact
     if interactive:

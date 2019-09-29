@@ -60,7 +60,7 @@ def process_or(sent, label, entity, iobtag, iobindex):
     return label
 
 def process(line):
-    split = line.rstrip('\n').split('\t')
+    split = line.lower().rstrip('\n').split('\t')
     t = cutf(regularization(str_fw2hw(split[0])))
     label = ["O" for _ in range(len(t))]
     #if len(''.join([_.lstrip('##') for _ in t])) != len(split[0].replace(' ', '').decode('utf-8')):
@@ -94,7 +94,9 @@ def process(line):
     elif c == 1:
         allunk = re.findall(r, raw)
         #print allunk
-        assert len(allunk) == c
+        if len(allunk) != c:
+            print >>sys.stderr, "{}\t{}\t{}".format(raw, r, split[0])
+            return "DONT RET"
     else:
         allunk = re.findall(r, raw)[0]
         #print allunk
@@ -108,11 +110,12 @@ def process(line):
             cur += 1
         else:
             print i, i.lstrip('##'), l
+    return ""
 
 def main():
     for line in sys.stdin.readlines():
-        process(line)
-        print ''
+        if process(line) != "DONT RET":
+            print ''
 
 if __name__ == "__main__":
     main()

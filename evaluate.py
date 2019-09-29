@@ -1,3 +1,4 @@
+#!_*_coding:utf-8_*_
 import os
 
 from model.data_utils import CoNLLDataset
@@ -95,3 +96,4 @@ def main(interactive=False):
 
 if __name__ == "__main__":
     main()
+    print "paste result.txt iobdata.txt if you want to collect NER data"

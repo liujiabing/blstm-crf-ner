@@ -12,7 +12,7 @@ IOB = ('ADDRESS', 'NAME', 'PHONE', 'EXPRESS', 'DATE', 'LAST', 'EXCHANGE')
 
 sent, lbls = '', defaultdict(list)
 key = 'ERROR'
-for line in sys.stdin.readlines():
+for i, line in enumerate(sys.stdin.readlines()):
     if line.strip() == '':
         print '\t'.join((sent, '\t'.join(['||'.join(lbls[k]) for k in IOB])))
         sent, lbls = '', defaultdict(list)

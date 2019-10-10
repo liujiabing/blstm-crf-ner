@@ -45,6 +45,7 @@ def process_and(sent, label, subentity, iobtag, iobindex, s):
     for i in range(len(sent)):
         if iob == sent[i:i+len(iob)]:
             start.append(i)
+    #print sent, start, iobindex
     end = start[iobindex] + len(iob)
     start = start[iobindex]
     label = label[0:start] + iobseq + label[end:]
@@ -61,7 +62,9 @@ def process_or(sent, label, entity, iobtag, iobindex):
 
 def process(line):
     split = line.lower().rstrip('\n').split('\t')
-    t = cutf(regularization(str_fw2hw(split[0])))
+    t = cutf(regularization(split[0]))
+    if len(t) > 0 and t[0].startswith("tag"):
+        return None
     label = ["O" for _ in range(len(t))]
     #if len(''.join([_.lstrip('##') for _ in t])) != len(split[0].replace(' ', '').decode('utf-8')):
     #    print ''.join([_.lstrip('##') for _ in t]), split[0]
@@ -85,8 +88,8 @@ def process(line):
         #[i.start() for i in re.finditer('12',x)]
         #print line.rstrip('\n')
         #print label
-    raw = str_fw2hw(split[0]).replace(' ', '').decode('utf-8')
-    r = ''.join(t).replace('(', '\(').replace(')', '\)').replace('[UNK]', '(.+)').replace('?', '\?').replace('##', '')
+    raw = regularization(split[0]).replace(' ', '').decode('utf-8')
+    r = ''.join(t).replace('(', '\(').replace(')', '\)').replace('[UNK]', '(.+)').replace('?', '\?').replace('##', '').replace('[', '\[').replace(']', '\]')
     c = ''.join(t).count('[UNK]')
     #print raw, r
     if c == 0:
@@ -99,9 +102,6 @@ def process(line):
             return "DONT RET"
     else:
         allunk = re.findall(r, raw)[0]
-        #print allunk
-        #print r
-        #print raw
         assert len(allunk) == c
     cur = 0
     for e, (i, l) in enumerate(zip(t, label)):
@@ -109,11 +109,12 @@ def process(line):
             print i, allunk[cur], l
             cur += 1
         else:
-            print i, i.lstrip('##'), l
+            print i, i[2:] if i.startswith('##') else i, l
     return ""
 
 def main():
     for line in sys.stdin.readlines():
+        #print line
         if process(line) != "DONT RET":
             print ''
 

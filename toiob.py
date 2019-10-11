@@ -64,7 +64,7 @@ def process(line):
     split = line.lower().rstrip('\n').split('\t')
     t = cutf(regularization(split[0]))
     if len(t) > 0 and t[0].startswith("tag"):
-        return None
+        return "DONT RET"
     label = ["O" for _ in range(len(t))]
     #if len(''.join([_.lstrip('##') for _ in t])) != len(split[0].replace(' ', '').decode('utf-8')):
     #    print ''.join([_.lstrip('##') for _ in t]), split[0]

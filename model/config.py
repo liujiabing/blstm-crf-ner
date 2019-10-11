@@ -87,7 +87,7 @@ class Config():
 
     # pretrained files
     filename_word2vec = "data/embeddings/tr-embeddings-w2v.txt"
-    filename_fasttext = "/data/duobi/fastText/session_wp_model.txt"
+    filename_fasttext = "ft_session/model.vec"
     filename_morph2vec = "data/embeddings/tr-embeddings-m2v.txt"
 
     # trimmed embeddings (created from word2vec_filename with build_data.py)
@@ -109,10 +109,10 @@ class Config():
     filename_ortho = "data/ortho.tmp"
 
     # training
-    train_embeddings = False
+    train_embeddings = True
     nepochs          = 100
     dropout          = 0.5
-    batch_size       = 10
+    batch_size       = 32
     lr_method        = "sgd"
     lr               = 0.005
     lr_decay         = 1.0

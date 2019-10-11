@@ -15,7 +15,7 @@ IOB规则
 2. &&表示两个拼接，如“吉林省四平市铁东区七马路街道 详细地址: 北一委六马路东升嘉园小区B区”
 3. 使用||时，后面可以使用另一套逻辑判断每个entity是什么或者使用时间差，尽量降低NER成本，如“今天买明天能不能发货”
 4. 否定!，如“明天发货且不是从广州发的”，后续可以新增个意图属性；&&遇到否定需要将两个都添加!
-5. --N表示对应第N个关键词（从0开始），如“为什么发邮政，跟你说不要发邮政”，可以标注“快递：!邮政--0||!邮政--1”，避免巧合产生实体词，但是情况比较少
+5. ---N表示对应第N个关键词（从0开始），如“为什么发邮政，跟你说不要发邮政”，可以标注“快递：!邮政---0||!邮政---1”，避免巧合产生实体词，但是情况比较少
 """
 
 IOB = ('ADDRESS', 'NAME', 'PHONE', 'EXPRESS', 'DATE', 'LAST', 'EXCHANGE')
@@ -26,7 +26,7 @@ def process_and(sent, label, subentity, iobtag, iobindex, s):
     if subentity.startswith('!'):
         subentity = subentity[1:]
         iobtag += '-N'
-    subentity = subentity.split('--')
+    subentity = subentity.split('---')
     if len(subentity) == 2:
         iobindex = int(subentity[1])
     #print iobindex

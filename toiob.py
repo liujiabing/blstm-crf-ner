@@ -7,7 +7,7 @@ sys.setdefaultencoding("utf-8")
 
 import re
 import tokenization
-from sent_utils import regularization, str_fw2hw
+from sent_utils import regularization, str_fw2hw, remove_emoji
 
 """
 IOB规则
@@ -61,8 +61,9 @@ def process_or(sent, label, entity, iobtag, iobindex):
     return label
 
 def process(line):
-    split = line.lower().rstrip('\n').split('\t')
+    split = remove_emoji(line.lower()).rstrip('\n').split('\t')
     t = cutf(regularization(split[0]))
+    #print ''.join(t)
     if len(t) > 0 and t[0].startswith("tag"):
         return "DONT RET"
     label = ["O" for _ in range(len(t))]

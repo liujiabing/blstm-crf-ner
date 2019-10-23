@@ -90,13 +90,21 @@ def process(line):
         #print line.rstrip('\n')
         #print label
     raw = regularization(split[0]).replace(' ', '').decode('utf-8')
-    r = ''.join(t).replace('(', '\(').replace(')', '\)').replace('[UNK]', '(.+)').replace('?', '\?').replace('##', '').replace('[', '\[').replace(']', '\]')
+    r = ''.join(t).replace('(', '\(').replace(')', '\)').replace('^', '\^').replace('[UNK]', '(.+)').replace('?', '\?').replace('##', '').replace('[', '\[').replace(']', '\]')
     c = ''.join(t).count('[UNK]')
-    #print raw, r
+    #print "split[0]:", split[0].decode('utf-8')
+    #print "raw: ", raw
+    #print "r:", r
+    #print 't: ', ''.join(t)
     if c == 0:
         allunk = None
     elif c == 1:
-        allunk = re.findall(r, raw)
+        try:
+            allunk = re.findall(r, raw)
+        except Exception as e:
+            print >>sys.stderr, e
+            print >>sys.stderr, split[0]
+            return "DONT RET"
         #print allunk
         if len(allunk) != c:
             print >>sys.stderr, "{}\t{}\t{}".format(raw, r, split[0])

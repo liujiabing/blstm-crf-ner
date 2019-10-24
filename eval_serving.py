@@ -12,6 +12,8 @@ import tensorflow as tf
 from model.data_utils import CoNLLDataset
 from model.ner_model import NERModel
 from model.config import Config
+import tokenization
+from sent_utils import cut4iob, iob2dict
 
 
 def align_data(data):
@@ -78,11 +80,18 @@ input> I love Paris""")
 
 
 def main(interactive=False):
-    # create instance of config
+    """
+    给个句子,返回所有NER结果,字典形式
+    """
     config = Config()
+    tokenizer = tokenization.FullTokenizer(vocab_file='vocab.txt')
 
     sent = "帮我发顺丰帮我发顺丰"
-    words = [config.processing_word(w.encode("utf-8")) for w in sent.decode("utf-8")]
+    if len(sent) == 0:
+        return {}
+    t, rawlist = cut4iob(tokenizer.tokenize, sent)
+    print ' '.join(t), ' '.join(rawlist)
+    words = [config.processing_word(w.encode("utf-8")) for w in t]
     if type(words[0]) == tuple:
         words = zip(*words)
     model = NERModel(config)
@@ -94,6 +103,9 @@ def main(interactive=False):
     logit = np.array(logit[:sequence_length[0]])
     viterbi_seq, viterbi_score = tf.contrib.crf.viterbi_decode(logit, trans_params)
     print viterbi_seq
+    ioblist = [model.idx_to_tag[i] for i in viterbi_seq]
+    res = iob2dict(rawlist, ioblist)
+    print json.dumps(res, ensure_ascii=False)
 
 
     # interact

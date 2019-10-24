@@ -5,6 +5,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
+from collections import defaultdict
 import re
 import json
 import tokenization
@@ -98,6 +99,58 @@ emoji_pattern = re.compile(
 def remove_emoji(text):
     text = text.decode('utf8')
     return emoji_pattern.sub(r'', text).encode('utf8')
+
+def cut4iob(tokenizer, sent):
+    """输入句子和分词器,返回相应分词后的结果(可能包含unk)以及对应的原始结果两个列表"""
+    raw = regularization(remove_emoji(sent.lower()).rstrip('\n')).replace(' ', '').decode('utf-8')
+    t = tokenizer(regularization(remove_emoji(sent.lower()).rstrip('\n')))
+    r = ''.join(t).replace('(', '\(').replace(')', '\)').replace('^', '\^').replace('[UNK]', '(.+)').replace('?', '\?').replace('##', '').replace('[', '\[').replace(']', '\]')
+    c = ''.join(t).count('[UNK]')
+    if c == 0:
+        allunk = None
+    elif c == 1:
+        try:
+            allunk = re.findall(r, raw)
+        except Exception as e:
+            print >>sys.stderr, e
+            print >>sys.stderr, split[0]
+            return [], []
+        #print allunk
+        if len(allunk) != c:
+            print >>sys.stderr, "{}\t{}\t{}".format(raw, r, split[0])
+            return [], []
+    else:
+        allunk = re.findall(r, raw)[0]
+        assert len(allunk) == c
+    cur = 0
+    rawlist, tokenlist = [], []
+    for e, i in enumerate(t):
+        if i == '[UNK]':
+            rawlist.append(allunk[cur])
+            cur += 1
+        else:
+            rawlist.append(i[2:] if i.startswith('##') else i)
+        tokenlist.append(i)
+    return tokenlist, rawlist
+
+def iob2dict(rawlist, ioblist):
+    """给定原始列表和预测的ioblist,返回最终需要的结果"""
+    res = defaultdict(list)
+    for i, (l, w) in enumerate(zip(ioblist, rawlist)):
+        print i, l, w
+        if l.startswith('B'):
+            key = '-'.join(l.split('-')[1:])
+            res[key].append(w)
+        elif l.startswith('I'):
+            if key == "O":
+                key = ''.join(l.split('-')[1:])
+                res[key].append(w)
+            else:
+                res[key][-1] += w
+        else:
+            key = "O"
+    return res
+
 
 if __name__ == "__main__":
     finished = 0

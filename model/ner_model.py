@@ -446,3 +446,57 @@ class NERModel(BaseModel):
         preds = [self.idx_to_tag[idx] for idx in list(pred_ids[0])]
 
         return preds
+
+
+    def simple_save(self):
+        """Saves session for tensorserving"""
+        #for i in [n.name for n in tf.get_default_graph().as_graph_def().node]:
+        #    print i
+        tf.saved_model.simple_save(
+                self.sess,
+                "./serving_model",
+                inputs={"labels": self.labels, "word_ids": self.word_ids, "sequence_lengths": self.sequence_lengths, "char_ids": self.char_ids, "ortho_ids": self.ortho_ids, "word_lengths": self.word_lengths, "dropout": self.dropout},
+                outputs={"logits": self.logits, "trans_params": self.trans_params}
+                )
+
+    def get_fd_serving(self, words, labels=None, lr=None, dropout=None):
+        """Given some data, pad it and build a feed dictionary
+
+        Args:
+            words: list of sentences. A sentence is a list of ids of a list of
+                words. A word is a list of ids
+            labels: list of ids
+            lr: (float) learning rate
+            dropout: (float) keep prob
+
+        Returns:
+            dict {placeholder: value}
+
+        """
+        # perform padding of the given data
+        if self.config.use_chars:
+            ortho_ids, char_ids, word_ids = zip(*words)
+            word_ids, sequence_lengths = pad_sequences(word_ids, 0)
+            char_ids, word_lengths = pad_sequences(char_ids, pad_tok=0,
+                nlevels=2, max_len=self.config.max_len_of_word)
+            ortho_ids, word_lengths = pad_sequences(ortho_ids, pad_tok=0,
+                nlevels=2, max_len=self.config.max_len_of_word)
+        else:
+            word_ids, sequence_lengths = pad_sequences(words, 0)
+
+        # build feed dictionary
+        feed = {
+            "word_ids": word_ids,
+            "sequence_lengths": sequence_lengths
+        }
+
+        if self.config.use_chars:
+            feed["char_ids"] = char_ids
+            feed["ortho_ids"] = ortho_ids
+            feed["word_lengths"] = word_lengths
+
+        feed["labels"] = [[0 for _ in range(sequence_lengths[0])]]
+
+        feed["dropout"] = 1.0
+
+        return feed, sequence_lengths

@@ -86,7 +86,7 @@ def main(interactive=False):
     config = Config()
     tokenizer = tokenization.FullTokenizer(vocab_file='vocab.txt')
 
-    sent = "帮我发顺丰帮我发顺丰"
+    sent = "不要发顺丰帮我发顺丰"
     if len(sent) == 0:
         return {}
     t, rawlist = cut4iob(tokenizer.tokenize, sent)

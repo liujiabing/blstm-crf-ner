@@ -137,7 +137,7 @@ def iob2dict(rawlist, ioblist):
     """给定原始列表和预测的ioblist,返回最终需要的结果"""
     res = defaultdict(list)
     for i, (l, w) in enumerate(zip(ioblist, rawlist)):
-        print i, l, w
+        #print i, l, w
         if l.startswith('B'):
             key = '-'.join(l.split('-')[1:])
             res[key].append(w)
